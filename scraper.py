@@ -167,7 +167,7 @@ Keep each reason under 12 words."""
                 },
                 json={
                     "model": "claude-sonnet-4-5",
-                    "max_tokens": 1000,
+                    "max_tokens": 4096,
                     "messages":   [{"role": "user", "content": prompt}]
                 },
                 timeout=45
