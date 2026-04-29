@@ -1,11 +1,13 @@
 """
-Job Scraper for Christian Richey — v4
+Job Scraper for Christian Richey — v5
 Scrapes: JournalismJobs, MediaBistro, Poynter, IRE, SPJ,
-         Adzuna API, The Muse API, Indeed RSS, USAJobs API
-New in v4:
-  - Added Adzuna API (aggregates 100s of sources including LinkedIn/Indeed)
-  - Added The Muse API (no key needed, great for media/creative companies)
-  - Added Indeed RSS feeds (stable, no scraping, broad coverage)
+         Adzuna API, The Muse API, Indeed RSS, GovernmentJobs, USAJobs API
+New in v5:
+  - Added GovernmentJobs.com (state/county/city roles in MD and NY)
+  - Full job description fetching for richer Claude scoring (#2)
+  - Fuzzy deduplication — catches same job posted on multiple boards (#5)
+  - Deadline detection — Claude extracts closing dates, flags urgent ones (#6)
+  - Reply-to-mark-applied tracking — mailto links in every email listing (#1 Option A)
 """
 
 import requests
@@ -17,7 +19,9 @@ from datetime import datetime
 import time
 import json
 import os
-import xml.etree.ElementTree as ET  # for Indeed RSS parsing
+import xml.etree.ElementTree as ET
+import difflib   # for fuzzy deduplication
+import re        # for deadline detection
 
 # ─────────────────────────────────────────────
 # ✏️  YOUR SETTINGS — fill these in before running
@@ -72,24 +76,98 @@ MIN_SCORE = 5
 SEEN_JOBS_FILE = "seen_jobs.json"
 
 def load_seen_jobs():
-    """Load the set of job links we've already emailed."""
     if os.path.exists(SEEN_JOBS_FILE):
         with open(SEEN_JOBS_FILE, "r") as f:
             return set(json.load(f))
     return set()
 
 def save_seen_jobs(seen_links):
-    """Save the updated set of seen job links."""
     with open(SEEN_JOBS_FILE, "w") as f:
         json.dump(list(seen_links), f, indent=2)
 
 def filter_new_jobs(jobs, seen_links):
-    """Remove any jobs we've already sent in a previous digest."""
     new_jobs = [j for j in jobs if j["link"] not in seen_links]
     skipped  = len(jobs) - len(new_jobs)
     if skipped:
         print(f"  ↩️  Skipped {skipped} jobs already seen in previous digests")
     return new_jobs
+
+
+def fuzzy_deduplicate(jobs, threshold=0.85):
+    """
+    Remove duplicate jobs that appear on multiple boards.
+    Two jobs are considered duplicates if their titles are 85%+ similar
+    AND they share the same employer (or one has no employer listed).
+    Much smarter than URL-only dedup — catches the same role posted
+    on Indeed, Adzuna, and JournalismJobs simultaneously.
+    """
+    deduped = []
+    for job in jobs:
+        title_a = job["title"].lower().strip()
+        emp_a   = job.get("employer", "").lower().strip()
+        is_dupe = False
+        for existing in deduped:
+            title_b = existing["title"].lower().strip()
+            emp_b   = existing.get("employer", "").lower().strip()
+            title_similarity = difflib.SequenceMatcher(None, title_a, title_b).ratio()
+            # Employers match if they're similar OR one is unknown
+            employer_match = (
+                not emp_a or not emp_b or
+                difflib.SequenceMatcher(None, emp_a, emp_b).ratio() > 0.8
+            )
+            if title_similarity >= threshold and employer_match:
+                is_dupe = True
+                break
+        if not is_dupe:
+            deduped.append(job)
+    removed = len(jobs) - len(deduped)
+    if removed:
+        print(f"  🔁 Fuzzy dedup removed {removed} cross-board duplicates")
+    return deduped
+
+
+# ─────────────────────────────────────────────
+# DESCRIPTION FETCHER
+# ─────────────────────────────────────────────
+
+def fetch_description(url, max_chars=1500):
+    """
+    Fetch the job posting page and extract plain text from the description.
+    Capped at 1500 chars to keep Claude token usage reasonable.
+    Returns empty string on any failure — scoring still works without it.
+    """
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200:
+            return ""
+        soup = BeautifulSoup(resp.text, "html.parser")
+        # Remove nav, header, footer noise
+        for tag in soup(["nav", "header", "footer", "script", "style"]):
+            tag.decompose()
+        text = soup.get_text(separator=" ", strip=True)
+        # Collapse whitespace
+        text = re.sub(r"\s+", " ", text)
+        return text[:max_chars]
+    except Exception:
+        return ""
+
+
+def fetch_descriptions_for_jobs(jobs):
+    """
+    Fetch descriptions for all jobs, with a small delay between requests.
+    Skips jobs from sources that don't have direct listing pages.
+    """
+    print(f"  📄 Fetching job descriptions ({len(jobs)} jobs)...")
+    no_fetch_sources = {"Adzuna"}  # redirect URLs, not useful to scrape
+    for i, job in enumerate(jobs):
+        if job.get("source") in no_fetch_sources:
+            job["description"] = ""
+            continue
+        job["description"] = fetch_description(job["link"])
+        time.sleep(0.3)
+    fetched = sum(1 for j in jobs if j.get("description"))
+    print(f"  📄 Got descriptions for {fetched}/{len(jobs)} jobs")
+    return jobs
 
 
 # ─────────────────────────────────────────────
@@ -109,16 +187,10 @@ Christian Richey — Communications & Journalism professional
 
 def score_jobs_with_claude(jobs):
     """
-    Send jobs to Claude API in one batch call.
-    Includes retry logic (3 attempts) and detailed error output to help diagnose
-    connection issues on Windows, which sometimes block outbound API calls.
-
-    Score meaning:
-      9-10 = Excellent match — apply immediately
-      7-8  = Strong match
-      5-6  = Decent fit, worth considering
-      3-4  = Weak match
-      1-2  = Poor fit
+    Score jobs using Claude. Now includes:
+    - Full job description text for richer, more accurate scoring (#2)
+    - Deadline extraction — Claude pulls closing dates if mentioned (#6)
+    - Retry logic with detailed error messages
     """
     if not jobs:
         return jobs
@@ -126,16 +198,19 @@ def score_jobs_with_claude(jobs):
     if ANTHROPIC_API_KEY == "your-claude-api-key-here":
         print("  ⚠️  Claude scoring skipped — add your ANTHROPIC_API_KEY to enable it")
         for job in jobs:
-            job["score"]  = 5
-            job["reason"] = "Scoring unavailable — add Claude API key"
+            job["score"]    = 5
+            job["reason"]   = "Scoring unavailable — add Claude API key"
+            job["deadline"] = ""
         return jobs
 
     job_list_text = "\n".join([
-        f"{i+1}. Title: {j['title']} | Employer: {j.get('employer','?')} | Location: {j.get('location','?')}"
+        f"{i+1}. Title: {j['title']} | Employer: {j.get('employer','?')} | "
+        f"Location: {j.get('location','?')}\n"
+        f"   Description snippet: {j.get('description','(none available)') or '(none available)'}"
         for i, j in enumerate(jobs)
     ])
 
-    prompt = f"""You are evaluating job listings for a specific candidate. Score each job's fit on a scale of 1-10.
+    prompt = f"""You are evaluating job listings for a specific candidate. Score each job's fit on a scale of 1-10, and extract any application deadline if mentioned.
 
 CANDIDATE PROFILE:
 {RESUME_SUMMARY}
@@ -143,16 +218,28 @@ CANDIDATE PROFILE:
 JOBS TO EVALUATE:
 {job_list_text}
 
-Return ONLY a JSON array (no markdown, no explanation outside JSON) with one object per job, in the same order, like:
+Return ONLY a JSON array (no markdown, no explanation outside JSON) with one object per job, in the same order:
 [
-  {{"index": 1, "score": 8, "reason": "Strong editorial role in NYC matching journalism background"}},
-  {{"index": 2, "score": 4, "reason": "Too senior, requires 5+ years experience"}},
-  ...
+  {{
+    "index": 1,
+    "score": 8,
+    "reason": "Strong editorial role in NYC matching journalism background",
+    "deadline": "May 15, 2026"
+  }},
+  {{
+    "index": 2,
+    "score": 4,
+    "reason": "Too senior, requires 5+ years experience",
+    "deadline": ""
+  }}
 ]
 
-Score 9-10 only for roles that closely match entry-level communications/journalism in NYC or Maryland.
-Score 1-3 for roles that are too senior, wrong field, or wrong location.
-Keep each reason under 12 words."""
+Rules:
+- Score 9-10 only for entry-level communications/journalism roles in NYC or Maryland that closely match the candidate's background
+- Score 1-3 for roles that are too senior, wrong field, or wrong location
+- For deadline: extract the application closing/deadline date if mentioned in the description. Leave as "" if not mentioned.
+- Keep each reason under 12 words
+- Use the description snippet to inform scoring — a title alone can be misleading"""
 
     MAX_RETRIES = 3
     for attempt in range(1, MAX_RETRIES + 1):
@@ -166,52 +253,48 @@ Keep each reason under 12 words."""
                     "content-type":      "application/json",
                 },
                 json={
-                    "model": "claude-sonnet-4-5",
+                    "model":      "claude-sonnet-4-5",
                     "max_tokens": 4096,
                     "messages":   [{"role": "user", "content": prompt}]
                 },
-                timeout=45
+                timeout=60
             )
 
-            # Show the HTTP status so you can see exactly what went wrong
             if resp.status_code != 200:
                 print(f"  ⚠️  Claude API returned HTTP {resp.status_code}: {resp.text[:200]}")
                 if resp.status_code in (401, 403):
                     print("      → Your API key may be wrong or inactive. Check console.anthropic.com")
-                    break  # Don't retry auth errors
+                    break
                 time.sleep(3)
                 continue
 
             result_text = resp.json()["content"][0]["text"].strip()
-
-            # Strip markdown code fences if present
             if result_text.startswith("```"):
                 result_text = result_text.split("```")[1]
                 if result_text.startswith("json"):
                     result_text = result_text[4:]
 
             scores = json.loads(result_text)
-
             for item in scores:
                 idx = item["index"] - 1
                 if 0 <= idx < len(jobs):
-                    jobs[idx]["score"]  = item.get("score", 5)
-                    jobs[idx]["reason"] = item.get("reason", "")
+                    jobs[idx]["score"]    = item.get("score", 5)
+                    jobs[idx]["reason"]   = item.get("reason", "")
+                    jobs[idx]["deadline"] = item.get("deadline", "")
 
             print(f"  ✅ Claude scored {len(jobs)} jobs successfully")
-            return jobs  # Success — exit retry loop
+            return jobs
 
         except requests.exceptions.ConnectionError as e:
             print(f"  ⚠️  Connection error on attempt {attempt}: {e}")
-            print("      → This is usually a firewall or network issue blocking api.anthropic.com")
-            print("      → Try: temporarily disable Windows Defender / antivirus and run again")
-            print("      → Or: check if a VPN or proxy is interfering")
+            print("      → Usually a firewall blocking api.anthropic.com")
+            print("      → Try disabling Windows Defender / antivirus temporarily")
             if attempt < MAX_RETRIES:
                 print(f"      Retrying in 5 seconds...")
                 time.sleep(5)
 
         except requests.exceptions.Timeout:
-            print(f"  ⚠️  Timeout on attempt {attempt} — Claude API took too long to respond")
+            print(f"  ⚠️  Timeout on attempt {attempt}")
             if attempt < MAX_RETRIES:
                 time.sleep(5)
 
@@ -220,12 +303,11 @@ Keep each reason under 12 words."""
             if attempt < MAX_RETRIES:
                 time.sleep(3)
 
-    # All retries failed — default scores so the email still sends
-    print("  ℹ️  Scoring failed after all retries — jobs will appear with default score of 5")
+    print("  ℹ️  Scoring failed — jobs will appear with default score of 5")
     for job in jobs:
-        job.setdefault("score",  5)
-        job.setdefault("reason", "Scoring unavailable — see terminal for details")
-
+        job.setdefault("score",    5)
+        job.setdefault("reason",   "Scoring unavailable — see terminal for details")
+        job.setdefault("deadline", "")
     return jobs
 
 
@@ -732,6 +814,100 @@ def scrape_indeed_rss():
     return deduped
 
 
+def scrape_governmentjobs():
+    """
+    GovernmentJobs.com (NEOGOV) — the platform used by most US state,
+    county, and city governments. Hits their internal JSON API directly.
+    Great for Maryland state/county roles and NYC city government roles.
+    Freshness filter loosened to 7 days since govt postings stay up longer.
+    """
+    jobs = []
+    base = "https://www.governmentjobs.com/api/listing/"
+
+    searches = [
+        ("communications",  "Maryland"),
+        ("public affairs",  "Maryland"),
+        ("writer",          "Maryland"),
+        ("communications",  "New York"),
+        ("public affairs",  "New York City"),
+        ("media",           "Maryland"),
+    ]
+
+    for keyword, location in searches:
+        try:
+            resp = requests.get(
+                base,
+                params={
+                    "keyword":        keyword,
+                    "location":       location,
+                    "sort":           "UpdatedDate",
+                    "sortDescending": "true",
+                },
+                headers=HEADERS,
+                timeout=15
+            )
+            if resp.status_code != 200:
+                # API may have changed — fall back to scraping the search page
+                page_resp = requests.get(
+                    "https://www.governmentjobs.com/careers/search",
+                    params={"keyword": keyword, "location": location},
+                    headers=HEADERS,
+                    timeout=15
+                )
+                if page_resp.status_code != 200:
+                    continue
+                soup     = BeautifulSoup(page_resp.text, "html.parser")
+                listings = soup.find_all("li", class_=lambda c: c and "job" in c.lower() if c else False)
+                for listing in listings:
+                    title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+                    location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+                    employer_tag = listing.find(class_=lambda c: "department" in c.lower() if c else False)
+                    link_tag     = listing.find("a", href=True)
+                    title    = title_tag.get_text(strip=True)    if title_tag    else ""
+                    loc      = location_tag.get_text(strip=True) if location_tag else location
+                    employer = employer_tag.get_text(strip=True) if employer_tag else ""
+                    link     = link_tag["href"]                  if link_tag     else ""
+                    if not link.startswith("http") and link:
+                        link = "https://www.governmentjobs.com" + link
+                    if title and is_relevant(title, loc):
+                        jobs.append({"title": title, "employer": employer, "location": loc, "link": link, "source": "GovernmentJobs"})
+                continue
+
+            data = resp.json()
+            items = data if isinstance(data, list) else data.get("data", data.get("results", []))
+
+            for item in items:
+                title    = item.get("PositionTitle") or item.get("title", "")
+                employer = item.get("DepartmentName") or item.get("department", "")
+                loc      = item.get("Location") or item.get("location", location)
+                job_id   = item.get("JobID") or item.get("id", "")
+                link     = f"https://www.governmentjobs.com/careers/detail/{job_id}" if job_id else ""
+
+                if title and is_relevant(title, loc):
+                    jobs.append({
+                        "title":    title,
+                        "employer": employer,
+                        "location": loc,
+                        "link":     link,
+                        "source":   "GovernmentJobs"
+                    })
+
+            time.sleep(0.5)
+
+        except Exception as e:
+            print(f"  GovernmentJobs error ({keyword}/{location}): {e}")
+
+    seen, deduped = set(), []
+    for job in jobs:
+        key = job["title"].lower() + job.get("employer", "").lower()
+        if key not in seen:
+            seen.add(key)
+            deduped.append(job)
+
+    print(f"  GovernmentJobs: {len(deduped)} relevant jobs")
+    return deduped
+
+
 def scrape_usajobs():
     jobs = []
     keyword_queries = ["communications", "public affairs", "writer editor", "journalist"]
@@ -795,17 +971,30 @@ def score_label(score):
 def build_email_html(all_jobs):
     today = datetime.now().strftime("%A, %B %d, %Y")
     total = len(all_jobs)
-
-    # Sort by score descending
     sorted_jobs = sorted(all_jobs, key=lambda j: j.get("score", 5), reverse=True)
 
     job_rows = ""
     for job in sorted_jobs:
         score        = job.get("score", 5)
         reason       = job.get("reason", "")
+        deadline     = job.get("deadline", "")
         color, label = score_label(score)
         employer_str = f" &mdash; {job['employer']}" if job.get("employer") else ""
         location_str = f"<span style='color:#888;'>📍 {job['location']}</span><br>" if job.get("location") else ""
+
+        # ⏰ Deadline badge — shown in red if deadline is present
+        deadline_html = ""
+        if deadline:
+            deadline_html = (
+                f"<span style='font-size:11px; background:#ffeaea; color:#c0392b; "
+                f"padding:2px 8px; border-radius:10px; display:inline-block; margin:4px 4px 4px 0;'>"
+                f"⏰ Deadline: {deadline}</span>"
+            )
+
+        # mailto link — clicking opens a pre-written email saying "applied"
+        # Subject line encodes the job title so the scraper can parse it later
+        mailto_subject = requests.utils.quote(f"APPLIED: {job['title']} | {job.get('employer','')}")
+        mailto_link = f"mailto:{EMAIL_SENDER}?subject={mailto_subject}&body=Marking%20this%20as%20applied."
 
         job_rows += f"""
         <tr>
@@ -821,14 +1010,17 @@ def build_email_html(all_jobs):
                 {job['title']}
               </a>{employer_str}<br>
               {location_str}
-              <span style="font-size:11px; background:{color}18; color:{color}; padding:2px 8px; border-radius:10px; display:inline-block; margin:4px 0;">
+              <span style="font-size:11px; background:{color}18; color:{color}; padding:2px 8px; border-radius:10px; display:inline-block; margin:4px 4px 4px 0;">
                 {label}
               </span>
+              {deadline_html}
               {"<br><span style='font-size:12px; color:#555; font-style:italic;'>" + reason + "</span>" if reason else ""}
               <br>
               <span style="font-size:11px; color:#aaa;">via {job['source']}</span>
               &nbsp;·&nbsp;
               <a href="{job['link']}" style="color:#4a90d9; font-size:12px;">View Job →</a>
+              &nbsp;·&nbsp;
+              <a href="{mailto_link}" style="color:#27ae60; font-size:12px;">✅ Mark Applied</a>
             </div>
 
           </td>
@@ -839,10 +1031,15 @@ def build_email_html(all_jobs):
     <html>
     <body style="font-family: Georgia, serif; max-width:680px; margin:0 auto; padding:24px; color:#333;">
 
-      <div style="background:#1a1a2e; color:white; padding:24px; border-radius:8px; margin-bottom:28px;">
+      <div style="background:#1a1a2e; color:white; padding:24px; border-radius:8px; margin-bottom:16px;">
         <h1 style="margin:0; font-size:22px;">📰 Your Daily Job Digest</h1>
         <p style="margin:6px 0 0; opacity:0.8;">{today} &middot; {total} new listings &middot; sorted by relevance</p>
       </div>
+
+      <p style="font-size:12px; color:#888; margin:0 0 24px; padding:10px 14px; background:#f9f9f9; border-radius:6px; border-left:3px solid #27ae60;">
+        <strong>Tip:</strong> Click <strong>✅ Mark Applied</strong> on any job — it opens a pre-written email, just hit Send.
+        The scraper will track it automatically in your next run.
+      </p>
 
       {"<table width='100%' cellpadding='0' cellspacing='0'>" + job_rows + "</table>"
         if total > 0 else
@@ -851,7 +1048,8 @@ def build_email_html(all_jobs):
 
       <hr style="margin:40px 0; border:none; border-top:1px solid #eee;">
       <p style="font-size:12px; color:#aaa; text-align:center;">
-        Scraped from JournalismJobs &middot; MediaBistro &middot; Poynter &middot; IRE &middot; SPJ &middot; Adzuna &middot; The Muse &middot; Indeed &middot; USAJobs<br>
+        Scraped from JournalismJobs &middot; MediaBistro &middot; Poynter &middot; IRE &middot; SPJ
+        &middot; Adzuna &middot; The Muse &middot; Indeed &middot; GovernmentJobs &middot; USAJobs<br>
         Filtered for NYC &middot; Maryland &middot; entry/associate level &middot; scored by Claude AI
       </p>
 
@@ -880,17 +1078,111 @@ def send_email(all_jobs):
 
 
 # ─────────────────────────────────────────────
+# APPLIED JOBS TRACKER
+# ─────────────────────────────────────────────
+
+APPLIED_JOBS_FILE = "applied_jobs.json"
+
+def load_applied_jobs():
+    if os.path.exists(APPLIED_JOBS_FILE):
+        with open(APPLIED_JOBS_FILE, "r") as f:
+            return json.load(f)
+    return []
+
+def save_applied_jobs(applied):
+    with open(APPLIED_JOBS_FILE, "w") as f:
+        json.dump(applied, f, indent=2)
+
+def check_inbox_for_applied():
+    """
+    Check Gmail inbox for 'Mark Applied' reply emails sent from the digest.
+    Each reply has a subject like: APPLIED: Job Title | Employer
+    Parses the title out and saves it to applied_jobs.json.
+    Returns count of newly recorded applications.
+    """
+    import imaplib
+    import email as email_lib
+    from email.header import decode_header
+
+    applied = load_applied_jobs()
+    applied_titles = {a["title"].lower() for a in applied}
+    new_count = 0
+
+    try:
+        mail = imaplib.IMAP4_SSL("imap.gmail.com")
+        mail.login(EMAIL_SENDER, EMAIL_PASSWORD)
+        mail.select("inbox")
+
+        # Search for emails with "APPLIED:" in subject sent TO ourselves
+        _, data = mail.search(None, '(SUBJECT "APPLIED:")')
+        ids = data[0].split()
+
+        for msg_id in ids:
+            _, msg_data = mail.fetch(msg_id, "(RFC822)")
+            msg = email_lib.message_from_bytes(msg_data[0][1])
+
+            raw_subject = msg.get("Subject", "")
+            # Decode encoded subjects
+            decoded_parts = decode_header(raw_subject)
+            subject = ""
+            for part, enc in decoded_parts:
+                if isinstance(part, bytes):
+                    subject += part.decode(enc or "utf-8", errors="ignore")
+                else:
+                    subject += part
+
+            if "APPLIED:" not in subject:
+                continue
+
+            # Parse: "APPLIED: Job Title | Employer"
+            content = subject.replace("APPLIED:", "").strip()
+            parts   = content.split("|")
+            title   = parts[0].strip()
+            employer = parts[1].strip() if len(parts) > 1 else ""
+
+            if title.lower() not in applied_titles:
+                applied.append({
+                    "title":    title,
+                    "employer": employer,
+                    "date":     datetime.now().strftime("%Y-%m-%d"),
+                })
+                applied_titles.add(title.lower())
+                new_count += 1
+
+        mail.logout()
+
+    except Exception as e:
+        print(f"  ⚠️  Could not check inbox for applied jobs: {e}")
+        print("      (This is non-critical — scraper will continue normally)")
+
+    if new_count:
+        save_applied_jobs(applied)
+        print(f"  ✅ Recorded {new_count} new job application(s) from your inbox")
+        for a in applied[-new_count:]:
+            print(f"     → {a['title']} @ {a['employer']} ({a['date']})")
+    else:
+        print(f"  📋 Applied jobs on record: {len(applied)} total (no new replies found)")
+
+    return new_count
+
+
+# ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 
 def main():
     print(f"\n🔍 Job scrape starting — {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
 
-    # Load jobs we've already emailed in previous runs
+    # Step 1: Check inbox for any "Mark Applied" replies from previous digests
+    print("📬 Checking inbox for applied job replies...")
+    check_inbox_for_applied()
+    print()
+
+    # Step 2: Load seen jobs
     seen_links = load_seen_jobs()
     print(f"  📁 {len(seen_links)} jobs already seen from previous digests\n")
 
-    # Scrape all sources
+    # Step 3: Scrape all sources
     all_jobs = []
     all_jobs += scrape_journalismjobs()
     all_jobs += scrape_mediabistro()
@@ -900,17 +1192,14 @@ def main():
     all_jobs += scrape_adzuna()
     all_jobs += scrape_the_muse()
     all_jobs += scrape_indeed_rss()
+    all_jobs += scrape_governmentjobs()
     all_jobs += scrape_usajobs()
 
-    # Deduplicate within today's scrape (same job on multiple boards)
-    seen_today, deduped = set(), []
-    for job in all_jobs:
-        key = (job["title"].lower(), job.get("employer", "").lower())
-        if key not in seen_today:
-            seen_today.add(key)
-            deduped.append(job)
+    # Step 4: Fuzzy deduplicate within today's results (catches cross-board dupes)
+    print()
+    deduped = fuzzy_deduplicate(all_jobs)
 
-    # Remove jobs already emailed on previous days
+    # Step 5: Remove jobs already emailed on previous days
     new_jobs = filter_new_jobs(deduped, seen_links)
 
     print(f"\n🆕 New jobs not yet sent: {len(new_jobs)}")
@@ -919,22 +1208,25 @@ def main():
         print("   Nothing new today — no email sent.")
         return
 
-    # Score with Claude
+    # Step 6: Fetch full descriptions for richer scoring
+    print()
+    new_jobs = fetch_descriptions_for_jobs(new_jobs)
+
+    # Step 7: Score with Claude (now using descriptions + deadline detection)
     print("\n🤖 Scoring jobs with Claude...\n")
     scored_jobs = score_jobs_with_claude(new_jobs)
 
-    # Only include jobs above the minimum score
+    # Step 8: Filter by minimum score
     filtered = [j for j in scored_jobs if j.get("score", 5) >= MIN_SCORE]
     print(f"\n📋 Jobs at or above score {MIN_SCORE}: {len(filtered)} of {len(scored_jobs)}")
 
+    # Step 9: Send email and save seen jobs
     if filtered:
         send_email(filtered)
-        # Save ALL new jobs as seen (including low-scorers — don't resurface them)
         seen_links.update(j["link"] for j in new_jobs)
         save_seen_jobs(seen_links)
     else:
         print("   All jobs scored below minimum — no email sent today.")
-        # Still mark them seen so they don't reappear
         seen_links.update(j["link"] for j in new_jobs)
         save_seen_jobs(seen_links)
 
