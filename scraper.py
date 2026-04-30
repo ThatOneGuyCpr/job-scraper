@@ -1,13 +1,15 @@
 """
-Job Scraper for Christian Richey — v5
+Job Scraper for Christian Richey — v7
 Scrapes: JournalismJobs, MediaBistro, Poynter, IRE, SPJ,
-         Adzuna API, The Muse API, Indeed RSS, GovernmentJobs, USAJobs API
-New in v5:
-  - Added GovernmentJobs.com (state/county/city roles in MD and NY)
-  - Full job description fetching for richer Claude scoring (#2)
-  - Fuzzy deduplication — catches same job posted on multiple boards (#5)
-  - Deadline detection — Claude extracts closing dates, flags urgent ones (#6)
-  - Reply-to-mark-applied tracking — mailto links in every email listing (#1 Option A)
+         Adzuna, The Muse, Indeed RSS, GovernmentJobs, USAJobs,
+         PRSA, PR Daily, Idealist, JournalismFellowships, Ed2010,
+         Impact Opportunity, PRWeek, Maryland Govt Jobs,
+         Work In Sports, Entry Level Sports Jobs, TeamWork Online
+New in v7:
+  - 11 new job sources added (8 general + 3 sports-specific)
+  - Daily cap of 15 jobs — best-scoring shown, rest still marked seen
+  - Sports keywords added to filters
+  - Idealist API key added to settings
 """
 
 import requests
@@ -27,18 +29,26 @@ import re        # for deadline detection
 # ✏️  YOUR SETTINGS — fill these in before running
 # ─────────────────────────────────────────────
 
-EMAIL_SENDER      = os.environ.get("EMAIL_SENDER",      "thatoneguycpr@gmail.com")
-EMAIL_PASSWORD    = os.environ.get("EMAIL_PASSWORD",    "hblb hujk obhg bhzm")
-EMAIL_RECIPIENT   = os.environ.get("EMAIL_RECIPIENT",   "thatoneguycpr@gmail.com")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
-USAJOBS_API_KEY   = os.environ.get("USAJOBS_API_KEY",   "0Y3KpPqF9246teFFcBk4QXmCkBEaqEyJGNVVut11TRs=")
-ADZUNA_APP_ID     = os.environ.get("ADZUNA_APP_ID",     "4803a542")    # free at developer.adzuna.com
-ADZUNA_APP_KEY    = os.environ.get("ADZUNA_APP_KEY",    "c7f5e97a2cb7ec100337f0abdf26ca4e")   # free at developer.adzuna.com
+EMAIL_SENDER      = os.environ.get("EMAIL_SENDER",      "your.gmail@gmail.com")
+EMAIL_PASSWORD    = os.environ.get("EMAIL_PASSWORD",    "your-app-password-here")
+EMAIL_RECIPIENT   = os.environ.get("EMAIL_RECIPIENT",   "your.gmail@gmail.com")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "your-claude-api-key-here")
+USAJOBS_API_KEY   = os.environ.get("USAJOBS_API_KEY",   "your-usajobs-api-key")
+ADZUNA_APP_ID     = os.environ.get("ADZUNA_APP_ID",     "your-adzuna-app-id")
+ADZUNA_APP_KEY    = os.environ.get("ADZUNA_APP_KEY",    "your-adzuna-app-key")
+IDEALIST_API_KEY  = os.environ.get("IDEALIST_API_KEY",  "your-idealist-api-key")  # free at idealist.org/developer
+
+# Maximum jobs to include in the daily email digest
+DAILY_CAP = 15
 
 KEYWORDS = [
     # Core journalism/editorial
     "reporter", "editor", "writer", "journalist", "copy editor", "editorial",
     "correspondent", "producer", "anchor", "broadcast",
+    # Explicitly entry-level signals — prioritized
+    "fellowship", "fellow", "assistant editor", "editorial assistant",
+    "associate editor", "junior reporter", "junior writer", "trainee",
+    "entry level", "entry-level",
     # Communications & PR
     "communications", "public affairs", "public relations", "PR ", "media relations",
     "communications coordinator", "communications associate", "communications specialist",
@@ -46,7 +56,11 @@ KEYWORDS = [
     "content", "content writer", "content creator", "content strategist",
     "copywriter", "digital media", "social media", "newsletter",
     "digital content", "multimedia",
-    # Adjacent roles that fit your background
+    # Sports-specific
+    "sports information", "sports communications", "sports media",
+    "sports writer", "sports reporter", "sports editor", "sports content",
+    "media relations", "team communications", "athletic communications",
+    # Adjacent roles
     "research", "fact-check", "analyst", "policy", "outreach",
     "marketing communications", "brand", "storytell"
 ]
@@ -64,8 +78,9 @@ LOCATIONS = [
     "remote", "work from home", "hybrid"
 ]
 
-# Minimum Claude relevance score (1–10) to include in the email
-MIN_SCORE = 5
+# Minimum Claude relevance score (1–10) to include in the email.
+# Set to 4 — scoring is now stricter so genuine 5s are solid fits.
+MIN_SCORE = 4
 
 # ─────────────────────────────────────────────
 # SEEN JOBS — Deduplication across days
@@ -175,14 +190,36 @@ def fetch_descriptions_for_jobs(jobs):
 # ─────────────────────────────────────────────
 
 RESUME_SUMMARY = """
-Christian Richey — Communications & Journalism professional
-- Internships at Bloomberg, Wall Street Journal, Sports Illustrated
-- Currently works at Handshake (AI-related, remote)
-- Background in reporting, writing, editorial, digital media
-- Looking for: entry-level or associate-level roles
-- Target locations: New York City area, Maryland (Baltimore/Annapolis/DC metro)
-- Open to: reporter, editor, content writer, communications coordinator,
-  PR associate, digital media, social media, copywriter, public affairs
+Christian Richey — Early-career Communications & Journalism professional
+
+EXPERIENCE LEVEL:
+- Total professional experience: approximately 1–2 years (internships + current role)
+- Internships at Bloomberg, Wall Street Journal, Sports Illustrated (all internship-level, not staff roles)
+- Current role: Handshake (AI-related, remote) — not a journalism or communications staff role
+- Has a gap in direct journalism/reporting experience since internships ended
+- Has NOT held a full-time staff reporter, editor, or communications role yet
+- Realistic experience fit: 0–2 years required maximum
+
+WHAT HE'S LOOKING FOR:
+- Entry-level or associate-level roles only (assistant, associate, coordinator, junior, fellow, trainee)
+- Target locations: New York City area OR Maryland (Baltimore/Annapolis/DC metro) OR remote
+- Role types: reporter, writer, editorial assistant, content writer, communications coordinator,
+  PR associate, social media coordinator, digital media, copywriter, public affairs specialist,
+  communications associate, newsletter writer, content strategist (junior)
+
+STRENGTHS:
+- Writing, reporting, research, editorial — demonstrated through internships at major outlets
+- Familiarity with fast-paced newsroom environments
+- Digital/AI literacy from current Handshake role
+
+REALISTIC OUTLET FIT:
+- Good fit: local/regional newspapers, trade publications, nonprofit comms teams,
+  government agencies, mid-size digital outlets, industry newsletters, PR agencies (junior roles),
+  university communications, smaller magazines, B2B media
+- Stretch but possible (only for explicitly entry-level/fellowship roles):
+  mid-tier national digital outlets (Axios, Politico, The Atlantic — assistant/fellow roles only)
+- Poor fit: flagship national outlets as staff reporters (NYT, WaPo, WSJ, AP, Reuters, NPR, CNN)
+  unless the role is explicitly labeled assistant, fellowship, or associate program
 """
 
 def score_jobs_with_claude(jobs):
@@ -210,7 +247,7 @@ def score_jobs_with_claude(jobs):
         for i, j in enumerate(jobs)
     ])
 
-    prompt = f"""You are evaluating job listings for a specific candidate. Score each job's fit on a scale of 1-10, and extract any application deadline if mentioned.
+    prompt = f"""You are a brutally honest job fit evaluator helping an early-career candidate avoid wasting time on jobs he won't get. Score each listing 1-10 based on realistic fit, and extract any deadline.
 
 CANDIDATE PROFILE:
 {RESUME_SUMMARY}
@@ -218,28 +255,59 @@ CANDIDATE PROFILE:
 JOBS TO EVALUATE:
 {job_list_text}
 
-Return ONLY a JSON array (no markdown, no explanation outside JSON) with one object per job, in the same order:
+SCORING RULES — apply these strictly in order:
+
+1. EXPERIENCE REQUIREMENT (most important filter):
+   - If the description requires 3+ years of experience → score 1-2, no exceptions
+   - If the description requires 2-3 years → score 3-4 maximum
+   - If the description requires 0-2 years OR says "entry level" / "no experience required" → no penalty, continue scoring
+   - If no experience requirement is mentioned → assume it's fine, continue scoring
+
+2. PRESTIGE/REACH PENALTY:
+   - If the employer is a flagship national outlet (New York Times, Washington Post, Wall Street Journal,
+     Associated Press, Reuters, NPR, CNN, NBC News, ABC News, CBS News, MSNBC, Fox News, Bloomberg News,
+     New York Magazine, The New Yorker, TIME, Newsweek) AND the role is NOT explicitly labeled
+     "assistant," "associate," "fellow," "fellowship," or "trainee" → score 2-3 maximum
+   - If it IS labeled assistant/fellow/fellowship at those outlets → no penalty, score normally
+
+3. ROLE TYPE FIT:
+   - Strong positive: assistant, associate, coordinator, junior, fellow, trainee, entry-level,
+     communications specialist, content writer, PR associate, social media coordinator
+   - Neutral: general "reporter," "writer," "editor" at small/mid-size outlets
+   - Negative: "senior," "director," "manager," "head of," "lead," "principal"
+
+4. LOCATION FIT:
+   - NYC, Maryland, DC area, or remote → no penalty
+   - Other location → score 1-3 unless fully remote
+
+5. FIELD FIT:
+   - Journalism, communications, PR, content, editorial, digital media → positive
+   - Unrelated field → score 1-2
+
+FINAL SCORE GUIDE:
+  9-10 = Entry-level role, realistic outlet, right location, right field — apply immediately
+  7-8  = Good fit with minor concerns (slight stretch on experience OR less ideal outlet)
+  5-6  = Possible but one significant issue (e.g. 2-year requirement, or stretch outlet)
+  3-4  = Unlikely to get an interview — too senior OR wrong location OR prestige mismatch
+  1-2  = Do not apply — requires 3+ years OR flagship national outlet non-entry role
+
+Return ONLY a JSON array (no markdown, no explanation outside JSON):
 [
   {{
     "index": 1,
     "score": 8,
-    "reason": "Strong editorial role in NYC matching journalism background",
+    "reason": "Entry-level comms coordinator at regional outlet, 0-1 yrs required",
     "deadline": "May 15, 2026"
   }},
   {{
     "index": 2,
-    "score": 4,
-    "reason": "Too senior, requires 5+ years experience",
+    "score": 2,
+    "reason": "Requires 5 years journalism experience — out of reach",
     "deadline": ""
   }}
 ]
 
-Rules:
-- Score 9-10 only for entry-level communications/journalism roles in NYC or Maryland that closely match the candidate's background
-- Score 1-3 for roles that are too senior, wrong field, or wrong location
-- For deadline: extract the application closing/deadline date if mentioned in the description. Leave as "" if not mentioned.
-- Keep each reason under 12 words
-- Use the description snippet to inform scoring — a title alone can be misleading"""
+Keep each reason under 15 words. Always cite the specific reason for a low score (e.g. "requires 4 years," "NYT staff reporter role," "wrong location")."""
 
     MAX_RETRIES = 3
     for attempt in range(1, MAX_RETRIES + 1):
@@ -908,6 +976,432 @@ def scrape_governmentjobs():
     return deduped
 
 
+def scrape_prsa():
+    """PRSA Job Center — Society of Public Relations, plain HTML, entry-level friendly."""
+    jobs = []
+    url  = "https://jobs.prsa.org/jobs/"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.select(".job, .jb-job-list-row, article, li.job-listing")
+        if not listings:
+            listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://jobs.prsa.org" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "PRSA"})
+        print(f"  PRSA: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  PRSA error: {e}")
+    return jobs
+
+
+def scrape_prdaily():
+    """Ragan's PR Daily Job Board — plain HTML, strong for comms coordinator roles."""
+    jobs = []
+    url  = "https://jobs.prdaily.com/jobs/"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.select(".job, article, .jb-job-list-row")
+        if not listings:
+            listings = soup.find_all("li", class_=lambda c: c and "job" in c.lower() if c else False)
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://jobs.prdaily.com" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "PR Daily"})
+        print(f"  PR Daily: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  PR Daily error: {e}")
+    return jobs
+
+
+def scrape_idealist():
+    """
+    Idealist API — free official API, great for nonprofit communications roles.
+    Signup at idealist.org/developer — key arrives instantly.
+    Falls back to HTML scraping if no key provided.
+    """
+    jobs = []
+
+    if IDEALIST_API_KEY == "your-idealist-api-key":
+        # Fallback: scrape search page without API
+        url = "https://www.idealist.org/en/jobs?q=communications&loc=New+York%2C+NY&radius=25"
+        try:
+            resp     = requests.get(url, headers=HEADERS, timeout=15)
+            soup     = BeautifulSoup(resp.text, "html.parser")
+            listings = soup.find_all("article") or soup.select("[data-card-type='job']")
+            for listing in listings:
+                title_tag    = listing.find("h2") or listing.find("h3")
+                location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+                employer_tag = listing.find(class_=lambda c: "org" in c.lower() or "company" in c.lower() if c else False)
+                link_tag     = listing.find("a", href=True)
+                title    = title_tag.get_text(strip=True)    if title_tag    else ""
+                location = location_tag.get_text(strip=True) if location_tag else ""
+                employer = employer_tag.get_text(strip=True) if employer_tag else ""
+                link     = link_tag["href"]                  if link_tag     else url
+                if not link.startswith("http"):
+                    link = "https://www.idealist.org" + link
+                if title and is_relevant(title, location):
+                    jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Idealist"})
+        except Exception as e:
+            print(f"  Idealist scrape error: {e}")
+        print(f"  Idealist (no API key): {len(jobs)} relevant jobs")
+        return jobs
+
+    # Official API path
+    for keyword in ["communications", "public affairs", "writer", "media"]:
+        for location in ["New York, NY", "Maryland", "Washington, DC"]:
+            try:
+                resp = requests.get(
+                    "https://api.idealist.org/v1/listings",
+                    headers={"Authorization": f"Bearer {IDEALIST_API_KEY}"},
+                    params={"q": keyword, "location": location, "type": "JOB", "limit": 25},
+                    timeout=15
+                )
+                if resp.status_code != 200:
+                    print(f"  Idealist API: HTTP {resp.status_code}")
+                    break
+                for item in resp.json().get("hits", []):
+                    title    = item.get("name", "")
+                    employer = item.get("org", {}).get("name", "")
+                    location = item.get("locations", [{}])[0].get("displayName", "")
+                    link     = f"https://www.idealist.org/en/job/{item.get('id', '')}"
+                    if title and is_relevant(title, location):
+                        jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Idealist"})
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"  Idealist API error: {e}")
+
+    seen, deduped = set(), []
+    for job in jobs:
+        if job["link"] not in seen:
+            seen.add(job["link"])
+            deduped.append(job)
+    print(f"  Idealist: {len(deduped)} relevant jobs")
+    return deduped
+
+
+def scrape_journalismfellowships():
+    """JournalismFellowships.com — aggregates fellowship listings, high signal for early career."""
+    jobs = []
+    url  = "https://www.journalismfellowships.com/fellowships"
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "html.parser")
+        # Site lists fellowships as cards or list items
+        listings = soup.find_all("div", class_=lambda c: c and "fellowship" in c.lower() if c else False)
+        if not listings:
+            listings = soup.find_all("article") or soup.find_all("li")
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            employer_tag = listing.find(class_=lambda c: c and ("org" in c.lower() or "sponsor" in c.lower()) if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://www.journalismfellowships.com" + link
+            # Fellowships are location-flexible — don't filter by location
+            if title and len(title) > 5:
+                jobs.append({"title": title, "employer": employer, "location": "Various/Remote", "link": link, "source": "JournalismFellowships"})
+        print(f"  JournalismFellowships: {len(jobs)} listings")
+    except Exception as e:
+        print(f"  JournalismFellowships error: {e}")
+    return jobs
+
+
+def scrape_ed2010():
+    """Ed2010 — niche board for magazine and digital media entry-level roles."""
+    jobs = []
+    url  = "https://www.ed2010.com/jobs"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+        if not listings:
+            listings = soup.find_all("article") or soup.find_all("li")
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "pub" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://www.ed2010.com" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Ed2010"})
+        print(f"  Ed2010: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  Ed2010 error: {e}")
+    return jobs
+
+
+def scrape_impact_opportunity():
+    """Impact Opportunity — communications/advocacy roles at mission-driven orgs."""
+    jobs = []
+    url  = "https://impactopportunity.org/jobs/?category=communications"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.find_all("article") or soup.select(".job-listing, .wpjb-row")
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "org" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://impactopportunity.org" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Impact Opportunity"})
+        print(f"  Impact Opportunity: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  Impact Opportunity error: {e}")
+    return jobs
+
+
+def scrape_prweek():
+    """PRWeek Job Board — PR-focused, associate/coordinator roles."""
+    jobs = []
+    url  = "https://www.prweek.com/us/jobs"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.select(".job-result, .job-listing, article")
+        if not listings:
+            listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://www.prweek.com" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "PRWeek"})
+        print(f"  PRWeek: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  PRWeek error: {e}")
+    return jobs
+
+
+def scrape_maryland_govt_jobs():
+    """
+    Maryland Government Jobs (jobaps) — state/county roles via queryable URL structure.
+    Covers all Maryland state agencies and many county governments.
+    """
+    jobs = []
+    keywords = ["communications", "public affairs", "writer", "media relations", "public information"]
+    base_url = "https://www.governmentjobs.com/careers/maryland"
+
+    for keyword in keywords:
+        try:
+            resp = requests.get(
+                base_url,
+                params={"keywords": keyword, "sort": "PostingDate&sortDescending=True"},
+                headers=HEADERS,
+                timeout=15
+            )
+            soup     = BeautifulSoup(resp.text, "html.parser")
+            listings = soup.select(".job, .job-listing, tr.data-row")
+            if not listings:
+                listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+            for listing in listings:
+                title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+                employer_tag = listing.find(class_=lambda c: "department" in c.lower() or "agency" in c.lower() if c else False)
+                link_tag     = listing.find("a", href=True)
+                title    = title_tag.get_text(strip=True)    if title_tag    else ""
+                employer = employer_tag.get_text(strip=True) if employer_tag else "State of Maryland"
+                link     = link_tag["href"]                  if link_tag     else base_url
+                if not link.startswith("http"):
+                    link = "https://www.governmentjobs.com" + link
+                if title and is_relevant(title, "maryland"):
+                    jobs.append({"title": title, "employer": employer, "location": "Maryland", "link": link, "source": "MD Govt Jobs"})
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"  MD Govt Jobs error ({keyword}): {e}")
+
+    seen, deduped = set(), []
+    for job in jobs:
+        if job["link"] not in seen:
+            seen.add(job["link"])
+            deduped.append(job)
+    print(f"  MD Govt Jobs: {len(deduped)} relevant jobs")
+    return deduped
+
+
+def scrape_workinsports():
+    """
+    Work In Sports — broad sports industry board, plain HTML.
+    Covers communications, content, PR, and media roles at teams and leagues.
+    """
+    jobs = []
+    searches = [
+        ("communications", "new-york"),
+        ("communications", "maryland"),
+        ("media relations", "new-york"),
+        ("content",         "new-york"),
+        ("writer",          "remote"),
+    ]
+    for keyword, location in searches:
+        url = f"https://www.workinsports.com/search-jobs?keywords={requests.utils.quote(keyword)}&location={location}"
+        try:
+            resp     = requests.get(url, headers=HEADERS, timeout=15)
+            soup     = BeautifulSoup(resp.text, "html.parser")
+            listings = soup.select(".job-result, .job-card, article")
+            if not listings:
+                listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+            for listing in listings:
+                title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+                location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+                employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+                link_tag     = listing.find("a", href=True)
+                title    = title_tag.get_text(strip=True)    if title_tag    else ""
+                loc      = location_tag.get_text(strip=True) if location_tag else location
+                employer = employer_tag.get_text(strip=True) if employer_tag else ""
+                link     = link_tag["href"]                  if link_tag     else url
+                if not link.startswith("http"):
+                    link = "https://www.workinsports.com" + link
+                if title and is_relevant(title, loc):
+                    jobs.append({"title": title, "employer": employer, "location": loc, "link": link, "source": "Work In Sports"})
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"  Work In Sports error ({keyword}): {e}")
+
+    seen, deduped = set(), []
+    for job in jobs:
+        if job["link"] not in seen:
+            seen.add(job["link"])
+            deduped.append(job)
+    print(f"  Work In Sports: {len(deduped)} relevant jobs")
+    return deduped
+
+
+def scrape_entrylevelsports():
+    """Entry Level Sports Jobs — every listing is explicitly entry-level, plain HTML."""
+    jobs = []
+    url  = "https://www.entrylevel.net/jobs/sports"
+    try:
+        resp     = requests.get(url, headers=HEADERS, timeout=15)
+        soup     = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.find_all("article") or soup.select(".job, .job-card, li.job")
+        if not listings:
+            listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else url
+            if not link.startswith("http"):
+                link = "https://www.entrylevel.net" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Entry Level Sports"})
+        print(f"  Entry Level Sports: {len(jobs)} relevant jobs")
+    except Exception as e:
+        print(f"  Entry Level Sports error: {e}")
+    return jobs
+
+
+def scrape_teamworkonline():
+    """
+    TeamWork Online — dominant sports industry board (NFL, NBA, MLB, NHL, MLS etc).
+    Uses Playwright for JavaScript rendering. Falls back gracefully if not installed.
+    Install Playwright: pip install playwright && playwright install chromium
+    """
+    jobs = []
+    searches = [
+        ("communications", "new-york"),
+        ("media relations", "new-york"),
+        ("content",         "new-york"),
+        ("communications", "maryland"),
+        ("writer",          ""),  # nationwide for sports
+    ]
+
+    # Try Playwright first
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page    = browser.new_page()
+            page.set_extra_http_headers({"User-Agent": HEADERS["User-Agent"]})
+
+            for keyword, location in searches:
+                try:
+                    url = f"https://www.teamworkonline.com/jobs?keywords={requests.utils.quote(keyword)}"
+                    if location:
+                        url += f"&location={location}"
+                    page.goto(url, timeout=20000)
+                    page.wait_for_selector(".job-result, .job-card, article", timeout=8000)
+                    soup     = BeautifulSoup(page.content(), "html.parser")
+                    listings = soup.select(".job-result, .job-card, article")
+                    for listing in listings:
+                        title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+                        location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+                        employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "team" in c.lower() if c else False)
+                        link_tag     = listing.find("a", href=True)
+                        title    = title_tag.get_text(strip=True)    if title_tag    else ""
+                        loc      = location_tag.get_text(strip=True) if location_tag else location
+                        employer = employer_tag.get_text(strip=True) if employer_tag else ""
+                        link     = link_tag["href"]                  if link_tag     else url
+                        if not link.startswith("http"):
+                            link = "https://www.teamworkonline.com" + link
+                        if title and is_relevant(title, loc):
+                            jobs.append({"title": title, "employer": employer, "location": loc, "link": link, "source": "TeamWork Online"})
+                    time.sleep(1)
+                except Exception as e:
+                    print(f"  TeamWork Online page error ({keyword}): {e}")
+
+            browser.close()
+
+    except ImportError:
+        print("  TeamWork Online: Playwright not installed — skipping")
+        print("  → To enable: pip install playwright && playwright install chromium")
+        return jobs
+    except Exception as e:
+        print(f"  TeamWork Online error: {e}")
+
+    seen, deduped = set(), []
+    for job in jobs:
+        if job["link"] not in seen:
+            seen.add(job["link"])
+            deduped.append(job)
+    print(f"  TeamWork Online: {len(deduped)} relevant jobs")
+    return deduped
+
+
 def scrape_usajobs():
     jobs = []
     keyword_queries = ["communications", "public affairs", "writer editor", "journalist"]
@@ -1193,6 +1687,17 @@ def main():
     all_jobs += scrape_the_muse()
     all_jobs += scrape_indeed_rss()
     all_jobs += scrape_governmentjobs()
+    all_jobs += scrape_prsa()
+    all_jobs += scrape_prdaily()
+    all_jobs += scrape_idealist()
+    all_jobs += scrape_journalismfellowships()
+    all_jobs += scrape_ed2010()
+    all_jobs += scrape_impact_opportunity()
+    all_jobs += scrape_prweek()
+    all_jobs += scrape_maryland_govt_jobs()
+    all_jobs += scrape_workinsports()
+    all_jobs += scrape_entrylevelsports()
+    all_jobs += scrape_teamworkonline()
     all_jobs += scrape_usajobs()
 
     # Step 4: Fuzzy deduplicate within today's results (catches cross-board dupes)
@@ -1220,10 +1725,19 @@ def main():
     filtered = [j for j in scored_jobs if j.get("score", 5) >= MIN_SCORE]
     print(f"\n📋 Jobs at or above score {MIN_SCORE}: {len(filtered)} of {len(scored_jobs)}")
 
-    # Step 9: Send email and save seen jobs
-    if filtered:
-        send_email(filtered)
-        seen_links.update(j["link"] for j in new_jobs)
+    # Step 9: Apply daily cap — keep only the top DAILY_CAP by score
+    if len(filtered) > DAILY_CAP:
+        filtered.sort(key=lambda j: j.get("score", 5), reverse=True)
+        capped   = filtered[:DAILY_CAP]
+        leftover = filtered[DAILY_CAP:]
+        print(f"  ✂️  Capped to {DAILY_CAP} best jobs (dropped {len(leftover)} lower-scoring listings)")
+    else:
+        capped = filtered
+
+    # Step 10: Send email and save ALL new jobs as seen (including capped ones)
+    if capped:
+        send_email(capped)
+        seen_links.update(j["link"] for j in new_jobs)  # mark everything seen, not just what was emailed
         save_seen_jobs(seen_links)
     else:
         print("   All jobs scored below minimum — no email sent today.")
