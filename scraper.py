@@ -1,15 +1,12 @@
 """
-Job Scraper for Christian Richey — v7
-Scrapes: JournalismJobs, MediaBistro, Poynter, IRE, SPJ,
-         Adzuna, The Muse, Indeed RSS, GovernmentJobs, USAJobs,
-         PRSA, PR Daily, Idealist, JournalismFellowships, Ed2010,
-         Impact Opportunity, PRWeek, Maryland Govt Jobs,
-         Work In Sports, Entry Level Sports Jobs, TeamWork Online
-New in v7:
-  - 11 new job sources added (8 general + 3 sports-specific)
-  - Daily cap of 15 jobs — best-scoring shown, rest still marked seen
-  - Sports keywords added to filters
-  - Idealist API key added to settings
+Job Scraper for Christian Richey — v8
+New in v8:
+  - PR Daily/Ragan fixed: jobs.prdaily.com is dead, replaced with
+    ragan.com/talenthub/ + PR News (jobs.prnewsonline.com)
+  - MD Govt Jobs fixed: governmentjobs.com blocks cloud IPs, switched
+    to Maryland's direct state portal (jobapscloud.com/MD)
+  - TeamWork Online fixed: updated selectors, longer timeout (30s),
+    multi-strategy fallback for JS-rendered page structure changes
 """
 
 import requests
@@ -1006,15 +1003,20 @@ def scrape_prsa():
 
 
 def scrape_prdaily():
-    """Ragan's PR Daily Job Board — plain HTML, strong for comms coordinator roles."""
+    """
+    Ragan TalentHub — Ragan moved their job board from jobs.prdaily.com
+    to ragan.com/talenthub/ as of 2025. Also scrapes PR News job board
+    (jobs.prnewsonline.com) which lists 2000+ comms/PR/marketing roles.
+    """
     jobs = []
-    url  = "https://jobs.prdaily.com/jobs/"
+
+    # Source 1: Ragan TalentHub (replacement for old jobs.prdaily.com)
     try:
-        resp     = requests.get(url, headers=HEADERS, timeout=15)
-        soup     = BeautifulSoup(resp.text, "html.parser")
-        listings = soup.select(".job, article, .jb-job-list-row")
+        resp = requests.get("https://www.ragan.com/talenthub/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.select(".job, .job-listing, article, .wpjb-row, tr.wpjb-job-row")
         if not listings:
-            listings = soup.find_all("li", class_=lambda c: c and "job" in c.lower() if c else False)
+            listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
         for listing in listings:
             title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
             location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
@@ -1023,14 +1025,38 @@ def scrape_prdaily():
             title    = title_tag.get_text(strip=True)    if title_tag    else ""
             location = location_tag.get_text(strip=True) if location_tag else ""
             employer = employer_tag.get_text(strip=True) if employer_tag else ""
-            link     = link_tag["href"]                  if link_tag     else url
+            link     = link_tag["href"]                  if link_tag     else "https://www.ragan.com/talenthub/"
             if not link.startswith("http"):
-                link = "https://jobs.prdaily.com" + link
+                link = "https://www.ragan.com" + link
             if title and is_relevant(title, location):
-                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "PR Daily"})
-        print(f"  PR Daily: {len(jobs)} relevant jobs")
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "Ragan TalentHub"})
     except Exception as e:
-        print(f"  PR Daily error: {e}")
+        print(f"  Ragan TalentHub error: {e}")
+
+    # Source 2: PR News Job Board
+    try:
+        resp = requests.get("https://jobs.prnewsonline.com/jobs/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "html.parser")
+        listings = soup.select(".job, article, .jb-job-list-row, li.job-listing")
+        if not listings:
+            listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
+        for listing in listings:
+            title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
+            location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
+            employer_tag = listing.find(class_=lambda c: "company" in c.lower() or "employer" in c.lower() if c else False)
+            link_tag     = listing.find("a", href=True)
+            title    = title_tag.get_text(strip=True)    if title_tag    else ""
+            location = location_tag.get_text(strip=True) if location_tag else ""
+            employer = employer_tag.get_text(strip=True) if employer_tag else ""
+            link     = link_tag["href"]                  if link_tag     else "https://jobs.prnewsonline.com/"
+            if not link.startswith("http"):
+                link = "https://jobs.prnewsonline.com" + link
+            if title and is_relevant(title, location):
+                jobs.append({"title": title, "employer": employer, "location": location, "link": link, "source": "PR News"})
+    except Exception as e:
+        print(f"  PR News error: {e}")
+
+    print(f"  Ragan/PR News: {len(jobs)} relevant jobs")
     return jobs
 
 
@@ -1216,46 +1242,60 @@ def scrape_prweek():
 
 def scrape_maryland_govt_jobs():
     """
-    Maryland Government Jobs (jobaps) — state/county roles via queryable URL structure.
-    Covers all Maryland state agencies and many county governments.
+    Maryland state jobs via jobapscloud.com/MD — the actual Maryland state
+    job system. More reliable than governmentjobs.com/careers/maryland from
+    cloud IPs (GitHub Actions), which GovernmentJobs rate-limits aggressively.
+    Uses their queryable URL structure to search by keyword.
     """
     jobs = []
-    keywords = ["communications", "public affairs", "writer", "media relations", "public information"]
-    base_url = "https://www.governmentjobs.com/careers/maryland"
+    keywords = ["communications", "public affairs", "writer", "media", "public information"]
 
     for keyword in keywords:
         try:
             resp = requests.get(
-                base_url,
-                params={"keywords": keyword, "sort": "PostingDate&sortDescending=True"},
+                "https://www.jobapscloud.com/MD/sup/bulklist.aspx",
+                params={"keyword": keyword},
                 headers=HEADERS,
-                timeout=15
+                timeout=20
             )
-            soup     = BeautifulSoup(resp.text, "html.parser")
-            listings = soup.select(".job, .job-listing, tr.data-row")
-            if not listings:
-                listings = soup.find_all("div", class_=lambda c: c and "job" in c.lower() if c else False)
-            for listing in listings:
-                title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
-                employer_tag = listing.find(class_=lambda c: "department" in c.lower() or "agency" in c.lower() if c else False)
-                link_tag     = listing.find("a", href=True)
-                title    = title_tag.get_text(strip=True)    if title_tag    else ""
-                employer = employer_tag.get_text(strip=True) if employer_tag else "State of Maryland"
-                link     = link_tag["href"]                  if link_tag     else base_url
-                if not link.startswith("http"):
-                    link = "https://www.governmentjobs.com" + link
-                if title and is_relevant(title, "maryland"):
-                    jobs.append({"title": title, "employer": employer, "location": "Maryland", "link": link, "source": "MD Govt Jobs"})
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            # jobapscloud renders results as a table
+            rows = soup.select("table tr")[1:]  # skip header row
+            for row in rows:
+                cells = row.find_all("td")
+                if len(cells) < 2:
+                    continue
+                title_cell = cells[0]
+                title      = title_cell.get_text(strip=True)
+                link_tag   = title_cell.find("a", href=True)
+                link       = link_tag["href"] if link_tag else ""
+                if link and not link.startswith("http"):
+                    link = "https://www.jobapscloud.com" + link
+                location = "Maryland"
+                employer = cells[1].get_text(strip=True) if len(cells) > 1 else "State of Maryland"
+
+                if title and is_relevant(title, location):
+                    jobs.append({
+                        "title":    title,
+                        "employer": employer,
+                        "location": location,
+                        "link":     link or f"https://www.jobapscloud.com/MD/sup/bulklist.aspx?keyword={keyword}",
+                        "source":   "MD State Jobs"
+                    })
             time.sleep(0.5)
+
         except Exception as e:
-            print(f"  MD Govt Jobs error ({keyword}): {e}")
+            print(f"  MD State Jobs error ({keyword}): {e}")
 
     seen, deduped = set(), []
     for job in jobs:
-        if job["link"] not in seen:
-            seen.add(job["link"])
+        key = job["title"].lower()
+        if key not in seen:
+            seen.add(key)
             deduped.append(job)
-    print(f"  MD Govt Jobs: {len(deduped)} relevant jobs")
+
+    print(f"  MD State Jobs: {len(deduped)} relevant jobs")
     return deduped
 
 
@@ -1338,35 +1378,80 @@ def scrape_entrylevelsports():
 def scrape_teamworkonline():
     """
     TeamWork Online — dominant sports industry board (NFL, NBA, MLB, NHL, MLS etc).
-    Uses Playwright for JavaScript rendering. Falls back gracefully if not installed.
-    Install Playwright: pip install playwright && playwright install chromium
+    Uses Playwright for JavaScript rendering.
+    Install: pip install playwright && playwright install chromium
+    Updated selectors and longer timeout based on their current page structure.
     """
     jobs = []
     searches = [
         ("communications", "new-york"),
         ("media relations", "new-york"),
         ("content",         "new-york"),
-        ("communications", "maryland"),
-        ("writer",          ""),  # nationwide for sports
+        ("communications",  "maryland"),
+        ("writer",          ""),
     ]
 
-    # Try Playwright first
     try:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            page    = browser.new_page()
-            page.set_extra_http_headers({"User-Agent": HEADERS["User-Agent"]})
+            context = browser.new_context(user_agent=HEADERS["User-Agent"])
+            page    = context.new_page()
 
             for keyword, location in searches:
                 try:
                     url = f"https://www.teamworkonline.com/jobs?keywords={requests.utils.quote(keyword)}"
                     if location:
                         url += f"&location={location}"
-                    page.goto(url, timeout=20000)
-                    page.wait_for_selector(".job-result, .job-card, article", timeout=8000)
+
+                    page.goto(url, timeout=30000, wait_until="domcontentloaded")
+
+                    # Try multiple selector strategies — TeamWork has changed their markup
+                    # Strategy 1: wait for any job-like container
+                    selectors_to_try = [
+                        ".job-result",
+                        ".job-card",
+                        "[class*='job']",
+                        "article",
+                        "li[class*='job']",
+                        ".position",
+                        "[data-job]",
+                    ]
+                    found_selector = None
+                    for sel in selectors_to_try:
+                        try:
+                            page.wait_for_selector(sel, timeout=6000)
+                            found_selector = sel
+                            break
+                        except Exception:
+                            continue
+
+                    # Strategy 2: if no selector found, just grab all links with job-like hrefs
                     soup     = BeautifulSoup(page.content(), "html.parser")
-                    listings = soup.select(".job-result, .job-card, article")
+                    listings = soup.select(found_selector) if found_selector else []
+
+                    if not listings:
+                        # Fallback: find any anchor linking to a job detail page
+                        job_links = [
+                            a for a in soup.find_all("a", href=True)
+                            if "/job/" in a.get("href", "") or "/careers/" in a.get("href", "")
+                        ]
+                        for a in job_links:
+                            title = a.get_text(strip=True)
+                            link  = a["href"]
+                            if not link.startswith("http"):
+                                link = "https://www.teamworkonline.com" + link
+                            if title and is_relevant(title, location or ""):
+                                jobs.append({
+                                    "title":    title,
+                                    "employer": "",
+                                    "location": location,
+                                    "link":     link,
+                                    "source":   "TeamWork Online"
+                                })
+                        time.sleep(1)
+                        continue
+
                     for listing in listings:
                         title_tag    = listing.find("h2") or listing.find("h3") or listing.find("a")
                         location_tag = listing.find(class_=lambda c: "location" in c.lower() if c else False)
@@ -1379,10 +1464,18 @@ def scrape_teamworkonline():
                         if not link.startswith("http"):
                             link = "https://www.teamworkonline.com" + link
                         if title and is_relevant(title, loc):
-                            jobs.append({"title": title, "employer": employer, "location": loc, "link": link, "source": "TeamWork Online"})
-                    time.sleep(1)
+                            jobs.append({
+                                "title":    title,
+                                "employer": employer,
+                                "location": loc,
+                                "link":     link,
+                                "source":   "TeamWork Online"
+                            })
+                    time.sleep(1.5)
+
                 except Exception as e:
                     print(f"  TeamWork Online page error ({keyword}): {e}")
+                    continue
 
             browser.close()
 
