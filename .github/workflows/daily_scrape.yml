@@ -3,7 +3,7 @@ name: Daily Job Digest
 on:
   schedule:
     # Runs every day at 8:00 AM Eastern Time (12:00 UTC)
-    - cron: "0 12 * * *"
+    - cron: "0 15 * * *"
 
   # Lets you trigger it manually from GitHub's website with one click
   workflow_dispatch:
@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: Check out the code
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5.6.0
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
