@@ -1,0 +1,43 @@
+name: Daily Job Collection
+
+on:
+  schedule:
+    # 5:30 AM Eastern (09:30 UTC) — runs before your 6:01 AM Cowork task
+    # so the results are waiting when Cowork goes looking for them.
+    - cron: "30 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Collect jobs
+        env:
+          ADZUNA_APP_ID:   ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY:  ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL:   ${{ secrets.USAJOBS_EMAIL }}
+        run: python job_scraper.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add job_results.json seen_jobs.json
+          git diff --staged --quiet || git commit -m "Job results $(date -u +%Y-%m-%d)"
+          git push
