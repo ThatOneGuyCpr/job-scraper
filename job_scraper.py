@@ -31,6 +31,15 @@ USAJOBS_EMAIL    = os.environ.get("USAJOBS_EMAIL",    "your.email@gmail.com")
 MAX_FINALISTS = 25          # how many jobs get handed to Claude
 DESC_CHARS    = 900         # characters of job description kept per listing
 
+# Per-source caps. Stops one high-volume API from crowding out the smaller
+# boards. Adzuna alone can return hundreds; without this it fills the list.
+PER_SOURCE_CAP = 3
+SOURCE_CAPS = {
+    "Adzuna": 4,            # firehose — best few only
+    "Indeed": 3,
+    "The Muse": 3,
+}
+
 # Job titles worth catching
 KEYWORDS = [
     # editorial
@@ -115,6 +124,77 @@ def fuzzy_dedupe(jobs, threshold=0.85):
     removed = len(jobs) - len(out)
     if removed:
         print(f"  Removed {removed} cross-board duplicates")
+    return out
+
+
+def prescore(job):
+    """
+    Cheap quality heuristic used only to decide which jobs from a single
+    source are worth spending a link check on. This is NOT the real score —
+    Claude does that later against the full description. This just picks the
+    best few from a source that returned fifty.
+    """
+    t = job["title"].lower()
+    l = job.get("location", "").lower()
+    s = 0
+
+    # Title signals we specifically want
+    for good in ("associate", "coordinator", "assistant editor", "editor",
+                 "communications", "writer", "reporter", "content"):
+        if good in t:
+            s += 2
+            break
+    if "associate" in t or "coordinator" in t:
+        s += 2
+
+    # Location priority
+    if any(p in l for p in ("miami", "coral gables", "fort lauderdale",
+                            "south florida", "boca raton")):
+        s += 4
+    elif any(p in l for p in ("new york", "nyc", "brooklyn", "manhattan")):
+        s += 3
+    elif any(p in l for p in ("washington", "maryland", "baltimore",
+                              "annapolis", "arlington", "bethesda")):
+        s += 3
+    elif "remote" in l:
+        s += 3
+
+    # Knowing the employer is a sign of a real, complete listing
+    if job.get("employer"):
+        s += 1
+
+    return s
+
+
+def balance_sources(jobs):
+    """
+    Reorder so the finalist list is varied by construction.
+
+    Groups by source, sorts each group by prescore, then takes one from each
+    source in rotation. A board that returned two jobs still gets both of them
+    looked at before Adzuna's fifth-best.
+    """
+    buckets = {}
+    for job in jobs:
+        buckets.setdefault(job["source"], []).append(job)
+
+    for src in buckets:
+        cap = SOURCE_CAPS.get(src, PER_SOURCE_CAP)
+        buckets[src].sort(key=prescore, reverse=True)
+        buckets[src] = buckets[src][:cap]
+
+    # Round-robin: one per source per pass, smallest sources first so they
+    # are never the ones squeezed out by the finalist limit.
+    order = sorted(buckets, key=lambda s: len(buckets[s]))
+    out, depth = [], 0
+    while any(len(buckets[s]) > depth for s in order):
+        for src in order:
+            if len(buckets[src]) > depth:
+                out.append(buckets[src][depth])
+        depth += 1
+
+    print(f"  Balanced across {len(buckets)} sources "
+          f"({', '.join(f'{s}:{len(b)}' for s, b in sorted(buckets.items()))})")
     return out
 
 
@@ -427,9 +507,11 @@ def main():
     if not jobs:
         with open(OUTPUT_FILE, "w") as f:
             json.dump({"generated": datetime.now().isoformat(),
-                       "count": 0, "jobs": []}, f, indent=2)
+                       "count": 0, "source_counts": {}, "jobs": []}, f, indent=2)
         print("\nNothing new today. Wrote empty job_results.json")
         return
+
+    jobs = balance_sources(jobs)
 
     print(f"\nChecking links (this is the slow part)...")
     finalists, dead = [], 0
@@ -444,11 +526,19 @@ def main():
             dead += 1
         time.sleep(0.3)
 
+    counts = {}
+    for j in finalists:
+        counts[j["source"]] = counts.get(j["source"], 0) + 1
+
     print(f"  {len(finalists)} live postings, {dead} dead links dropped")
+    print(f"  Final spread: {counts}")
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump({"generated": datetime.now().isoformat(),
-                   "count": len(finalists), "jobs": finalists}, f, indent=2)
+                   "count": len(finalists),
+                   "dead_links_dropped": dead,
+                   "source_counts": counts,
+                   "jobs": finalists}, f, indent=2)
 
     # Mark everything checked as seen, including the dead ones
     seen.update(j["link"] for j in jobs)
