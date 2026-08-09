@@ -17,7 +17,6 @@ import requests
 from bs4 import BeautifulSoup
 import json, os, re, time, difflib
 from datetime import datetime
-import xml.etree.ElementTree as ET
 
 # ═══════════════════════════════════════════════════════════
 #  SETTINGS — the only part you need to edit
@@ -36,35 +35,48 @@ DESC_CHARS    = 900         # characters of job description kept per listing
 PER_SOURCE_CAP = 3
 SOURCE_CAPS = {
     "Adzuna": 4,            # firehose — best few only
-    "Indeed": 3,
     "The Muse": 3,
 }
 
-# Job titles worth catching
-KEYWORDS = [
+# TOPIC keywords. A title must match at least one of these to survive.
+# These are all media, communications, and editorial terms. Nothing generic.
+TOPIC_KEYWORDS = [
     # editorial
-    "reporter", "editor", "writer", "journalist", "copy editor", "editorial",
-    "correspondent", "producer", "newsroom", "desk",
-    # level signals we want
-    "associate", "coordinator", "assistant editor", "specialist",
+    "reporter", "editor", "writer", "journalist", "copy editor", "copy desk",
+    "editorial", "correspondent", "producer", "newsroom",
     # communications and PR
     "communications", "public affairs", "public relations", "media relations",
-    "press", "spokesperson",
+    "press secretary", "press officer", "press assistant", "spokesperson",
+    "marketing communications",
     # content and digital
     "content", "copywriter", "digital media", "social media", "multimedia",
-    "audience", "engagement", "newsletter", "digital content",
+    "audience", "newsletter", "digital content", "publications",
     # sports
     "sports information", "sports communications", "sports media",
     "sports writer", "sports editor", "athletic communications",
-    # adjacent
-    "policy", "research", "fact-check", "outreach", "marketing communications",
+    # policy, his actual beat
+    "policy", "fact-check",
+]
+
+# LEVEL keywords. These are NOT sufficient on their own — "Associate Attorney"
+# and "Service Loyalty Coordinator" both passed the old flat list because of
+# these words. They are used only for prescoring, never for relevance.
+LEVEL_KEYWORDS = [
+    "associate", "coordinator", "assistant editor", "specialist", "junior",
 ]
 
 # Titles to throw out regardless of anything else
 EXCLUDE_TITLE = [
+    # seniority
     "senior", "sr.", "director", "vp ", "vice president", "chief", "head of",
     "managing editor", "executive editor", "principal", "lead ", "manager",
     "president", "founder", "partner", "intern",
+    # wrong field entirely — these slipped through the old filter
+    "attorney", "paralegal", "veterinar", "nurse", "physician", "dentist",
+    "customer service", "loyalty", "sales associate", "retail", "cashier",
+    "technician", "engineer", "accountant", "bookkeep", "teacher", "tutor",
+    "driver", "warehouse", "insurance", "mortgage", "real estate", "claims",
+    "therapist", "counselor", "caregiver", "security guard", "janitor",
 ]
 
 # Locations we care about. Order does not matter here — Claude ranks later.
@@ -89,16 +101,29 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
 SEEN_FILE   = "seen_jobs.json"
 OUTPUT_FILE = "job_results.json"
 
+# Per-source diagnostics. Written into job_results.json so failures are
+# visible without digging through Actions logs. Every source records why it
+# returned what it returned.
+DIAG = {}
+
+def diag(source, **kw):
+    DIAG.setdefault(source, {}).update(kw)
+
 
 # ═══════════════════════════════════════════════════════════
 #  FILTERING
 # ═══════════════════════════════════════════════════════════
 
 def is_relevant(title, location=""):
+    """
+    A title must contain a TOPIC word. Level words like "associate" and
+    "coordinator" are never sufficient on their own — that bug is what let
+    "Associate Attorney" and "Service Loyalty Coordinator" through.
+    """
     t, l = title.lower(), location.lower()
     if any(bad in t for bad in EXCLUDE_TITLE):
         return False
-    if not any(kw in t for kw in KEYWORDS):
+    if not any(kw in t for kw in TOPIC_KEYWORDS):
         return False
     if location and not any(loc in l for loc in LOCATIONS):
         return False
@@ -144,7 +169,7 @@ def prescore(job):
         if good in t:
             s += 2
             break
-    if "associate" in t or "coordinator" in t:
+    if any(lv in t for lv in LEVEL_KEYWORDS):
         s += 2
 
     # Location priority
@@ -252,34 +277,60 @@ def link_is_good(url):
 # ═══════════════════════════════════════════════════════════
 
 def scrape_board(name, url, base=None):
-    """Handles any plain-HTML job board. Tries several common layouts."""
+    """
+    Handles any plain-HTML job board. Tries structured selectors first, then
+    falls back to scanning anchors. Records diagnostics either way so a board
+    that returns nothing tells you WHY instead of failing silently.
+    """
     jobs = []
     base = base or "/".join(url.split("/")[:3])
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
+        diag(name, http=r.status_code)
+
         if r.status_code != 200:
-            print(f"  {name}: skipped (http {r.status_code})")
+            reason = ("blocked or rate limited" if r.status_code in (403, 429)
+                      else f"http {r.status_code}")
+            diag(name, raw=0, kept=0, note=reason)
+            print(f"  {name}: 0  ({reason})")
             return jobs
+
         soup = BeautifulSoup(r.text, "html.parser")
 
         rows = (soup.select("article, .job, .job-listing, .job-result, .job-card, "
                             ".jb-job-list-row, li.job, tr.data-row, .views-row")
                 or soup.find_all("div", class_=lambda c: c and "job" in c.lower()))
 
+        method = "selectors"
+        if not rows:
+            # Fallback: any anchor whose href looks like a job detail page.
+            method = "anchor-scan"
+            rows = [a for a in soup.find_all("a", href=True)
+                    if any(k in a["href"].lower()
+                           for k in ("/job", "/jobs/", "/career", "/position", "/opening"))]
+
+        diag(name, raw=len(rows), method=method)
+
         for row in rows:
-            t_tag = row.find(["h2", "h3", "h4"]) or row.find("a")
-            if not t_tag:
+            if row.name == "a":
+                title, a_tag = row.get_text(strip=True), row
+                location = employer = ""
+            else:
+                t_tag = row.find(["h2", "h3", "h4"]) or row.find("a")
+                if not t_tag:
+                    continue
+                title = t_tag.get_text(strip=True)
+                l_tag = row.find(class_=lambda c: c and "location" in c.lower())
+                e_tag = row.find(class_=lambda c: c and any(
+                    k in c.lower() for k in ("company", "employer", "organization", "department")))
+                a_tag = row.find("a", href=True)
+                location = l_tag.get_text(strip=True) if l_tag else ""
+                employer = e_tag.get_text(strip=True) if e_tag else ""
+
+            if not title or len(title) < 4:
                 continue
-            title = t_tag.get_text(strip=True)
 
-            l_tag = row.find(class_=lambda c: c and "location" in c.lower())
-            e_tag = row.find(class_=lambda c: c and any(
-                k in c.lower() for k in ("company", "employer", "organization", "department")))
-            a_tag = row.find("a", href=True)
-
-            location = l_tag.get_text(strip=True) if l_tag else ""
-            employer = e_tag.get_text(strip=True) if e_tag else ""
-            link = a_tag["href"] if a_tag else url
+            link = a_tag["href"] if a_tag and a_tag.has_attr("href") else url
             if not link.startswith("http"):
                 link = base.rstrip("/") + "/" + link.lstrip("/")
 
@@ -287,9 +338,17 @@ def scrape_board(name, url, base=None):
                 jobs.append({"title": title, "employer": employer,
                              "location": location, "link": link, "source": name})
 
-        print(f"  {name}: {len(jobs)}")
+        diag(name, kept=len(jobs))
+        note = ""
+        if len(rows) == 0:
+            note = "  (no listing elements found — layout likely changed or JS-rendered)"
+        elif len(jobs) == 0:
+            note = f"  ({len(rows)} candidates found, none matched filters)"
+        print(f"  {name}: {len(jobs)}{note}")
+
     except Exception as e:
-        print(f"  {name}: error ({type(e).__name__})")
+        diag(name, raw=0, kept=0, note=f"error: {type(e).__name__}")
+        print(f"  {name}: 0  (error: {type(e).__name__})")
     return jobs
 
 
@@ -320,6 +379,7 @@ def scrape_adzuna():
     """Aggregates hundreds of sources including LinkedIn and Glassdoor."""
     jobs = []
     if ADZUNA_APP_ID.startswith("your-"):
+        diag("Adzuna", kept=0, note="SKIPPED — no API key set")
         print("  Adzuna: skipped (no key)")
         return jobs
     queries = ["communications", "editor", "content writer", "public affairs",
@@ -335,7 +395,9 @@ def scrape_adzuna():
                             "sort_by": "date", "max_days_old": 5},
                     timeout=15)
                 if r.status_code != 200:
-                    print(f"  Adzuna: http {r.status_code}")
+                    diag("Adzuna", http=r.status_code, kept=0,
+                         note="check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets")
+                    print(f"  Adzuna: 0  (http {r.status_code})")
                     return jobs
                 for it in r.json().get("results", []):
                     title = it.get("title", "")
@@ -350,22 +412,27 @@ def scrape_adzuna():
                 time.sleep(0.4)
             except Exception:
                 pass
+    diag("Adzuna", kept=len(jobs))
     print(f"  Adzuna: {len(jobs)}")
     return jobs
 
 
 def scrape_muse():
     """The Muse — free, no key needed."""
-    jobs = []
+    jobs, raw = [], 0
     try:
         for page in (1, 2):
             r = requests.get("https://www.themuse.com/api/public/jobs",
                              params={"category": "Media, PR & Communications",
                                      "page": page, "descending": "true"},
                              headers=HEADERS, timeout=15)
+            diag("The Muse", http=r.status_code)
             if r.status_code != 200:
+                diag("The Muse", note=f"http {r.status_code}")
                 break
-            for it in r.json().get("results", []):
+            batch = r.json().get("results", [])
+            raw += len(batch)
+            for it in batch:
                 title = it.get("name", "")
                 loc = ", ".join(l.get("name", "") for l in it.get("locations", []))
                 if is_relevant(title, loc):
@@ -376,41 +443,11 @@ def scrape_muse():
                         "link": it.get("refs", {}).get("landing_page", ""),
                         "source": "The Muse"})
             time.sleep(0.4)
-    except Exception:
-        pass
-    print(f"  The Muse: {len(jobs)}")
-    return jobs
-
-
-def scrape_indeed_rss():
-    """Indeed's RSS feeds — stable and free, no scraping tricks."""
-    jobs = []
-    searches = [
-        ("communications", "Miami, FL"), ("editor", "Miami, FL"),
-        ("content writer", "Miami, FL"), ("communications", "New York, NY"),
-        ("editor", "New York, NY"), ("public affairs", "Washington, DC"),
-        ("communications", "Maryland"), ("editor", "remote"),
-    ]
-    for q, where in searches:
-        try:
-            url = (f"https://www.indeed.com/rss?q={requests.utils.quote(q)}"
-                   f"&l={requests.utils.quote(where)}&sort=date&fromage=5")
-            r = requests.get(url, headers=HEADERS, timeout=15)
-            if r.status_code != 200:
-                continue
-            ch = ET.fromstring(r.content).find("channel")
-            if ch is None:
-                continue
-            for item in ch.findall("item"):
-                title = (item.findtext("title") or "").strip()
-                link = (item.findtext("link") or "").strip()
-                if title and is_relevant(title, where):
-                    jobs.append({"title": title, "employer": "", "location": where,
-                                 "link": link, "source": "Indeed"})
-            time.sleep(0.4)
-        except Exception:
-            pass
-    print(f"  Indeed RSS: {len(jobs)}")
+    except Exception as e:
+        diag("The Muse", note=f"error: {type(e).__name__}")
+    diag("The Muse", raw=raw, kept=len(jobs))
+    note = f"  ({raw} returned by API, none matched filters)" if raw and not jobs else ""
+    print(f"  The Muse: {len(jobs)}{note}")
     return jobs
 
 
@@ -418,6 +455,8 @@ def scrape_usajobs():
     """Federal roles — free official API."""
     jobs = []
     if USAJOBS_API_KEY.startswith("your-"):
+        diag("USAJobs", kept=0,
+             note="SKIPPED — USAJOBS_API_KEY secret not set in the repo")
         print("  USAJobs: skipped (no key)")
         return jobs
     for kw in ["communications", "public affairs", "writer editor"]:
@@ -431,7 +470,9 @@ def scrape_usajobs():
                                          "ResultsPerPage": 20},
                                  timeout=15)
                 if r.status_code != 200:
-                    print(f"  USAJobs: http {r.status_code}")
+                    diag("USAJobs", http=r.status_code, kept=0,
+                         note="check USAJOBS_API_KEY and USAJOBS_EMAIL secrets")
+                    print(f"  USAJobs: 0  (http {r.status_code})")
                     return jobs
                 for it in r.json().get("SearchResult", {}).get("SearchResultItems", []):
                     p = it.get("MatchedObjectDescriptor", {})
@@ -446,6 +487,7 @@ def scrape_usajobs():
                 time.sleep(0.6)
             except Exception:
                 pass
+    diag("USAJobs", kept=len(jobs))
     print(f"  USAJobs: {len(jobs)}")
     return jobs
 
@@ -495,7 +537,6 @@ def main():
         time.sleep(0.3)
     jobs += scrape_adzuna()
     jobs += scrape_muse()
-    jobs += scrape_indeed_rss()
     jobs += scrape_usajobs()
 
     print(f"\nRaw matches: {len(jobs)}")
@@ -538,6 +579,7 @@ def main():
                    "count": len(finalists),
                    "dead_links_dropped": dead,
                    "source_counts": counts,
+                   "diagnostics": DIAG,
                    "jobs": finalists}, f, indent=2)
 
     # Mark everything checked as seen, including the dead ones
