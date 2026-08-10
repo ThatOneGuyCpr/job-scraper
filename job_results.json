@@ -1,42 +1,163 @@
 {
-  "generated": "2026-08-09T10:04:43.547313",
-  "count": 4,
-  "dead_links_dropped": 0,
+  "generated": "2026-08-10T10:43:11.334107",
+  "count": 6,
+  "dead_links_dropped": 2,
   "source_counts": {
-    "Adzuna": 4
+    "Idealist": 1,
+    "MediaBistro": 3,
+    "Adzuna": 2
+  },
+  "diagnostics": {
+    "JournalismJobs": {
+      "http": 404,
+      "raw": 0,
+      "kept": 0,
+      "note": "http 404"
+    },
+    "MediaBistro": {
+      "http": 200,
+      "raw": 42,
+      "method": "anchor-scan",
+      "kept": 9
+    },
+    "Poynter": {
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
+    },
+    "IRE": {
+      "http": 200,
+      "raw": 1,
+      "method": "selectors",
+      "kept": 0
+    },
+    "SPJ": {
+      "http": 200,
+      "raw": 3,
+      "method": "selectors",
+      "kept": 0
+    },
+    "States Newsroom": {
+      "http": 404,
+      "raw": 0,
+      "kept": 0,
+      "note": "http 404"
+    },
+    "INN": {
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
+    },
+    "PRSA": {
+      "http": 200,
+      "raw": 3,
+      "method": "selectors",
+      "kept": 0
+    },
+    "Ragan TalentHub": {
+      "http": 200,
+      "raw": 13,
+      "method": "selectors",
+      "kept": 0
+    },
+    "PR News": {
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
+    },
+    "PRWeek": {
+      "http": 404,
+      "raw": 0,
+      "kept": 0,
+      "note": "http 404"
+    },
+    "Ed2010": {
+      "http": 404,
+      "raw": 0,
+      "kept": 0,
+      "note": "http 404"
+    },
+    "Idealist": {
+      "http": 200,
+      "raw": 10,
+      "method": "anchor-scan",
+      "kept": 1
+    },
+    "Work In Sports": {
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
+    },
+    "MD State Jobs": {
+      "http": 404,
+      "raw": 0,
+      "kept": 0,
+      "note": "http 404"
+    },
+    "Adzuna": {
+      "kept": 46
+    },
+    "The Muse": {
+      "http": 200,
+      "raw": 0,
+      "kept": 0
+    },
+    "USAJobs": {
+      "kept": 5
+    }
   },
   "jobs": [
     {
-      "title": "Associate Attorney",
-      "employer": "Quintairos, Prieto, Wood & Boyer",
+      "title": "Communications",
+      "employer": "",
+      "location": "",
+      "link": "https://www.idealist.org/en/jobs?q=Communications",
+      "source": "Idealist",
+      "description": "Best Jobs Near You, Remote Jobs, Nonprofit Jobs - Idealist Celebrating 30 Years of Idealist! Discover where we\u2019ve been, and where we\u2019re going. Get Involved Find a Job Find a Job Jobs Internships Organizations Nonprofit Salary Explorer Crowdsourced compensation data in the nonprofit sector. Insights for job seekers and employers. Career Advice Informative and practical resources to help guide you throughout your social-impact career. Volunteer Volunteer Find Volunteer Opportunities Search Organizations Volunteer Resources Tips and inspiration for finding the perfect volunteer opportunities. Recipes for Action A collection of actionable ideas to make a positive impact in your community. Post on Idealist Post Post on Idealist Post Post a Listing Add your Organization Employer Resources Tools and advice to help you achieve your hiring and retention goals. Volunteer Engagement Resources Train"
+    },
+    {
+      "title": "Northern Virginia Magazine2 days agoLifestyle Editorwashington, DC, USASeeking a Lifestyle Editor to oversee and create compelling content covering dining, culture, travel, entertainment, and more throughout the region.",
+      "employer": "",
+      "location": "",
+      "link": "https://www.mediabistro.com/jobs/3542855969-lifestyle-editor",
+      "source": "MediaBistro",
+      "description": "Lifestyle Editor Job in washington, DC at Northern Virginia Magazine Lifestyle Editor Northern Virginia Magazine \u00b7 washington, DC, USA \u00b7 Remote \u00b7 2 days ago Northern Virginia Magazine explores where to eat, shop & play across the region. Job type : Full Time Save Job Apply with MB Job description: Northern Virginia Magazine, the region's premier lifestyle publication, is seeking an experienced, creative, and highly organized Lifestyle Editor to lead coverage across our print magazine, website and newsletters. This role is ideal for a seasoned editor and writer who thrives on generating compelling story ideas, managing multiple content streams, and producing high-quality journalism that connects with affluent and engaged audiences throughout Northern Virginia. Responsibilities Pitch, assign, write, and edit engaging lifestyle content for both print and digital platforms. Oversee coverage "
+    },
+    {
+      "title": "Mansueto Ventures3 days agoEditorial Data & Insights FellowshipNew York City, NY, USAEntry LevelABOUT THE ROLE",
+      "employer": "",
+      "location": "",
+      "link": "https://www.mediabistro.com/jobs/3542851504-editorial-data-insights-fellowship",
+      "source": "MediaBistro",
+      "description": "Editorial Data & Insights Fellowship Job in New York City, NY at Mansueto Ventures Editorial Data & Insights Fellowship Mansueto Ventures \u00b7 New York City, NY, USA \u00b7 3 days ago Publisher of Inc. and Fast Company, empowering innovators and entrepreneurs. Level : Entry Level Job type : Internship Save Job Apply on Company Site ABOUT THE ROLE Mansueto Ventures, the publisher of Fast Company and Inc., is seeking an ambitious and analytically curious Editorial Data & Insights Fellow to join our editorial team for a one-year fellowship. Designed for recent college graduates and master's degree recipients, this fellowship offers an immersive opportunity to develop expertise in data journalism while working alongside experienced editors, reporters, designers, and product leaders across two of the nation's most respected business media brands. Reporting to the Head of Editorial Strategy, the fello"
+    },
+    {
+      "title": "Content Marketing Associate",
+      "employer": "Manifest OS",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5834298553?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Content Marketing Associate Job in New York City, NY What? Where? Search Advanced Content Marketing Associate \u276e back to last search Manifest OS New York City, New York 85000-105000 per year Full time NEW REMOTE Apply for this job About Manifest Manifest OS is an AI-native company on a mission to replace the billable hour and make legal services more accessible for American businesses and consumers. We power the next generation of AI-native law firms with one unified global brand, a proprietary technology platform, and a centralized back office \u2014 enabling lawyers to eliminate the administrative burden and focus on delivering exceptional outcomes for their clients. Manifest OS has raised a $60M Series A from Menlo Ventures, Kleiner Perkins, First Round, and Quiet Capital. About The Team You'll be joining our growth team that focuses on building authentic connections with individuals naviga"
+    },
+    {
+      "title": "Hearst Television3 days agoReporterLancaster, PA, USAWGAL News 8, the Hearst-owned NBC affiliate serving Pennsylvania's Susquehanna Valley, is looking for a dyn...",
+      "employer": "",
+      "location": "",
+      "link": "https://www.mediabistro.com/jobs/3542851508-reporter",
+      "source": "MediaBistro",
+      "description": "Reporter Job in Lancaster, PA at Hearst Television Reporter Hearst Television \u00b7 Lancaster, PA, USA \u00b7 3 days ago National multimedia company reaching 24 million households Job type : Full Time Save Job Apply with MB WGAL News 8, the Hearst-owned NBC affiliate serving Pennsylvania's Susquehanna Valley, is looking for a dynamic Reporter to own coverage of Dauphin and Cumberland counties\u2014the political, economic, and cultural heart of our region. Based in our Harrisburg newsroom, this reporter will be steps away from the Pennsylvania State Capitol while also serving the communities themselves. We're looking for a journalist who will become the newsroom's expert on region by developing deep relationships, cultivating exclusive sources, and uncovering stories that matter before anyone else. From the State Capitol and local government to major employers, education, public safety, and the issues "
+    },
+    {
+      "title": "Social Media Content Producer Seasonal",
+      "employer": "TelevisaUnivision",
       "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5834536956?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5834443087?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Associate Attorney Job in Miami, FL What? Where? Search Advanced Associate Attorney \u276e back to last search Quintairos, Prieto, Wood & Boyer Miami, Florida $95,715 per year - estimated ? Full time NEW Apply for this job This is an excellent opportunity for individuals with 5-10 years of experience who specialize in defending against all types of General Liability claims, including cases involving automobile negligence. Our team is committed to effectively moving cases through the legal system while vigorously defending our clients\u2019 interests in court. Through our strategic approach and dedication, we strive to achieve favorable outcomes for our clients while upholding the highest standards. Discover Your Role General Liability Practice Group At QPWB, our General Liability Practice Group is composed of seasoned attorneys dedicated to assisting a diverse range of clients, including employers"
-    },
-    {
-      "title": "customer service associate 1",
-      "employer": "Dollar Tree Stores",
-      "location": "North Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5834535348?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "customer service associate 1 Job in North Miami, FL What? Where? Search Advanced customer service associate 1 \u276e back to last search Dollar Tree Stores North Miami, Florida $26,329 per year - estimated ? Part time NEW Apply for this job We\u2019re seeking a Customer Service Associate to join our team and deliver a great shopping experience for every customer. Duties include, but are not limited to, the following: Assist customers with questions and recommendations Manage sales transactions while working assigned cash register Maintain security of cash and protect company assets Keep the store well-stocked, and recover merchandise Receive merchandise and help with unloading trucks, stock replenishment in accordance with productivity standards Ensure a positive, safe, and respectful environment while maintaining professional and friendly interactions with customers, associates, and leaders Respo"
-    },
-    {
-      "title": "Service Loyalty Coordinator - Chevrolet Coral Gables",
-      "employer": "AutoNation",
-      "location": "Coral Gables, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5834535134?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Service Loyalty Coordinator - Chevrolet Coral Gables Job in Coral Gables, FL What? Where? Search Advanced Service Loyalty Coordinator - Chevrolet Coral Gables \u276e back to last search AutoNation Coral Gables, Florida $56,844 per year - estimated ? Full time NEW Apply for this job The Service Loyalty Coordinator makes outbound service calls, establishes relationships with the customers and schedules appointments for the Service Department. What are the day-to-day responsibilities? Ask the customer qualifying questions to uncover needs and directs calls appropriately Ensures that service consultants receive messages promptly Make service appointments if service consultants are unavailable, route appointment information to the appropriate service consultant Provide reporting to dealership management Collect retail charges from the customer in cash, check or authorized charge account Provide cu"
-    },
-    {
-      "title": "Associate Veterinarian",
-      "employer": "Vicar Operating dba VCA",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5834443735?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Associate Veterinarian Job in Miami, FL What? Where? Search Advanced Associate Veterinarian \u276e back to last search Vicar Operating dba VCA Miami, Florida $119,477 per year - estimated ? Full time NEW Apply for this job Introduction Join us as an Associate Veterinarian at VCA Brickell Animal Hospital, and you\u2019ll quickly discover that you\u2019re well supported by world-class medicine, technology, facilities, and a talented team. You\u2019ll be empowered to do your best work with a team you can count on. At VCA, the future of veterinary medicine is in our hands. Why join the team Full-service hospital located in the heart of downtown Miami, Florida Committed to providing top-quality medical, surgical, and dental care Seeking an experienced DVM with strong surgical and dental skills Thrive in a fast-paced, high-volume hospital with a supportive and collaborative team Who we look for People obsessed wi"
+      "description": "Social Media Content Producer Seasonal Job in Miami, FL What? Where? Search Advanced Social Media Content Producer Seasonal \u276e back to last search TelevisaUnivision Miami, Florida $62,688 per year - estimated ? Part time NEW Apply for this job Job Description ABOUT THE ROLE & TEAM: TelevisaUnivision is looking for a creative and experienced Seasonal Social Media Producer join our team. The ideal candidate should have a passion for pop culture, gossip, and entertainment news. As a Social Media Producer, you will be responsible for producing and editing engaging video content on YouTube and social media. You will work closely with Show Runner and senior producers to develop content that resonates with our audience. You should have a deep understanding of YouTube\u2019s and other social media platforms best practices and be able to create content that is optimized for the platform. YOUR DAY-DAY: "
     }
   ]
 }
