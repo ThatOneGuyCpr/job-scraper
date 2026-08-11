@@ -1,11 +1,10 @@
 {
-  "generated": "2026-08-10T10:43:11.334107",
-  "count": 6,
-  "dead_links_dropped": 2,
+  "generated": "2026-08-11T10:24:35.555287",
+  "count": 7,
+  "dead_links_dropped": 0,
   "source_counts": {
-    "Idealist": 1,
     "MediaBistro": 3,
-    "Adzuna": 2
+    "Adzuna": 4
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -82,9 +81,9 @@
     },
     "Idealist": {
       "http": 200,
-      "raw": 10,
+      "raw": 5,
       "method": "anchor-scan",
-      "kept": 1
+      "kept": 0
     },
     "Work In Sports": {
       "http": 403,
@@ -99,7 +98,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 46
+      "kept": 40
     },
     "The Muse": {
       "http": 200,
@@ -112,52 +111,60 @@
   },
   "jobs": [
     {
-      "title": "Communications",
+      "title": "Arizona State University4 days agoCommunications Specialist$71,500-$74,000/yrTempe, AZ, USACommunications Specialist Do you enjoy bu...",
       "employer": "",
       "location": "",
-      "link": "https://www.idealist.org/en/jobs?q=Communications",
-      "source": "Idealist",
-      "description": "Best Jobs Near You, Remote Jobs, Nonprofit Jobs - Idealist Celebrating 30 Years of Idealist! Discover where we\u2019ve been, and where we\u2019re going. Get Involved Find a Job Find a Job Jobs Internships Organizations Nonprofit Salary Explorer Crowdsourced compensation data in the nonprofit sector. Insights for job seekers and employers. Career Advice Informative and practical resources to help guide you throughout your social-impact career. Volunteer Volunteer Find Volunteer Opportunities Search Organizations Volunteer Resources Tips and inspiration for finding the perfect volunteer opportunities. Recipes for Action A collection of actionable ideas to make a positive impact in your community. Post on Idealist Post Post on Idealist Post Post a Listing Add your Organization Employer Resources Tools and advice to help you achieve your hiring and retention goals. Volunteer Engagement Resources Train"
-    },
-    {
-      "title": "Northern Virginia Magazine2 days agoLifestyle Editorwashington, DC, USASeeking a Lifestyle Editor to oversee and create compelling content covering dining, culture, travel, entertainment, and more throughout the region.",
-      "employer": "",
-      "location": "",
-      "link": "https://www.mediabistro.com/jobs/3542855969-lifestyle-editor",
+      "link": "https://www.mediabistro.com/jobs/3542851511-communications-specialist",
       "source": "MediaBistro",
-      "description": "Lifestyle Editor Job in washington, DC at Northern Virginia Magazine Lifestyle Editor Northern Virginia Magazine \u00b7 washington, DC, USA \u00b7 Remote \u00b7 2 days ago Northern Virginia Magazine explores where to eat, shop & play across the region. Job type : Full Time Save Job Apply with MB Job description: Northern Virginia Magazine, the region's premier lifestyle publication, is seeking an experienced, creative, and highly organized Lifestyle Editor to lead coverage across our print magazine, website and newsletters. This role is ideal for a seasoned editor and writer who thrives on generating compelling story ideas, managing multiple content streams, and producing high-quality journalism that connects with affluent and engaged audiences throughout Northern Virginia. Responsibilities Pitch, assign, write, and edit engaging lifestyle content for both print and digital platforms. Oversee coverage "
+      "description": "Communications Specialist Job in Tempe, AZ at Arizona-State-University Communications Specialist Arizona-State-University \u00b7 Tempe, AZ, USA \u00b7 4 days ago Pay : $71,500-$74,000/yr Job type : Full Time Save Job Apply on Company Site Communications Specialist Do you enjoy building personalized communication experiences that support student success from inquiry through graduation? Do you thrive in fast-paced environments, love working with the latest technologies, and want your work to reach students across the globe? Then apply today for the Communications Specialist opportunity! ASU EdPlus is a dynamic unit of Arizona State University focused on the design and scalable delivery of digital teaching and learning models to increase student success and reduce barriers to achievement in higher education. We advance the economic, social, cultural, and overall health of the local, national, and int"
     },
     {
-      "title": "Mansueto Ventures3 days agoEditorial Data & Insights FellowshipNew York City, NY, USAEntry LevelABOUT THE ROLE",
+      "title": "Strategic Communications Specialist III",
+      "employer": "One Federal Solution",
+      "location": "Arlington, Arlington County",
+      "link": "https://www.adzuna.com/details/5835947640?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Strategic Communications Specialist III Job in Arlington, VA What? Where? Search Advanced Strategic Communications Specialist III \u276e back to last search One Federal Solution Arlington Virginia $133,407 per year - estimated ? EASY APPLY NEW Apply for this job One Federal Solution is seeking a Strategic Communications Specialist III to support the documentation, preservation, communication, and outreach of ONR\u2019s historical scientific achievements and organizational accomplishments. The Strategic Communications Specialist III will conduct archival research, develop strategic communications products, support senior leadership, and translate historical, operational, and scientific information into clear and compelling communications for internal and external audiences. Key Responsibilities Historical Documentation: Document ONR\u2019s historical scientific achievements, establishing foundational sc"
+    },
+    {
+      "title": "PR / Communications Jobs",
       "employer": "",
       "location": "",
-      "link": "https://www.mediabistro.com/jobs/3542851504-editorial-data-insights-fellowship",
+      "link": "https://www.mediabistro.com/jobs/public-relations-communications",
       "source": "MediaBistro",
-      "description": "Editorial Data & Insights Fellowship Job in New York City, NY at Mansueto Ventures Editorial Data & Insights Fellowship Mansueto Ventures \u00b7 New York City, NY, USA \u00b7 3 days ago Publisher of Inc. and Fast Company, empowering innovators and entrepreneurs. Level : Entry Level Job type : Internship Save Job Apply on Company Site ABOUT THE ROLE Mansueto Ventures, the publisher of Fast Company and Inc., is seeking an ambitious and analytically curious Editorial Data & Insights Fellow to join our editorial team for a one-year fellowship. Designed for recent college graduates and master's degree recipients, this fellowship offers an immersive opportunity to develop expertise in data journalism while working alongside experienced editors, reporters, designers, and product leaders across two of the nation's most respected business media brands. Reporting to the Head of Editorial Strategy, the fello"
+      "description": "PR Jobs | Public Relations & Corporate Communications Careers | Mediabistro Public Relations & Corporate Communications Find public relations and communications jobs across agencies, media companies, nonprofits, universities, and brand teams. J Public Relations 11 days ago Public Relations Manager $70,000-$70,000/yr San Diego, CA, USA J Public Relations, Inc is seeking a candidate for a pivotal role in media relations and client management in San Diego. The ideal applicant will h... KCS Public Relations 19 days ago Senior Public Relations Associate 55.000 - 75.000 Victoria, TX, USA Founded in 2002, KCS Public Relations (KCS|PR) is a woman\u2011owned public relations and marketing firm based in the Coastal Bend. KCS|PR provides stra... CIG Public Relations 21 days ago CIG Public Relations is hiring: Entry-Level Public Relations & Co... Denver, CO, USA CIG Public Relations in Denver, Colorado, "
     },
     {
-      "title": "Content Marketing Associate",
-      "employer": "Manifest OS",
+      "title": "Video Podcast Editor, MS NOW",
+      "employer": "Versant Media",
       "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5834298553?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5836189794?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Content Marketing Associate Job in New York City, NY What? Where? Search Advanced Content Marketing Associate \u276e back to last search Manifest OS New York City, New York 85000-105000 per year Full time NEW REMOTE Apply for this job About Manifest Manifest OS is an AI-native company on a mission to replace the billable hour and make legal services more accessible for American businesses and consumers. We power the next generation of AI-native law firms with one unified global brand, a proprietary technology platform, and a centralized back office \u2014 enabling lawyers to eliminate the administrative burden and focus on delivering exceptional outcomes for their clients. Manifest OS has raised a $60M Series A from Menlo Ventures, Kleiner Perkins, First Round, and Quiet Capital. About The Team You'll be joining our growth team that focuses on building authentic connections with individuals naviga"
+      "description": "Video Podcast Editor, MS NOW Job in New York City, NY What? Where? Search Advanced Video Podcast Editor, MS NOW \u276e back to last search Versant Media New York, NEW YORK $43,405 per year - estimated ? EASY APPLY NEW Apply for this job Job Description MS NOW is looking for a video podcast editor to join our team. This role will work across the unit to support multiple projects and ensure high technical standards by editing tape across a variety of video platforms (from longform horizonal podcasts to \u201cReels-style\u201d vertical videos), audio mixing, and filming. This role starts early in the production process: helping to set up the tech for remote and in-person interviews, troubleshoot connection and technical problems, and positioning talent and guests to ensure the highest quality recording. This person will also ingest audio and video files, plus prepare edit sessions for the team of producer"
     },
     {
-      "title": "Hearst Television3 days agoReporterLancaster, PA, USAWGAL News 8, the Hearst-owned NBC affiliate serving Pennsylvania's Susquehanna Valley, is looking for a dyn...",
+      "title": "Technical Writer Jobs",
       "employer": "",
       "location": "",
-      "link": "https://www.mediabistro.com/jobs/3542851508-reporter",
+      "link": "https://www.mediabistro.com/jobs/ai-content-technical-writing",
       "source": "MediaBistro",
-      "description": "Reporter Job in Lancaster, PA at Hearst Television Reporter Hearst Television \u00b7 Lancaster, PA, USA \u00b7 3 days ago National multimedia company reaching 24 million households Job type : Full Time Save Job Apply with MB WGAL News 8, the Hearst-owned NBC affiliate serving Pennsylvania's Susquehanna Valley, is looking for a dynamic Reporter to own coverage of Dauphin and Cumberland counties\u2014the political, economic, and cultural heart of our region. Based in our Harrisburg newsroom, this reporter will be steps away from the Pennsylvania State Capitol while also serving the communities themselves. We're looking for a journalist who will become the newsroom's expert on region by developing deep relationships, cultivating exclusive sources, and uncovering stories that matter before anyone else. From the State Capitol and local government to major employers, education, public safety, and the issues "
+      "description": "AI Prompt Engineer Jobs | Technical Writing & AI Content Strategy | Mediabistro AI Content, Prompt Engineering & Technical Writing Find emerging roles that combine writing expertise with technical AI fluency across prompt engineering, AI editing, UX writing, and LLM training. Giga AI 1 months ago Founding Technical Writer: AI and Engineering Narratives 100.000 - 125.000 San Francisco, CA, USA Giga AI in San Francisco is seeking a Founding Technical Writer to craft engaging content for technical audiences. You will produce flagship techni... Qualified Technical Services 2 months ago Engineering Technical Writer - NASA Projects Houston, TX, USA Work Location: Houston, TX Minimum Citizenship: U.S. Citizen Clearance: US Government (Public Tru... Qualified Technical Services 2 months ago Engineering Technical Writer - NASA Projects Houston, TX, USA Work Location: Houston, TX Minimum Citizensh"
     },
     {
-      "title": "Social Media Content Producer Seasonal",
-      "employer": "TelevisaUnivision",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5834443087?utm_medium=api&utm_source=4803a542",
+      "title": "ARTnews and Art in America: Social Media Editor",
+      "employer": "Penske Media",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5834638213?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Social Media Content Producer Seasonal Job in Miami, FL What? Where? Search Advanced Social Media Content Producer Seasonal \u276e back to last search TelevisaUnivision Miami, Florida $62,688 per year - estimated ? Part time NEW Apply for this job Job Description ABOUT THE ROLE & TEAM: TelevisaUnivision is looking for a creative and experienced Seasonal Social Media Producer join our team. The ideal candidate should have a passion for pop culture, gossip, and entertainment news. As a Social Media Producer, you will be responsible for producing and editing engaging video content on YouTube and social media. You will work closely with Show Runner and senior producers to develop content that resonates with our audience. You should have a deep understanding of YouTube\u2019s and other social media platforms best practices and be able to create content that is optimized for the platform. YOUR DAY-DAY: "
+      "description": "ARTnews and Art in America: Social Media Editor Job in New York City, NY What? Where? Search Advanced ARTnews and Art in America: Social Media Editor \u276e back to last search Penske Media New York City, New York $86,966 per year - estimated ? REMOTE Apply for this job ARTnews , the world\u2019s leading authority in art journalism, along with its sister publication Art in America , the world\u2019s leading source of art criticism, seeks a social media editor. Reporting to the executive digital editor, the social media editor will have oversight of the magazines\u2019 presence, voice, and strategy across social platforms, including Instagram, TikTok, X, Threads, Facebook, LinkedIn, and other platforms. The ideal applicant will be a strategic thinker and a creative executor, able to both set social strategy based on industry trends and audience data, and produce interesting, engaging, and high-end social con"
+    },
+    {
+      "title": "Updates Writer, Commerce",
+      "employer": "Fox",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5834567139?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Updates Writer, Commerce Job in New York City, NY What? Where? Search Advanced Updates Writer, Commerce \u276e back to last search Fox New York, New York $83,000.00-85,000.00 annual Full time Apply for this job OVERVIEW OF THE COMPANY Fox Corporation Under the FOX banner, we produce and distribute content through some of the world\u2019s leading and most valued brands, including: FOX News Media, FOX Sports, FOX Entertainment, FOX Television Stations and Tubi Media Group. We empower a diverse range of creators to imagine and develop culturally significant content, while building an organization that thrives on creative ideas, operational expertise and strategic thinking. JOB DESCRIPTION We're looking for a writer to help us keep our commerce content library up to date. You\u2019re a shopping-obsessed self-starter with strong news judgment who thrives under pressure and keeps a laser-sharp focus on metri"
     }
   ]
 }
