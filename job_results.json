@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-11T10:24:35.555287",
-  "count": 7,
-  "dead_links_dropped": 0,
+  "generated": "2026-08-12T10:34:54.227696",
+  "count": 6,
+  "dead_links_dropped": 1,
   "source_counts": {
     "MediaBistro": 3,
-    "Adzuna": 4
+    "Adzuna": 3
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -59,7 +59,7 @@
       "http": 200,
       "raw": 13,
       "method": "selectors",
-      "kept": 0
+      "kept": 1
     },
     "PR News": {
       "http": 403,
@@ -81,21 +81,20 @@
     },
     "Idealist": {
       "http": 200,
-      "raw": 5,
+      "raw": 10,
       "method": "anchor-scan",
-      "kept": 0
+      "kept": 1
     },
     "Work In Sports": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
-    },
-    "MD State Jobs": {
       "http": 404,
       "raw": 0,
       "kept": 0,
       "note": "http 404"
+    },
+    "MD State Jobs": {
+      "raw": 0,
+      "kept": 0,
+      "note": "error: ReadTimeout"
     },
     "Adzuna": {
       "kept": 40
@@ -106,65 +105,57 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 5
+      "kept": 4
     }
   },
   "jobs": [
     {
-      "title": "Arizona State University4 days agoCommunications Specialist$71,500-$74,000/yrTempe, AZ, USACommunications Specialist Do you enjoy bu...",
+      "title": "Hearst Television4 days agoReporter AnchorFt. Myers, FL, USAGulf Coast News - ABC in Fort Myers, Florida is looking for a",
       "employer": "",
       "location": "",
-      "link": "https://www.mediabistro.com/jobs/3542851511-communications-specialist",
+      "link": "https://www.mediabistro.com/jobs/3542855972-reporter-anchor",
       "source": "MediaBistro",
-      "description": "Communications Specialist Job in Tempe, AZ at Arizona-State-University Communications Specialist Arizona-State-University \u00b7 Tempe, AZ, USA \u00b7 4 days ago Pay : $71,500-$74,000/yr Job type : Full Time Save Job Apply on Company Site Communications Specialist Do you enjoy building personalized communication experiences that support student success from inquiry through graduation? Do you thrive in fast-paced environments, love working with the latest technologies, and want your work to reach students across the globe? Then apply today for the Communications Specialist opportunity! ASU EdPlus is a dynamic unit of Arizona State University focused on the design and scalable delivery of digital teaching and learning models to increase student success and reduce barriers to achievement in higher education. We advance the economic, social, cultural, and overall health of the local, national, and int"
+      "description": "Reporter Anchor Job in Ft. Myers, FL at Hearst Television Reporter Anchor Hearst Television \u00b7 Ft. Myers, FL, USA \u00b7 4 days ago National multimedia company reaching 24 million households Job type : Full Time Save Job Apply with MB Gulf Coast News - ABC in Fort Myers, Florida is looking for a Reporter/Anchor who is an extraordinary storyteller. This position is one of the most unique in the country. The job is to find stories in our community of people and places that make Southwest Florida special. The mission is to uncover these stories and share them with our viewers. Success in this position will come from your ability to network for stories because you will never do a story from a press release. The stories will sometimes be uplifting, sometimes make you think, but always will create an emotional connection with our audience. In addition, you are versatile, enterprising, and fast, effi"
     },
     {
-      "title": "Strategic Communications Specialist III",
-      "employer": "One Federal Solution",
-      "location": "Arlington, Arlington County",
-      "link": "https://www.adzuna.com/details/5835947640?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Strategic Communications Specialist III Job in Arlington, VA What? Where? Search Advanced Strategic Communications Specialist III \u276e back to last search One Federal Solution Arlington Virginia $133,407 per year - estimated ? EASY APPLY NEW Apply for this job One Federal Solution is seeking a Strategic Communications Specialist III to support the documentation, preservation, communication, and outreach of ONR\u2019s historical scientific achievements and organizational accomplishments. The Strategic Communications Specialist III will conduct archival research, develop strategic communications products, support senior leadership, and translate historical, operational, and scientific information into clear and compelling communications for internal and external audiences. Key Responsibilities Historical Documentation: Document ONR\u2019s historical scientific achievements, establishing foundational sc"
-    },
-    {
-      "title": "PR / Communications Jobs",
+      "title": "Hearst Television4 days agoPhotographer EditorAlbuquerque, NM, USALocal News Photographer",
       "employer": "",
       "location": "",
-      "link": "https://www.mediabistro.com/jobs/public-relations-communications",
+      "link": "https://www.mediabistro.com/jobs/3542855975-photographer-editor",
       "source": "MediaBistro",
-      "description": "PR Jobs | Public Relations & Corporate Communications Careers | Mediabistro Public Relations & Corporate Communications Find public relations and communications jobs across agencies, media companies, nonprofits, universities, and brand teams. J Public Relations 11 days ago Public Relations Manager $70,000-$70,000/yr San Diego, CA, USA J Public Relations, Inc is seeking a candidate for a pivotal role in media relations and client management in San Diego. The ideal applicant will h... KCS Public Relations 19 days ago Senior Public Relations Associate 55.000 - 75.000 Victoria, TX, USA Founded in 2002, KCS Public Relations (KCS|PR) is a woman\u2011owned public relations and marketing firm based in the Coastal Bend. KCS|PR provides stra... CIG Public Relations 21 days ago CIG Public Relations is hiring: Entry-Level Public Relations & Co... Denver, CO, USA CIG Public Relations in Denver, Colorado, "
+      "description": "Photographer Editor Job in Albuquerque, NM at Hearst Television Photographer Editor Hearst Television \u00b7 Albuquerque, NM, USA \u00b7 4 days ago National multimedia company reaching 24 million households Job type : Full Time Save Job Apply with MB Local News Photographer KOAT, the Hearst affiliate in Albuquerque, NM, has an opening for a Local News Photographer . We are looking for a photographer with the ability to capture the essence of what's happening in the field and then bring it vividly into the homes of our viewers. You will spend several hours each day out in the field shooting, editing, and executing creative live shots. You will also edit for newscasts. You must be up to date on the modern aspects of our medium and have an excellent eye for video. You will work well with others, always positively representing us with the highest journalistic standards and professionalism on display. "
     },
     {
-      "title": "Video Podcast Editor, MS NOW",
-      "employer": "Versant Media",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5836189794?utm_medium=api&utm_source=4803a542",
+      "title": "Project Coordinator, Public Affairs & Communications",
+      "employer": "Hearst",
+      "location": "Chelsea and Clinton, Manhattan",
+      "link": "https://www.adzuna.com/details/5837258265?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Video Podcast Editor, MS NOW Job in New York City, NY What? Where? Search Advanced Video Podcast Editor, MS NOW \u276e back to last search Versant Media New York, NEW YORK $43,405 per year - estimated ? EASY APPLY NEW Apply for this job Job Description MS NOW is looking for a video podcast editor to join our team. This role will work across the unit to support multiple projects and ensure high technical standards by editing tape across a variety of video platforms (from longform horizonal podcasts to \u201cReels-style\u201d vertical videos), audio mixing, and filming. This role starts early in the production process: helping to set up the tech for remote and in-person interviews, troubleshoot connection and technical problems, and positioning talent and guests to ensure the highest quality recording. This person will also ingest audio and video files, plus prepare edit sessions for the team of producer"
+      "description": "Project Coordinator, Public Affairs & Communications Job in Chelsea and Clinton, NY What? Where? Search Advanced Project Coordinator, Public Affairs & Communications \u276e back to last search Hearst New York New York 10001 $65,946 per year - estimated ? Permanent Full time NEW Apply for this job Hearst, one of the world's leading diversified media and information services companies, is seeking an experienced individual to support the Senior Vice President, Public Affairs and Communications. In this role, the individual will provide administrative support and participate in key Hearst projects and initiatives, many with high-level exposure across multiple businesses. An estimated 25% of time is spent on admin duties (most critically, calendar management), with the balance dedicated to project work around: (1) supporting the creation of a new high-profile, multimedia, experiential build-out at"
     },
     {
-      "title": "Technical Writer Jobs",
+      "title": "Copywriter Jobs",
       "employer": "",
       "location": "",
-      "link": "https://www.mediabistro.com/jobs/ai-content-technical-writing",
+      "link": "https://www.mediabistro.com/jobs/copywriter",
       "source": "MediaBistro",
-      "description": "AI Prompt Engineer Jobs | Technical Writing & AI Content Strategy | Mediabistro AI Content, Prompt Engineering & Technical Writing Find emerging roles that combine writing expertise with technical AI fluency across prompt engineering, AI editing, UX writing, and LLM training. Giga AI 1 months ago Founding Technical Writer: AI and Engineering Narratives 100.000 - 125.000 San Francisco, CA, USA Giga AI in San Francisco is seeking a Founding Technical Writer to craft engaging content for technical audiences. You will produce flagship techni... Qualified Technical Services 2 months ago Engineering Technical Writer - NASA Projects Houston, TX, USA Work Location: Houston, TX Minimum Citizenship: U.S. Citizen Clearance: US Government (Public Tru... Qualified Technical Services 2 months ago Engineering Technical Writer - NASA Projects Houston, TX, USA Work Location: Houston, TX Minimum Citizensh"
+      "description": "Copywriter Jobs | Mediabistro Copywriter and Content Copywriting Jobs Find copywriter jobs with agencies, publishers, media companies, ecommerce brands, nonprofits, and marketing teams. How to be a Copywriter 12 days ago Chattanooga Freelance Feature Writer AP Style Pro Chattanooga, TN, USA CityScope Magazine in Chattanooga, Tennessee, seeks an experienced freelance feature writer regionally based to contribute engaging stories with st... How to be a Copywriter 12 days ago Freelance Writer for Chattanooga Lifestyle Magazine / CMC Publica... 1.785 - 3.348 Chattanooga, TN, USA Freelance Writer for Chattanooga Lifestyle Magazine / CMC Publications / Chattanooga, TN CityScope Magazine in Chattanooga, Tennessee, is ... Designer Interiors 3 days ago Copywriter 65.000 - 90.000 Sausalito, CA, USA Copywriter Company: BSSP Location: Sausalito, CA Posted: Jun 9 BSSP is looking for a Copywriter who "
     },
     {
-      "title": "ARTnews and Art in America: Social Media Editor",
-      "employer": "Penske Media",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5834638213?utm_medium=api&utm_source=4803a542",
+      "title": "Strategic Communications Coordinator",
+      "employer": "ICF",
+      "location": "Fort Myer, Arlington County",
+      "link": "https://www.adzuna.com/details/5837556799?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "ARTnews and Art in America: Social Media Editor Job in New York City, NY What? Where? Search Advanced ARTnews and Art in America: Social Media Editor \u276e back to last search Penske Media New York City, New York $86,966 per year - estimated ? REMOTE Apply for this job ARTnews , the world\u2019s leading authority in art journalism, along with its sister publication Art in America , the world\u2019s leading source of art criticism, seeks a social media editor. Reporting to the executive digital editor, the social media editor will have oversight of the magazines\u2019 presence, voice, and strategy across social platforms, including Instagram, TikTok, X, Threads, Facebook, LinkedIn, and other platforms. The ideal applicant will be a strategic thinker and a creative executor, able to both set social strategy based on industry trends and audience data, and produce interesting, engaging, and high-end social con"
+      "description": "Strategic Communications Coordinator Job in Fort Myer, VA What? Where? Search Advanced Strategic Communications Coordinator \u276e back to last search ICF Arlington, Virginia, 22212 $95,966 per year - estimated ? NEW Apply for this job Description **Strategic Communications** **Specialist** @ ICF Next, we are fearless in finding new ways to solve problems, relentless in making sure it pays off for our clients and committed to making a positive change in the world. Here's your chance to join our award-winning agency, ICF Next. We're changemakers, a community of mission driven creatives, communicators, strategists, and technologists. We're searching for our next **Strategic Communications** **Specialist.** This role requires a strategic communications or public affairs background in the public sector and will focus on communications-related activities that support a homeland security, cybersecu"
     },
     {
-      "title": "Updates Writer, Commerce",
-      "employer": "Fox",
+      "title": "Weekend Commerce Editor, Shop TODAY (Contract)",
+      "employer": "NBCUniversal",
       "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5834567139?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5837504453?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Updates Writer, Commerce Job in New York City, NY What? Where? Search Advanced Updates Writer, Commerce \u276e back to last search Fox New York, New York $83,000.00-85,000.00 annual Full time Apply for this job OVERVIEW OF THE COMPANY Fox Corporation Under the FOX banner, we produce and distribute content through some of the world\u2019s leading and most valued brands, including: FOX News Media, FOX Sports, FOX Entertainment, FOX Television Stations and Tubi Media Group. We empower a diverse range of creators to imagine and develop culturally significant content, while building an organization that thrives on creative ideas, operational expertise and strategic thinking. JOB DESCRIPTION We're looking for a writer to help us keep our commerce content library up to date. You\u2019re a shopping-obsessed self-starter with strong news judgment who thrives under pressure and keeps a laser-sharp focus on metri"
+      "description": "Weekend Commerce Editor, Shop TODAY (Contract) Job in New York City, NY What? Where? Search Advanced Weekend Commerce Editor, Shop TODAY (Contract) \u276e back to last search NBCUniversal New York, NEW YORK $64,095 per year - estimated ? EASY APPLY NEW Apply for this job Job Description TODAY Digital , the multiplatform arm of America\u2019s favorite morning show, is looking for a part-time PEP Commerce Editor to work across Shop TODAY digital and broadcast during a Thursday to Saturday schedule. Duties include working on Saturday broadcast segments for TODAY and assisting with Shop TODAY\u2019s refresh search strategy for their evergreen content library (including gift guides during peak shopping seasons) based on performance data, seasonality and long-term search trends. The ideal candidate is a self-starter with keen attention to detail and should be comfortable with making editorial decisions based"
     }
   ]
 }
