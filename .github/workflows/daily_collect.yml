@@ -27,11 +27,13 @@ jobs:
         run: pip install requests beautifulsoup4 lxml
 
       - name: Collect jobs
-        env:
+       env:
           ADZUNA_APP_ID:   ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY:  ${{ secrets.ADZUNA_APP_KEY }}
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL:   ${{ secrets.USAJOBS_EMAIL }}
+          GMAIL_ADDRESS:   ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASS:  ${{ secrets.GMAIL_APP_PASS }}
         run: python job_scraper.py
 
       - name: Commit results
