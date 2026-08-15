@@ -2,9 +2,9 @@ name: Daily Job Collection
 
 on:
   schedule:
-    # 5:30 AM Eastern (09:30 UTC) — runs before your 6:01 AM Cowork task
-    # so the results are waiting when Cowork goes looking for them.
-    - cron: "30 9 * * *"
+    # 10:30 UTC is 6:30 AM Eastern. Your Cowork task should run at 7:30 AM
+    # Eastern so this has finished writing before Cowork reads the file.
+    - cron: "30 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,18 +27,18 @@ jobs:
         run: pip install requests beautifulsoup4 lxml
 
       - name: Collect jobs
-       env:
-          ADZUNA_APP_ID:   ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY:  ${{ secrets.ADZUNA_APP_KEY }}
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
-          USAJOBS_EMAIL:   ${{ secrets.USAJOBS_EMAIL }}
-          GMAIL_ADDRESS:   ${{ secrets.GMAIL_ADDRESS }}
-          GMAIL_APP_PASS:  ${{ secrets.GMAIL_APP_PASS }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
         run: python job_scraper.py
 
       - name: Commit results
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add job_results.json seen_jobs.json
           git diff --staged --quiet || git commit -m "Job results $(date -u +%Y-%m-%d)"
