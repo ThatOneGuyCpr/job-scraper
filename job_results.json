@@ -1,13 +1,12 @@
 {
-  "generated": "2026-08-15T01:45:27.816890",
-  "count": 8,
+  "generated": "2026-08-15T10:50:35.298412",
+  "count": 7,
   "dead_links_dropped": 2,
-  "off_target_dropped": 1,
+  "off_target_dropped": 0,
   "source_counts": {
-    "The Muse": 1,
-    "JournalismJobs": 2,
     "USAJobs": 2,
-    "Adzuna": 3
+    "JournalismJobs": 3,
+    "Adzuna": 2
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -101,9 +100,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "http": 503,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets"
+      "kept": 28
     },
     "The Muse": {
       "http": 200,
@@ -150,68 +147,60 @@
   ],
   "jobs": [
     {
-      "title": "Associate, Investment Banking - Communications & Media",
-      "employer": "TD Bank",
-      "location": "New York, NY",
-      "link": "https://www.themuse.com/jobs/tdbank/associate-investment-banking-communications-media-92ca45",
-      "source": "The Muse",
-      "description": "Associate, Investment Banking - Communications & Media at TD Bank | The Muse | The Muse Work Location : New York, New York, United States of America Hours: 40 Line of Business: TD Securities Pay Detail: $175,000 - $225,000 USD TD is committed to providing fair and equitable compensation opportunities to all colleagues. Growth opportunities and skill development are defining features of the colleague experience at TD. Our compensation policies and practices have been designed to allow colleagues to progress through the salary range over time as they progress in their role. The base pay actually offered may vary based upon the candidate's skills and experience, job-related knowledge, geographic location, and other specific business and organizational needs. As a candidate, you are encouraged to ask compensation related questions and have an open dialogue with your recruiter who can provide"
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Air Force Elements, U.S. Central Command",
+      "location": "MacDill AFB, Florida",
+      "link": "https://www.usajobs.gov:443/job/880758500",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air Force Elements, U.S. Central Command Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve as a senior Public Affairs Specialist at United States Central Command (USCENTCOM). Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve as a senior Public Affairs Specialist at United States Central Command (USCENTCOM). Learn more about this agency Overview Help Accepting applicat"
     },
     {
-      "title": "Political Reporter",
+      "title": "Magazine Editor",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693635-political-reporter-the-caucus",
+      "link": "https://www.journalismjobs.com/1693625-magazine-editor-the-park-record",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Political Reporter Political Reporter The Caucus Remote, Telecommute See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted August 14, 2026 Industry Digital Media Specialty Politics Job Status Part-time Salary $30-$40 per hour Description: The Caucus is a new independent news outlet covering the people and issues shaping the Democratic Party. We\u2019re launching in September to cover the midterm elections and prepare for the 2028 cycle. We're hiring part-time reporters to cover Democratic candidates and officeholders up and down the ballot, both their campaigns and what they're doing in office. What you'll do Cover a set of candidates, elected officials, or races Explain what they're actually doing in office, and why it matters Work public records into stories (FEC filings, votes, state disclosures, etc.) Interview candidate"
+      "description": "JournalismJobs.com - Job Listing - Magazine Editor Magazine Editor The Park Record Park City, Utah See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted August 12, 2026 Industry Magazines / Publishing Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary $60,000 to $65,000 Description: The Park Record in Park City, Utah, is seeking a dynamic and creative magazine editor to lead the editorial vision and expansion of our magazine division (10 titles and growing). This is an exciting opportunity for a talented editor with a passion for storytelling and a strong understanding of the magazine industry. If you have a track record of creating engaging content and a talent for bringing stories to life, we want to hear from you! Requirements: Degree in journalism, communications, or related field, alo"
     },
     {
-      "title": "Telecommunications Specialist",
-      "employer": "Defense Media Activity",
-      "location": "Fort Meade, Maryland",
-      "link": "https://www.usajobs.gov:443/job/880316500",
+      "title": "Public Relations Associate",
+      "employer": "Nexxaworks",
+      "location": "Miami, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5839868234?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Public Relations Associate Job in Miami, FL What? Where? Search Advanced Public Relations Associate \u276e back to last search Nexxaworks Miami, Florida $66,678 per year - estimated ? EASY APPLY Apply for this job Job Description Position Overview We are seeking a dynamic and dedicated Public Relations Associate to join our team and help elevate our company's public image through strategic communication and relationship-building efforts. In this role, you will work closely with the marketing and communications departments to create compelling press releases, media kits, and other promotional materials that effectively communicate our brand\u2019s message to diverse audiences. Key Responsibilities Develop and distribute press releases, media alerts, and promotional materials to relevant media outlets. Build and maintain strong relationships with journalists, bloggers, and influencers to secure medi"
+    },
+    {
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Headquarters, Air Force Reserve Command",
+      "location": "Patrick AFB, Florida",
+      "link": "https://www.usajobs.gov:443/job/880741000",
       "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Telecommunications Specialist Department of Defense Defense Media Activity Technology Support Offices Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is part of the Department of War, War Media Activity. The incumbent will be responsible for providing policy and procedures for Department of War (DoW) audiovisual and visual information activities and operations such as Combat Camera operations, and for newspapers and print media throughout DoW such as the European and Pacific Stars and Stripes newspapers. Learn more about this agency Summary This position is part of the Department of War, War Media Activity. The incumbent will be responsible for providing policy and procedures for Department of War (DoW) audiovisual and visual informa"
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Headquarters, Air Force Reserve Command 920 RESCUE WG Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. Air Reserve Technicians are full-time civilian employees who are also members of the Air Force Reserve unit in which they are employed. In addition to their civilian assignments, they are assigned to equivalent positions in the Reserve organization with a Reserve military rank or grade. Appointee's civilian assignments will consist of the following duties. Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being"
     },
     {
-      "title": "Houston Area Reporter",
+      "title": "News Videographer/Editor",
       "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1692039-houston-area-reporter-courthouse-news-service",
+      "location": "New York",
+      "link": "https://www.journalismjobs.com/1693618-news-videographereditor-wstm-tv",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Houston Area Reporter Houston Area Reporter Courthouse News Service Houston, Texas See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted August 13, 2026 Industry Digital Media Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary Negotiable Description: Courthouse News is seeking a reporter in the Houston area to summarize legal complaints daily in the Harris County Law Court and to summarize appellate opinions. The reporter will also have the opportunity to pitch and write stories about news happening in and around the courthouse in the Houston area. Competitive pay is offered for between 30 and 40 hours per week and benefits are available. To apply, please email a cover letter and resume in Word or PDF format to Madison Venza, Southern Bureau Chief, at mvenza@courthousenews.com , and attach 3"
+      "description": "JournalismJobs.com - Job Listing - News Videographer/Editor News Videographer/Editor WSTM-TV Syracuse, New York Save Share Facebook Twitter Linkedin Email Date Posted August 11, 2026 Industry Television Specialty Not Specified Job Status Full-time Salary Not Specified Description: WSTM/WSTQ/WTVH is looking for a creative full-time News Videographer/Editor! We are seeking someone who can see beyond the lens and bring back compelling stories. You will cover day to day general, in-depth features and investigative assignments. We are shooting full high definition (HD) on media cards and editing on desktops and laptops. You should have strong editing skills in non-linear edit systems, possess excellent people skills, a strong work ethic, and a great attitude. A passion for story telling is absolutely essential in this position. Requirements and Qualifications: Team-player who can produce good"
     },
     {
-      "title": "Media Relations Specialist",
-      "employer": "Corgan",
-      "location": "Gramercy Park and Murray Hill, Manhattan",
-      "link": "https://www.adzuna.com/details/5841879918?utm_medium=api&utm_source=4803a542",
+      "title": "Freelance Assistant Editor",
+      "employer": "ZEALOT",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5842695239?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Media Relations Specialist Job in Gramercy Park and Murray Hill, NY What? Where? Search Advanced Media Relations Specialist \u276e back to last search Corgan New York, New York, 10118 $66,653 per year - estimated ? Full time NEW Apply for this job At Corgan we are passionate about great design but the best thing we build is each other. Here, you\u2019ll find camaraderie and collaboration as abundantly as curiosity and creativity. Corgan is a welcoming and supportive environment that provides significant career advantages. You\u2019ll find room to grow, freedom to explore \u2014 and the safety to fail. Thank you for your interest in joining our curious, passionate, hardworking team. Corgan is seeking a Media Relations Specialist with 6\u20138 years of experience to join our team in Dallas and conduct external communications and media engagement for our firm. This role requires knowledge of the architecture, desig"
+      "description": "Freelance Assistant Editor Job in New York City, NY What? Where? Search Advanced Freelance Assistant Editor \u276e back to last search ZEALOT New York, New York $136,556 per year - estimated ? Contract EASY APPLY NEW Apply for this job Freelance Assistant Editor ZEALOT is a powerhouse of creativity and innovation in entertainment marketing with a rich history of crafting compelling trailers, TV spots, and digital campaigns for some of the most popular film and TV productions in the world. The Freelance Assistant Editor role creates and organizes offline projects for the editors. We are looking for someone who can quickly adapt to new and existing workflows and is highly organized. As you gain experience working with the team, you will develop your creative editorial skills. ZEALOT\u2019s post-production and finishing department is in NY & LA, the work is shared across two offices, but we collabora"
     },
     {
-      "title": "Air Traffic Assistant  (Flight Data Communications Specialist)",
-      "employer": "Federal Aviation Administration",
-      "location": "Hilliard, Florida",
-      "link": "https://www.usajobs.gov:443/job/880329500",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Air Traffic Assistant (Flight Data Communications Specialist) Department of Transportation Federal Aviation Administration Southern Region, Air Traffic Organization, Eastern Service Area South, Jacksonville ARTCC (ZJX) Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Serves as an Air Traffic Assistant/Flight Data Communications Specialist (FDCS) at an Air Route Traffic Control Center (ARTCC) and is responsible for providing flight data processing and communications service for the National Airspace System (NAS). Learn more about this agency Summary Serves as an Air Traffic Assistant/Flight Data Communications Specialist (FDCS) at an Air Route Traffic Control Center (ARTCC) and is responsible for providing flight data processing and communications s"
-    },
-    {
-      "title": "Authored Works Review (Editor)",
-      "employer": "Nalu Federal",
-      "location": "Bethesda, Montgomery County",
-      "link": "https://www.adzuna.com/details/5840713798?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Authored Works Review (Editor) Job in Bethesda, MD What? Where? Search Advanced Authored Works Review (Editor) \u276e back to last search Nalu Federal Bethesda, Maryland, 00000 $100000.00 - $115000.00 per year EASY APPLY NEW Apply for this job Nalu Federal is a subsidiary company of the Kanaka Foundation - An NHO who's mission is to support Native Hawaiians. You will receive a comprehensive benefits package that includes: Health insurance Dental insurance Vision insurance Pet insurance Annual membership to Costco or Sam's 401K ...and much, much more! Walter Reed National Military Medical Center is seeking a meticulous and analytically sharp Authored Works Review (Editor) to serve as the guardian of the command's voice, credibility, and accuracy across all written platforms. This critical role involves the comprehensive review, editing, and project management of all written materials destined "
-    },
-    {
-      "title": "Technical Writer",
-      "employer": "Barrow Wise Consulting",
-      "location": "Baltimore, Baltimore County",
-      "link": "https://www.adzuna.com/details/5837323188?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Technical Writer Job in Baltimore, MD What? Where? Search Advanced Technical Writer \u276e back to last search Barrow Wise Consulting Baltimore, Maryland $80000 - $95000 per year EASY APPLY Apply for this job Enjoy problem-solving, need a venue to display your creativity, and emerging technologies pique your interest; if so, Barrow Wise Consulting, LLC is for you. As a multi-disciplined leader, you understand the gifts that set you apart from everyone else. Demonstrate innovative solutions to our clients. Join Barrow Wise Consulting, LLC today. Responsibilities: The Technical Writer/Editor will support Barrow Wise's State of Maryland Department of General Services (DGS) project and perform the following duties: Assist in collecting and organizing information to prepare user manuals, training materials, installation guides, proposals, and reports. Edit functional descriptions, system specifica"
+      "title": "Assistant Research Editor",
+      "employer": "",
+      "location": "Washington, Dc",
+      "link": "https://www.journalismjobs.com/1693530-assistant-research-editor-",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Assistant Research Editor Assistant Research Editor Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted July 24, 2026 Industry Magazines / Publishing Specialty Not Specified Remote / Telecommute Hybrid Job Status Not Specified Salary Not Specified Description: Washingtonian is an award-winning, 60-year-old regional magazine working across platforms to cover news, culture, personalities, and life in the Washington, DC, area. We are looking for an organized, resourceful, and versatile journalist to work as a full-time assistant research editor at the magazine. This is a good first or second job for an aspiring journalist. This position includes the following responsibilities: * Helping to screen, hire, and oversee our editorial fellows; we hire approximately four fellows, three times a year, for sessions that "
     }
   ]
 }
