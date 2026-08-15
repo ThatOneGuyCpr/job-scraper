@@ -33,9 +33,24 @@ USAJOBS_EMAIL    = os.environ.get("USAJOBS_EMAIL",    "your.email@gmail.com")
 GMAIL_ADDRESS  = os.environ.get("GMAIL_ADDRESS",  "your.address@gmail.com")
 GMAIL_APP_PASS = os.environ.get("GMAIL_APP_PASS", "your-16-char-app-password")
 
-# Sender domain -> source label. Add any newsletter that emails job listings.
+# Sender address or domain -> source label.
+#
+# This is how boards that have no public listings page get in: you subscribe to
+# their alert email, and the scraper reads it. LinkedIn matters most here, since
+# its listings cannot be scraped at all.
+#
+# Use the most specific sender you can. "linkedin.com" would match every
+# LinkedIn email you get, including network updates, so match the alert
+# address instead. Comment out anything you have not signed up for.
 NEWSLETTER_SENDERS = {
-    "studyhall.xyz": "Study Hall",
+    "studyhall.xyz":                  "Study Hall",
+    "jobalerts-noreply@linkedin.com": "LinkedIn",
+    "jobs-listings@linkedin.com":     "LinkedIn",
+    # "alert@indeed.com":             "Indeed",
+    # "noreply@journalismjobs.com":   "JournalismJobs",
+    # "jobs@mediabistro.com":         "MediaBistro",
+    # "noreply@idealist.org":         "Idealist",
+    # "jobs@mediajobboard.com":       "Media Job Board",
 }
 NEWSLETTER_LOOKBACK_DAYS = 8      # Study Hall's opportunities email is weekly
 NEWSLETTER_CHAR_CAP      = 7000   # per email, keeps Claude's read bounded
@@ -49,6 +64,8 @@ PER_SOURCE_CAP = 3
 SOURCE_CAPS = {
     "Adzuna": 4,
     "Study Hall": 5,      # curated, high signal, worth more slots
+    "LinkedIn": 5,        # cannot be reached any other way
+    "Indeed": 3,
     "The Muse": 3,
 }
 
@@ -520,7 +537,7 @@ def scrape_newsletters():
                     print(f"  {label}: 0  (no recent email)")
                     continue
 
-                for msg_id in ids[-3:]:              # newest three at most
+                for msg_id in ids[-4:]:              # newest four at most
                     _, raw = mail.fetch(msg_id, "(RFC822)")
                     msg = email_lib.message_from_bytes(raw[0][1])
 
@@ -790,7 +807,13 @@ def main():
     if not jobs:
         with open(OUTPUT_FILE, "w") as f:
             json.dump({"generated": datetime.now().isoformat(),
-                       "count": 0, "source_counts": {}, "jobs": []}, f, indent=2)
+                       "count": 0,
+                       "dead_links_dropped": 0,
+                       "off_target_dropped": 0,
+                       "source_counts": {},
+                       "diagnostics": DIAG,
+                       "newsletters": news_digests,
+                       "jobs": []}, f, indent=2)
         print("\nNothing new today. Wrote empty job_results.json")
         return
 
@@ -841,7 +864,7 @@ def main():
                    "off_target_dropped": off_target,
                    "source_counts": counts,
                    "diagnostics": DIAG,
-                   "newsletter_digests": newsletter_digests,
+                   "newsletters": news_digests,
                    "jobs": finalists}, f, indent=2)
 
     # Mark everything checked as seen, including the dead ones
