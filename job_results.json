@@ -1,12 +1,11 @@
 {
-  "generated": "2026-08-15T10:50:35.298412",
-  "count": 7,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 0,
+  "generated": "2026-08-16T10:51:16.950098",
+  "count": 2,
+  "dead_links_dropped": 3,
+  "off_target_dropped": 1,
   "source_counts": {
-    "USAJobs": 2,
-    "JournalismJobs": 3,
-    "Adzuna": 2
+    "JournalismJobs": 1,
+    "Adzuna": 1
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -100,7 +99,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 28
+      "kept": 21
     },
     "The Muse": {
       "http": 200,
@@ -112,7 +111,7 @@
     },
     "Study Hall": {
       "kept": 0,
-      "note": "4 email(s) captured"
+      "note": "3 email(s) captured"
     },
     "LinkedIn": {
       "kept": 0,
@@ -120,12 +119,6 @@
     }
   },
   "newsletters": [
-    {
-      "source": "Study Hall",
-      "subject": "Media Opps: NPR, RUNHER, CNBC",
-      "date": "Fri, 07 Aug 2026 18:02:36 +0000 (UTC)",
-      "body": "Media Opps: NPR, RUNHER, CNBC\nWrite a feature about running for $1 per word \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nAugust 07, 2026\nMedia Opps: NPR, RUNHER, CNBC\nWrite a feature about running for $1 per word\nThe listings are now posted throughout the week on our\nOpportunity Finder\n.\nIf you have any technical questions or want to submit an opportunity m, please email \u2018\nsupport AT studyhall DOT xyz\nwith \u201cOpps:\u201d in the subject line.\nPlease note:\nAnything marked as \u201c\nNEW\n\u201d is from the past seven days and is included alongside newly added opps (but more than one week old). Finally, old opps from previous issues with upcoming deadlines are listed at the end of the newsletter.\nClassified Ads\nThis is the era where everyone in the media industry is wearing a lot of hats. We\u2019re expected to grow an audience and then monetize it as quickly as possible. However, it can be overwhelming to try to scale your audience using solely social media \u2014 algorithms are tricky! That\u2019s why a platform like\nbeehiiv\nhas been so valuable to us. It\u2019s the industry-best option for anyone who wants to start their own newsletter. With state-of-the-art analytics, recommendation networks, and referral programs, beehiiv helps creators expand their audience and build a thriving community of avid readers.\u00a0 beehiiv wants to help you focus on what matters most\u2014 making compelling content that has a lasting, meaningful impact. Use\nSTUDYHALL30\nfor\n30% off your first 3 months of beehiiv\n.\nSTUDY HALL COURSES:\nReporting On Politics 101\nReporting on local and national politics can feel opaque to those who have yet to crack the code. Perhaps more than even culture writing, politics requires knowledge of a specific, technical kind of language. In this\nclass\n, Grace Byron will guide you on how to generate ideas, find outlets, and use the lingo that veteran politics reporters and editors use when building a story. From interviewing subjects, write-arounds, and opinion pieces, you will analyze a few pitches and stories to get a better sense of how to get started. You'll leave this one-hour class feeling prepared to start your political reporting journey and hopefully have a few ideas of how to get tips and pitch new editors.\nGrace\u2019s work has appeared in\nThe New Yorker,\nVogue\n, and\nThe Nation\n.\nThe 1.5 hour course will take place August 17th 10 AM PDT.\nThe standard price is $99. Study Hall members can use the discount code \u201c\nstudyhallmember\n\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nA Beginner\u2019s Guide to Covering the Sex Industry\nSex work seems to be everywhere these days. Storylines about sex workers have popped up in shows like\nEuphoria\n,\nMargo\u2019s Got Money Troubles\n, and\nHacks\n. Yet even as OnlyFans has become a household name, few journalists actually understand the inner workings of this often underground industry \u2014 or how to build trust that\u2019s needed to get sex worker sources to open up about these stories.\nIn this\ncourse\n, Lux Alptraum, an adult industry expert and one-time editor of the porn blog Fleshbot, will walk you through the basics of reporting on the sex industry. In addition to providing an overview of the different corners of the sex industry, she\u2019ll also explain why so many sex workers do not trust journalists, and walk participants through the best practices for covering adult industry-related topics.\nThe 1.5 hour course will take place August 14th at 10 AM PDT/ 1 PM ET.\nThe standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry.\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-\nFamily Style Articles Editor, Meka Boyle, shared with Study Hall that they are seeking pitches of essays and written-through features on art, culture, design, food, and fashion with a timely peg. They are also seeking newsy web features and print profiles for their freelance pool. Inquire for rates. Send pitches, a brief intro, a synopsis, and relevant clips to\nmb@family.style\nby August 14.\nSee our\nOpps Finder listing\nfor more info.\n(Aug 06)\nNEW:\n-RUNHER is\ncalling for pitches\nfor Issue 006 (January-April 2027) of deeply reported features on women's, trans, and nonbinary running, covering competition, community, and culture. They are especially interested in track and field, plus-size apparel gaps, the business and financial side of the sport, safety issues, doping, high school running, and extreme racing. Service pieces, gear roundups, personal essays, and AI-generated pitches are not accepted. Rates are $0.50 to $1 per word for features of 1,000 to 3,000 words.\nSend pitches via the\nsubmission form\nby August 16.\nSee our\nOpps Finder listing\nfor more info.\n(Aug 04)\nNEW:\n-Joyland Publishing is\ncalling for pitches\nfor an upcoming edition of Joyland Editions. They are seeking novella and partial manuscript pitches with an anticipated final length of 20,000\u201360,000 words or completed manuscripts or works in progress of at least 10,000 words accompanied by a 1\u20133 page project proposal.\nSubmit through the\nsubmission page\nby September 30.\nSee our\nOpps Finder listing\nfor more info.\n(July 29)\nEVERGREEN PITCH CALLS\nNEW:\n-Freelance \"Real Life\" Editor at\nMetro.co.uk\n, Izzie Price, is\ncalling for pitches\nof unique date stories for its \"So, How Did It Go?\" dating series. She is seeking detailed, anecdote-rich pieces about heartwarming or shocking dates from any era. The payment is negotiated upon pitch submission. Send pitches with the subject line 'SHDIG PITCH: [Headline of your choice \u2013 the spicier, the better!]' to\nizzie.price@metro.co.uk\n. See our\nOpps Finder listing\nfor more info.\n(Aug 07)\nNEW:\n-Episodes is always\ncalling for pitches\nof cultural criticism on pop culture, including interviews and pieces on books, music, video games, and theater. They are especially interested in pieces that, per that About page, focus on a specific moment from a piece of pop culture that reveals something fundamental about the whole.T"
-    },
     {
       "source": "Study Hall",
       "subject": "Media Digest: Writing About Cults, Intimacy, and Non-monogamy",
@@ -147,60 +140,20 @@
   ],
   "jobs": [
     {
-      "title": "PUBLIC AFFAIRS SPECIALIST",
-      "employer": "Air Force Elements, U.S. Central Command",
-      "location": "MacDill AFB, Florida",
-      "link": "https://www.usajobs.gov:443/job/880758500",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air Force Elements, U.S. Central Command Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve as a senior Public Affairs Specialist at United States Central Command (USCENTCOM). Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve as a senior Public Affairs Specialist at United States Central Command (USCENTCOM). Learn more about this agency Overview Help Accepting applicat"
-    },
-    {
-      "title": "Magazine Editor",
+      "title": "Lobbying Reporter",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693625-magazine-editor-the-park-record",
+      "link": "https://www.journalismjobs.com/1693039-lobbying-reporter-washington-examiner",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Magazine Editor Magazine Editor The Park Record Park City, Utah See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted August 12, 2026 Industry Magazines / Publishing Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary $60,000 to $65,000 Description: The Park Record in Park City, Utah, is seeking a dynamic and creative magazine editor to lead the editorial vision and expansion of our magazine division (10 titles and growing). This is an exciting opportunity for a talented editor with a passion for storytelling and a strong understanding of the magazine industry. If you have a track record of creating engaging content and a talent for bringing stories to life, we want to hear from you! Requirements: Degree in journalism, communications, or related field, alo"
+      "description": "JournalismJobs.com - Job Listing - Lobbying Reporter Lobbying Reporter Washington Examiner Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 10, 2026 Industry Magazines / Publishing Specialty Politics Remote / Telecommute Hybrid Job Status Full-time Salary Negotiable Description: The Washington Examiner is a trusted source for breaking news, insightful analysis, and in-depth coverage of politics and the federal government. With a focus on investigative reporting and thoughtful commentary, the publication delivers sharp analysis through the WashingtonExaminer.com and its weekly magazine. Its team of experienced journalists is dedicated to providing accurate, relevant information to help navigate the political landscape with confidence. The Washington Examiner connects readers to the latest developments in Washington and fosters an eng"
     },
     {
-      "title": "Public Relations Associate",
-      "employer": "Nexxaworks",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5839868234?utm_medium=api&utm_source=4803a542",
+      "title": "Equity Research Associate - Washington Policy (Virginia)",
+      "employer": "Raymond James",
+      "location": "Arlington, Arlington County",
+      "link": "https://www.adzuna.com/details/5844021467?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Public Relations Associate Job in Miami, FL What? Where? Search Advanced Public Relations Associate \u276e back to last search Nexxaworks Miami, Florida $66,678 per year - estimated ? EASY APPLY Apply for this job Job Description Position Overview We are seeking a dynamic and dedicated Public Relations Associate to join our team and help elevate our company's public image through strategic communication and relationship-building efforts. In this role, you will work closely with the marketing and communications departments to create compelling press releases, media kits, and other promotional materials that effectively communicate our brand\u2019s message to diverse audiences. Key Responsibilities Develop and distribute press releases, media alerts, and promotional materials to relevant media outlets. Build and maintain strong relationships with journalists, bloggers, and influencers to secure medi"
-    },
-    {
-      "title": "PUBLIC AFFAIRS SPECIALIST",
-      "employer": "Headquarters, Air Force Reserve Command",
-      "location": "Patrick AFB, Florida",
-      "link": "https://www.usajobs.gov:443/job/880741000",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Headquarters, Air Force Reserve Command 920 RESCUE WG Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. Air Reserve Technicians are full-time civilian employees who are also members of the Air Force Reserve unit in which they are employed. In addition to their civilian assignments, they are assigned to equivalent positions in the Reserve organization with a Reserve military rank or grade. Appointee's civilian assignments will consist of the following duties. Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being"
-    },
-    {
-      "title": "News Videographer/Editor",
-      "employer": "",
-      "location": "New York",
-      "link": "https://www.journalismjobs.com/1693618-news-videographereditor-wstm-tv",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - News Videographer/Editor News Videographer/Editor WSTM-TV Syracuse, New York Save Share Facebook Twitter Linkedin Email Date Posted August 11, 2026 Industry Television Specialty Not Specified Job Status Full-time Salary Not Specified Description: WSTM/WSTQ/WTVH is looking for a creative full-time News Videographer/Editor! We are seeking someone who can see beyond the lens and bring back compelling stories. You will cover day to day general, in-depth features and investigative assignments. We are shooting full high definition (HD) on media cards and editing on desktops and laptops. You should have strong editing skills in non-linear edit systems, possess excellent people skills, a strong work ethic, and a great attitude. A passion for story telling is absolutely essential in this position. Requirements and Qualifications: Team-player who can produce good"
-    },
-    {
-      "title": "Freelance Assistant Editor",
-      "employer": "ZEALOT",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5842695239?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Freelance Assistant Editor Job in New York City, NY What? Where? Search Advanced Freelance Assistant Editor \u276e back to last search ZEALOT New York, New York $136,556 per year - estimated ? Contract EASY APPLY NEW Apply for this job Freelance Assistant Editor ZEALOT is a powerhouse of creativity and innovation in entertainment marketing with a rich history of crafting compelling trailers, TV spots, and digital campaigns for some of the most popular film and TV productions in the world. The Freelance Assistant Editor role creates and organizes offline projects for the editors. We are looking for someone who can quickly adapt to new and existing workflows and is highly organized. As you gain experience working with the team, you will develop your creative editorial skills. ZEALOT\u2019s post-production and finishing department is in NY & LA, the work is shared across two offices, but we collabora"
-    },
-    {
-      "title": "Assistant Research Editor",
-      "employer": "",
-      "location": "Washington, Dc",
-      "link": "https://www.journalismjobs.com/1693530-assistant-research-editor-",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Assistant Research Editor Assistant Research Editor Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted July 24, 2026 Industry Magazines / Publishing Specialty Not Specified Remote / Telecommute Hybrid Job Status Not Specified Salary Not Specified Description: Washingtonian is an award-winning, 60-year-old regional magazine working across platforms to cover news, culture, personalities, and life in the Washington, DC, area. We are looking for an organized, resourceful, and versatile journalist to work as a full-time assistant research editor at the magazine. This is a good first or second job for an aspiring journalist. This position includes the following responsibilities: * Helping to screen, hire, and oversee our editorial fellows; we hire approximately four fellows, three times a year, for sessions that "
+      "description": "Equity Research Associate - Washington Policy (Virginia) Job in Arlington, VA What? Where? Search Advanced Equity Research Associate - Washington Policy (Virginia) \u276e back to last search Raymond James Arlington, Virginia $108,866 per year - estimated ? Full time NEW Apply for this job Job Description Summary Support Washington Policy Senior Analyst in preparing written research related to regulations, legislative policy proposals, and geopolitical/macroeconomic developments and their potential impact on the financial markets. While the team covers all public policy areas except for healthcare, this role will focus on macroeconomic policy issues across both the domestic and international stage, with specific attention paid to geopolitics, defense, trade, supply chains, energy and more. Under general supervision of a Senior Policy Analyst, analyze and interpret policy data, conduct research"
     }
   ]
 }
