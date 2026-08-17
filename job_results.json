@@ -1,18 +1,17 @@
 {
-  "generated": "2026-08-16T10:51:16.950098",
+  "generated": "2026-08-17T11:00:04.996457",
   "count": 2,
-  "dead_links_dropped": 3,
+  "dead_links_dropped": 4,
   "off_target_dropped": 1,
   "source_counts": {
-    "JournalismJobs": 1,
-    "Adzuna": 1
+    "JournalismJobs": 2
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 65,
+      "raw": 73,
       "method": "selectors",
-      "kept": 8
+      "kept": 12
     },
     "MediaBistro": {
       "http": 200,
@@ -99,7 +98,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 21
+      "kept": 22
     },
     "The Muse": {
       "http": 200,
@@ -107,7 +106,7 @@
       "kept": 1
     },
     "USAJobs": {
-      "kept": 8
+      "kept": 6
     },
     "Study Hall": {
       "kept": 0,
@@ -140,20 +139,20 @@
   ],
   "jobs": [
     {
-      "title": "Lobbying Reporter",
+      "title": "Multimedia Political & Government Reporter (Part-time/Freelance & Full-Time available)",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693039-lobbying-reporter-washington-examiner",
+      "link": "https://www.journalismjobs.com/1693644-multimedia-political--government-reporter-part-timefreelance--full-time-available-new-mexico-news",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Lobbying Reporter Lobbying Reporter Washington Examiner Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 10, 2026 Industry Magazines / Publishing Specialty Politics Remote / Telecommute Hybrid Job Status Full-time Salary Negotiable Description: The Washington Examiner is a trusted source for breaking news, insightful analysis, and in-depth coverage of politics and the federal government. With a focus on investigative reporting and thoughtful commentary, the publication delivers sharp analysis through the WashingtonExaminer.com and its weekly magazine. Its team of experienced journalists is dedicated to providing accurate, relevant information to help navigate the political landscape with confidence. The Washington Examiner connects readers to the latest developments in Washington and fosters an eng"
+      "description": "JournalismJobs.com - Job Listing - Multimedia Political & Government Reporter (Part-time/Freelance & Full-Time available) Multimedia Political & Government Reporter (Part-time/Freelance & Full-Time available) New Mexico News Albuquerque, New Mexico Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 16, 2026 Industry Newspapers, Digital Media Specialty Politics Required Education High School Diploma Remote / Telecommute Hybrid Job Status Full-time Salary $44,000-$50,000 Description: Multimedia Reporter (Politics & Elections) NM.NEWS | Albuquerque or remote Job Status: Part-time (20 hours/week with daily M-F assignments) or Full-time (40 hour) applicants considered Salary: $22 - $24/hr. ($45,000-$50,000 annual salary, or hourly equivalent for part-time position(s), annual depending on experience and tied to local living wage The New Mexico News Group is seeking a repor"
     },
     {
-      "title": "Equity Research Associate - Washington Policy (Virginia)",
-      "employer": "Raymond James",
-      "location": "Arlington, Arlington County",
-      "link": "https://www.adzuna.com/details/5844021467?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Equity Research Associate - Washington Policy (Virginia) Job in Arlington, VA What? Where? Search Advanced Equity Research Associate - Washington Policy (Virginia) \u276e back to last search Raymond James Arlington, Virginia $108,866 per year - estimated ? Full time NEW Apply for this job Job Description Summary Support Washington Policy Senior Analyst in preparing written research related to regulations, legislative policy proposals, and geopolitical/macroeconomic developments and their potential impact on the financial markets. While the team covers all public policy areas except for healthcare, this role will focus on macroeconomic policy issues across both the domestic and international stage, with specific attention paid to geopolitics, defense, trade, supply chains, energy and more. Under general supervision of a Senior Policy Analyst, analyze and interpret policy data, conduct research"
+      "title": "Latino Culture/Education Writer",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1693643-latino-cultureeducation-writer-the-park-record",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Latino Culture/Education Writer Latino Culture/Education Writer The Park Record Park City, Utah See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted August 16, 2026 Industry Newspapers Specialty Local News Remote / Telecommute Hybrid Job Status Full-time Salary $50,000 to $55,000 Description: We\u2019re looking for a reporter to cover Latino culture and education relevant to Spanish-speaking readers and the broader mountain community. Coverage includes breaking news, beat work, enterprise reporting and features. The best candidate understands immigrant communities, can build relationships with newly arrived residents and established community leaders, and is committed to providing crucial news in an underserved area. Ability to speak and write in Spanish and English is required. The role includes translating stories between"
     }
   ]
 }
