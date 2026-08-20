@@ -1,19 +1,18 @@
 {
-  "generated": "2026-08-19T10:57:21.784132",
-  "count": 5,
-  "dead_links_dropped": 1,
+  "generated": "2026-08-20T11:00:22.754901",
+  "count": 4,
+  "dead_links_dropped": 2,
   "off_target_dropped": 0,
   "source_counts": {
-    "JournalismJobs": 1,
-    "The Muse": 1,
-    "Adzuna": 3
+    "JournalismJobs": 2,
+    "Adzuna": 2
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 61,
+      "raw": 53,
       "method": "selectors",
-      "kept": 10
+      "kept": 11
     },
     "MediaBistro": {
       "http": 200,
@@ -100,7 +99,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 46
+      "kept": 45
     },
     "The Muse": {
       "http": 200,
@@ -112,7 +111,7 @@
     },
     "Study Hall": {
       "kept": 2,
-      "note": "4 email(s) captured"
+      "note": "3 email(s) captured"
     },
     "LinkedIn": {
       "kept": 0,
@@ -120,12 +119,6 @@
     }
   },
   "newsletters": [
-    {
-      "source": "Study Hall",
-      "subject": "Opps of the Week: The Guardian, Truthout, Wirecutter",
-      "date": "Tue, 11 Aug 2026 18:14:46 +0000 (UTC)",
-      "body": "Opps of the Week: The Guardian, Truthout, Wirecutter\nA $2,000/per month stipend for emerging writers \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nAugust 11, 2026\nOpps of the Week: The Guardian, Truthout, Wirecutter\nA $2,000/per month stipend for emerging writers\nClassified Ads\nThis is the era where everyone in the media industry is wearing a lot of hats. We\u2019re expected to grow an audience and then monetize it as quickly as possible. However, it can be overwhelming to try to scale your audience using solely social media \u2014 algorithms are tricky! That\u2019s why a platform like\nbeehiiv\nhas been so valuable to us. It\u2019s the industry-best option for anyone who wants to start their own newsletter. With state-of-the-art analytics, recommendation networks, and referral programs, beehiiv helps creators expand their audience and build a thriving community of avid readers.\u00a0 beehiiv wants to help you focus on what matters most\u2014 making compelling content that has a lasting, meaningful impact. Use\nSTUDYHALL30\nfor\n30% off your first 3 months of beehiiv\n.\nReporting On Politics 101\nReporting on local and national politics can feel opaque to those who have yet to crack the code. Perhaps more than even culture writing, politics requires knowledge of a specific, technical kind of language. In this\nclass\n, Grace Byron will guide you on how to generate ideas, find outlets, and use the lingo that veteran politics reporters and editors use when building a story. From interviewing subjects, write-arounds, and opinion pieces, you will analyze a few pitches and stories to get a better sense of how to get started. You'll leave this one-hour class feeling prepared to start your political reporting journey and hopefully have a few ideas of how to get tips and pitch new editors.\nGrace\u2019s work has appeared in\nThe New Yorker,\nVogue\n, and\nThe Nation\n.\nThe 1.5 hour course will now take place September 28th 10 AM PDT.\nThe standard price is $99. Study Hall members can use the discount code \u201c\nstudyhallmember\n\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nA Beginner\u2019s Guide to Covering the Sex Industry\nSex work seems to be everywhere these days. Storylines about sex workers have popped up in shows like\nEuphoria\n,\nMargo\u2019s Got Money Troubles\n, and\nHacks\n. Yet even as OnlyFans has become a household name, few journalists actually understand the inner workings of this often underground industry \u2014 or how to build trust that\u2019s needed to get sex worker sources to open up about these stories.\nIn this\ncourse\n, Lux Alptraum, an adult industry expert and one-time editor of the porn blog Fleshbot, will walk you through the basics of reporting on the sex industry. In addition to providing an overview of the different corners of the sex industry, she\u2019ll also explain why so many sex workers do not trust journalists, and walk participants through the best practices for covering adult industry-related topics.\nThe 1.5 hour course will now take place September 18th at 10 AM PDT/ 1 PM ET.\nThe standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nCall For Podcast Guests\nWe\u2019re currently looking for new guests for the podcast! We\u2019d love to spotlight longform reporting from the Study Hall community. If you have published a piece of longform reporting in 2026 and would like to be a guest on the podcast, please reach to\ndaniel@studyhall.xyz\n. Check out our previous episodes spotlighting longform journalism by\nAdam Popescu\n,\nMarianne Dhenin\n, and\nAllegra Rosenberg\n.\nNews Opps\nFamily Style\nInquire for rates.\nCalling for pitches of essays and written-through features on art, culture, design, food, ...\nFamily Style Articles Editor, Meka Boyle, shared with Study Hall that they are seeking pitches of essays and written-through features on art, culture, design, food, and fashion with a timely peg. They are also seeking newsy web features and print profiles for their freelance pool.Inquire for rates...\nDetails and pitch contact here\nRUNHER\n$0.50-$1/word\nCalling for pitches for Issue 006\nRUNHER is calling for pitches for Issue 006 (January-April 2027) of deeply reported features on women's, trans, and nonbinary running, covering competition, community, and culture. They are especially interested in track and field, plus-size apparel gaps, the business and financial side of the sport...\nDetails and pitch contact here\nMetro\nCalling for interesting and relatable dating stories for \"So, How Did It Go?\" dating serie...\nFreelance \"Real Life\" Editor at Metro.co.uk, Izzie Price, is calling for pitches of unique date stories for its \"So, How Did It Go?\" dating series. She is seeking detailed, anecdote-rich pieces about heartwarming or shocking dates from any era.The payment is negotiated upon pitch submission. Send pi...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nArts and Culture Opps\nRock, Paper, Shotgun\n\u00a3200 for 1,000 to 1,500 words\nPitches of features, reviews, and opinion pieces on PC games.\nRock, Paper, Shotgun is calling for pitches of features, reviews, and opinion pieces on PC games. They are open to pitches on any topic, but are particularly interested in hearing pitches on games that are currently in development, games that are about to launch, and games that have just launched.Th...\nDetails and pitch contact here\nEpisodes\n$200/piece\nPitches of cultural criticism on pop culture, including interviews and pieces on books, mu...\nEpisodes is always calling for pitches of cultural criticism on pop culture, including interviews and pieces on books, music, video games, and theater. They are especially interested in pieces that, per that About page, focus on a specific moment from a piece of pop culture that reveals something fu...\nDetails and pitch contact here\nAnime News Network\n$100 per 1,000 words\nHiring a Korean Content-Focused Freelancer based in the US or Canada\nAnime News Network is hiring a Korean Content-Focused Freelancer based in the US or Canada to write reviews and feature-length editorials focusing on Korean content, including manhwa and TV dramas. They will review at least one property per week and pitch and complete one feature per month. Familiar...\nDetails and pitch contact here\nDMY\nUndisclosed/Negotiable in application\nHiring freelance music writers based in the UK to cover gigs, festivals, and more.\nDMY is hiring freelance music writers based in the UK to cover gigs, festivals, and more. They will interview artists, write opinion "
-    },
     {
       "source": "Study Hall",
       "subject": "Media Opps: New York Focus, Curbed, The Wall Street Journal",
@@ -147,44 +140,36 @@
   ],
   "jobs": [
     {
-      "title": "Lifestyle Editor",
+      "title": "Public Information Specialist II (Digital Communications)",
       "employer": "",
-      "location": "Virginia",
-      "link": "https://www.journalismjobs.com/1693522-lifestyle-editor-northern-virginia-magazine",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1693587-public-information-specialist-ii-digital-communications-west-basin-municipal-water-district",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Lifestyle Editor Lifestyle Editor Northern Virginia Magazine Chantilly, Virginia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted July 23, 2026 Industry Newspapers, Magazines / Publishing, Digital Media Specialty Not Specified Job Status Full-time Salary Not Specified Description: Job description: Northern Virginia Magazine, the region's premier lifestyle publication, is seeking an experienced, creative, and highly organized Lifestyle Editor to lead coverage across our print magazine, website and newsletters. This role is ideal for a seasoned editor and writer who thrives on generating compelling story ideas, managing multiple content streams, and producing high-quality journalism that connects with affluent and engaged audiences throughout Northern Virginia. Responsibilities Pitch, assign, write, and edit engaging lifestyle content for "
+      "description": "JournalismJobs.com - Job Listing - Public Information Specialist II (Digital Communications) Public Information Specialist II (Digital Communications) West Basin Municipal Water District Carson, California Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 05, 2026 Industry Digital Media, Public Relations, Government Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $94,250 - $129,594 Description: Resumes will not be accepted as a substitute for a fully completed District Online Application. However, a resume is required; this will provide valuable information for the evaluation process. The most qualified candidates will be invited to proceed to the next stage, which includes a panel interview. West Basin Municipal Water District (West Basin) is a global leader in the water industry in water recycling, conservation, water resource manag"
     },
     {
-      "title": "Communications Publicist, NYC",
-      "employer": "Soho House",
-      "location": "New York, NY",
-      "link": "https://www.themuse.com/jobs/sohohouse/communications-publicist-nyc",
-      "source": "The Muse",
-      "description": "Communications Publicist, NYC at Soho House | The Muse | The Muse The Role\u2026 New York is one of Soho House\u2019s most important markets, and we are looking for a highly connected, energetic and hands-on Communications Publicist to help maintain and grow our leading reputation across the city. This is a relationship-led, externally focused role for someone who knows New York, knows the people who shape its cultural conversation and is excited by the opportunity to get out there and make things happen. Working closely with the Global Communications team, you will be responsible for building and maintaining meaningful relationships with the journalists, editors, with a strong focus on non-traditional media including: creators, cultural influencers and tastemakers who matter to Soho House. You will turn those relationships into compelling stories, conversations, coverage and content that amplify "
+      "title": "Reporter, Health",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1693659-reporter-health-wfyi-public-media",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Reporter, Health Reporter, Health WFYI Public Media Indianapolis, Indiana Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 18, 2026 Industry Nonprofit Specialty Health/Science Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary Negotiable Description: JOB POSTING Title: Reporter, Health Location: Indianapolis, IN Department: News ABOUT WFYI WFYI is a nonprofit organization that, for more than 50 years, has been providing trusted journalism, inspiring stories, and lifelong learning to Central Indiana with a vision of an informed, inspired, and inclusive Indiana. JOB SUMMARY WFYI Public Media seeks an experienced health reporter to contribute to its mission by producing accurate, fair, independent, and accessible journalism that helps audiences understand the health issues shaping communities"
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
-      "employer": "Versant Media",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5847545921?utm_medium=api&utm_source=4803a542",
+      "title": "Assignment Editor and Producer",
+      "employer": "TelevisaUnivision",
+      "location": "Miami, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5847925949?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki Job in New York City, NY What? Where? Search Advanced Writing Associate Producer, MS NOW The Briefing with Jen Psaki \u276e back to last search Versant Media New York, NEW YORK $78,255 per year - estimated ? EASY APPLY NEW Apply for this job Job Description MS NOW is looking for a Writing Associate Producer for The Briefing with Jen Psaki. This position is represented by the Writers Guild of America East. Responsibilities: Write, edit, and produce vertical video content for social media platforms. Develop and produce original YouTube content from concept through completion. Generate daily and long-term original video pitches that respond to the political news cycle. Collaborate with senior leaders to develop new social media franchises and content formats. Identify compelling moments from linear programming and quickly adapt them "
+      "description": "Assignment Editor and Producer Job in Miami, FL What? Where? Search Advanced Assignment Editor and Producer \u276e back to last search TelevisaUnivision Miami, Florida $93,418 per year - estimated ? Full time NEW Apply for this job ABOUT THE ROLE & TEAM: TelevisaUnivision is seeking a talented Assignment Editor/Producer with a dynamic and creative attitude. This position is responsible for sourcing great content and managing logistics for our live crews. They will also identify, develop and contribute story ideas and participate actively in coverage decisions of special news programs. Gather elements for coverage and managing the logistics for story shoots and execution. YOUR DAY-DAY: Assignment Editor/Producer will research and produce daily story ideas for air. Assign and provide necessary information to crews. Monitor for any potential breaking news Coordinate interviews and plan for futur"
     },
     {
-      "title": "Junior Editor - Military.com",
-      "employer": "Valnet Inc.",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5847432175?utm_medium=api&utm_source=4803a542",
+      "title": "Editor I",
+      "employer": "TelevisaUnivision",
+      "location": "Miami, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5846837931?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Junior Editor - Military.com Job in New York City, NY What? Where? Search Advanced Junior Editor - Military.com \u276e back to last search Valnet Inc. New York, New York $53,460 per year - estimated ? Contract EASY APPLY NEW Apply for this job This is a paid freelance remote position About Military.com Military.com is one of the leading digital media platforms serving service members, veterans, and military families. The role We\u2019re looking for a sharp, reliable Junior Editor to help us publish high-quality content at scale. You\u2019ll review articles before publication, making sure they are accurate, polished, engaging, and optimized for search. This is a high-volume editing role for someone who is fast, meticulous, and takes pride in getting the details right. What You\u2019ll Do Edit and proofread articles before publication. Fix grammar, spelling, structure, and readability issues. Fact-check names"
-    },
-    {
-      "title": "Specialist, Content and Centre Engagement",
-      "employer": "World Economic Forum",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5846841971?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Specialist, Content and Centre Engagement Job in New York City, NY What? Where? Search Advanced Specialist, Content and Centre Engagement \u276e back to last search World Economic Forum New York $80,000-85,000 Full time NEW Apply for this job Please Note: This role requires the ability to work on site 3 days per week per company policy. The annual salary range for this role in New York is $80,000-85,000. The World Economic Forum is an independent, not-for-profit organization, headquartered in Geneva, with offices in New York, San Francisco, Beijing, and Tokyo. We are the trusted platform for public-private cooperation where leaders come together to understand global challenges and drive action across sectors and regions. We create spaces where different stakeholders engage openly, build trust, and collaborate to help solve shared global challenges. Context and why we are recruiting? The Centr"
+      "description": "Editor I Job in Miami, FL What? Where? Search Advanced Editor I \u276e back to last search TelevisaUnivision Miami, Florida $90,714 per year - estimated ? Part time Apply for this job ABOUT THE ROLE & TEAM: The News team at TelevisaUnivision is looking for an Editor to join our team! The Editor will be responsible for the editing and timely delivery of all different types of videos both in short and long format for News. This role will work closely with producers, reporters, and control room to ensure flawless execution of on-air products. ABOUT YOU: If you enjoy editing content into images that speak volumes, have an eye for details, and have a passion for storytelling, this role may be for you. YOUR DAY-DAY: Edit daily news stories, breaking news, special reports as assigned using non-linear, computer-based editing equipment. Work closely with the Content Management and Engineering team on "
     }
   ]
 }
