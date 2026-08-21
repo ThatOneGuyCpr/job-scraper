@@ -574,8 +574,9 @@ def scrape_newsletters():
                             if (len(anchor) > 8 and href.startswith("http")
                                     and "unsubscribe" not in href.lower()
                                     and is_relevant(anchor)):
-                                jobs.append({"title": anchor, "employer": "",
-                                             "location": "", "link": href,
+                                jobs.append({"title": clean_title(anchor) or anchor,
+                                             "employer": "", "location": "",
+                                             "from_email": True, "link": href,
                                              "source": label})
 
                         text = soup.get_text("\n", strip=True)
@@ -824,6 +825,17 @@ def main():
     for job in jobs:
         if len(finalists) >= MAX_FINALISTS:
             break
+        # Links out of an alert email came straight from the source that
+        # posted them, so they are fresh by definition. They also point at
+        # pages that reject datacenter traffic: LinkedIn serves a login wall
+        # to anything without a browser session, which the checker would read
+        # as a dead link and drop. Trust these and move on.
+        if job.get("from_email"):
+            job["description"] = ""
+            job.setdefault("location", "")
+            finalists.append(job)
+            continue
+
         ok, result = link_is_good(job["link"])
         if not ok:
             dead += 1
