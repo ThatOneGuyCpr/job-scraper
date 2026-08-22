@@ -51,6 +51,12 @@ NEWSLETTER_SENDERS = {
     # "jobs@mediabistro.com":         "MediaBistro",
     # "noreply@idealist.org":         "Idealist",
     # "jobs@mediajobboard.com":       "Media Job Board",
+    #
+    # These four block the scraper outright, so email is the only way in:
+    # "noreply@inn.org":              "INN",
+    # "careers@journalists.org":      "ONA",
+    # "jobs@prnewsonline.com":        "PR News",
+    # "alerts@workinsports.com":      "Work In Sports",
 }
 NEWSLETTER_LOOKBACK_DAYS = 8      # Study Hall's opportunities email is weekly
 NEWSLETTER_CHAR_CAP      = 7000   # per email, keeps Claude's read bounded
@@ -471,22 +477,25 @@ def scrape_board(name, url, base=None):
     return jobs
 
 
+# Boards that can actually be scraped from a GitHub Actions runner.
+#
+# Four boards were removed because they return 403 to datacenter traffic no
+# matter what headers are sent: INN, ONA Career Center, PR News, and Work In
+# Sports. That is Cloudflare-style bot protection keyed to the IP range, and no
+# amount of header tuning gets past it. Sign up for their job alert emails
+# instead and add the sender to NEWSLETTER_SENDERS above. That path cannot be
+# blocked, because the site is choosing to send you the listings.
 HTML_BOARDS = [
     ("JournalismJobs",   "https://www.journalismjobs.com/"),
     ("MediaBistro",      "https://www.mediabistro.com/jobs/search/"),
-    ("Media Job Board",  "https://jobs.mediajobboard.com/jobs"),
+    ("Media Job Board",  "https://mediajobboard.com/"),
     ("IRE",              "https://www.ire.org/jobs/"),
     ("SPJ",              "https://jobs.spj.org/jobs/"),
-    ("States Newsroom",  "https://statesnewsroom.com/jobs/"),
-    ("INN",              "https://inn.org/jobs/"),
+    ("States Newsroom",  "https://statesnewsroom.com/staff-openings/"),
     ("PRSA",             "https://jobs.prsa.org/jobs/"),
     ("Ragan TalentHub",  "https://www.ragan.com/talenthub/"),
-    ("PR News",          "https://jobs.prnewsonline.com/jobs/"),
-    ("PRWeek",           "https://www.prweek.com/us/jobs"),
-    ("ONA Career Center","https://careers.journalists.org/jobs/"),
     ("Idealist",         "https://www.idealist.org/en/jobs?q=communications"),
-    ("Work In Sports",   "https://www.workinsports.com/search-jobs?keywords=communications"),
-    ("MD State Jobs",    "https://www.jobapscloud.com/MD/sup/bulklist.asp"),
+    ("MD State Jobs",    "https://www.jobapscloud.com/MD/sup/bulklist.aspx"),
 ]
 
 
