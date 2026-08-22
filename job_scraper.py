@@ -56,7 +56,7 @@ NEWSLETTER_SENDERS = {
     # "noreply@inn.org":              "INN",
     # "careers@journalists.org":      "ONA",
     # "jobs@prnewsonline.com":        "PR News",
-    # "alerts@workinsports.com":      "Work In Sports",
+     "jobseekers@email.ihire.com":      "Work In Sports",
 }
 NEWSLETTER_LOOKBACK_DAYS = 8      # Study Hall's opportunities email is weekly
 NEWSLETTER_CHAR_CAP      = 7000   # per email, keeps Claude's read bounded
