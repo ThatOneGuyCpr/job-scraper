@@ -1,19 +1,20 @@
 {
-  "generated": "2026-08-21T10:59:34.929308",
-  "count": 9,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 0,
+  "generated": "2026-08-22T10:51:44.121869",
+  "count": 12,
+  "dead_links_dropped": 1,
+  "off_target_dropped": 1,
   "source_counts": {
-    "JournalismJobs": 2,
-    "Adzuna": 2,
-    "LinkedIn": 5
+    "Work In Sports": 3,
+    "Adzuna": 3,
+    "LinkedIn": 5,
+    "JournalismJobs": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 61,
+      "raw": 65,
       "method": "selectors",
-      "kept": 9
+      "kept": 10
     },
     "MediaBistro": {
       "http": 200,
@@ -22,10 +23,10 @@
       "kept": 0
     },
     "Media Job Board": {
-      "http": 404,
-      "raw": 0,
-      "kept": 0,
-      "note": "http 404"
+      "http": 200,
+      "raw": 13,
+      "method": "selectors",
+      "kept": 0
     },
     "IRE": {
       "http": 200,
@@ -40,16 +41,10 @@
       "kept": 0
     },
     "States Newsroom": {
-      "http": 404,
+      "http": 200,
       "raw": 0,
-      "kept": 0,
-      "note": "http 404"
-    },
-    "INN": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
+      "method": "anchor-scan",
+      "kept": 0
     },
     "PRSA": {
       "http": 200,
@@ -63,35 +58,11 @@
       "method": "anchor-scan",
       "kept": 0
     },
-    "PR News": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
-    },
-    "PRWeek": {
-      "http": 404,
-      "raw": 0,
-      "kept": 0,
-      "note": "http 404"
-    },
-    "ONA Career Center": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
-    },
     "Idealist": {
       "http": 200,
       "raw": 0,
       "method": "anchor-scan",
       "kept": 0
-    },
-    "Work In Sports": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
     },
     "MD State Jobs": {
       "http": 404,
@@ -100,7 +71,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 58
+      "kept": 47
     },
     "The Muse": {
       "http": 200,
@@ -108,15 +79,19 @@
       "kept": 2
     },
     "USAJobs": {
-      "kept": 3
+      "kept": 2
     },
     "Study Hall": {
       "kept": 2,
-      "note": "3 email(s) captured"
+      "note": "4 email(s) captured"
     },
     "LinkedIn": {
       "kept": 0,
       "note": "no email from jobs-listings@linkedin.com in last 8 days"
+    },
+    "Work In Sports": {
+      "kept": 55,
+      "note": "11 email(s) captured"
     }
   },
   "newsletters": [
@@ -139,6 +114,12 @@
       "body": "Opps of the Week: The Guardian, National Geographic, Vox\nA News Editor role with a salary of $90,000 - $110,000 \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nAugust 18, 2026\nOpps of the Week: The Guardian, National Geographic, Vox\nA News Editor role with a salary of $90,000 - $110,000\nSTUDY HALL COURSES:\nReporting On Politics 101\nReporting on local and national politics can feel opaque to those who have yet to crack the code. Perhaps more than even culture writing, politics requires knowledge of a specific, technical kind of language. In this\nclass\n, Grace Byron will guide you on how to generate ideas, find outlets, and use the lingo that veteran politics reporters and editors use when building a story. From interviewing subjects, write-arounds, and opinion pieces, you will analyze a few pitches and stories to get a better sense of how to get started. You'll leave this one-hour class feeling prepared to start your political reporting journey and hopefully have a few ideas of how to get tips and pitch new editors.\nGrace\u2019s work has appeared in\nThe New Yorker,\nVogue\n, and\nThe Nation\n.\nThe 1.5 hour course will take place September 28th 10 AM PDT.\nThe standard price is $99. Study Hall members can use the discount code \u201c\nstudyhallmember\n\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nA Beginner\u2019s Guide to Covering the Sex Industry\nSex work seems to be everywhere these days. Storylines about sex workers have popped up in shows like\nEuphoria\n,\nMargo\u2019s Got Money Troubles\n, and\nHacks\n. Yet even as OnlyFans has become a household name, few journalists actually understand the inner workings of this often underground industry \u2014 or how to build trust that\u2019s needed to get sex worker sources to open up about these stories.\nIn this\ncourse\n, Lux Alptraum, an adult industry expert and one-time editor of the porn blog Fleshbot, will walk you through the basics of reporting on the sex industry. In addition to providing an overview of the different corners of the sex industry, she\u2019ll also explain why so many sex workers do not trust journalists, and walk participants through the best practices for covering adult industry-related topics.\nThe 1.5 hour course will take place September 18th at 10 AM PDT/ 1 PM ET.\nThe standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nICYMI: Interview With Katie Notopoulos\nOn the latest Study Hall Podcast\nepisode\n, Katie Notopoulos, a senior correspondent at\nBusiness Insider\n, discussed her reporting on social media bans, AI slop, and clipping. In addition, Notopoulous chatted about the evolving state of tech journalism.\nThe episode is available on\nApple Podcasts\n.\nSocial Media Bans, Stans, & Clips ft. Katie Notopoulos\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 August 17 \u00b7 46m\nApple Podcasts\nNews Opps\nFox News\n$30-40/hour\nHiring a freelance Assignment Editor based in NYC\nFox News is hiring a freelance Assignment Editor based in NYC to handle breaking news stories on the assignment desk. They will build relationships with news affiliates, communicate with sources, monitor media for breaking news, and source online media material. Candidates should have a bachelor\u2019s...\nDetails and pitch contact here\nThe Wall Street Journal\n$1/word\nCalling for pitches related to the luxury real-estate world, high-end design trends, and p...\nWall Street Journal Features Editor, Wilson Wong, shared with Study Hall that he is always looking for pitches for\u00a0Real Estate, Style, Lifestyle and the Magazine, particularly related to the luxury real-estate world, and high-end design trends and property listings.The pay rate is $1 per word...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nDeadline Approaching\nVox Media\n$140,000-$180,000\nHiring an Editorial Director based in NYC or DC for On With Kara Swisher\nVox Media is hiring an Editorial Director based in NYC or DC for On With Kara Swisher. They will lead day-to-day editorial and production operations, oversee workflow and assignments, and manage the editorial calendar. Candidates should have seven or more years of experience in podcast production or...\nDetails and pitch contact here\nThe Guardian\n\u00a355,000\nHiring a Channel Manager based in London for a 12 month contracted role\nThe Guardian is hiring a Channel Manager based in London to drive audience growth across off-platform channels. They will manage content calendars, analyze performance data, and track trends to optimize engagement across digital platforms. Candidates should have deep knowledge of platform-native for...\nDetails and pitch contact here\nNew York Focus\n$90,000-$110,000\nHiring a remote News Editor based anywhere in New York State\nNew York Focus is hiring a remote News Editor based anywhere in New York State to expand coverage of state politics and policy. They will manage reporters, edit staff and freelance stories, and oversee newsroom coverage of major political events. Candidates should have seven to 10 years of journalis...\nDetails and pitch contact here\nCNBC\n$95,000-$125,000\nHiring an Investing Newsletter Writer based in Englewood Cliffs, NJ\nCNBC is hiring an Investing Newsletter Writer based in Englewood Cliffs, NJ to lead its signature evening newsletter for retail investors. They will write a daily briefing after the market close, explain market action for retail investors, and identify key investing themes and risks. Candidates shou...\nDetails and pitch contact here\nNational Geographic\n$139,200-$186,600\nHiring a Senior Editorial Manager, Features based in Washington, DC, or NYC\nNational Geographic is hiring a Senior Editorial Manager, Features based in Washington, DC, or NYC to deliver editorial feature projects across print and digital platforms. They will manage the development and editing of ambitious reported stories, nurture relationships with writers, and use audienc...\nDetails and pitch contact here\nChicago Public Media\n$65,000-$72,000\nHiring an Editorial Operations Associate based in Chicago, IL\nChicago Public Media is hiring an Editorial Operations Associate based in Chicago, IL to support newsroom staff with administrative, financial, and operational tasks. They will process payment requests and contracts, support budget tracking, manage newsroom subscriptions, and assist with staff devel...\nDetails and pitch contact here\nThe New York Times\n$140,000-$160,000\nHiring a China Correspondent based in Beijing\nThe New York Times is hiring a China Correspondent b"
     },
     {
+      "source": "Study Hall",
+      "subject": "Media Opps: Sports Illustrated, HuffPost, The Financial Times",
+      "date": "Fri, 21 Aug 2026 17:31:30 +0000 (UTC)",
+      "body": "Media Opps: Sports Illustrated, HuffPost, The Financial Times\nA staff writer role with a salary range of $105,000 to $125,000 \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nAugust 21, 2026\nMedia Opps: Sports Illustrated, HuffPost, The Financial Times\nA staff writer role with a salary range of $105,000 to $125,000\nThe listings are now posted throughout the week on our\nOpportunity Finder\n.\nIf you have any technical questions or want to submit an opportunity m, please email \u2018\nsupport AT studyhall DOT xyz\nwith \u201cOpps:\u201d in the subject line.\nPlease note:\nAnything marked as \u201c\nNEW\n\u201d is from the past seven days and is included alongside newly added opps (but more than one week old). Finally, old opps from previous issues with upcoming deadlines are listed at the end of the newsletter.\nSTUDY HALL COURSES:\nReporting On Politics 101\nReporting on local and national politics can feel opaque to those who have yet to crack the code. Perhaps more than even culture writing, politics requires knowledge of a specific, technical kind of language. In this\nclass\n, Grace Byron will guide you on how to generate ideas, find outlets, and use the lingo that veteran politics reporters and editors use when building a story. From interviewing subjects, write-arounds, and opinion pieces, you will analyze a few pitches and stories to get a better sense of how to get started. You'll leave this one-hour class feeling prepared to start your political reporting journey and hopefully have a few ideas of how to get tips and pitch new editors.\nGrace\u2019s work has appeared in\nThe New Yorker,\nVogue\n, and\nThe Nation\n.\nThe 1.5 hour course will take place September 28th 10 AM PDT.\nThe standard price is $99. Study Hall members can use the discount code \u201c\nstudyhallmember\n\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nA Beginner\u2019s Guide to Covering the Sex Industry\nSex work seems to be everywhere these days. Storylines about sex workers have popped up in shows like\nEuphoria\n,\nMargo\u2019s Got Money Troubles\n, and\nHacks\n. Yet even as OnlyFans has become a household name, few journalists actually understand the inner workings of this often underground industry \u2014 or how to build trust that\u2019s needed to get sex worker sources to open up about these stories.\nIn this\ncourse\n, Lux Alptraum, an adult industry expert and one-time editor of the porn blog Fleshbot, will walk you through the basics of reporting on the sex industry. In addition to providing an overview of the different corners of the sex industry, she\u2019ll also explain why so many sex workers do not trust journalists, and walk participants through the best practices for covering adult industry-related topics.\nThe 1.5 hour course will take place September 18th at 10 AM PDT/ 1 PM ET.\nThe standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSign up\n.\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry.\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-White Rabbit Journal is\naccepting submissions\nof nonfiction essays on the human experience. \u201cWe are interested in literary essays and memoir that stay with us. We want thoughtful, emotionally honest writing with a strong sense of voice. Give us work that examines something closely, asks difficult questions, challenges familiar ways of thinking, or reveals something unexpected about the human experience.\u201d The rate is $100 per essay.\nSubmit through their\nSubmittable page\nby August 31.\nSee our\nOpps Finder listing\nfor more info.\n(July 17)\n-Joyland Publishing is\ncalling for pitches\nfor an upcoming edition of Joyland Editions. They are seeking novella and partial manuscript pitches with an anticipated final length of 20,000\u201360,000 words or completed manuscripts or works in progress of at least 10,000 words accompanied by a 1\u20133 page project proposal.\nSubmit through the\nsubmission page\nby September 30.\nSee our\nOpps Finder listing\nfor more info.\n(July 29)\nEVERGREEN PITCH CALLS\nNEW:\n-The Texas Signal shared with Study Hall that they are calling for pitches of stories focused on Texas about education, politics, healthcare, culture, and the environment from new and experienced journalists. Rates range from $250 up to $500 for longer form and investigative pieces. Pitch to Jessica Montoya Coggins at\njessica@texassignal.com\n. See our\nOpps Finder listin\ng\nfor more info.\n(Aug 19)\n- The Wall Street Journal Features Editor, Wilson Wong, shared with Study Hall that he is always looking for pitches for Real Estate, Style, Lifestyle, and the Magazine, particularly related to the luxury real-estate world, and high-end design trends and property listings. The pay rate is $1 per word. Email\nwilson.wong@wsj.com\nwith the subject line, \u201cPITCH: [INSERT SUGGESTED HEADLINE].\u201d See our\nOpps Finder listing\nfor more info.\n(Aug 11)\n-Anime News Network is\nhiring\na Korean Content-Focused Freelancer based in the US or Canada to write reviews and feature-length editorials focusing on Korean content, including manhwa and TV dramas. They will review at least one property per week and pitch and complete one feature per month. Familiarity with the Korean language is a plus. The rate is $100 per 1,000 words. Apply by emailing a cover letter, resume, and relevant writing samples to\npitches@animenewsnetwork.com\nwith the subject line \"Your Name - Korean Content Freelancer.\" See our\nOpps Finder listing\nfor more info.\n(Aug 10)\n-Freelance \"Real Life\" Editor at\nMetro.co.uk\n, Izzie Price, is\ncalling for pitches\nof unique date stories for its \"So, How Did It Go?\" dating series. She is seeking detailed, anecdote-rich pieces about heartwarming or shocking dates from any era. The payment is negotiated upon pitch submission. Send pitches with the subject line 'SHDIG PITCH: [Headline of your choice \u2013 the spicier, the better!]' to\nizzie.price@metro.co.uk\n. See our\nOpps Finder listing\nfor more info.\n(Aug 07)\n-Episodes is always\ncalling for pitches\nof cultural criticism on pop culture, including interviews and pieces on books, music,"
+    },
+    {
       "source": "LinkedIn",
       "subject": "Christian: your job alert for Journalism in United States has been\r\n created",
       "date": "Fri, 21 Aug 2026 05:56:52 +0000 (UTC)",
@@ -155,83 +136,134 @@
       "subject": "Christian: your job alert for Journalism in Miami, Florida, United\r\n States has been created",
       "date": "Fri, 21 Aug 2026 09:56:53 +0000 (UTC)",
       "body": "See your latest job matches\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert has been created:\nJournalism\nin\nMiami, Florida, United States\nYou\u2019ll receive notifications when new jobs are posted that match your search preferences.\nBreaking News Writer\nJobgether \u00b7 United States\nEasy Apply\nCommunications and Content Manager\nConstructive Dialogue Institute \u00b7 United States\n1 school alum\nAssignment Desk Editor\nNBCUniversal \u00b7 Miami, Florida, United States\nActively recruiting\nLifestyle & Entertainment Associate Producer, NBC & Telemundo Miami\nNBCUniversal \u00b7 Miramar, Florida, United States\n1 connection\nEditorial Content Lead\nEvenUp \u00b7 United States\nRegional Reporter\nCentellic \u00b7 Florida, United States\nSee all jobs\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Christian: your job alert for Journalism in United States has been\r\n created",
+      "date": "Fri, 21 Aug 2026 11:56:54 +0000 (UTC)",
+      "body": "See your latest job matches\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert has been created:\nJournalism\nin\nUnited States\nYou\u2019ll receive notifications when new jobs are posted that match your search preferences.\nPodcast Producer\nForeign Policy \u00b7 Washington, District of Columbia, United States\nBreaking News Writer\nJobgether \u00b7 United States\nEasy Apply\nEditorial Assistant, The Cut\nVox Media \u00b7 New York, New York, United States\nActively recruiting\nEditor, Central Desk\nPOLITICO \u00b7 Arlington, Virginia, United States\nActively recruiting\nProduction Editor\nHearst Newspapers \u00b7 Connecticut, United States\n1 school alum\nAssistant Newsletter Editor, Opinion\nDow Jones \u00b7 New York, New York, United States\n1 company alum\nSee all jobs\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "Reporter - HS Sports Insider",
+      "date": "Sat, 22 Aug 2026 05:33:49 +0000 (UTC)",
+      "body": "Targeting your area!\nLive Event Data Associates - All NHL Markets ( In - Arena / On - Site ) ( Hybrid / Remote )\nNew York, NY\nQuantum Automate\nRole Overview We are seeking a highly motivated, detail-oriented Live Data Associate to assist our analytics team in...\nRemote\u00a0Work\nHybrid\nView\nJust Posted!\nSenior Editor, Sport\nNew York, NY\nGetty Images\nThe Editorial team provides our customers with premium, differentiated visuals across news, sports, and...\nPart Time\nView\nJust Posted!\nPart-Time Social Media Editor, Sports\nNew York City, NY\nNew York Post\nJob Description : The New York Post provides readers with the best in News, Sports, Pop Culture and Entertainment -...\nPart Time\nHybrid\nView\nJust Posted!\nPhysical Therapist Sports Med. - Midtown (Part Time, Days)\nMiami, FL\nMiami Childrens Hospital\nJob Summary Responsible for the evaluation, re-evaluation, development, and implementation of a plan of care in...\nPart Time\nView\nJust Posted!\nAssociate/Senior Editor, BMC Sports Science, Medicine and Rehabilitation\nNew York City, NY\nHybrid\nView\nReporter - HS Sports Insider\nWoodbridge, NJ\nRemote\u00a0Work\nView\nJoin the CVS Health Team\nLearn More\nReporter - HS Sports Insider\nIselin, NJ\nRemote\u00a0Work\nView\nJust Posted!\nStaff Writer, Sports Illustrated\nNew York, NY\nView\nCertified Athletic Trainer - NBA\nMiami, FL\nView\nJust Posted!\nSports Medicine Associate Sales Representative (Miami, FL)\nMiami, FL\nView\nJust Posted!\nSenior Platform Engineer - NBA\nBoston, MA\nRemote\u00a0Work\nHybrid\nView\npowered by\niMatch\n(Update your job title, skills, and location to get the best job matches possible.)\nView More Jobs\nMake Your Interview Soft Skills Shine: A How-To Guide\niHire\nToday\u2019s job market is complex and competitive. Companies want to make sure they hire candidates who can do more with less without sacrificing performance \u2013 they\u2019re placing more value on soft skills than ever. To stand out as the best job candidate, you must not only have a strong resume and brush up on job-related skills but...\nRead More\nYou are currently receiving Job Alerts\r\n                                                daily.\nAdjust your\nnotification settings\nto receive jobs when you want them.\nStay connected for tips, updates, and\r\n                                            resources:\nAdjust your\r\n                                        settings or unsubscribe.\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD\r\n                                    21701"
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "[Work Your Way Job Alert] Writer-Temp",
+      "date": "Sat, 22 Aug 2026 06:28:49 +0000 (UTC)",
+      "body": "iHire\nCheck out the latest contract, freelance, gig, and part-time jobs from across iHire\u2019s network of 57 industry-focused sites.\nWriter-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHirePublishing\nTemp/Seasonal\nView\nJust Posted!\nAssignment Editor and Producer-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHire\nTemp/Seasonal\nView\nJoin the CVS Health Team\nLearn More\nJust Posted!\nPhysical Therapist Sports Med. - Midtown (Part Time, Days)\nMiami, FL\nMiami Childrens Hospital\nPosted in iHireTherapy\nPart Time\nView\nSenior Bookseller - FT\nMiami, FL\nBarnes & Noble\nPosted in iHireRetail\nPart Time\nView\nTraveling Live Action / Sports Stills Photographer (Seasonal)\nMiami, FL\nDanceBUG\nPosted in WorkInSports\nTemp/Seasonal\nRemote\u00a0Work\nView\nWriter-TIF (2026-55)\nMiami, FL\nWSVN-TV\nPosted in iHire\nPart Time\nView\nJust Posted!\nTeller Part Time Tamiami\nMiami, FL\nWells Fargo\nPosted in iHireBanking\nPart Time\nView\nJust Posted!\nPT Sales Associate\nMiami, FL\nLovesac\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nCashier Part Time\nMiami, FL\nLowes\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nMerchandise Coord Temp\nMiami, FL\nStarboard Cruise Services\nPosted in iHireRetail\nTemp/Seasonal\nView\nStay connected for tips, updates, and resources:\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe"
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "Resume Critique in Progress",
+      "date": "Sat, 22 Aug 2026 07:12:50 +0000 (UTC)",
+      "body": "iHire\nHi Christian, Thank you for requesting a resume critique.\n\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nSign In\nHi Christian,\nThank you for requesting a resume critique. A member of our resume team will reach out to you in the next few days to provide feedback on your resume\u2019s design, formatting, and content.\nIn addition to reviewing those key components of your resume, we will also scan your document using the same technology that global HR departments and applicant tracking systems rely on so you can see how the software views your background and qualifications.\nIn the meantime, please feel free to check out our\nexpert career advice\nor learn more about\nour resume writing services\n.\nHappy Job Hunting!\nThe WorkInSports Resume Writing Team\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\niHire\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe\nThis message was sent to christianrichey1997@gmail.com on 8/22/2026."
     }
   ],
   "jobs": [
     {
-      "title": "COPY EDITOR",
-      "employer": "",
-      "location": "New York",
-      "link": "https://www.journalismjobs.com/1693581-copy-editor-the-new-republic",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - COPY EDITOR COPY EDITOR The New Republic New York City, New York Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 04, 2026 Industry Magazines / Publishing, Digital Media Specialty Not Specified Job Status Full-time Salary $66000-$73000 Description: COPY EDITOR The New Republic is looking for an experienced full-time copy editor to edit The TNR Blue Book, our new morning newsletter devoted to covering Democrats and progressive groups, and other editorial newsletters, while supporting our current copy editor on NewRepublic.com as needed. The ideal candidate is a fast, careful editor with a sharp eye for detail who can seamlessly pivot between newsletter production, marketing emails, and news. The candidate should be organized and know how to prioritize assignments and manage their schedule. Additional Requirements: \u25cf At least seven "
-    },
-    {
-      "title": "Public Relations Coordinator - Fashion, Influencer, VIP & Events",
-      "employer": "Rose International",
-      "location": "Chelsea and Clinton, Manhattan",
-      "link": "https://www.adzuna.com/details/5850938878?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Public Relations Coordinator - Fashion, Influencer, VIP & Events Job in Chelsea and Clinton, NY What? Where? Search Advanced Public Relations Coordinator - Fashion, Influencer, VIP & Events \u276e back to last search Rose International New York, New York 10001 $30.00 to $35.00 hourly Contract Part time NEW Apply for this job Public Relations Coordinator Job Description ***Only qualified Public Relations Coordinator candidates located near the Manhattan, NY area to be considered due to the position requiring an onsite presence*** Required Experience, Knowledge & Skills: \u2022 Project management and multi-workstream coordination \u2022 Event planning and logistical execution \u2022 Strong Microsoft Office skills (Excel, PowerPoint, Outlook) \u2022 Written communications support, including note-taking, reporting, talking points, and briefing materials \u2022 Exceptional organization and attention to detail \u2022 Ability to"
-    },
-    {
-      "title": "Editorial Associate or EditorAmerican Enterprise Institute \u00b7 District of Columbia, United States1 school alum",
+      "title": "Part-Time Social Media Editor, Sports",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4434871219?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=Y73cOWgtgCl6uMgnTdNWhQ%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRFAldI3AlrBYtNMSC9fXooeBI8XHvc5QO8_AOo59mRqpxyzMO3M05w_ghnDLfWpAAJVTAd61b7YapjDcIilnvusKJWkEnnOTQHuEyIH25rEr8UOalgZ6siI4-Fs0gZ6ediD_nXLNpPYQKCcbnN9333RMYAubpoUCYDaYgSV2zw-lXJari33rBh-ocWU7oJ4Oj04HWHGxjzIHjalfaa878F9u-iqz3eW6rGJLdwt1Hfsm7hl3PZuKsZ7yzTVyUhTWibARBLA-EkPBOF090oFz1_wquhSAi6WxM-A-ccxxMzdTkbyz1gwHrGt4Uj-eINjN2sQxGSIOooTS9U3ceoFRaS27tOIrKhOl3zwxsCTUVYE6t6ShWhKACJoU14hAEwcklTSX5a23QtRdk6vuhr5E_83Syn5zjWJhlIyGC1zwtmS82o4d6eo8DGi1bCB4XGPnG/4te/fXMuvM2-QdKMa-8uXVVBQg/h6/h001.w4bXe-I0sz62gqpCmo43o4fi4jD2ekO--DM-nt3M38Q",
+      "source": "Work In Sports",
+      "description": ""
+    },
+    {
+      "title": "Communications Specialist, Policy Communications and External Affairs",
+      "employer": "Amazon",
+      "location": "Arlington, Arlington County",
+      "link": "https://www.adzuna.com/details/5852207735?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Communications Specialist, Policy Communications and External Affairs Job in Arlington, VA What? Where? Search Advanced Communications Specialist, Policy Communications and External Affairs \u276e back to last search Amazon Arlington, Virginia $118,780 per year - estimated ? Full time NEW Apply for this job Amazon seeks a self-motivated, experienced public relations professional to join its U.S. Policy Communications and External Affairs team. This role will enhance awareness among key media, third-party partners, and local policy stakeholders about Amazon's positions, advocacy efforts, and positive impact on customers, industries, and the communities where it operates \u2014 with a particular focus on data center reputation. The right candidate will drive proactive media coverage related to Amazon's positive impact, manage complex reputational and policy topics, partner with and activate third-pa"
+    },
+    {
+      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4454775315?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=5tDMRJAR9QnUC4lojX3uDQ%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454775315&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454775315-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Environmental & Natural Resources Reporter",
+      "title": "WUNC Due South Producer",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693596-environmental--natural-resources-reporter-twin-cities-pbs",
+      "link": "https://www.journalismjobs.com/1693658-wunc-due-south-producer-wunc---news",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Environmental & Natural Resources Reporter Environmental & Natural Resources Reporter Twin Cities PBS St. Paul, Minnesota Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 06, 2026 Industry Television Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $80,000 to $93,000 annually Description: Twin Cities PBS is looking for a dynamic Environmental & Natural Resources Reporter to join our award-winning Public Affairs team. This grant funded position will focus reporting on environmental and natural resource issues and solutions which are critical resources for Minnesota\u2019s public health, economy, and recreation. This is a 2-year grant funded role. While it is our hope that there will be continued funding for this work once this timeframe is up, we are unable guarantee the funding of this position beyond the"
+      "description": "JournalismJobs.com - Job Listing - WUNC Due South Producer WUNC Due South Producer WUNC - News Chapel Hill, North Carolina Save Share Facebook Twitter Linkedin Email Apply Now Date Posted August 18, 2026 Industry Radio Specialty Local News Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary 65,000 - 78,000 Description: The Due South Producer creates and produces content for Due South, WUNC\u2019s daily news and public affairs program, which includes interviews, analysis, and features on a variety of subjects (news, politics, culture, etc.) of interest in North Carolina. Primary responsibilities for this position include selecting and researching show topics, pre-interviewing and booking guests, writing scripts and promotional materials, and editing audio recordings for broadcasts. The Due South Producer will also create content for digital and social m"
     },
     {
-      "title": "Editorial Associate or Editor",
+      "title": "Reporter - HS Sports Insider",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4434871219?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=Y73cOWgtgCl6uMgnTdNWhQ%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4434871219&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4434871219-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRQQRvAIEvRaONg4CDjD80pQsk5HjZHgibjlqgIhRhvQ1059H5Q1n5BD_kU1IyrS-gju0rzkYpEQlc7EpP2_CE44-OOH3trHF2wrpT6bxlQtUH7HLB_dj61k0YLPMqPSw2EtU583mhqH5ARS22KB9Lr56Ic7nMb7KAESJAULliyYVyE4nZSbXJAyLUD4amop6Rvz_yhJQGqUi33FzuBa932CP3-6VF8wQ-xJZe-oVxSIP6cJwMwbYPIeN2yHmVLbRYR-OaCVCSUHmfX-N9Z7utvXJGIhh6k9Rwo5pQWZDulf8fnHfcmxuGVCD0tMKzBTIbW33N6xLxUNsrZ0RJfXDVcM0tX-MOMoM9BAEC_KIBHhuEStyLrSVAJXQeg5sVDK-zql_wmsdn9QA1u4_DSQWIvS4Ndwtu6AorRtM4eWUgFH8VkgCOPa658MpeHbxd8QDo/4te/fXMuvM2-QdKMa-8uXVVBQg/h12/h001.sub29o2GTIeOKpPj3WnpoSase5nrk6Q8_FAhaqB6qo8",
+      "source": "Work In Sports",
+      "description": ""
+    },
+    {
+      "title": "Associate Producer, Top Story with Tom LlamasNBCUniversal \u00b7 New York, New York, United States1 connection",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4455286709?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=NlbVnmDK9Xj8jqRY7T%2Bk8A%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Communications AssociateCity of New York \u00b7 Manhattan, New York, United States14 school alumni",
+      "title": "Staff Writer, Sports Illustrated",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4452832457?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=LWKVCnSu8lwgfNlm0DfNgg%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
-      "source": "LinkedIn",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRpcvYaWPf63Bhdw3XQ9vsv8F4N5ki74flpZr-3eU2MvzNuPj8TdNlozEPpLLhqhLtdrtgfraQZOf9h1LmGnBjeGBs2UGUTKG26OxjxzEmuTIalG-EdTxqeS9HRyx_GND-LDnFd2hPnlzHIcrfe5Meuh-fI6ejotQOAJmSOpEEmQ0RmkGnzD6_awp99tMpnXOedFGigRPVHyVzfPoyVQJ8qpw4M4mLTkkCEv_Si9uqx5Fc2tz050XlZkuK_VQAm1dbu4k0cGjdDcrERZ1PLJgVHx4IHQtyCHT_piKgp0e3yx_A-kKr5ovwQGa3IRcig232FnpKgemRmFqa_yCLESAIdHr1aVK9EXxvLaORDRAP6ZodEO1UYtvRugih2Hm_uIn0NYQdw8i_HNAmbVavIMI_OhPQ1RpEu-x4arDc2ZLgWD3lHzlKRkzMpa_Gc8RHiM8y/4te/fXMuvM2-QdKMa-8uXVVBQg/h17/h001.1LTyrTdFolHhAqvYmuvEgknYc-uO3Mj_tC70xbwF6R4",
+      "source": "Work In Sports",
       "description": ""
     },
     {
-      "title": "Coordinator Digital Content",
-      "employer": "Madison Square Garden Sports",
+      "title": "Video Editor",
+      "employer": "Peregrine Technologies",
       "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5850857658?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5852210156?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Coordinator Digital Content Job in New York City, NY What? Where? Search Advanced Coordinator Digital Content \u276e back to last search Madison Square Garden Sports New York City, New York $62,490 per year - estimated ? NEW REMOTE Apply for this job Madison Square Garden Sports Corp. (MSG Sports) is a leading professional sports company, with a collection of assets that includes the New York Knicks (NBA) and the New York Rangers (NHL), as well as two development league teams \u2013 the Westchester Knicks (NBAGL) and the Hartford Wolf Pack (AHL). MSG Sports also operates a professional sports team performance center \u2013 the MSG Training Center in Greenburgh, NY. More information is available at www.msgsports.com. Who are we hiring? The Coordinator, Digital Content will support the Rangers content team by ideating, creating, and publishing social media content. The ideal candidate will possess a deep"
+      "description": "Video Editor Job in New York City, NY What? Where? Search Advanced Video Editor \u276e back to last search Peregrine Technologies New York, New York $120,000 - $140,000 annual Contract Full time NEW Apply for this job Backed by leading Silicon Valley investors, Peregrine helps public safety organizations, state and local and governments, federal agencies, and private-sector institutions address society\u2019s challenges with unprecedented speed and accuracy. Our AI-enabled platform turns siloed and disconnected data into operational intelligence \u2014 instantly surfacing mission-critical information to empower better, faster decisions that improve outcomes at every touchpoint. Today Peregrine supports hundreds of customers across 30+ states and two countries, serving more than 125 million people \u2014 and we\u2019re amplifying our impact as we expand into the enterprise and internationally. What You\u2019ll Help Bu"
     },
     {
-      "title": "Communications Associate",
+      "title": "Associate Producer, Top Story with Tom Llamas",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4452832457?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=LWKVCnSu8lwgfNlm0DfNgg%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4452832457&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4452832457-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4455286709?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=NlbVnmDK9Xj8jqRY7T%2Bk8A%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4455286709&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4455286709-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen PsakiVersant Media \u00b7 New York, New York, United States6 school alumni",
+      "title": "Editorial Assistant, The Cut",
+      "employer": "Vox Media Group",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5852047954?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Editorial Assistant, The Cut Job in New York City, NY What? Where? Search Advanced Editorial Assistant, The Cut \u276e back to last search Vox Media Group New York, New York $65,000 - $80,000 Contract NEW Apply for this job EDITORIAL ASSISTANT, THE CUT WHO WE ARE New York Magazine and The Cut are part of Vox Media, the leading modern media company. We guide our audience from discovery to obsession. We inspire essential conversations about what\u2019s now, what\u2019s next, and what\u2019s possible. As a community of journalists and storytellers, business professionals, creators and technologists, we believe it is a moral and business imperative to amplify voices: to cultivate diversity, equity, and inclusion throughout our organization and media. This applies to our candidates, our teams, our storytelling, our creative work, and our platforms, products, and partnerships. WHAT YOU\u2019LL DO The Cut is looking fo"
+    },
+    {
+      "title": "Communications Associate, TemporaryProPublica \u00b7 New York, New York, United States1 connection",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454775315?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=5tDMRJAR9QnUC4lojX3uDQ%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4457002914?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=uj9gxJZWiyQ1eLcK5Cf9gQ%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Communications Associate, Temporary",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4457002914?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=uj9gxJZWiyQ1eLcK5Cf9gQ%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4457002914&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4457002914-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
