@@ -1,19 +1,19 @@
 {
-  "generated": "2026-08-23T10:52:10.732084",
-  "count": 12,
-  "dead_links_dropped": 0,
+  "generated": "2026-08-24T11:04:24.256167",
+  "count": 10,
+  "dead_links_dropped": 2,
   "off_target_dropped": 0,
   "source_counts": {
     "Work In Sports": 3,
-    "Adzuna": 4,
+    "Adzuna": 2,
     "LinkedIn": 5
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 61,
+      "raw": 45,
       "method": "selectors",
-      "kept": 9
+      "kept": 5
     },
     "MediaBistro": {
       "http": 200,
@@ -22,10 +22,10 @@
       "kept": 0
     },
     "Media Job Board": {
-      "http": 200,
-      "raw": 13,
-      "method": "selectors",
-      "kept": 0
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "IRE": {
       "http": 200,
@@ -70,7 +70,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 51
+      "kept": 44
     },
     "The Muse": {
       "http": 200,
@@ -78,7 +78,7 @@
       "kept": 2
     },
     "USAJobs": {
-      "kept": 2
+      "kept": 3
     },
     "Study Hall": {
       "kept": 2,
@@ -89,7 +89,7 @@
       "note": "no email from jobs-listings@linkedin.com in last 8 days"
     },
     "Work In Sports": {
-      "kept": 60,
+      "kept": 57,
       "note": "11 email(s) captured"
     }
   },
@@ -138,27 +138,27 @@
     },
     {
       "source": "Work In Sports",
-      "subject": "[Work Your Way Job Alert] Writer-Temp",
-      "date": "Sat, 22 Aug 2026 06:28:49 +0000 (UTC)",
-      "body": "iHire\nCheck out the latest contract, freelance, gig, and part-time jobs from across iHire\u2019s network of 57 industry-focused sites.\nWriter-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHirePublishing\nTemp/Seasonal\nView\nJust Posted!\nAssignment Editor and Producer-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHire\nTemp/Seasonal\nView\nJoin the CVS Health Team\nLearn More\nJust Posted!\nPhysical Therapist Sports Med. - Midtown (Part Time, Days)\nMiami, FL\nMiami Childrens Hospital\nPosted in iHireTherapy\nPart Time\nView\nSenior Bookseller - FT\nMiami, FL\nBarnes & Noble\nPosted in iHireRetail\nPart Time\nView\nTraveling Live Action / Sports Stills Photographer (Seasonal)\nMiami, FL\nDanceBUG\nPosted in WorkInSports\nTemp/Seasonal\nRemote\u00a0Work\nView\nWriter-TIF (2026-55)\nMiami, FL\nWSVN-TV\nPosted in iHire\nPart Time\nView\nJust Posted!\nTeller Part Time Tamiami\nMiami, FL\nWells Fargo\nPosted in iHireBanking\nPart Time\nView\nJust Posted!\nPT Sales Associate\nMiami, FL\nLovesac\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nCashier Part Time\nMiami, FL\nLowes\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nMerchandise Coord Temp\nMiami, FL\nStarboard Cruise Services\nPosted in iHireRetail\nTemp/Seasonal\nView\nStay connected for tips, updates, and resources:\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe"
-    },
-    {
-      "source": "Work In Sports",
-      "subject": "Resume Critique in Progress",
-      "date": "Sat, 22 Aug 2026 07:12:50 +0000 (UTC)",
-      "body": "iHire\nHi Christian, Thank you for requesting a resume critique.\n\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nSign In\nHi Christian,\nThank you for requesting a resume critique. A member of our resume team will reach out to you in the next few days to provide feedback on your resume\u2019s design, formatting, and content.\nIn addition to reviewing those key components of your resume, we will also scan your document using the same technology that global HR departments and applicant tracking systems rely on so you can see how the software views your background and qualifications.\nIn the meantime, please feel free to check out our\nexpert career advice\nor learn more about\nour resume writing services\n.\nHappy Job Hunting!\nThe WorkInSports Resume Writing Team\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\niHire\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe\nThis message was sent to christianrichey1997@gmail.com on 8/22/2026."
-    },
-    {
-      "source": "Work In Sports",
-      "subject": "Reporter - HS Sports Insider",
-      "date": "Sat, 22 Aug 2026 16:05:00 +0000 (UTC)",
-      "body": "Sports & Entertainment Security Officer\nNorth Arlington, NJ\nSecuritas\nSports & Entertainment Security Officer We help make your world a safer place. Securitas is a global company that...\nView\nTargeting your area!\nLive Event Data Associates - All NHL Markets ( In - Arena / On - Site ) ( Hybrid / Remote )\nNew York, NY\nQuantum Automate\nRole Overview We are seeking a highly motivated, detail-oriented Live Data Associate to assist our analytics team in...\nRemote\u00a0Work\nHybrid\nView\nSenior Editor, Sport\nNew York, NY\nGetty Images\nThe Editorial team provides our customers with premium, differentiated visuals across news, sports, and...\nPart Time\nView\nPart-Time Social Media Editor, Sports\nNew York City, NY\nNew York Post\nJob Description : The New York Post provides readers with the best in News, Sports, Pop Culture and Entertainment -...\nPart Time\nHybrid\nView\nJust Posted!\nAssociate/Senior Editor, BMC Sports Science, Medicine and Rehabilitation\nNew York City, NY\nHybrid\nView\nReporter - HS Sports Insider\nWoodbridge, NJ\nRemote\u00a0Work\nView\nYouth Sports Reporter\nWoodbridge, NJ\nView\nStaff Writer, Sports Illustrated\nNew York, NY\nView\nReporter - HS Sports Insider\nIselin, NJ\nRemote\u00a0Work\nView\nYouth Sports Reporter\nIselin, NJ\nView\nCertified Athletic Trainer - NBA\nMiami, FL\nView\nSports Medicine Associate Sales Representative (Miami, FL)\nMiami, FL\nView\npowered by\niMatch\n(Update your job title, skills, and location to get the best job matches possible.)\nView More Jobs\n15 Must-Read Tips for New Freelancers: Common Mistakes to Avoid\nRachel Gartz Taylor, Guest Author\nThe workplace of 2026 looks very different than it did just a few years ago. More professionals than ever are stepping away from traditional 9-to-5 roles to pursue independent contractor jobs. Whether you are looking for better work-life balance or the ability to choose your own projects, the world of freelancing offers a level of freedom that...\nRead More\nYou are currently receiving Job Alerts\r\n                                                daily.\nAdjust your\nnotification settings\nto receive jobs when you want them.\nStay connected for tips, updates, and\r\n                                            resources:\nAdjust your\r\n                                        settings or unsubscribe.\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD\r\n                                    21701"
-    },
-    {
-      "source": "Work In Sports",
       "subject": "[Work Your Way Job Alert] Physical Therapist Sports Med. - Midtown\r\n (Part Time, Days)",
       "date": "Sat, 22 Aug 2026 17:00:00 +0000 (UTC)",
       "body": "iHire\nCheck out the latest contract, freelance, gig, and part-time jobs from across iHire\u2019s network of 57 industry-focused sites.\nWriter-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHirePublishing\nTemp/Seasonal\nView\nAssignment Editor and Producer-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHire\nTemp/Seasonal\nView\nJoin the CVS Health Team\nLearn More\nJust Posted!\nPhysical Therapist Sports Med. - Midtown (Part Time, Days)\nMiami, FL\nMiami Childrens Hospital\nPosted in iHireTherapy\nPart Time\nView\nJust Posted!\nSenior Sales Engineer\nMiami, FL\nCoreSite Realty Corp.\nPosted in iHireSalesPeople\nPart Time\nView\nSenior Bookseller - FT\nMiami, FL\nBarnes & Noble\nPosted in iHireRetail\nPart Time\nView\nTraveling Live Action / Sports Stills Photographer (Seasonal)\nMiami, FL\nDanceBUG\nPosted in WorkInSports\nTemp/Seasonal\nRemote\u00a0Work\nView\nWriter-TIF (2026-55)\nMiami, FL\nWSVN-TV\nPosted in iHire\nPart Time\nView\nJust Posted!\nServer - Part Time\nMiami, FL\nVitality Senior Living\nPosted in iHireHospitalityServices\nPart Time\nView\nJust Posted!\nHousekeeper - Part Time\nMiami, FL\nVitality Senior Living\nPosted in iHireHospitalityServices\nPart Time\nView\nJust Posted!\nTeller Part Time Tamiami\nMiami, FL\nWells Fargo\nPosted in iHireBanking\nPart Time\nView\nStay connected for tips, updates, and resources:\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe"
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "Your Resume Critique is Ready",
+      "date": "Sun, 23 Aug 2026 12:32:13 +0000 (UTC)",
+      "body": "iHire\nHi Christian,\nReview your customized report to find out if your resume follows best practices of modern resume writing or if some areas need more work.\nView My Critique\nAfter you\u2019ve learned about your resume\u2019s strengths and weaknesses, please reach out to our team of analysts for futher advice or information on WorkInSports's\nprofessional resume writing services\n.\nImprove your resume. Get your dream job!\nRobert Morgan\nManager of Hiring Support and Services\n(240) 215-1170\nRobert.Morgan@iHire.com\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD 21701"
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "Sales Director, Sports Measurement Solutions",
+      "date": "Sun, 23 Aug 2026 17:05:00 +0000 (UTC)",
+      "body": "Hard Rock Stadium - Event Security Officer\nMiami Springs, FL\nBEST Crowd Management\nJob Title: Hard Rock Stadium - Event Security Company: BEST Crowd Management Location: Fort Lauderdale, FL Pay:...\nView\nTargeting your area!\nLive Event Data Associates - All NHL Markets ( In - Arena / On - Site ) ( Hybrid / Remote )\nNew York, NY\nQuantum Automate\nRole Overview We are seeking a highly motivated, detail-oriented Live Data Associate to assist our analytics team in...\nRemote\u00a0Work\nHybrid\nView\nSales Executive\nSouth Hackensack, NJ\nCapelli Sport\nWho We Are: Capelli Sport is a global multi-sports brand based in New York City and New Jersey, specializing in team...\nView\nSenior Editor, Sport\nNew York, NY\nGetty Images\nThe Editorial team provides our customers with premium, differentiated visuals across news, sports, and...\nPart Time\nView\nPart-Time Social Media Editor, Sports\nNew York City, NY\nNew York Post\nJob Description : The New York Post provides readers with the best in News, Sports, Pop Culture and Entertainment -...\nPart Time\nHybrid\nView\nJust Posted!\nAssociate/Senior Editor, BMC Sports Science, Medicine and Rehabilitation\nNew York City, NY\nHybrid\nView\nReporter - HS Sports Insider\nWoodbridge, NJ\nRemote\u00a0Work\nView\nYouth Sports Reporter\nWoodbridge, NJ\nView\nSales Director, Sports Measurement Solutions\nNew York, NY\nView\nStaff Writer, Sports Illustrated\nNew York, NY\nView\nDirector, Account Executive Sports Measurement\nNew York, NY\nView\nMarket Planning & Operations Sr. Manager (UCAN) Sports Planning & Solutions\nNew York, NY\nView\nJust Posted!\nVideo Desk Senior Producer, NBC News Digital\nNew York, NY\nHybrid\nView\npowered by\niMatch\n(Update your job title, skills, and location to get the best job matches possible.)\nView More Jobs\nHow to Change Careers: A Preparation Checklist With AI Prompts\nLori Cole\nMaking a career change is not an easy decision, especially if you\u2019re jumping into an entirely new industry. But with the right planning and preparation, successfully changing career paths is doable. If you\u2019re unsure how to change careers or don\u2019t know where to start, this career change checklist (with example AI prompts for...\nRead More\nYou are currently receiving Job Alerts\r\n                                                daily.\nAdjust your\nnotification settings\nto receive jobs when you want them.\nStay connected for tips, updates, and\r\n                                            resources:\nAdjust your\r\n                                        settings or unsubscribe.\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD\r\n                                    21701"
+    },
+    {
+      "source": "Work In Sports",
+      "subject": "[Work Your Way Job Alert] Senior Sales Engineer",
+      "date": "Sun, 23 Aug 2026 18:00:00 +0000 (UTC)",
+      "body": "iHire\nCheck out the latest contract, freelance, gig, and part-time jobs from across iHire\u2019s network of 57 industry-focused sites.\nWriter-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHirePublishing\nTemp/Seasonal\nView\nAssignment Editor and Producer-Temp\nMiami, FL\nUnivision Communications Inc.\nPosted in iHire\nTemp/Seasonal\nView\nJust Posted!\nPhysical Therapist Sports Med. - Midtown (Part Time, Days)\nMiami, FL\nMiami Childrens Hospital\nPosted in iHireTherapy\nPart Time\nView\nJust Posted!\nSenior Sales Engineer\nMiami, FL\nCoreSite Realty Corp.\nPosted in iHireSalesPeople\nPart Time\nView\nJust Posted!\nPT-Clerical Assistant 12M_Miami Springs Senior(1751200)\nMiami Springs, FL\nMiami-Dade County Public Schools\nPosted in iHireAdmin\nPart Time\nView\nSenior Bookseller - FT\nMiami, FL\nBarnes & Noble\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nRetail Merchandising Support Associate, Falls - Part Time\nMiami, FL\nMacy's\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nRetail Sales Associate, Midway Crossings - Part Time\nMiami, FL\nMacy's, Inc.\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nSales Associate - Young World, Part Time - Aventura\nMiami, FL\nBloomingdale's\nPosted in iHireRetail\nPart Time\nView\nJust Posted!\nHospital Unit Secretary; Part-Time w/ Benefits; Central 6\nMiami, FL\nJackson Health System\nPosted in iHireAdmin\nPart Time\nView\nStay connected for tips, updates, and resources:\nWorkInSports is part of iHire's family of 57 industry-specific talent communities.\nWorkInSports\n41 E. All Saints St., Frederick, MD 21701\nEmail Preferences\n|\nUnsubscribe"
     }
   ],
   "jobs": [
@@ -167,24 +167,24 @@
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUSyBrJVHZr7NburBqbZFNv5a6jUEik4IUizGCcWVNKpR5wKZ-KHlicbFJYxc4vB6A9Om8W2FiqOEUEgeDPZ94_RcpFXrRouJp5x4mdO6KEd11mcroY1xjH3xzb99dt2QDWiSS2gRAZCFgLse2JnYSyL1axfTq90I0VMORlG6rI71gM1LqQOvllhn4e1pltYuSy_Xv2qam3buue9-mEoGXuayDteUhW2gIKNyhk2m0VdebZYzdTWLCU8WBdFj-2iRQN89Dnle69Ip63LIQgsHH-Xwy_sFMQFWE42WB3uV2FhVIkBAvw6YP_FxN3dVKtZhPrK0WZ096T5ITGQ-jPpwrkVkXo9k-EK-MXoQasVtvvqJ0n_dFjdlVSXSckn9qSwmsLegfwnOlT0gTOgPn017sBBnSAlcfisKn1KZMXHbw-4o/4te/ORS7v37RRWOrE57Zh8ypfw/h1/h001.2GcR1BKz-awtTG3Ai2sukwr-Oshz0igb54K1y3TdYpI",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUSyBrJVHZr7NburBqbZFNv5a6jUEik4IUizGCcWVNKpR5wKZ-KHlicbFJYxc4vB6A9Om8W2FiqOEUEgeDPZ94_RcpFXrRouJp5x4mdO6KEd11mcroY1xjH3xzb99dt2QDWiSS2gRAZCFgLse2JnYSyL1axfTq90I0VMORlG6rI71gM1LqQOvllhn4e1pltYuSy_Xv2qam3buue9-mEoGXuayDteUhW2gIKNyhk2m0VdebZYzdTWLCU8WBdFj-2iRQN89Dnle69Ip63LIQgsHH-Xwy_sFMQFWE42WB3uV2FhVIkBAvw6YP_FxN3dVKtZhPrK0WZ096T5ITGQ-jPpwrkVkXo9k-EK-MXoQasVtvvqJ0n_dFjdlVSXSckn9qSwmsLegfwnOlT0gTOgPn017sBBnSAlcfisKn1KZMXHbw-4o/4te/ezbB_IADSESWTikzn3tJoA/h1/h001.UU9dJY9oTQGndCCuM3hTmcDm3C4rp6eey7sWN4Fh1lY",
       "source": "Work In Sports",
       "description": ""
     },
     {
-      "title": "Video Desk Associate Producer, NBC News Digital",
-      "employer": "NBCUniversal",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5853416488?utm_medium=api&utm_source=4803a542",
+      "title": "Digital Content Scheduling & Automation Specialist",
+      "employer": "Sony Pictures Entertainment",
+      "location": "Miami, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5854266753?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Video Desk Associate Producer, NBC News Digital Job in New York City, NY What? Where? Search Advanced Video Desk Associate Producer, NBC News Digital \u276e back to last search NBCUniversal New York, NEW YORK $61,329 per year - estimated ? EASY APPLY NEW Apply for this job Job Description The NBC News Digital Newsgathering unit is looking for an Associate Producer to join our video team. This is a wonderful opportunity to work at the core of NBC News\u2019s newsgathering operation in a highly collaborative environment, producing short-form video content for NBCNews.com and mobile and social platforms. Responsibilities: Collaborate with NBC News producers and editors in New York and across NBC News bureaus on the acquisition, selection, editing, publishing and distribution of live and on-demand video content. Monitor and review incoming feeds, NBC off-air and digital streaming channels to identify "
+      "description": "Digital Content Scheduling & Automation Specialist Job in Miami, FL What? Where? Search Advanced Digital Content Scheduling & Automation Specialist \u276e back to last search Sony Pictures Entertainment Miami, Florida $123,210 per year - estimated ? Full time NEW Apply for this job Sony Pictures Entertainment (SPE) is a subsidiary of Tokyo-based Sony Corporation. SPE's global operations encompass motion picture production, acquisition, and distribution; television production, acquisition, and distribution; television networks; digital content creation and distribution; operation of studio facilities; and development of new entertainment products, services and technologies. SPE\u2019s Motion Picture Group production organizations include Columbia Pictures, Sony Pictures Animation, Screen Gems, TriStar Pictures, 3000 Pictures, Stage 6 Films, AFFIRM Films, and Sony Pictures Classics. Sony Pictures Te"
     },
     {
-      "title": "Lifestyle & Entertainment Associate Producer, NBC & Telemundo MiamiNBCUniversal \u00b7 Miramar, Florida, United States1 connection",
+      "title": "Content Producer \u2013 Washington, DC Bureau",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454559722?alertAction=markasviewed&savedSearchId=8934216562&savedSearchAuthToken=1&AQEIx7_qm6MlgwAAAaAi7D_QPlny5dopk0yjtuDSZzwtSkYXvXtGyFJYwYIwuzPFrUUGT4oVfjCkNutNaLY_uXwmTDTMO7_1D_2TEeEheNaTDwPXzlGsQmDXQC46v4HWCubOgq1llxBxSTiwuKyiylDqVjdi5R2iiF3cF1O2jc1r2Na633UUv3MNzvx0oRgebO77ZigS6x29nHES5fIvGgujYM-_NvMKYQ5ukdvsnjEhCrUb_GlXO48tbq-5HV1T5DWi28-rtTbZ5d1-OsNRz_K0ToVM0WmU5gi6ktQGo4hFFQah9eWZ4w=&Aa6DpETIzQlmPIzbNFw8dQCzgXiV=&trackingId=GXSVP%2FKtCxN0OovS3HRVPA%3D%3D&refId=EyvDGkIZUu2l2UkIvIdNCg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BkkrIf3DVRYK9QOFICYRBsQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2TZxzT6ackyso1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2ryyj1~da-null-null&eid=chf2d5-mt2ryyj1-da&otpToken=MTFiMWY0ZmE4YWFlNWIxMzcyNjYzODc4NWI5NjBkODZjNzg0NzE0MzQxNWY3YWZlMjRhNzEwMWVlMjJjOTdjNDM5MzVlYjU0NWQxNTdmZDUyNWY0NjE5YmRlYzE0NjFjZWY1NTc4MzRkMTVhNzVkZmE0NjdjZDc1MTM5NGI1NDY1NDhmN2EyMWQzYzFkOGFmLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4436858144?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=Brl9EEh%2BZtLM8s1kKyR0hw%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4436858144&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4436858144-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
@@ -193,24 +193,16 @@
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUzN6jvkbjGxNi0UB2ExLhMwVA0TJ4U3PCxi2ggBhOGpRBhW1dqHRgJ-RWi63DqaLmhvDiNRY9XoHuj3MNlqtx9dnBaw27B1aA8ghDOzUE9M9esNSwzFNhgLM9kybSQzJa0wxPn5h_rwec4jwKeh4YrS9io9g3cDNCswTW5BWbw3IVDH9IrAAhF0k53sUVUsFCqFFW74bLo6yO7iWj425ws45t3Jn3TYsypulXxzOY6A5E0dGo8DD0JoD3s6bj2nO9GTeqv6ky31ymZmo3sZQAXj29We7tyvmWx9VofGn5n5CzCtK442YTvk0JjbXIwehf5f4K_sCg3snnfE5GceqAf4dphYxg_oXg8nKahZ_NKHARrAmxU3Bhgty6b6jPZLTyX74CIm60rPSXYsOwR-qJ8/4te/ORS7v37RRWOrE57Zh8ypfw/h12/h001.3DBZWvAwWYT7Av9ARah05xGwgf-ai6PwmHefUP2YGp8",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUzN6jvkbjGxNi0UB2ExLhMwVA0TJ4U3PCxi2ggBhOGpRBhW1dqHRgJ-RWi63DqaLmMldQuBwK2xOoMXQ-KI6sPMA1F-D-KkVNEwMTJNp6BodaT4qhhrXE56PXWS9dcXdkD3uEqf0XTkeD5sHq993bWK_wHr2cGiI-y_-l7pTOfdq1iY9b1d_p1rtpTHdGI-a8kUwAJj8jrmQIL632uzOp-oG4SSP9nTJvW64HVe5upbaLa-tMxq8eyzuOl8Z3TjWqdYH1ykRCVs6XfLvx39QXjsJZccVo5f-0ydcWdWXE-MTYltY7eAeHVJzg50DoGFzn5Fuw6qHZHI9PyOZ0t2wUWyJyhNo6hyE4W-GaqHWluPZ9RGeV_e1jxrF2Cit0jsDk67LpClHQ7snyYM7TAS5pU/4te/ezbB_IADSESWTikzn3tJoA/h14/h001.ULp-xSznesiAjbNFzUHL7y7BouEphM3tJ1B-9OrQScs",
       "source": "Work In Sports",
       "description": ""
     },
     {
-      "title": "Communications Associate, Temporary",
-      "employer": "ProPublica",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5852501851?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Communications Associate, Temporary Job in New York City, NY What? Where? Search Advanced Communications Associate, Temporary \u276e back to last search ProPublica New York City, New York $75,000 - $87,000 Contract Full time NEW REMOTE Apply for this job ProPublica is an independent, nonprofit newsroom that produces investigative journalism in the public interest. We will stop accepting applications for this role on Monday, September 21st at 11:59PM ET. At ProPublica, the communications team amplifies the reach and impact of our journalism. As the media ecosystem continues to fracture and become more diffuse, we recognize the opportunity to find new ways to break through to audiences. We are seeking a versatile communications associate to help us be more targeted in the local distribution of our award-winning journalism and expertise. The person in this role will build strong relationships wi"
-    },
-    {
-      "title": "Lifestyle & Entertainment Associate Producer, NBC & Telemundo Miami",
+      "title": "Editor, Central DeskPOLITICO \u00b7 Arlington, Virginia, United StatesActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454559722?alertAction=markasviewed&savedSearchId=8934216562&savedSearchAuthToken=1&AQEIx7_qm6MlgwAAAaAi7D_QPlny5dopk0yjtuDSZzwtSkYXvXtGyFJYwYIwuzPFrUUGT4oVfjCkNutNaLY_uXwmTDTMO7_1D_2TEeEheNaTDwPXzlGsQmDXQC46v4HWCubOgq1llxBxSTiwuKyiylDqVjdi5R2iiF3cF1O2jc1r2Na633UUv3MNzvx0oRgebO77ZigS6x29nHES5fIvGgujYM-_NvMKYQ5ukdvsnjEhCrUb_GlXO48tbq-5HV1T5DWi28-rtTbZ5d1-OsNRz_K0ToVM0WmU5gi6ktQGo4hFFQah9eWZ4w=&Aa6DpETIzQlmPIzbNFw8dQCzgXiV=&trackingId=GXSVP%2FKtCxN0OovS3HRVPA%3D%3D&refId=EyvDGkIZUu2l2UkIvIdNCg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BkkrIf3DVRYK9QOFICYRBsQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2TZxzT6ackyso1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454559722&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454559722-null-chf2d5~mt2ryyj1~da-null-null&eid=chf2d5-mt2ryyj1-da&otpToken=MTFiMWY0ZmE4YWFlNWIxMzcyNjYzODc4NWI5NjBkODZjNzg0NzE0MzQxNWY3YWZlMjRhNzEwMWVlMjJjOTdjNDM5MzVlYjU0NWQxNTdmZDUyNWY0NjE5YmRlYzE0NjFjZWY1NTc4MzRkMTVhNzVkZmE0NjdjZDc1MTM5NGI1NDY1NDhmN2EyMWQzYzFkOGFmLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4453472454?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=RmwJrZ7OC9V36%2B1GuyrVlA%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
@@ -219,50 +211,42 @@
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRFAldI3AlrBYtNMSC9fXooX6Xh0mTk5b0OnB2tbKLOnRcM4v6YKAlKvxDT2uNFI_A8aQ6OlF8vXWQqUQTEg6QJfCzxhRffQMzXPAMwo6iNBsCiiaoHYxs2vOBtDVclFra4vDMlzrBPyZQi8ecze70cawo5KjeV51cibj6_FqfCTqx79BynUdZomwytB1FPPPjAp4uvgoCs_HuqS0Pb00s97Zs4ynNBAwDtgkrdZaiN27kfFPG0EYZa7hMy7Zu26fUMaVh3XAYaXiJqBgszc_8warIn27QxTTzGrWETWvlWOzNfxXUoyH08qN0CAXb4Y_6TMktWwLKS-CCZ5SSC7ixhfzsBiw5YUjy4NtO0UR6tE1LB_Nvi9L4r2t3VBjwfWbwHgX-QbOIoG7QHlH5JLUe70TmQZB0VWuHkoUq5yqfdcxCLwkjMlGEI9_ytiKBaFEn/4te/H5KJCSrsRPSuoXk41Y-TAA/h8/h001.JWzVHzHpdbPQQDf2EWG0JomQVihsXnqjC7sersjWAek",
+      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRFAldI3AlrBYtNMSC9fXooWgWARVirNvi3r2i_f1BLIvGuApgeYsXgabwQJ4JTnaQXxXA1Z8Gp1XAA3FS1D4Nm_MZuJHloC8VMFTZ7LGZkCC6jo0SfE_tf4xScph-NcnQqzdSuDFR2xii94Xnq08H-wcmEKlpFUm1CLIria7OwGMY8n0uXRFKncZkvk1PmHoia2rBoYiJr1z6575i-EzwSSmUCNTIfDeK1k12TO4LAMRZYC6fcK_NIw6iq9r-mAi1dzzKOFHrlr_Wq-TaxA0YwCiNic0ncbbK9tlYoINAY9RFpZRhwuk0iqlXp2mLgZApxXICIr9mSw05HvfY1ewf_UNMNEq65YtbhI236y4Syggj1grzlEXGpqA8uqkkwKFGTEzrvF2NUiFum1REKw3VJf6pqCwQat4NzRS-0F0YzzqUItrbmj9O06xpg4DLJ722/4tf/8Trd4UgzTKCFKpc_nGS9hQ/h10/h001.9SPO-qFHa8ocFtv_YzN1dsPMi5JLS-1erEWO36SWd-8",
       "source": "Work In Sports",
       "description": ""
     },
     {
-      "title": "PR Specialist, Worldwide Sustainability Communications",
-      "employer": "AMAZON",
-      "location": "Fort Myer, Arlington County",
-      "link": "https://www.adzuna.com/details/5851814899?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "PR Specialist, Worldwide Sustainability Communications Job in Fort Myer, VA What? Where? Search Advanced PR Specialist, Worldwide Sustainability Communications \u276e back to last search AMAZON Arlington, Virginia, 22212 $121,810 per year - estimated ? NEW Apply for this job Description Amazon is seeking a high-judgment and self-motivated communications professional to join our Worldwide Sustainability Communications team. This person will play an important role identifying and rapidly responding to emerging topics that have an impact on Amazon's work in becoming a more sustainable company and reaching its Climate Pledge commitment of net-zero carbon by 2040. Specifically, the role will focus on responding to Amazon's energy strategy, including its carbon-free energy progress and ongoing approach to energy and water efficiency amid a period of rapidly increasing AI demand. In addition, this r"
-    },
-    {
-      "title": "Editorial Assistant, The CutVox Media \u00b7 New York, New York, United StatesActively recruiting",
+      "title": "D.C. City Hall ReporterThe Washington Post \u00b7 Washington, District of Columbia, United StatesActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454107612?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=G9auQo%2BagMH4nQ5WOK%2BabA%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4429558787?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=tAx8MdZg7ysu5DjJ9W9klg%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate, Content Creator",
-      "employer": "Vivrelle",
+      "title": "Production Editor",
+      "employer": "Hachette Book Group",
       "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5853408935?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5854351954?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Associate, Content Creator Job in New York City, NY What? Where? Search Advanced Associate, Content Creator \u276e back to last search Vivrelle New York, New York $52,000 - $55,000 a year Full time NEW Apply for this job Vivrelle is seeking an enthusiastic, social media obsessed Content Creator to play a critical role with our continued growth within social. This role will be reporting to our Manager, Social Media within our Marketing Team. Responsibilities: Assist in research, planning and producing content for social channels- ideate, shoot, edit, and execute Follow trends to help develop exciting, consistent, and fun messages across all platforms including Instagram, Tiktok, and Pinterest Brainstorm creative ways to boost community engagement on social channels inclusive of new strategies and concepts for Instagram stories, email marketing, and TikTok Provide feedback and suggestions for i"
+      "description": "Production Editor Job in New York City, NY What? Where? Search Advanced Production Editor \u276e back to last search Hachette Book Group New York, New York $62,000-$66,000 Contract Full time NEW Apply for this job The Hachette Book Group is seeking a Production Editor for its Workman imprints to manage 20\u201325 titles per year, from manuscript to bound book, as well as review reprints. The Production Editor will work closely with the editorial, design, and production teams, and will be responsible for managing a variety of nonfiction projects, such as cookbooks, decorating and design books, gardening books, travel books, self-help books, gift books, children\u2019s books, stationery, and more. This position will work across the Workman, Artisan, and Black Dog & Leventhal imprints. Please visit workman.com for more information. Responsibilities: Manage 20\u201325 original titles per year from manuscript tr"
     },
     {
-      "title": "Editorial Assistant, The Cut",
+      "title": "D.C. City Hall Reporter",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454107612?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=G9auQo%2BagMH4nQ5WOK%2BabA%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454107612&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4454107612-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4429558787?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=tAx8MdZg7ysu5DjJ9W9klg%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4429558787&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-jobcard_body_4429558787-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Content Producer \u2013 Washington, DC BureauNexstar Media Group, Inc. \u00b7 Washington, District of Columbia, United StatesActively recruiting",
+      "title": "Assistant Newsletter Editor, OpinionDow Jones \u00b7 New York, New York, United States1 company alum",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4436858144?alertAction=markasviewed&savedSearchId=8934216290&savedSearchAuthToken=1&AQEQZSNe2RMRfwAAAaAi3zF-rubEbLwCbL2gItIxt-LMb1KIfdoJrCLBhCjqW59pRkr6Y046PoZjMTxmgSCwrNtFmjzJVnD2fU73eSR5rHZuHqNEasTjZO_RTKPqHZcebDtYaqvQHg7E0X3jUToZLTGh7pSkQXHAmfTPSglZgl0qlXQDDKVFUOW1JOzieRhbaPAWBzSfR-JJvf6XqGihTZMeKHEOB07b-hdEIewHuOLCdBR9GlS_Pe8ok2Mc2rrVFC6uANGI9372bTFnvo9m89XFxbYeDoK3pFineAu9MUcSjKlKXW8nrw=&AQ2ONwccAqZvS6EIuBIBkNJSlpaa=&trackingId=Brl9EEh%2BZtLM8s1kKyR0hw%3D%3D&refId=SEsKLFQ1bOGT4O4rMcQ4Ng%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3B1aKyJAvXSAqHGO5pY6MPOw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Sv8aF5H8Ayco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2jebez~p5-null-null&eid=chf2d5-mt2jebez-p5&otpToken=YmYzODViOTUwZWM3YThkYjM2NjM4NTYyYTlkOGFiNDU1NzIxYzU4Nzc5ZDUzNzVhOTk5ZDc4OGI0ZjRlNTIxNjZmMDc4NjA1ZjI0MzQ3YTUxM2FhODExOGQ0ZjgyODk1OTZmNjFmZjFiMjBjOTFlOTFhOGYwZjFhOTBhZThjOTM2YmFhNTMwMGIzYmNmOGIzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4370132579?alertAction=markasviewed&savedSearchId=8934216554&savedSearchAuthToken=1&AQHtEaq_PcKRkgAAAaAi7H0o6IbDfM8WxkfpBPKrp8xdc5neIAuDi5le4YoxAcYujUi81AHgEuuG_h9dmlAcXVOZBe4ai9LnKFxmGSLU9FFeW_lWZ5rD9GRNAgM8SlDwtvoQieOVps6ryl69Wr1-B4NASWtA01hMCSoui9SsprC2DzVMQn7NsPi4XfIFlrktH7M22lLxaHB-2ruMAdO8MpQj4SYa2L2n-G1_2h0s7uMTc90GvY7A0cDYcalW6_wP5G9dr32YxeHoVb3eELyjBcon5gTOe_GsqHv-jgK4QHexgTSYIKI3mw=&ASM_XxbfNkeqo9qXoHjaBChTk2Ou=&trackingId=%2Fi3mluDEUk9kFgO673ykEA%3D%3D&refId=7uoNMNu6CAkDoyKTT3LQvw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_confirmation_01%3BwnguLhGvS0S3Nq3F8CHm4Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=03fGuvvHCsyco1&trk=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting&trkEmail=eml-email_job_alert_confirmation_01-email_job_alert_confirmation-0-job_posting-null-chf2d5~mt2non3j~qp-null-null&eid=chf2d5-mt2non3j-qp&otpToken=NTExNDE0YjU2MDBmMjJkNjRjN2Q5ZGE4ODE5ODA1MWI1YjM0YmQ3NzhhMzhkMzJkZTc5ZWRkZTA5ZmVjN2NhODRhYjlkMGQ2YjQ0MzE5NTVjOTkzZWY5OTNkNTZkNWJkYTQyY2U2ZjU5OGVhZjEwNWM2ZmMzNGFiNjJkNmYzZjBlZTllODNlNTAzNjhjMjdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
