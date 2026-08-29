@@ -1,17 +1,16 @@
 {
-  "generated": "2026-08-28T21:14:08.919087",
-  "count": 9,
-  "dead_links_dropped": 2,
+  "generated": "2026-08-29T15:14:10.403946",
+  "count": 6,
+  "dead_links_dropped": 3,
   "off_target_dropped": 0,
   "source_counts": {
-    "Work In Sports": 2,
-    "Adzuna": 2,
-    "LinkedIn": 5
+    "LinkedIn": 5,
+    "Adzuna": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 53,
+      "raw": 49,
       "method": "selectors",
       "kept": 3
     },
@@ -22,10 +21,10 @@
       "kept": 0
     },
     "Media Job Board": {
-      "http": 200,
-      "raw": 15,
-      "method": "selectors",
-      "kept": 0
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "IRE": {
       "http": 200,
@@ -70,7 +69,7 @@
       "note": "http 404"
     },
     "Adzuna": {
-      "kept": 40
+      "kept": 42
     },
     "The Muse": {
       "http": 200,
@@ -89,7 +88,7 @@
       "note": "no email from jobs-listings@linkedin.com in last 8 days"
     },
     "Work In Sports": {
-      "kept": 46,
+      "kept": 40,
       "note": "12 email(s) captured"
     }
   },
@@ -120,12 +119,6 @@
     },
     {
       "source": "LinkedIn",
-      "subject": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki at\r\n Versant Media",
-      "date": "Thu, 27 Aug 2026 17:56:54 +0000 (UTC)",
-      "body": "Versant Media Writing Associate Producer, MS NOW The Briefing with Jen Psaki: Company DescriptionVERSANT (Nasdaq: VSNT) is an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nWriting Associate Producer, MS NOW The Briefing with Jen Psaki\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nAssociate Writer\nFordham University \u00b7 New York, NY\nActively recruiting\nU.S. Reporter - The Insurer (Level 1 Journalist)\nThomson Reuters \u00b7 New York, NY (Hybrid)\nActively recruiting\nGraduate Journalist\nProMedia Group \u00b7 California, United States (Remote)\n$45K-$50K / year\nEasy Apply\nBreaking News and Trending Topics Reporter\nUSA TODAY Co., Inc. \u00b7 Tallahassee, FL\nActively recruiting\nPolicy Staff Writer\nJobgether \u00b7 United States (Remote)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nUnsubscribe\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
-    },
-    {
-      "source": "LinkedIn",
       "subject": "News Reporter (Remote) at Hired: up to $75/hour",
       "date": "Fri, 28 Aug 2026 13:56:54 +0000 (UTC)",
       "body": "$40-$75 / hour salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nNews Reporter (Remote)\nHired \u00b7 United States (Remote)\n$40-$75 / hour\nEditor\nJNS (Jerusalem News Syndicate) \u00b7 United States (Remote)\nCommunications Support Writer/Editor\nJobgether \u00b7 United States (Remote)\nEasy Apply\nAssociate Content Engagement Editor, Yahoo Finance\nYahoo \u00b7 United States (Remote)\nActively recruiting\nColaboradores/as Editoriales para Diario Business News\nBAC PRIVATE INVESTORS \u00b7 Miami, FL (Remote)\nEasy Apply\nStorytelling Manager\nFoodCorps \u00b7 United States (Remote)\n1 school alum\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nUnsubscribe\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
@@ -141,6 +134,12 @@
       "subject": "Journalist | $75/hr Remote at Crossing Hurdles: up to $75/hour",
       "date": "Fri, 28 Aug 2026 17:56:54 +0000 (UTC)",
       "body": "$40-$75 / hour salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nJournalist | $75/hr Remote\nCrossing Hurdles \u00b7 United States (Remote)\n$40-$75 / hour\nEasy Apply\nNews Writer (all genders)\nHighsnobiety \u00b7 Berlin, NY\nActively recruiting\nCommunications Support Writer/Editor\nJobgether \u00b7 United States (Remote)\nEasy Apply\nEditor\nJNS (Jerusalem News Syndicate) \u00b7 United States (Remote)\nGraduate Journalist\nProMedia Group \u00b7 California, United States (Remote)\n$45K-$50K / year\nEasy Apply\nAssociate Content Engagement Editor, Yahoo Finance\nYahoo \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nUnsubscribe\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "News Reporter (Remote) at Hired: up to $75/hour",
+      "date": "Sat, 29 Aug 2026 13:56:55 +0000 (UTC)",
+      "body": "$40-$75 / hour salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nNews Reporter (Remote)\nHired \u00b7 United States (Remote)\n$40-$75 / hour\nManaging Editor (Nonprofit / Food & Agriculture Policy)\nMediabistro \u00b7 United States (Remote)\nWriter (Remote)\nHire Feed \u00b7 United States (Remote)\n$245-$280 / hour\nProducer-Temp\nTelevisaUnivision \u00b7 Miami, FL\n4 school alumni\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7\nUnsubscribe\n\u00b7\nHelp\n\u00a9 2026 LinkedIn Corporation, 1\u200c000 West Maude Avenue, Sunnyvale, CA 94085.\nLinkedIn and the LinkedIn logo are registered trademarks of LinkedIn."
     },
     {
       "source": "Work In Sports",
@@ -169,81 +168,55 @@
   ],
   "jobs": [
     {
-      "title": "Part-Time Social Media Editor, Sports",
+      "title": "Associate Producer, CBS News Roundup / Special EventsCBS News and Stations \u00b7 New York, NY (On-site)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoR4wm24HxT7JOM7juB9dvDcI69_y6kckpl9FV6YGY_Z-iUlebH4sA1tO5GzTjW69DxeTuHH9ssAJybMq3U8x80V6MMdyHmDCqIjUGUN6LlqHBdStnnl3NG44Q_FpQ511oSU6yl9HVMsIcj4nJ18V0rwYj2jRdcJKVUtnIf1ndOQkcllP523_hSIuFJ_TkpZVS0cCeC7npRzNaqIaqO2aqQp2q1o22_ciB4m0-lJ9pBx_x73mRKhZNlrpT0WRmZfjBbU0PWMiogIKEDpR3rFMbjFVv5ZuWRiS9i-qlq7cjs-6vTeh5K0ci3uEp_PKFVyH3mh0b1m7mdzIR5nEzCDY3ZvR0vFLGuRRvzOZKarr87wc1-SFrcrn4zF-DRa1M-HhBGVauLJRIS0zqXq-a492mAjb7WR10mFd-wUucBe8wCW68yZlXAmiu20Zp6-uZIvJXa/4tj/OF15PxxPSe-v4iPucVQE7A/h14/h001.6cVnN8nN39cE_YwYuXqj-JV_EaFVybAz5ULB7zjIpsI",
-      "source": "Work In Sports",
+      "link": "https://www.linkedin.com/comm/jobs/view/4459369071/?trackingId=0n8XYwkVWoKkNJJWRIXmjg%3D%3D&refId=xxy7vSwkP0CVDCF9RsC5qg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSidT0tKJQ6C6b4XLHSujCA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=05rR24LybsIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4459369071_ssid_8934216554_fmid_chf2d5~mtd4wwdw~jq&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4459369071_ssid_8934216554_fmid_chf2d5~mtd4wwdw~jq-null-chf2d5~mtd4wwdw~jq-null-null&eid=chf2d5-mtd4wwdw-jq&otpToken=NzcyOTY2NTNjYjMyYWQ2MGI5ZmViYzZkYTQzOTAzY2YyOTc3MzYyOTY5ZmYyNTc3OTUzOGViYTZkNzYwZWFhNzczZDgzNmQ5NTY1ODUzNjg5OWY5YTEwZDMyZWNkMmQyYThjY2M2MTNlNmQ2MDllMWNkNTA4ZmRlMjE4ZmZlZjY1MTBiZjQ0MmJhY2JlMTJmLDIsMQ%3D%3D",
+      "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Social Media and Digital Communications Specialist - Frost School of Music",
-      "employer": "University of Miami",
-      "location": "Coral Gables, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5859457164?utm_medium=api&utm_source=4803a542",
+      "title": "News Reporter (Remote)Hired \u00b7 United States (Remote)$40-$75 / hour",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4459698811/?trackingId=FIIMb43IdTS9zPEm5DRYIg%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4459698811_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4459698811_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "VP, External Communications",
+      "employer": "Girl Scouts of the USA",
+      "location": "Chelsea and Clinton, Manhattan",
+      "link": "https://www.adzuna.com/details/5861172344?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Social Media and Digital Communications Specialist - Frost School of Music Job in Coral Gables, FL What? Where? Search Advanced Social Media and Digital Communications Specialist - Frost School of Music \u276e back to last search University of Miami Coral Gables, Florida $58,148 per year - estimated ? Full time NEW Apply for this job Current Employees: If you are a current Staff, Faculty or Temporary employee at the University of Miami, please click here to log in to Workday to use the internal application process. To learn how to apply for a faculty or staff position, please review this tip sheet. The University of Miami, Frost School of Music, has an exciting opportunity for a full time Social Media and Digital Communications Specialist to work in Coral Gables, FL. The Frost School of Music at the University of Miami seeks a creative, collaborative, and highly organized Social Media and Dig"
+      "description": "VP, External Communications Job in Chelsea and Clinton, NY What? Where? Search Advanced VP, External Communications \u276e back to last search Girl Scouts of the USA New York, New York, 10018 $108,593 per year - estimated ? Full time NEW Apply for this job Girl Scouts of the USA Founded in 1912, Girl Scouts of the USA (GSUSA) is the preeminent leadership development organization for girls and the leading authority on their healthy development. Millions of Girl Scout alums across the country and the world have gone on to achieve incredible things and make a tremendous impact in fields ranging from public policy, medicine, journalism, and athletics to international relations, science, technology, art, and entertainment. As a mission-driven organization, Girl Scouts of the USA champions girls as they explore their worlds, try new things, and develop the courage, confidence, and character to make"
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
+      "title": "News Reporter (Remote)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4457635826/?trackingId=%2BC%2BlNDMDcK8cushxbJFWGw%3D%3D&refId=CWmLYtV8PwIGNzjgDeuLYA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Btum8O0TOTHOrxoUQO9xL%2Fg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1swkI4MeqQHco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt-null-chf2d5~mtbtrds4~xt-null-null&eid=chf2d5-mtbtrds4-xt&otpToken=OGFiMTVmMGJiNTE3NTdmY2Q2NzJlN2ZiMTBmNjYwODNhYjY0NDgzMGM0OTBmZTM2NDU1NmMxNjgxMjVkNjgwMjY0MjdmNjQzN2NiYmIxMTlkODdjYTdiZjhjOTk2ZmM3ZTVmNTNlZTZlNDg0ZGNlM2Q2ZmRlOWJjZGYyNGUyYzIwN2VlMzFlNDA4YmM3MmVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4459698811/?trackingId=FIIMb43IdTS9zPEm5DRYIg%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4459698811_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4459698811_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Commerce Writer",
+      "title": "EditorJNS (Jerusalem News Syndicate) \u00b7 United States (Remote)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://track.ihire.com/ss/c/u001.x1J705xcLCnpP4rpDectUUaXemJwfJR5f3DWsVEBjqfAui3MA5xABUQ6gUaAowoRx5_XtKkw6nvG1r-HkOgAfdc1qMe6xOLwDRYBs6bohR2wpdCjCQQS5MlLOAC4y0SeSm1vqmdIeUrNP2j_tWjOk4GsIL0UwUdGpBN63WkGR6xrEHZfpHS_rjV7KQnycMBKvMYJnMbGAWO48Mmei1MP9P0L-0HNqDrpdc1zf2Mm1rGtvYzu01na__T371-f-0ngCXZPmeGPwobErkc0IR-_nshhobGczWJjA0EoUgx87XemiXjBYZNd-xFpwOPBHy3os0tvg_VN73E11Lls3Wody3IvfvWIsSx5Jx3spu9YtMyx9px7FGlFKehT_02DRMXleUmTXmVTuJIs72oaSB88c9pzNJDdIKcSrPPcDxMSmjf96ZMDjS_Z3R3NVrTxY2ljZJTgv3bIZtbXPkDH4J0UbznxwbvP_2OjG9yTGW4casuvMQgfVRmuHaKkucTb00WO/4tk/TcwdOi63RU6Q9uh3oI0COA/h14/h001.nKNAVyzgrmzOAZzELl5XhjKnJju4_SDE7KrbwHx2n14",
-      "source": "Work In Sports",
-      "description": ""
-    },
-    {
-      "title": "Associate WriterFordham University \u00b7 New York, NYActively recruiting",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4457978061/?trackingId=Z0yhEaFSnMuDweSeFOo5ZA%3D%3D&refId=CWmLYtV8PwIGNzjgDeuLYA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Btum8O0TOTHOrxoUQO9xL%2Fg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1swkI4MeqQHco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4457978061_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4457978061_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt-null-chf2d5~mtbtrds4~xt-null-null&eid=chf2d5-mtbtrds4-xt&otpToken=OGFiMTVmMGJiNTE3NTdmY2Q2NzJlN2ZiMTBmNjYwODNhYjY0NDgzMGM0OTBmZTM2NDU1NmMxNjgxMjVkNjgwMjY0MjdmNjQzN2NiYmIxMTlkODdjYTdiZjhjOTk2ZmM3ZTVmNTNlZTZlNDg0ZGNlM2Q2ZmRlOWJjZGYyNGUyYzIwN2VlMzFlNDA4YmM3MmVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4459681040/?trackingId=eE0sfkimP4MTMiP6ZWwI7A%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4459681040_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4459681040_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Writer",
+      "title": "Communications Support Writer/EditorJobgether \u00b7 United States (Remote)Easy Apply",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4457978061/?trackingId=Z0yhEaFSnMuDweSeFOo5ZA%3D%3D&refId=CWmLYtV8PwIGNzjgDeuLYA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Btum8O0TOTHOrxoUQO9xL%2Fg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1swkI4MeqQHco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4457978061_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4457978061_ssid_8934216546_fmid_chf2d5~mtbtrds4~xt-null-chf2d5~mtbtrds4~xt-null-null&eid=chf2d5-mtbtrds4-xt&otpToken=OGFiMTVmMGJiNTE3NTdmY2Q2NzJlN2ZiMTBmNjYwODNhYjY0NDgzMGM0OTBmZTM2NDU1NmMxNjgxMjVkNjgwMjY0MjdmNjQzN2NiYmIxMTlkODdjYTdiZjhjOTk2ZmM3ZTVmNTNlZTZlNDg0ZGNlM2Q2ZmRlOWJjZGYyNGUyYzIwN2VlMzFlNDA4YmM3MmVjLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Network - Marketing & Communications Coordinator",
-      "employer": "Family Life Academy Charter Schools",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5859913759?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Network - Marketing & Communications Coordinator Job in New York City, NY What? Where? Search Advanced Network - Marketing & Communications Coordinator \u276e back to last search Family Life Academy Charter Schools NY $38,692 per year - estimated ? EASY APPLY NEW Apply for this job ABOUT US Family Life Academy Charter School (commonly called FLACS) is a nonprofit network of high-performing charter schools in the South Bronx. FLACS, together with the Latino Pastoral Action Center and parents, create the conditions for self-empowerment for all its K-12 students to excel academically, take responsibility for their own learning, and affirm human values, today, in college, and beyond. We are guided by this mission and through it, we have revolutionized education for students from K-12. FLACS is currently seeking dynamic individuals who: Value collaboration with like-minded individuals who believe "
-    },
-    {
-      "title": "Associate Content Engagement Editor, Yahoo FinanceYahoo \u00b7 United States (Remote)Actively recruiting",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4440292358/?trackingId=e1dmVZgp6FfadW8vCXmujQ%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4440292358_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4440292358_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Associate Content Engagement Editor, Yahoo Finance",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4440292358/?trackingId=e1dmVZgp6FfadW8vCXmujQ%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4440292358_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4440292358_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4458612962/?trackingId=cbZyyW3lN8dScmb4%2BQsCxw%3D%3D&refId=JZtMdyzgVvymW0yXmqJPHQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BmB7KkDgeRr6X0Kob5YMsyQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=005I-MEHNAIso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4458612962_ssid_8934216562_fmid_chf2d5~mtd0mkov~om&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4458612962_ssid_8934216562_fmid_chf2d5~mtd0mkov~om-null-chf2d5~mtd0mkov~om-null-null&eid=chf2d5-mtd0mkov-om&otpToken=NmNmZjkyODk1NWQ4MzI2NjJlNjE3NjQ3YmZkMjdiMDIzMDNjYmNmMjhlOTRlZmNmMzQ0Mzg0NmUwZWJjMjk5Y2ExMTBlYmE3YzFjZjNmMjhlNzBhNWRlNWFiMTIzMjg3N2RkMzk2MTU1MTJmZDVkMjBhMzBlNmU1NTU0NzQxNjFmYzc3ZWM2NmE5Zjk2MjM3LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
