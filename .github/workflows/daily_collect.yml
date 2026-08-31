@@ -2,9 +2,15 @@ name: Daily Job Collection
 
 on:
   schedule:
-    # 10:30 UTC is 6:30 AM Eastern. Your Cowork task should run at 7:30 AM
-    # Eastern so this has finished writing before Cowork reads the file.
-    - cron: "30 10 * * *"
+    # 06:07 UTC is 2:07 AM Eastern.
+    #
+    # Two deliberate choices here. GitHub's scheduled runs are best effort and
+    # get delayed under load, sometimes by hours. Minute :07 avoids the :00 and
+    # :30 spikes when everyone else's jobs fire. Running at 2 AM instead of
+    # 6:30 AM leaves roughly five hours of slack before the Cowork task reads
+    # the file at 7:30 AM Eastern, so even a badly delayed run still lands
+    # in time.
+    - cron: "7 6 * * *"
   workflow_dispatch:
 
 permissions:
