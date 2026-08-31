@@ -56,10 +56,14 @@ NEWSLETTER_SENDERS = {
     # "noreply@inn.org":              "INN",
     # "careers@journalists.org":      "ONA",
     # "jobs@prnewsonline.com":        "PR News",
-     "jobseekers@email.ihire.com":      "Work In Sports",
+    # "alerts@workinsports.com":      "Work In Sports",
 }
 NEWSLETTER_LOOKBACK_DAYS = 8      # Study Hall's opportunities email is weekly
-NEWSLETTER_CHAR_CAP      = 7000   # per email, keeps Claude's read bounded
+NEWSLETTER_CHAR_CAP      = 22000  # per email. Study Hall's roundup runs long and
+                                  # the old 7000 cap was cutting off most of the
+                                  # listings before Claude ever saw them.
+NEWSLETTER_TOTAL_CAP     = 50000  # across all emails in one run, so a busy week
+                                  # cannot blow up usage
 
 MAX_FINALISTS = 25          # how many jobs get handed to Claude
 DESC_CHARS    = 900         # characters of job description kept per listing
@@ -496,12 +500,57 @@ HTML_BOARDS = [
     ("Ragan TalentHub",  "https://www.ragan.com/talenthub/"),
     ("Idealist",         "https://www.idealist.org/en/jobs?q=communications"),
     ("MD State Jobs",    "https://www.jobapscloud.com/MD/sup/bulklist.aspx"),
+    # ONA runs on Momentive Careers and serves the same listings from two
+    # hosts. careers.journalists.org returns 403 to datacenter traffic; this
+    # mirror may not. If it also 403s, drop the line and use email alerts.
+    ("ONA Career Center","https://journalists.careerwebsite.com/jobs/"),
 ]
 
 
 # ═══════════════════════════════════════════════════════════
 #  API SOURCES
 # ═══════════════════════════════════════════════════════════
+
+BOILERPLATE_MARKERS = (
+    "unsubscribe", "manage your preferences", "update your preferences",
+    "view this email in your browser", "you are receiving this",
+    "you're receiving this", "copyright ©", "all rights reserved",
+    "sent to you by", "privacy policy", "terms of service",
+    "was this forwarded to you", "add us to your address book",
+    "no longer wish to receive",
+)
+
+def strip_newsletter_boilerplate(text):
+    """
+    Newsletters carry a lot of text that is not a job: header navigation at the
+    top, and an unsubscribe and legal block at the bottom. Cut both so the
+    character budget goes to listings.
+    """
+    lines = [l.rstrip() for l in text.splitlines()]
+
+    # Drop everything from the first footer marker onward
+    for i, l in enumerate(lines):
+        low = l.lower()
+        if any(m in low for m in BOILERPLATE_MARKERS):
+            lines = lines[:i]
+            break
+
+    out, blanks = [], 0
+    for l in lines:
+        if not l.strip():
+            blanks += 1
+            if blanks > 1:
+                continue
+        else:
+            blanks = 0
+        # Drop bare social and nav links
+        if l.strip().lower() in ("twitter", "facebook", "instagram", "linkedin",
+                                 "share", "forward", "web version", "view online"):
+            continue
+        out.append(l)
+
+    return "\n".join(out).strip()
+
 
 def scrape_newsletters():
     """
@@ -590,9 +639,15 @@ def scrape_newsletters():
 
                         text = soup.get_text("\n", strip=True)
 
-                    # Pass 2: the readable text, for Claude
+                    # Pass 2: the readable text, for Claude.
+                    # Strip the boilerplate first so the character budget is
+                    # spent on listings rather than footers and social links.
                     if text:
-                        clean = re.sub(r"\n{3,}", "\n\n", text)[:NEWSLETTER_CHAR_CAP]
+                        clean = strip_newsletter_boilerplate(text)
+                        clean = re.sub(r"\n{3,}", "\n\n", clean)[:NEWSLETTER_CHAR_CAP]
+                        used = sum(len(d.get("text", "")) for d in digests)
+                        if used + len(clean) > NEWSLETTER_TOTAL_CAP:
+                            clean = clean[:max(0, NEWSLETTER_TOTAL_CAP - used)]
                         digests.append({"source": label, "subject": subject,
                                         "date": msg.get("Date", ""), "body": clean})
 
