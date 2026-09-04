@@ -1,19 +1,20 @@
 {
-  "generated": "2026-09-03T11:05:53.474160",
-  "count": 9,
-  "dead_links_dropped": 0,
+  "generated": "2026-09-04T11:08:05.833757",
+  "count": 10,
+  "dead_links_dropped": 1,
   "off_target_dropped": 0,
   "source_counts": {
-    "JournalismJobs": 2,
-    "USAJobs": 2,
-    "LinkedIn": 5
+    "JournalismJobs": 1,
+    "USAJobs": 1,
+    "LinkedIn": 5,
+    "Adzuna": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
       "raw": 45,
       "method": "selectors",
-      "kept": 8
+      "kept": 9
     },
     "MediaBistro": {
       "http": 200,
@@ -23,7 +24,7 @@
     },
     "Media Job Board": {
       "http": 200,
-      "raw": 16,
+      "raw": 18,
       "method": "selectors",
       "kept": 0
     },
@@ -70,15 +71,13 @@
       "note": "http 404"
     },
     "ONA Career Center": {
-      "http": 200,
+      "http": 403,
       "raw": 0,
-      "method": "anchor-scan",
-      "kept": 0
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "http": 502,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets"
+      "kept": 26
     },
     "The Muse": {
       "http": 200,
@@ -118,104 +117,112 @@
     },
     {
       "source": "LinkedIn",
-      "subject": "Associate News Editor at Newsweek",
-      "date": "Tue, 1 Sep 2026 17:56:55 +0000 (UTC)",
-      "body": "Newsweek Associate News Editor: Newsweek is the global media organization that\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nAssociate News Editor\nNewsweek \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nStaff Writer, Sports Illustrated\nMinute \u00b7 New York, NY (Remote)\nActively recruiting\nEasy Apply\nJunior Reporter (Decoding Bio)\nArkaea Media Group \u00b7 United States (Remote)\nComic Strip Writer\nPolygon \u00b7 United States (Remote)\nHigh-Performance Writer, Movies\nCollider \u00b7 United States (Remote)\nHigh-Performance Writer (Entertainment & Gaming)\nPolygon \u00b7 United States (Remote)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
-      "subject": "Page Six Associate Editor at New York Post",
-      "date": "Wed, 2 Sep 2026 13:56:53 +0000 (UTC)",
-      "body": "New York Post Page Six Associate Editor: Job DescriptionThe New York Post delivers the\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nPage Six Associate Editor\nNew York Post \u00b7 New York, NY\n9 school alumni\nBooking Producer\nBloomberg \u00b7 New York, NY (On-site)\n$85K-$110K / year\nActively recruiting\nContent Manager\nDow Jones \u00b7 New York, NY\n1 company alum\nWriter (Remote)\nHire Feed \u00b7 United States (Remote)\n$245-$280 / hour\nCity Life Reporter\nNew York Post \u00b7 New York, NY\n1 connection\nLead Newsroom Analyst\nThe Verge \u00b7 New York, NY (Hybrid)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
-      "subject": "Reporter, Rapid Response Team (Newsperson) at The Associated Press",
-      "date": "Wed, 2 Sep 2026 15:56:53 +0000 (UTC)",
-      "body": "The Associated Press Reporter, Rapid Response Team (Newsperson): The Associated Press is an independent global\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nReporter, Rapid Response Team (Newsperson)\nThe Associated Press \u00b7 Honolulu, HI\n1 connection\nStory Desk Editor\nTEGNA \u00b7 Charlotte, NC (On-site)\nActively recruiting\nOpinion Journalist\nThe Washington Post \u00b7 Washington, DC\nActively recruiting\nGraduate Journalist\nProMedia Group \u00b7 California, United States (Remote)\n$45K-$50K / year\nEasy Apply\nPage Six Associate Editor\nNew York Post \u00b7 New York, NY\n1 connection\nEditor\nMilitary.com \u00b7 United States (Remote)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
       "subject": "Writer (Remote) at Hire Feed: up to $280/hour",
       "date": "Wed, 2 Sep 2026 17:56:54 +0000 (UTC)",
       "body": "$245-$280 / hour salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nWriter (Remote)\nHire Feed \u00b7 United States (Remote)\n$245-$280 / hour\nEditor\nMilitary.com \u00b7 United States (Remote)\nEasy Apply\nHigh-Performance Writer (TV)\nCollider \u00b7 United States (Remote)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Reporter at Morningstar",
+      "date": "Thu, 3 Sep 2026 13:56:55 +0000 (UTC)",
+      "body": "Morningstar Reporter: Morningstar is a leading provider of independent\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nReporter\nMorningstar \u00b7 New York, United States\nActively recruiting\nContent Producer and Investigations Coordinator\nPETA \u00b7 United States (Remote)\nActively recruiting\nFreelance TV Writer - TVLine\nStatic Media \u00b7 United States (Remote)\n3 school alumni\nVideo Journalist, Vertical Video\nDow Jones \u00b7 New York, NY\n1 company alum\nExecutive Reporter, WKBW\nWKBW-TV \u00b7 Buffalo, NY (On-site)\nManaging Editor, Think Global Health\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Content Producer and Investigations Coordinator at PETA",
+      "date": "Thu, 3 Sep 2026 15:56:54 +0000 (UTC)",
+      "body": "PETA Content Producer and Investigations Coordinator: ApplyJob TypeFull-timeDescriptionThe PETA\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nContent Producer and Investigations Coordinator\nPETA \u00b7 United States (Remote)\nActively recruiting\nWriter / Editorial\nUnto Labs \u00b7 California, United States (Hybrid)\nBureau Producer I\nThe Walt Disney Company \u00b7 California, United States (Remote)\nActively recruiting\nEditor, White House, Judicial and Legislative Intersection\nFiscalNote \u00b7 Washington, DC (Hybrid)\nActively recruiting\nWWD: Associate Editor, Branded Content\nPenske Media Corporation \u00b7 New York City Metropolitan Area (On-site)\n1 school alum\nReporter\nMorningstar \u00b7 New York, United States\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Content Producer and Investigations Coordinator at PETA",
+      "date": "Thu, 3 Sep 2026 17:58:26 +0000 (UTC)",
+      "body": "PETA Content Producer and Investigations Coordinator: ApplyJob TypeFull-timeDescriptionThe PETA\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nContent Producer and Investigations Coordinator\nPETA \u00b7 United States (Remote)\nActively recruiting\nDigital Content Coordinator\nFish & Wildlife Foundation of Florida \u00b7 Florida, United States (Remote)\nFreelance TV Writer - TVLine\nStatic Media \u00b7 United States (Remote)\n3 school alumni\nLifestyle & Entertainment Associate Producer, NBC & Telemundo Miami\nNBCUniversal \u00b7 Miramar, FL (Hybrid)\nActively recruiting\nFreelance Home & Lifestyle Writer - House Digest\nStatic Media \u00b7 United States (Remote)\n3 school alumni\nProperty Operations Director\nProperty News International \u00b7 United States (Remote)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Photo Editor",
+      "title": "Global Development Correspondent",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693728-photo-editor-lnp-media-group",
+      "link": "https://www.journalismjobs.com/1693735-global-development-correspondent-devex",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Photo Editor Photo Editor LNP Media Group Lancaster, Pennsylvania See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted September 02, 2026 Industry Digital Media Specialty Local News Remote / Telecommute Hybrid Job Status Full-time Salary 63,000-68,000 Description: Our Team: At LNP Media Group, our work is rooted in service to our community. As a nonprofit media organization, we are dedicated to delivering trusted journalism, meaningful storytelling, and essential information that helps our community stay informed, engaged, and connected. Our mission-driven approach ensures that our reporting and services strengthen civic life and support the long-term vitality of Lancaster County. We believe great work happens when talented people feel supported, respected, and empowered. Our culture values collaboration, acc"
+      "description": "JournalismJobs.com - Job Listing - Global Development Correspondent Global Development Correspondent Devex Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Apply Now Date Posted September 03, 2026 Industry Digital Media Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary 80,000 - 100,000 Description: Devex is looking for a reporter who can help us cover global development from an insider perspective. It\u2019s one of the most consequential beats in the world today, and we need a reporter who can quickly develop sources and grow their expertise in this dynamic area. This full-time position is based in Washington, D.C. You should understand that our coverage of the global development industry is about the people and organizations that shape the sector, and you should expect to develop sources across NGOs, implementing partners, contractors,"
     },
     {
-      "title": "Telecommunications Specialist",
-      "employer": "Defense Information Systems Agency",
-      "location": "Fort Meade, Maryland",
-      "link": "https://www.usajobs.gov:443/job/882640200",
+      "title": "TECHNICAL WRITER-EDITOR",
+      "employer": "Department of the Air Force Headquarters",
+      "location": "Patrick AFB, Florida",
+      "link": "https://www.usajobs.gov:443/job/883496800",
       "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Telecommunications Specialist Department of Defense Defense Information Systems Agency OC/Infrastructure Directorate Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is being recruited under 10 USC 1599f into the Cyber Excepted Service and does NOT convey eligibility to be converted to the Competitive Service. It has been identified as a position necessary to carry out and support the mission of the US Cyber Command. It is in the Professional Work Category at the Senior Work Level within the CES Occupational Structure. It is located in the DISA OC/Infrastructure Directorate. Learn more about this agency Summary This position is being recruited under 10 USC 1599f into the Cyber Excepted Service and does NOT convey eligibility to be con"
+      "description": "USAJOBS - Job Announcement Skip to main content Apply TECHNICAL WRITER-EDITOR Department of the Air Force Department of the Air Force Headquarters 709 SUPPORT GP Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below for IMPORTANT additional information. The primary purpose of this position is: The Special Mission Systems Flight is responsible for maintenance of United Stated National Data Center (US NDC). The US NDC is a 24/7 operational system-of-systems which processes seismic, hydroacoustic and infrasonic data collected in near-real-time from a global sensor network to monitor nuclear test treaties. Learn more about this agency Summary Click on \"Learn more about this agency\" button below for IMPORTANT additional information. The primary purpose of thi"
     },
     {
-      "title": "Associate News EditorNewsweek \u00b7 United States (Remote)Actively recruitingEasy Apply",
+      "title": "Content Producer and Investigations CoordinatorPETA \u00b7 United States (Remote)Actively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4424583084/?trackingId=z79S4hOILSFzKbwxnz8qXw%3D%3D&refId=BIWRUwqjsJRqrC6MZOMkfQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B5dW0lFwRQLq8S8fb%2BOnk5w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=34x199gQnkOco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4424583084_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4424583084_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms-null-chf2d5~mtiyyn2s~ms-null-null&eid=chf2d5-mtiyyn2s-ms&otpToken=MzE5ZmFlMWJhMjU0NDVhZTM3Y2FmZDI0ZDRhYjk4MWQ3NzdmYWUwODhhZTlhNTViY2IzNDNlNTEzYTFjN2I4OTRkZDRmMGUzODNiYzZkYzJkNTc3YjZmOWFjNWRkYTkxMmJhNDE0Yjc0MzM3NjE1MjQ3NTFiNTE4N2M3ODAwOGNmMjc5NDFiYzQ1ODAzNzAyLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4460936210/?trackingId=MRZL1Uzpo%2BBEExWngSBYyQ%3D%3D&refId=%2BQv4IuXd1BMyon1ZBvVBFg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3ByZlqQIRjSCusn5dr9UTjig%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0OV_QH-vwAQYo1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4460936210_ssid_8934216554_fmid_chf2d5~mtll9p22~7t&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4460936210_ssid_8934216554_fmid_chf2d5~mtll9p22~7t-null-chf2d5~mtll9p22~7t-null-null&eid=chf2d5-mtll9p22-7t&otpToken=NjBjNDJlZTc3Mzc4N2ZmZWVmNjk2NjM5ODViMDY2NzgxNGY5Y2FjYjQwZWU2MjMxMjQ1MzNlYWFkMTc1ZjE4NGFjOTk2NjQ5NTZhMDM0NWRkODBmMTA1MjkxY2QzMDE3MTE4ODg0MTlkYzU3OGE0YzJhMjAwNDVjMWM3MGUxMjIwZmZhNGI2Mjg2YmY4MzNhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Reporter, West Virginia Watch",
-      "employer": "",
-      "location": "Virginia",
-      "link": "https://www.journalismjobs.com/1693727-reporter-west-virginia-watch-states-newsroom",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Reporter, West Virginia Watch Reporter, West Virginia Watch States Newsroom Charleston, West Virginia See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted September 01, 2026 Industry Digital Media Specialty Politics Job Status Full-time Salary $55,000.00 Description: Join West Virginia Watch and give readers hard-hitting government coverage that connects state policy to West Virginians\u2019 lives. West Virginia Watch is an award-winning nonpartisan, nonprofit news organization that covers state government, politics and policy. It is staffed by veteran West Virginia reporters and is dedicated to its mission of journalism that sheds light on how decisions in Charleston affect people across the Mountain State. Part of States Newsroom , West Virginia Watch believes in empowering journalists to do meaningful, ambitious work. Ba"
+      "title": "Video & Content Producer",
+      "employer": "PermitFlow",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5870427850?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Video & Content Producer Job in New York City, NY What? Where? Search Advanced Video & Content Producer \u276e back to last search PermitFlow New York City, New York 90000-120000 per year Contract Full time NEW Apply for this job PermitFlow is redefining how America builds. We\u2019re an applied AI company serving the nation\u2019s builders, tackling one of the largest information challenges in the economy: understanding what can be built, where, and how . Our AI agent workforce helps the fastest-growing construction companies navigate everything from permitting and licensing to inspections and project closeouts \u2013 accelerating housing, clean-energy, and infrastructure development across the country. Despite being a $1.6T industry, construction still suffers from massive delays, wasted capital, and lost opportunity. PermitFlow has already delivered unprecedented speed, accuracy, and visibility to over $"
     },
     {
-      "title": "SUPERVISORY PUBLIC AFFAIRS SPECIALIST",
-      "employer": "Air Force Elements, U.S. Central Command",
-      "location": "MacDill AFB, Florida",
-      "link": "https://www.usajobs.gov:443/job/883317100",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply SUPERVISORY PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air Force Elements, U.S. Central Command Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is: To serve as the Deputy Director, USCENTCOM Public Affairs, sharing with the Director of Public Affairs (an O-6 or equivalent position) the full scope of responsibility for managing the activities of the directorate. Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is: To serve as the D"
-    },
-    {
-      "title": "Associate News Editor",
+      "title": "Content Producer and Investigations Coordinator",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4424583084/?trackingId=z79S4hOILSFzKbwxnz8qXw%3D%3D&refId=BIWRUwqjsJRqrC6MZOMkfQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B5dW0lFwRQLq8S8fb%2BOnk5w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=34x199gQnkOco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4424583084_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4424583084_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms-null-chf2d5~mtiyyn2s~ms-null-null&eid=chf2d5-mtiyyn2s-ms&otpToken=MzE5ZmFlMWJhMjU0NDVhZTM3Y2FmZDI0ZDRhYjk4MWQ3NzdmYWUwODhhZTlhNTViY2IzNDNlNTEzYTFjN2I4OTRkZDRmMGUzODNiYzZkYzJkNTc3YjZmOWFjNWRkYTkxMmJhNDE0Yjc0MzM3NjE1MjQ3NTFiNTE4N2M3ODAwOGNmMjc5NDFiYzQ1ODAzNzAyLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4460936210/?trackingId=MRZL1Uzpo%2BBEExWngSBYyQ%3D%3D&refId=%2BQv4IuXd1BMyon1ZBvVBFg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3ByZlqQIRjSCusn5dr9UTjig%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0OV_QH-vwAQYo1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4460936210_ssid_8934216554_fmid_chf2d5~mtll9p22~7t&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4460936210_ssid_8934216554_fmid_chf2d5~mtll9p22~7t-null-chf2d5~mtll9p22~7t-null-null&eid=chf2d5-mtll9p22-7t&otpToken=NjBjNDJlZTc3Mzc4N2ZmZWVmNjk2NjM5ODViMDY2NzgxNGY5Y2FjYjQwZWU2MjMxMjQ1MzNlYWFkMTc1ZjE4NGFjOTk2NjQ5NTZhMDM0NWRkODBmMTA1MjkxY2QzMDE3MTE4ODg0MTlkYzU3OGE0YzJhMjAwNDVjMWM3MGUxMjIwZmZhNGI2Mjg2YmY4MzNhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Junior Reporter (Decoding Bio)Arkaea Media Group \u00b7 United States (Remote)",
+      "title": "News Editor",
+      "employer": "The Real Deal",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5870371170?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "News Editor Job in New York City, NY What? Where? Search Advanced News Editor \u276e back to last search The Real Deal New York City, New York 80000-95000 per year Full time NEW Apply for this job About the Job: The Real Deal \u2019s editors oversee content on TheRealDeal.com and in our monthly magazine. Editors work with reporters on a day-to-day basis to perfect the content and copy of news articles and features. The Real Deal looks for editors to be newsroom leaders, capable of assigning stories and guiding journalists through the reporting process. Editors must have excellent editorial judgement, strong communication skills, and flawless grammar. This role will work closely with the New York team, focusing on reporters on the commercial real estate beat. This role will focus on The Real Deal \u2019s monthly magazine, spearheading the assignment, oversight, and editing of features, profiles and inve"
+    },
+    {
+      "title": "WWD: Associate Editor, Branded ContentPenske Media Corporation \u00b7 New York City Metropolitan Area (On-site)1 school alum",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4459213944/?trackingId=G45NX0Tw3CJKjgkGQV47sw%3D%3D&refId=BIWRUwqjsJRqrC6MZOMkfQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B5dW0lFwRQLq8S8fb%2BOnk5w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=34x199gQnkOco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4459213944_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4459213944_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms-null-chf2d5~mtiyyn2s~ms-null-null&eid=chf2d5-mtiyyn2s-ms&otpToken=MzE5ZmFlMWJhMjU0NDVhZTM3Y2FmZDI0ZDRhYjk4MWQ3NzdmYWUwODhhZTlhNTViY2IzNDNlNTEzYTFjN2I4OTRkZDRmMGUzODNiYzZkYzJkNTc3YjZmOWFjNWRkYTkxMmJhNDE0Yjc0MzM3NjE1MjQ3NTFiNTE4N2M3ODAwOGNmMjc5NDFiYzQ1ODAzNzAyLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4460691017/?trackingId=fro%2BTmMW3OVNGXUp%2B1QWJQ%3D%3D&refId=QcEbm8iZ3KzRPlF0loySJg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bh7dpxpGySSaTwh8HxmFg2A%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0QMghqnMqsQYo1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mtlpk0kp~g1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mtlpk0kp~g1-null-chf2d5~mtlpk0kp~g1-null-null&eid=chf2d5-mtlpk0kp-g1&otpToken=ZjhiNTg3YTcyNWEwMGViNTVjOTJmZGE3NzdlNzkxMmVjNGMxYTk3M2E0YzNlNGZhMmI3MDY1YzYyMzY0ODhiNDQyNzQwMWEyZDIxYjllY2Q0YWI3MDk2MzIxNTkxNjJmMDIzNjUzY2NkY2NjMDZjODY5MTVjNWQ2OGFiOTNkNDA0ZDA3YzFhODVmNDQ1MjU3LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Junior Reporter (Decoding Bio)",
+      "title": "SEO/AEO Editor",
+      "employer": "Fox",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5870123449?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "SEO/AEO Editor Job in New York City, NY What? Where? Search Advanced SEO/AEO Editor \u276e back to last search Fox New York, New York 83000-91000 per year Full time NEW Apply for this job OVERVIEW OF THE COMPANY Fox News Media FOX News Media operates the FOX News Channel (FNC), FOX Business Network (FBN), FOX News Digital, FOX News Audio, FOX News Books, the direct-to-consumer digital streaming services FOX Nation and FOX News International and the newly announced platform FOX Weather. Currently the number one network in all of cable, FNC has also been the most watched television news channel for 20 consecutive years, while FBN currently ranks among the top business channels on cable. Owned by FOX Corporation, FOX News Media reaches 200 million people each month. JOB DESCRIPTION Fox News Digital is looking for a full-time SEO/AEO Editor to join the team! You will play a key role in growing th"
+    },
+    {
+      "title": "WWD: Associate Editor, Branded Content",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4459213944/?trackingId=G45NX0Tw3CJKjgkGQV47sw%3D%3D&refId=BIWRUwqjsJRqrC6MZOMkfQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B5dW0lFwRQLq8S8fb%2BOnk5w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=34x199gQnkOco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4459213944_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4459213944_ssid_8934216554_fmid_chf2d5~mtiyyn2s~ms-null-chf2d5~mtiyyn2s~ms-null-null&eid=chf2d5-mtiyyn2s-ms&otpToken=MzE5ZmFlMWJhMjU0NDVhZTM3Y2FmZDI0ZDRhYjk4MWQ3NzdmYWUwODhhZTlhNTViY2IzNDNlNTEzYTFjN2I4OTRkZDRmMGUzODNiYzZkYzJkNTc3YjZmOWFjNWRkYTkxMmJhNDE0Yjc0MzM3NjE1MjQ3NTFiNTE4N2M3ODAwOGNmMjc5NDFiYzQ1ODAzNzAyLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4460691017/?trackingId=fro%2BTmMW3OVNGXUp%2B1QWJQ%3D%3D&refId=QcEbm8iZ3KzRPlF0loySJg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bh7dpxpGySSaTwh8HxmFg2A%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0QMghqnMqsQYo1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mtlpk0kp~g1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mtlpk0kp~g1-null-chf2d5~mtlpk0kp~g1-null-null&eid=chf2d5-mtlpk0kp-g1&otpToken=ZjhiNTg3YTcyNWEwMGViNTVjOTJmZGE3NzdlNzkxMmVjNGMxYTk3M2E0YzNlNGZhMmI3MDY1YzYyMzY0ODhiNDQyNzQwMWEyZDIxYjllY2Q0YWI3MDk2MzIxNTkxNjJmMDIzNjUzY2NkY2NjMDZjODY5MTVjNWQ2OGFiOTNkNDA0ZDA3YzFhODVmNDQ1MjU3LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Page Six Associate EditorNew York Post \u00b7 New York, NY9 school alumni",
+      "title": "Digital Content CoordinatorFish & Wildlife Foundation of Florida \u00b7 Florida, United States (Remote)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=Ya7ZUGz0s1YkBVlQ1QDtbw%3D%3D&refId=kb9dBdjEXrOO9pHbOp3b9A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BWx%2Bm4O7RTOG84T7m5iKNXg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0xOBp29WW4Pso1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mtk5tun5~df&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mtk5tun5~df-null-chf2d5~mtk5tun5~df-null-null&eid=chf2d5-mtk5tun5-df&otpToken=ZWU2ZDc3MDFhNWNkYTdmN2JkYTdiMmMyNjUxZjRiNjYzZTYzZTMyNWEzNDQ5NmFmYjBmMDI0YzNmODRmMWM4YzVjZTg5NjU0Njk3ODliOTQ5YzA5MmVlNzZjN2NhOGE5NjA2Zjk0ZmY2OTIzYzA2MmQ2OWYyZjA1ODgxY2NhZmVkNGIwZmRlNzYxMWVkOTk3LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4461319467/?trackingId=1DEuozusC%2Byy%2BiHlj0Tz0g%3D%3D&refId=abOJ3JbE3LmOiEj4UO3JeA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B3RZGW2muQaSL5WsSEomixg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3cqWJ0Og0mRco1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4461319467_ssid_8934216562_fmid_chf2d5~mtltuc4e~0&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4461319467_ssid_8934216562_fmid_chf2d5~mtltuc4e~0-null-chf2d5~mtltuc4e~0-null-null&eid=chf2d5-mtltuc4e-0&otpToken=YWVmZDdjMTczZmZmMjM3NGI4MmIxN2Y0Y2IxM2VkOWRiY2NkMTg0M2QzZmMwYWYzOTJlNDg5NjVjMDVlYzJkYzA5ZmYzYmRkOTg2Y2NmODllYmZiNWYyMTJkNzc5M2Y5YzQ0OWFmNmMyM2Q3Nzg4MDZhMTE2YWE0ZjA2ZjVjZWZmNTM2NjlmMzU2MjBmZDMyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
