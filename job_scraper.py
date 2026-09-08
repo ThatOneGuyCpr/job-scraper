@@ -180,6 +180,60 @@ def fetch(url, timeout=20, retry_403=True):
 
 
 SEEN_FILE   = "seen_jobs.json"
+
+def fingerprint(job):
+    """
+    A source-independent identity for a job, so the same posting is recognised
+    whether it arrives from LinkedIn, Adzuna, or a board scrape. Links differ
+    between sources, which is why link-only deduplication let the same role
+    reappear on consecutive days.
+
+    Returns None when there is no employer to anchor on. Title alone is unsafe:
+    fingerprinting on "Associate Editor" would suppress every future Associate
+    Editor posting anywhere.
+    """
+    emp = re.sub(r"[^a-z0-9]", "", (job.get("employer") or "").lower())
+    # Drop suffixes that vary between sources for the same company
+    for tail in ("digital", "media", "inc", "llc", "group", "company", "corp",
+                 "news", "magazine", "publishing"):
+        if emp.endswith(tail) and len(emp) > len(tail) + 3:
+            emp = emp[:-len(tail)]
+    if not emp or len(emp) < 3:
+        return None
+
+    title = re.sub(r"[^a-z0-9 ]", " ", (job.get("title") or "").lower())
+    title = " ".join(title.split())
+    if not title:
+        return None
+    return f"{title}|{emp}"
+
+
+def seen_before(job, seen_fp):
+    """
+    True if this job matches something already sent. Exact match first, then a
+    tolerant comparison, because sources write employer names differently:
+    "Newsweek" against "Newsweek Digital", "Vox" against "Vox Media".
+    """
+    fp = fingerprint(job)
+    if not fp:
+        return False
+    if fp in seen_fp:
+        return True
+
+    title, emp = fp.split("|", 1)
+    for old in seen_fp:
+        o_title, o_emp = old.split("|", 1)
+        if o_title != title:
+            continue
+        # Same title. Treat the employers as the same if one contains the
+        # other, or they are close enough to be a naming variant.
+        if emp.startswith(o_emp) or o_emp.startswith(emp):
+            return True
+        if difflib.SequenceMatcher(None, emp, o_emp).ratio() > 0.85:
+            return True
+    return False
+
+
 OUTPUT_FILE = "job_results.json"
 
 # Per-source diagnostics. Written into job_results.json so failures are
@@ -552,7 +606,7 @@ def strip_newsletter_boilerplate(text):
     return "\n".join(out).strip()
 
 
-def scrape_newsletters():
+def scrape_newsletters(seen_emails=frozenset()):
     """
     Read job newsletters out of Gmail over IMAP.
 
@@ -599,6 +653,10 @@ def scrape_newsletters():
                     _, raw = mail.fetch(msg_id, "(RFC822)")
                     msg = email_lib.message_from_bytes(raw[0][1])
 
+                    msg_id = (msg.get("Message-ID") or "").strip()
+                    if msg_id and msg_id in seen_emails:
+                        continue
+
                     subject = ""
                     for part, enc in decode_header(msg.get("Subject", "")):
                         subject += part.decode(enc or "utf-8", "ignore") if isinstance(part, bytes) else part
@@ -632,8 +690,17 @@ def scrape_newsletters():
                             if (len(anchor) > 8 and href.startswith("http")
                                     and "unsubscribe" not in href.lower()
                                     and is_relevant(anchor)):
-                                jobs.append({"title": clean_title(anchor) or anchor,
-                                             "employer": "", "location": "",
+                                # Newsletter anchors usually read "Title at
+                                # Employer" or "Title | Employer". Splitting
+                                # them out gives each job an employer, which is
+                                # what makes cross-source dedup possible.
+                                raw = clean_title(anchor) or anchor
+                                emp = ""
+                                mm = re.match(r"^(.*?)\s+(?:at|@|\||\u2013|,)\s+(.+)$", raw)
+                                if mm and len(mm.group(1)) > 3:
+                                    raw, emp = mm.group(1).strip(), mm.group(2).strip()
+                                jobs.append({"title": raw, "employer": emp,
+                                             "location": "",
                                              "from_email": True, "link": href,
                                              "source": label})
 
@@ -649,6 +716,7 @@ def scrape_newsletters():
                         if used + len(clean) > NEWSLETTER_TOTAL_CAP:
                             clean = clean[:max(0, NEWSLETTER_TOTAL_CAP - used)]
                         digests.append({"source": label, "subject": subject,
+                                        "id": msg_id,
                                         "date": msg.get("Date", ""), "body": clean})
 
                 diag(label, kept=len(jobs), note=f"{len(digests)} email(s) captured")
@@ -845,11 +913,17 @@ def main():
     print(f"\nJob collection starting — {datetime.now():%Y-%m-%d %H:%M}\n")
     preflight()
 
-    seen = set()
+    seen, seen_fp, seen_emails = set(), set(), set()
     if os.path.exists(SEEN_FILE):
         with open(SEEN_FILE) as f:
-            seen = set(json.load(f))
-    print(f"{len(seen)} jobs already sent in previous runs\n")
+            raw = json.load(f)
+        if isinstance(raw, list):          # the original format: a list of links
+            seen = set(raw)
+        else:
+            seen        = set(raw.get("links", []))
+            seen_fp     = set(raw.get("fingerprints", []))
+            seen_emails = set(raw.get("emails", []))
+    print(f"{len(seen)} jobs and {len(seen_fp)} titles already sent in previous runs\n")
 
     print("Collecting:")
     jobs, news_digests = [], []
@@ -860,14 +934,22 @@ def main():
     jobs += scrape_muse()
     jobs += scrape_usajobs()
 
-    news_jobs, news_digests = scrape_newsletters()
+    news_jobs, news_digests = scrape_newsletters(seen_emails)
     jobs += news_jobs
 
     print(f"\nRaw matches: {len(jobs)}")
 
     jobs = fuzzy_dedupe(jobs)
+    before = len(jobs)
     jobs = [j for j in jobs if j["link"] not in seen]
-    print(f"New since last run: {len(jobs)}")
+    by_link = before - len(jobs)
+
+    kept = [j for j in jobs if not seen_before(j, seen_fp)]
+    by_title = len(jobs) - len(kept)
+    jobs = kept
+
+    print(f"New since last run: {len(jobs)}  "
+          f"({by_link} seen by link, {by_title} seen by title and employer)")
 
     if not jobs:
         with open(OUTPUT_FILE, "w") as f:
@@ -945,8 +1027,12 @@ def main():
 
     # Mark everything checked as seen, including the dead ones
     seen.update(j["link"] for j in jobs)
+    seen_fp.update(fp for fp in (fingerprint(j) for j in jobs) if fp)
+    seen_emails.update(d["id"] for d in news_digests if d.get("id"))
     with open(SEEN_FILE, "w") as f:
-        json.dump(sorted(seen), f, indent=2)
+        json.dump({"links": sorted(seen),
+                   "fingerprints": sorted(seen_fp),
+                   "emails": sorted(seen_emails)}, f, indent=2)
 
     print(f"\nDone. Wrote {len(finalists)} jobs to {OUTPUT_FILE}")
 
