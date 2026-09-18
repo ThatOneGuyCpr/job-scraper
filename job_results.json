@@ -1,18 +1,17 @@
 {
-  "generated": "2026-09-17T11:31:26.496951",
-  "count": 10,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 1,
+  "generated": "2026-09-18T11:04:36.280738",
+  "count": 9,
+  "dead_links_dropped": 1,
+  "off_target_dropped": 2,
   "source_counts": {
     "USAJobs": 1,
-    "JournalismJobs": 2,
-    "Adzuna": 2,
-    "LinkedIn": 5
+    "LinkedIn": 5,
+    "Adzuna": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 73,
+      "raw": 65,
       "method": "selectors",
       "kept": 14
     },
@@ -23,10 +22,10 @@
       "kept": 0
     },
     "Media Job Board": {
-      "http": 200,
-      "raw": 20,
-      "method": "selectors",
-      "kept": 0
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "IRE": {
       "http": 200,
@@ -71,10 +70,10 @@
       "note": "http 404"
     },
     "ONA Career Center": {
-      "http": 200,
+      "http": 403,
       "raw": 0,
-      "method": "anchor-scan",
-      "kept": 0
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "Adzuna": {
       "kept": 33
@@ -85,7 +84,7 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 8
+      "kept": 6
     },
     "Study Hall": {
       "kept": 0,
@@ -99,109 +98,101 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Public Information Specialist 1 (NY Helps) at NYS Department of\r\n Transportation: up to $85K/year",
-      "id": "<715758810.294944.1789567015834@lva2-app66542.prod.linkedin.com>",
-      "date": "Wed, 16 Sep 2026 13:56:55 +0000 (UTC)",
-      "body": "$67K-$85K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nPublic Information Specialist 1 (NY Helps)\nNYS Department of Transportation \u00b7 Utica, NY\n$67K-$85K / year\nActively recruiting\nEditorial Producer\nDevil May Care Media \u00b7 United States (Remote)\nEasy Apply\nAssistant/Associate Professor of Journalism\nHofstra University \u00b7 Hempstead, NY\n1 connection\nAssociate Reporter/Reporter, MandateWire\nFinancial Times \u00b7 New York, NY (Hybrid)\nActively recruiting\nWGA Producer\nCBS News and Stations \u00b7 New York, NY (On-site)\nAssociate Producer, MS NOW The Weekend\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Investigative Researcher & Scriptwriter at Night",
+      "id": "<395531723.15271012.1789653414031@ltx1-app27500.prod.linkedin.com>",
+      "date": "Thu, 17 Sep 2026 13:56:54 +0000 (UTC)",
+      "body": "Night Investigative Researcher & Scriptwriter: Public Records / True CrimeWe are an established\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nInvestigative Researcher & Scriptwriter\nNight \u00b7 United States (Remote)\nNewsroom Editor\nBusiness Wire \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nStorytelling Communications Manager\nDeel \u00b7 United States (Remote)\nActively recruiting\nReporter (Financial Services / Trade Publishing)\nMediabistro \u00b7 United States (Remote)\nTaylor Sheridan Writer\nJobgether \u00b7 United States (Remote)\nEasy Apply\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Deputy Newsletter Editor at Bisnow: up to $66K/year",
-      "id": "<898699901.11253049.1789574215187@lva2-app69727.prod.linkedin.com>",
-      "date": "Wed, 16 Sep 2026 15:56:55 +0000 (UTC)",
-      "body": "$62K-$66K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nDeputy Newsletter Editor\nBisnow \u00b7 Houston, TX (Remote)\n$62K-$66K / year\nActively recruiting\nDeputy Editor, Breaking News and Live\nSan Francisco Chronicle \u00b7 San Francisco, CA (Hybrid)\n2 school alumni\nCoordinating Editor - Politics, MS NOW Digital\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nStorytelling Communications Manager\nDeel \u00b7 United States (Remote)\n$110K-$120K / year\nActively recruiting\nCoordinating Editor - Politics, MS NOW Digital (Weekends)\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nContributing Writer, Young Lawmakers' Storybank (Contract)\nFuture Caucus \u00b7 Washington, DC\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Editor, Local Newsletters at The New York Times",
+      "id": "<307522800.16155683.1789660613822@ltx1-app93667.prod.linkedin.com>",
+      "date": "Thu, 17 Sep 2026 15:56:53 +0000 (UTC)",
+      "body": "The New York Times Editor, Local Newsletters: The mission of The New York Times is to seek the\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nEditor, Local Newsletters\nThe New York Times \u00b7 United States (Remote)\n1 company alum\nReporter, Local Newsletter (Phoenix)\nThe New York Times \u00b7 United States (Remote)\n1 connection\nFootnote Senior Writer\nFootnote \u00b7 United States (Remote)\nEasy Apply\nWriting Associate Producer, MS NOW The Briefing with Jen Psaki\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nPolitics Editor\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Editorial Producer at Devil May Care Media",
-      "id": "<1185006469.12019533.1789581414288@lva2-app67353.prod.linkedin.com>",
-      "date": "Wed, 16 Sep 2026 17:56:54 +0000 (UTC)",
-      "body": "Devil May Care Media Editorial Producer: Devil May Care Studios is looking to hire an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nEditorial Producer\nDevil May Care Media \u00b7 United States (Remote)\nEasy Apply\nStorytelling Communications Manager\nDeel \u00b7 United States (Remote)\nActively recruiting\nSenior Print Publication Content Strategist\nHumana \u00b7 United States (Remote)\n$86K-$119K / year\nActively recruiting\nPublic Relations Manager\nHoYoverse \u00b7 United States (Remote)\nActively recruiting\nSenior Associate, PR\nSmartAsset \u00b7 United States (Remote)\nLine Producer\nTelevisaUnivision \u00b7 Miami, FL (On-site)\n4 school alumni\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Staff Writer/ Editor at Council on Foreign Relations",
+      "id": "<333239390.687636.1789667813604@ltx1-app113113.prod.linkedin.com>",
+      "date": "Thu, 17 Sep 2026 17:56:53 +0000 (UTC)",
+      "body": "Council on Foreign Relations Staff Writer/ Editor: Position SummaryCFR is building its efforts to\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nStaff Writer/ Editor\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nHealthcare Industry Reporter and Storyteller\nTennr \u00b7 New York, NY (On-site)\n$130K-$155K / year\nNewsroom Editor\nBusiness Wire \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nReporter (Financial Services / Trade Publishing)\nMediabistro \u00b7 United States (Remote)\nJunior Sports Writer\nSotheby's \u00b7 New York, United States\nActively recruiting\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Public Affairs Specialist",
-      "employer": "Joint Activities",
-      "location": "Miami, Florida",
-      "link": "https://www.usajobs.gov:443/job/885040100",
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Air Force Elements, U.S. Central Command",
+      "location": "MacDill AFB, Florida",
+      "link": "https://www.usajobs.gov:443/job/885271900",
       "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist Department of the Army Joint Activities USSOUTHCOM-PUBLIC AFFAIRS Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary About the Position: The incumbent will serve as a Public Affairs Specialist at USSOUTHCOM in Miami, FL. Learn more about this agency Summary About the Position: The incumbent will serve as a Public Affairs Specialist at USSOUTHCOM in Miami, FL. Learn more about this agency Overview Help Accepting applications Location 1 vacancy in the following location: Miami, FL No matching locations found. Work site options Telework eligible No Remote job No Relocation expenses reimbursed Yes\u2014You may qualify for reimbursement of relocation expenses in accordance with agency policy. Salary $79,533 - $103,399 per year Pay sca"
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air Force Elements, U.S. Central Command Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve in a unified Combatant Command (COCOM) position, providing public affairs (PA) advice, technical direction, and support to the organization and/or its field offices. Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve in a unified Combatant Command (COCOM) position, providing publ"
     },
     {
-      "title": "Deputy Editor",
+      "title": "Writing Associate Producer, MS NOW The Briefing with Jen PsakiVersant Media \u00b7 Washington, DC (Hybrid)6 school alumni",
       "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693806-deputy-editor-street-sense-media",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Deputy Editor Deputy Editor Street Sense Media Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Date Posted September 16, 2026 Industry Newspapers Specialty Other Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary 52,000-58,000 annually Description: Organizational Overview Street Sense Media (SSM) is an evolving, mid-size, nonprofit media company committed to ending chronic homelessness by providing economic opportunities and powerful forms of self-expression to men and women living in extreme poverty. We work in a collaborative, dynamic and collegial environment for and with the people the organization serves. We work in partnership with other organizations to advance and achieve our mission. Position Overview Street Sense Media is looking for a hard-working, compassionate and mission"
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4457635826/?trackingId=g1hC9shdApH1TnGrq85GXQ%3D%3D&refId=8hZjUDSRz57CSVTG4OoZ9Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bzy6s9rdrTOC%2BRFogPXPazg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2b_T4TFAps8Is1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mu5ppwyy~5z&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mu5ppwyy~5z-null-chf2d5~mu5ppwyy~5z-null-null&eid=chf2d5-mu5ppwyy-5z&otpToken=YjMxY2FhOWIyZTYzN2YzYTZlYjQ3OWVhNWQyMzRlMTA4YzZlMzA2YmVlNDU2M2NhZTgzNTMyMGNhNTExMTVlNjg4YjU4N2FjMDFhMjMzOWYzZDk1YmQwMTAwNjlkODE0ZWE3NjE0Nzg4MGVmZTMxZWYyYTUwOTQxYTA5N2I2OTE4YzQ2OWU0ZmQ4OWRjZDA1LDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
     },
     {
-      "title": "Communications Specialist",
-      "employer": "Johns Hopkins Medicine",
-      "location": "East Case, Baltimore",
-      "link": "https://www.adzuna.com/details/5887112803?utm_medium=api&utm_source=4803a542",
+      "title": "Associate Content Creator - PEOPLE",
+      "employer": "People Inc",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5889046849?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Communications Specialist Job in East Case, MD What? Where? Search Advanced Communications Specialist \u276e back to last search Johns Hopkins Medicine Baltimore, Maryland, 21276 $74,698 per year - estimated ? Full time NEW Apply for this job Summary This is an entry-level professional role. Identifies stories and assists with written materials for JHM electronic, print, web, video, and media outlets. Stories include but are not limited to research news, feature stories about institutional initiatives and programs, and faculty profiles. Develops and maintains relationships with faculty, staff, and members of the local and national media to provide media relations services to advance public awareness of Johns Hopkins Medicine\u2019s mission and achievements. Assists in planning, developing collateral material for, and implementing media relations events, including but not limited to press conferenc"
+      "description": "Associate Content Creator - PEOPLE Job in New York City, NY What? Where? Search Advanced Associate Content Creator - PEOPLE \u276e back to last search People Inc New York, New York 67000 per year Full time NEW Apply for this job Job Title Associate Content Creator - PEOPLE Job Description I. Job Summary | Major goals and objectives. The Associate Content Creator brings original, exclusive and creative videos to life, from idea to execution. They participate in every step of the creative process, from pitching, booking, filming, editing and delivering final assets to be programmed on PEOPLE\u2019s social channels and app. They are responsible for creative ideas and working with celebrity talent. This person should have an obsession with social media and pop culture, a strong understanding of the type of content users want to consume on the platform, and a desire to make people swipe and share. They"
     },
     {
-      "title": "Associate Reporter/Reporter, MandateWireFinancial Times \u00b7 New York, NY (Hybrid)Actively recruiting",
+      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4458551782/?trackingId=2no63m5NrX1vE%2BBEuxYMhg%3D%3D&refId=F%2FA37G6RaAnck%2FcixMQqxw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp2UT1u1rSFqrIDi8xd3TaA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3b4ppo3Kh47cs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4458551782_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4458551782_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk-null-chf2d5~mu45zsy0~jk-null-null&eid=chf2d5-mu45zsy0-jk&otpToken=Y2M1MTdjZDM0Y2EzZTAxYjUyOTUwMjRjNDM1ODBkMjE5NzBjNjczNGNlYzEyZjg3NzYzMzAyOTE2MTAxMjliY2I0MzZlNjUxNzgxZWVjZThkMGY2NTJkMmU5ZTFhNDNjZmI5Mjg0MjYxNjEyYzA2ZWIxNmZhYjczZGZkODMyMWFlMzBkMjQxNDBlMmY3MWVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4457635826/?trackingId=g1hC9shdApH1TnGrq85GXQ%3D%3D&refId=8hZjUDSRz57CSVTG4OoZ9Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bzy6s9rdrTOC%2BRFogPXPazg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2b_T4TFAps8Is1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mu5ppwyy~5z&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4457635826_ssid_8934216546_fmid_chf2d5~mu5ppwyy~5z-null-chf2d5~mu5ppwyy~5z-null-null&eid=chf2d5-mu5ppwyy-5z&otpToken=YjMxY2FhOWIyZTYzN2YzYTZlYjQ3OWVhNWQyMzRlMTA4YzZlMzA2YmVlNDU2M2NhZTgzNTMyMGNhNTExMTVlNjg4YjU4N2FjMDFhMjMzOWYzZDk1YmQwMTAwNjlkODE0ZWE3NjE0Nzg4MGVmZTMxZWYyYTUwOTQxYTA5N2I2OTE4YzQ2OWU0ZmQ4OWRjZDA1LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Health Reporter",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693193-health-reporter-the-epoch-times",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Health Reporter Health Reporter The Epoch Times Remote, United States Save Share Facebook Twitter Linkedin Email Date Posted September 14, 2026 Industry Digital Media Specialty Health/Science Required Education Bachelor's Degree Job Status Not Specified Salary Not Specified Description: Short-Form Health Reporter, Epoch Health (Freelance) The Epoch Times is a newspaper and multi-media company on a mission to inform, inspire, and elevate our readers. We deliver fact-based journalism rooted in tradition that encourages independent thought. One of the fastest-growing newspapers in the world, The Epoch Times is published in 22 languages across 36 countries. We are seeking an experienced Short-Form Health Writer / Article Updater for Epoch Health, the health section of The Epoch Times. The ideal candidate will have a deep exposure to health topics and trends"
-    },
-    {
-      "title": "Communications Specialist, Public Relations",
-      "employer": "Johns Hopkins Medicine",
-      "location": "East Case, Baltimore",
-      "link": "https://www.adzuna.com/details/5885603283?utm_medium=api&utm_source=4803a542",
+      "title": "Associate Social Media Editor & In-House Content Creator - Byrdie",
+      "employer": "People Inc",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5888821897?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Communications Specialist, Public Relations Job in East Case, MD What? Where? Search Advanced Communications Specialist, Public Relations \u276e back to last search Johns Hopkins Medicine Baltimore, Maryland, 21276 $79,261 per year - estimated ? Full time NEW Apply for this job What Awaits You? Career growth and development Employee and Dependent Tuition Assistance Diverse and collaborative working environment Affordable and comprehensive benefits package Position Summary: This is an entry-level professional role. Identifies stories and assists with written materials for JHM electronic, print, web, video, and media outlets. Stories include but are not limited to research news, feature stories about institutional initiatives and programs, and faculty profiles. Develops and maintains relationships with faculty, staff, and members of the local and national media to provide media relations servic"
+      "description": "Associate Social Media Editor & In-House Content Creator - Byrdie Job in New York City, NY What? Where? Search Advanced Associate Social Media Editor & In-House Content Creator - Byrdie \u276e back to last search People Inc New York, New York 70000 per year Full time NEW Apply for this job Job Title Associate Social Media Editor & In-House Content Creator - Byrdie Job Description Byrdie is looking for a passionate and creative addition to our social media team! This role touches every part of Byrdie\u2019s social presence\u2014from creating, hosting, shooting, and editing video to community management, daily meetings and publishing, brainstorming captions, and developing and launching new social series. The ideal candidate lives and breathes the internet, with a strong pulse on pop culture and entertainment, beauty and fashion, emerging creators, trends, and the conversations shaping our feeds. They\u2019re"
     },
     {
-      "title": "Associate Reporter/Reporter, MandateWire",
+      "title": "Junior Sports WriterSotheby's \u00b7 New York, United StatesActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4458551782/?trackingId=2no63m5NrX1vE%2BBEuxYMhg%3D%3D&refId=F%2FA37G6RaAnck%2FcixMQqxw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp2UT1u1rSFqrIDi8xd3TaA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3b4ppo3Kh47cs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4458551782_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4458551782_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk-null-chf2d5~mu45zsy0~jk-null-null&eid=chf2d5-mu45zsy0-jk&otpToken=Y2M1MTdjZDM0Y2EzZTAxYjUyOTUwMjRjNDM1ODBkMjE5NzBjNjczNGNlYzEyZjg3NzYzMzAyOTE2MTAxMjliY2I0MzZlNjUxNzgxZWVjZThkMGY2NTJkMmU5ZTFhNDNjZmI5Mjg0MjYxNjEyYzA2ZWIxNmZhYjczZGZkODMyMWFlMzBkMjQxNDBlMmY3MWVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4467792618/?trackingId=hfs8p8eoL7LEbadDzpBcSw%3D%3D&refId=V9q0coEQPpF%2FwkLIcmbFEA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BDu8nKyiXRNuAtS%2Fv0c3vLQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1eRpKELZ7k8Is1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4467792618_ssid_8934216554_fmid_chf2d5~mu5u08pw~hg&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4467792618_ssid_8934216554_fmid_chf2d5~mu5u08pw~hg-null-chf2d5~mu5u08pw~hg-null-null&eid=chf2d5-mu5u08pw-hg&otpToken=OWQzY2VhY2MwOTAwM2IxMTQ5ODFkNmVlYTc4MThiNmIwYjhmMTQ1MTZhYmE2NGVkYzFkYTY2MmVjM2FmM2MwMTdmNjQ4Y2YzMzk5NTAzMmJjNDMyZTU1ZTM1ZDU3NzM4MDAwMTdlZmFiNjYyNjkxYWJhMTg0ZWQ5YjIzNTRjNzUxNjJmNDUxMzY5ZDlmNzdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Producer, MS NOW The WeekendVersant Media \u00b7 New York, NY (Hybrid)6 school alumni",
+      "title": "Want to Create Content for Autopilot?",
+      "employer": "Autopilot",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5889069071?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Want to Create Content for Autopilot? Job in New York City, NY What? Where? Search Advanced Want to Create Content for Autopilot? \u276e back to last search Autopilot New York, New York $72,108 per year - estimated ? Contract NEW Apply for this job About Autopilot Autopilot is an investing app that lets people follow portfolios or create their own fund for others to follow. We\u2019re looking for people who want to help us tell interesting stories about money, investing, business, and culture. Want to make something with us? Creators, filmmakers, editors, writers\u2014if you enjoy making content, we\u2019d love to see your work. Any audience size or experience level is welcome. Just drop links to your content, portfolio, or social profiles below. No r\u00e9sum\u00e9, cover letter, or pitch needed. If there\u2019s a fit, we\u2019ll reach out about paid, contract or project-based opportunities. Autofill from resume Save time by "
+    },
+    {
+      "title": "Junior Sports Writer",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4465577368/?trackingId=ASpbl5o%2FzQhv1hXH7cQ7cg%3D%3D&refId=F%2FA37G6RaAnck%2FcixMQqxw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp2UT1u1rSFqrIDi8xd3TaA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3b4ppo3Kh47cs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4465577368_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4465577368_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk-null-chf2d5~mu45zsy0~jk-null-null&eid=chf2d5-mu45zsy0-jk&otpToken=Y2M1MTdjZDM0Y2EzZTAxYjUyOTUwMjRjNDM1ODBkMjE5NzBjNjczNGNlYzEyZjg3NzYzMzAyOTE2MTAxMjliY2I0MzZlNjUxNzgxZWVjZThkMGY2NTJkMmU5ZTFhNDNjZmI5Mjg0MjYxNjEyYzA2ZWIxNmZhYjczZGZkODMyMWFlMzBkMjQxNDBlMmY3MWVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4467792618/?trackingId=hfs8p8eoL7LEbadDzpBcSw%3D%3D&refId=V9q0coEQPpF%2FwkLIcmbFEA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BDu8nKyiXRNuAtS%2Fv0c3vLQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1eRpKELZ7k8Is1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4467792618_ssid_8934216554_fmid_chf2d5~mu5u08pw~hg&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4467792618_ssid_8934216554_fmid_chf2d5~mu5u08pw~hg-null-chf2d5~mu5u08pw~hg-null-null&eid=chf2d5-mu5u08pw-hg&otpToken=OWQzY2VhY2MwOTAwM2IxMTQ5ODFkNmVlYTc4MThiNmIwYjhmMTQ1MTZhYmE2NGVkYzFkYTY2MmVjM2FmM2MwMTdmNjQ4Y2YzMzk5NTAzMmJjNDMyZTU1ZTM1ZDU3NzM4MDAwMTdlZmFiNjYyNjkxYWJhMTg0ZWQ5YjIzNTRjNzUxNjJmNDUxMzY5ZDlmNzdlLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Producer, MS NOW The Weekend",
+      "title": "Investigative Researcher & ScriptwriterNight \u00b7 United States (Remote)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4465577368/?trackingId=ASpbl5o%2FzQhv1hXH7cQ7cg%3D%3D&refId=F%2FA37G6RaAnck%2FcixMQqxw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp2UT1u1rSFqrIDi8xd3TaA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3b4ppo3Kh47cs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_5_jobid_4465577368_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_5_jobid_4465577368_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk-null-chf2d5~mu45zsy0~jk-null-null&eid=chf2d5-mu45zsy0-jk&otpToken=Y2M1MTdjZDM0Y2EzZTAxYjUyOTUwMjRjNDM1ODBkMjE5NzBjNjczNGNlYzEyZjg3NzYzMzAyOTE2MTAxMjliY2I0MzZlNjUxNzgxZWVjZThkMGY2NTJkMmU5ZTFhNDNjZmI5Mjg0MjYxNjEyYzA2ZWIxNmZhYjczZGZkODMyMWFlMzBkMjQxNDBlMmY3MWVjLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Editorial ProducerDevil May Care Media \u00b7 United States (Remote)Easy Apply",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4466171255/?trackingId=QaYkCZRZ5dSRRlInblEG9g%3D%3D&refId=F%2FA37G6RaAnck%2FcixMQqxw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp2UT1u1rSFqrIDi8xd3TaA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3b4ppo3Kh47cs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4466171255_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4466171255_ssid_8934216554_fmid_chf2d5~mu45zsy0~jk-null-chf2d5~mu45zsy0~jk-null-null&eid=chf2d5-mu45zsy0-jk&otpToken=Y2M1MTdjZDM0Y2EzZTAxYjUyOTUwMjRjNDM1ODBkMjE5NzBjNjczNGNlYzEyZjg3NzYzMzAyOTE2MTAxMjliY2I0MzZlNjUxNzgxZWVjZThkMGY2NTJkMmU5ZTFhNDNjZmI5Mjg0MjYxNjEyYzA2ZWIxNmZhYjczZGZkODMyMWFlMzBkMjQxNDBlMmY3MWVjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4457659522/?trackingId=Uj9diA0d8Oc6p0AqQm%2F5lA%3D%3D&refId=Wc4YJs96v5N8FqXKVUwxCg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSJwNLNggQMiFB24gZ1UVKg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0zYiJPeFTA8ss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4457659522_ssid_8934216562_fmid_chf2d5~mu5lflrx~ya&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4457659522_ssid_8934216562_fmid_chf2d5~mu5lflrx~ya-null-chf2d5~mu5lflrx~ya-null-null&eid=chf2d5-mu5lflrx-ya&otpToken=ODkxMGVmYjlhNDhhZGRlNjM3YjIyNzZjOGQyZjEzMzZkYTVhYzYwNjVjNjk4NjYxNDE4ODg5YmM3OWNlYzAzNGQ2OTA4ZjA0ZWQzZjhiZGNlNzczZGExMDc0MWJlNTUzZWQ1NmUxNGVjYjRmMjBmNjY0NDA2MDc5Yzc1MTQ1NTkxZTUwNGM4MDgyN2IwZjI2LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
