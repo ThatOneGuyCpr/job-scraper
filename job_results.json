@@ -1,19 +1,19 @@
 {
-  "generated": "2026-09-21T12:40:15.230001",
-  "count": 8,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 0,
+  "generated": "2026-09-22T11:26:29.799889",
+  "count": 10,
+  "dead_links_dropped": 0,
+  "off_target_dropped": 2,
   "source_counts": {
-    "USAJobs": 1,
+    "Adzuna": 4,
     "LinkedIn": 5,
-    "Adzuna": 2
+    "JournalismJobs": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
       "raw": 65,
       "method": "selectors",
-      "kept": 12
+      "kept": 10
     },
     "MediaBistro": {
       "http": 200,
@@ -70,13 +70,13 @@
       "note": "http 404"
     },
     "ONA Career Center": {
-      "http": 403,
+      "http": 202,
       "raw": 0,
       "kept": 0,
-      "note": "blocked or rate limited"
+      "note": "http 202"
     },
     "Adzuna": {
-      "kept": 35
+      "kept": 50
     },
     "The Muse": {
       "http": 200,
@@ -98,93 +98,102 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Subscriptions Editor at Bloomberg: up to $125K/year",
-      "id": "<94680592.11327953.1789912611697@lva2-app66633.prod.linkedin.com>",
-      "date": "Sun, 20 Sep 2026 13:56:51 +0000 (UTC)",
-      "body": "$90K-$125K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nSubscriptions Editor\nBloomberg \u00b7 New York, NY (On-site)\n$90K-$125K / year\nActively recruiting\nWriter/Journalist | $100/hr | Remote\nThe Ai Training Company \u00b7 United States (Remote)\nDigital Producer, MS NOW The Moment with Katy Tur\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nNews Editor\nThe Transmitter \u00b7 New York, NY\nManaging Editor, The Strategist\nVox Media \u00b7 New York, NY\nActively recruiting\nIn-House Journalist\nAirGarage \u00b7 United States (Remote)\n$110K-$130K / year\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Thought Leadership Associate \u2013 External Communications (ECD502E) at Referment: up to $185K/year",
+      "id": "<1719172226.12372664.1789999013091@lor1-app114178.prod.linkedin.com>",
+      "date": "Mon, 21 Sep 2026 13:56:53 +0000 (UTC)",
+      "body": "$135K-$185K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nThought Leadership Associate \u2013 External Communications (ECD502E)\nReferment \u00b7 New York, NY (Hybrid)\n$135K-$185K / year\nEasy Apply\nSenior Analyst, Content Analytics\nCNN \u00b7 New York, NY\nActively recruiting\nSenior Manager, Corporate Communications &amp; PR\nThe Business of HLTH Podcast \u00b7 New York, United States\nDigital Content Creator\nNexstar Media Group, Inc. \u00b7 Rochester, NY\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Subscriptions Editor at Bloomberg: up to $125K/year",
-      "id": "<358478573.17849944.1789919812727@lva2-app64412.prod.linkedin.com>",
-      "date": "Sun, 20 Sep 2026 15:56:52 +0000 (UTC)",
-      "body": "$90K-$125K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nSubscriptions Editor\nBloomberg \u00b7 New York, NY (On-site)\n$90K-$125K / year\nActively recruiting\nWriter/Journalist | $100/hr | Remote\nThe Ai Training Company \u00b7 United States (Remote)\nSection Editor\nMediaNews Group \u00b7 San Diego, CA\nActively recruiting\nEditor, The 7 Live\nThe Washington Post \u00b7 Washington, DC\n2 connections\nWWD: Associate Editor, Branded Content\nPenske Media Corporation \u00b7 New York City Metropolitan Area (On-site)\n1 school alum\nNational Business Reporter\nThe Washington Post \u00b7 Washington, DC\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
-      "subject": "Writer/Journalist | $100/hr | Remote at The Ai Training Company",
-      "id": "<636611332.18167821.1789927012721@lva2-app68694.prod.linkedin.com>",
-      "date": "Sun, 20 Sep 2026 17:56:52 +0000 (UTC)",
-      "body": "The Ai Training Company Writer/Journalist | $100/hr | Remote: Journalists, Writers, Editors & Fact-Checkers.We\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nWriter/Journalist | $100/hr | Remote\nThe Ai Training Company \u00b7 United States (Remote)\nIn-House Journalist\nAirGarage \u00b7 United States (Remote)\n$110K-$130K / year\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Publications Specialist II - Magazine Editor at Syms Strategic\r\n Group, LLC (SSG)",
+      "id": "<427338528.1891399.1790006213077@lor1-app76963.prod.linkedin.com>",
+      "date": "Mon, 21 Sep 2026 15:56:53 +0000 (UTC)",
+      "body": "Syms Strategic Group, LLC (SSG) Publications Specialist II - Magazine Editor: Syms Strategic Group (SSG) is seeking a talented\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nPublications Specialist II - Magazine Editor\nSyms Strategic Group, LLC (SSG) \u00b7 Washington, DC (On-site)\nSenior News Editor\nGeneral Dynamics Information Technology \u00b7 Tampa, FL\nActively recruiting\nPublications Specialist II - Magazine Editor\nSyms Strategic Group, LLC (SSG) \u00b7 McLean, VA (On-site)\nSenior Editor, Social\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nMultiMedia Journalist\nNexstar Media Group, Inc. \u00b7 San Angelo, TX\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Public Affairs Specialist (Open to both U.S. Citizens and Federal Employees)",
-      "employer": "Maritime Administration",
-      "location": "Kings Point, New York",
-      "link": "https://www.usajobs.gov:443/job/885289900",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist (Open to both U.S. Citizens and Federal Employees) Department of Transportation Maritime Administration Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is located in the Office of External Affairs, Office of the Superintendent, United States, Merchant Marine Academy (USMMA), Maritime Administration (MARAD.) This position is established to assist in planning and developing the Academy's public affairs program, and communicating information about the Academy's programs, policies, events, and activities to local, national and maritime industry media and publics. Learn more about this agency Summary This position is located in the Office of External Affairs, Office of the Superintendent, United States, Merchant "
-    },
-    {
-      "title": "WWD: Associate Editor, Branded ContentPenske Media Corporation \u00b7 New York City Metropolitan Area (On-site)1 school alum",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4460691017/?trackingId=xTe69KFUBGaVuuSOaowBnQ%3D%3D&refId=UD7t%2FJI0c3KAW3DuolDFXQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B2%2B26WTKNTIOfUC8ee3eTLw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3BRBrftyoYcYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mua01hgj~im&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mua01hgj~im-null-chf2d5~mua01hgj~im-null-null&eid=chf2d5-mua01hgj-im&otpToken=MjExNmQ2MDJjNjFkNTgwMjgxNzQ0YmJhNjU0MjA2ZGI1MDc5NGI5OGI2NTM1NGVjNTMxYjMzMmNmMDA1NWRhNDQwNTYxYTViOGFmMzUzZjgxNmJjNTgyMTYzNTlhNWEwZjNiYjY2ZmQ4YzE0NzAyNzMyODhjMTQyMDNkMmIzMzY4ZjA3YjNkZWMzZjgyYzVhLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "WWD: Associate Editor, Branded Content",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4460691017/?trackingId=xTe69KFUBGaVuuSOaowBnQ%3D%3D&refId=UD7t%2FJI0c3KAW3DuolDFXQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B2%2B26WTKNTIOfUC8ee3eTLw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3BRBrftyoYcYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mua01hgj~im&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4460691017_ssid_8934216546_fmid_chf2d5~mua01hgj~im-null-chf2d5~mua01hgj~im-null-null&eid=chf2d5-mua01hgj-im&otpToken=MjExNmQ2MDJjNjFkNTgwMjgxNzQ0YmJhNjU0MjA2ZGI1MDc5NGI5OGI2NTM1NGVjNTMxYjMzMmNmMDA1NWRhNDQwNTYxYTViOGFmMzUzZjgxNmJjNTgyMTYzNTlhNWEwZjNiYjY2ZmQ4YzE0NzAyNzMyODhjMTQyMDNkMmIzMzY4ZjA3YjNkZWMzZjgyYzVhLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Visual Content Creator - Miami Beach Hotel Group",
-      "employer": "South Beach Group Hotels",
-      "location": "Carl Fisher, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5891055202?utm_medium=api&utm_source=4803a542",
+      "title": "Publications Specialist II - Magazine Editor",
+      "employer": "SSG",
+      "location": "Crystal, Arlington County",
+      "link": "https://www.adzuna.com/details/5892825080?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Visual Content Creator - Miami Beach Hotel Group Job in Carl Fisher, FL What? Where? Search Advanced Visual Content Creator - Miami Beach Hotel Group \u276e back to last search South Beach Group Hotels Miami Beach, Florida, 33139 $50000 - $55000 per year EASY APPLY NEW Apply for this job Visual Content Creator at Miami Beach Hotel Group Location: Miami, FL Job Type: Full-Time About Us Miami Beach Hotel Group is a dynamic and creative hospitality management group with the fastest growing portfolio of hotels and restaurants in South Florida. We're passionate about our commitment to excellence and we're looking for a Visual Content Creator who shares that vision. Job Summary We're seeking a skilled and highly organized Visual Content Creator with a strong background in photography and graphic design to join our creative team. In this role, you'll be at the heart of our hospitality marketing effo"
+      "description": "Publications Specialist II - Magazine Editor Job in Crystal, VA What? Where? Search Advanced Publications Specialist II - Magazine Editor \u276e back to last search SSG Washington, District of Columbia, 20590 75000-85000 per year Full time NEW REMOTE Apply for this job Syms Strategic Group (SSG) is seeking a talented Publications Specialist II \u2013 Magazine Editor Location: Washington, DC, McLean, VA, and Remote Department: Department of Transportation (DOT), Federal Highway Administration (FHA) Type: Full Time Min. Experience: Experienced Security Clearance Level: Public Trust Salary Range: $75,000 - $85,000 Military Veterans are highly encouraged to apply! Essential Duties and Responsibilities Provide the comprehensive lifecycle management and editorial excellence of the agency\u2019s magazine Logically administer the quarterly publication cycle and high-level editorial services Ensure that the mag"
     },
     {
-      "title": "Writer/Journalist",
-      "employer": "$100/hr | RemoteThe Ai Training Company \u00b7 United States (Remote)",
+      "title": "Thought Leadership Associate",
+      "employer": "External Communications (ECD502E)Referment \u00b7 New York, NY (Hybrid)$135K-$185K / yearEasy Apply",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4468082876/?trackingId=FPRe9CFK44rzgn%2BAJYh70Q%3D%3D&refId=0c5%2FZJwdRrSkld%2FSAz2XoQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BFlrnXVNWQHmVZIBA96zQTg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0kCQbiJjX4cIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4468082876_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4468082876_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt-null-chf2d5~mu9vr5f4~rt-null-null&eid=chf2d5-mu9vr5f4-rt&otpToken=NmNjZTVmM2IxZTdmZGZjMmRiZTYwNjNmMWVhOWJmN2M1MzA5ZTdlMjY0YmYxNjhhNWM0OTlhZThjNDZlMGNmNWFjY2U1YjE4N2RkYjc4MGVkYjhjNDI0MWQ4MGMzMGM3YmZhMjk0MGY3OTAyNTNlYjdkZDYwYmRjNjg2YjhkNGM2MzZmOGZjMDVlNmQ0OGZkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469570846/?trackingId=LjFjdUIjLk1xMuB4NoF19w%3D%3D&refId=nq5QrDPJDwAddAwzlLEmnw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMbAk6s2IQV65dtLnpEd3RQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ZFGCXyitAecs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469570846_ssid_8934216554_fmid_chf2d5~mubb70hr~ue&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469570846_ssid_8934216554_fmid_chf2d5~mubb70hr~ue-null-chf2d5~mubb70hr~ue-null-null&eid=chf2d5-mubb70hr-ue&otpToken=ZGMyNjVmZDg2ZTcxNzcxODRjMzM1MTAzZjA3MzI4ZWVjMmY5NzhiMzY3NWVlNGIwZTcyYWNlMzUyYjc5NGUyMDM0NWRmM2U5NWY5NmQ3YzI5NDBmMDlhZGE0ZjNkZGMzMzZiNDVkMGZjMjYwYjBhYjkyMmEwZDgxNzZlMjAzMTcwODk2ZWY3ZjE2MGQ0YjM0LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Communications Officer II",
-      "employer": "City of North Miami",
-      "location": "North Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5890354592?utm_medium=api&utm_source=4803a542",
+      "title": "Strategic Communications Outreach Specialist",
+      "employer": "SSG",
+      "location": "Crystal, Arlington County",
+      "link": "https://www.adzuna.com/details/5892817891?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Communications Officer II Job in North Miami, FL What? Where? Search Advanced Communications Officer II \u276e back to last search City of North Miami City Hall - Administration 776 Nebraska 125 St North Miami, Florida, 33161 64463.2-96694.7 per year Full time Apply for this job Description GENERAL STATEMENT OF DUTIES: Performs responsible management and professional work in planning, organizing and coordinating the public relations activities of the City; performs related work as required. This position specialized in research, documentation and distribution of written and oral communications, as well as management and development of systems used to distribute information. DISTINGUISHING CHARACATERISTICS OF THE CLASS: This is highly responsible management work organizing and conducting the public information and public relations functions for the City and reports to the Communications Direct"
+      "description": "Strategic Communications Outreach Specialist Job in Crystal, VA What? Where? Search Advanced Strategic Communications Outreach Specialist \u276e back to last search SSG Washington, District of Columbia, 20590 90000-112500 per year Full time NEW REMOTE Apply for this job Syms Strategic Group (SSG) is seeking a talented Strategic Communications Outreach Specialist Location: Washington, DC, McLean, VA, and Remote Department: Department of Transportation (DOT), Federal Highway Administration (FHA) Type: Full Time Min. Experience: Experienced Security Clearance Level: Public Trust Salary Range: $90,000 - $112,500 Military Veterans are highly encouraged to apply! Essential Duties and Responsibilities Develop and execute integrated communication strategies and marketing initiatives to promote agency initiatives and expand the magazine\u2019s global readership Translate complex technical or policy informa"
     },
     {
-      "title": "Writer/Journalist",
-      "employer": "$100/hr | Remote",
+      "title": "Thought Leadership Associate",
+      "employer": "External Communications (ECD502E)",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4468082876/?trackingId=FPRe9CFK44rzgn%2BAJYh70Q%3D%3D&refId=0c5%2FZJwdRrSkld%2FSAz2XoQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BFlrnXVNWQHmVZIBA96zQTg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0kCQbiJjX4cIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4468082876_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4468082876_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt-null-chf2d5~mu9vr5f4~rt-null-null&eid=chf2d5-mu9vr5f4-rt&otpToken=NmNjZTVmM2IxZTdmZGZjMmRiZTYwNjNmMWVhOWJmN2M1MzA5ZTdlMjY0YmYxNjhhNWM0OTlhZThjNDZlMGNmNWFjY2U1YjE4N2RkYjc4MGVkYjhjNDI0MWQ4MGMzMGM3YmZhMjk0MGY3OTAyNTNlYjdkZDYwYmRjNjg2YjhkNGM2MzZmOGZjMDVlNmQ0OGZkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469570846/?trackingId=LjFjdUIjLk1xMuB4NoF19w%3D%3D&refId=nq5QrDPJDwAddAwzlLEmnw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMbAk6s2IQV65dtLnpEd3RQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ZFGCXyitAecs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4469570846_ssid_8934216554_fmid_chf2d5~mubb70hr~ue&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4469570846_ssid_8934216554_fmid_chf2d5~mubb70hr~ue-null-chf2d5~mubb70hr~ue-null-null&eid=chf2d5-mubb70hr-ue&otpToken=ZGMyNjVmZDg2ZTcxNzcxODRjMzM1MTAzZjA3MzI4ZWVjMmY5NzhiMzY3NWVlNGIwZTcyYWNlMzUyYjc5NGUyMDM0NWRmM2U5NWY5NmQ3YzI5NDBmMDlhZGE0ZjNkZGMzMzZiNDVkMGZjMjYwYjBhYjkyMmEwZDgxNzZlMjAzMTcwODk2ZWY3ZjE2MGQ0YjM0LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Subscriptions EditorBloomberg \u00b7 New York, NY (On-site)$90K-$125K / yearActively recruiting",
+      "title": "Belfast Reporter",
+      "employer": "",
+      "location": "Ny",
+      "link": "https://www.journalismjobs.com/1691892-belfast-reporter-bangor-daily-news",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Belfast Reporter Belfast Reporter Bangor Daily News Bangor, ME, Maine See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted September 21, 2026 Industry Newspapers, Digital Media Specialty Local News Required Education Bachelor's Degree Job Status Full-time Salary $42,000-$55,000 based on experience. Description: Report the news on the coast of Maine The Bangor Daily News, an innovative, award-winning and family-owned digital media company, has an immediate opening for an ambitious reporter covering news in midcoast Maine. The center of the beat is Belfast, a fascinating coastal city with a high quality of life. The role includes coverage of breaking news and the biggest stories in business, local politics, culture and features. The position is part of a team of journalists dedicated to producing direct, honest, comprehe"
+    },
+    {
+      "title": "Social Media Coordinator",
+      "employer": "Macerich",
+      "location": "Annapolis, Anne Arundel County",
+      "link": "https://www.adzuna.com/details/5893675480?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Social Media Coordinator Job in Annapolis, MD What? Where? Search Advanced Social Media Coordinator \u276e back to last search Macerich Annapolis, Maryland, 21401 25-30 per hour Part time NEW Apply for this job Great people make great properties. As an owner, operator and developer of thriving retail centers in the nation\u2019s top markets, Macerich offers opportunities to work, grow and develop your unique talents. Apply now to help us shape the future of retail real estate while building a meaningful, rewarding and balanced career. About the role The Social Media Coordinator is responsible for creating, editing, and managing engaging short-form video content that drives brand awareness and foot traffic for assigned property or properties. Key responsibilities include filming and editing TikTok and Instagram Reels, maintaining consistent posting schedules, monitoring social media trends, coordin"
+    },
+    {
+      "title": "Publications Specialist II - Magazine EditorSyms Strategic Group, LLC (SSG) \u00b7 Washington, DC (On-site)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4466929939/?trackingId=XYXKNk%2Bz72eTdfMFwOmF6g%3D%3D&refId=0c5%2FZJwdRrSkld%2FSAz2XoQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BFlrnXVNWQHmVZIBA96zQTg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0kCQbiJjX4cIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4466929939_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4466929939_ssid_8934216554_fmid_chf2d5~mu9vr5f4~rt-null-chf2d5~mu9vr5f4~rt-null-null&eid=chf2d5-mu9vr5f4-rt&otpToken=NmNjZTVmM2IxZTdmZGZjMmRiZTYwNjNmMWVhOWJmN2M1MzA5ZTdlMjY0YmYxNjhhNWM0OTlhZThjNDZlMGNmNWFjY2U1YjE4N2RkYjc4MGVkYjhjNDI0MWQ4MGMzMGM3YmZhMjk0MGY3OTAyNTNlYjdkZDYwYmRjNjg2YjhkNGM2MzZmOGZjMDVlNmQ0OGZkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469548824/?trackingId=XcWHVfbz6K0HHszU0X%2Bpyg%3D%3D&refId=CmOM56ai%2BQX7RXGpC%2BawxQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BYeqbtbGoQN6jH5TruLmEAQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=37kq8X3-Xsecs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469548824_ssid_8934216546_fmid_chf2d5~mubfhc14~s1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469548824_ssid_8934216546_fmid_chf2d5~mubfhc14~s1-null-chf2d5~mubfhc14~s1-null-null&eid=chf2d5-mubfhc14-s1&otpToken=NGFkODIwZmNkYmVjNzRjYWVjNzI5YzNiZGQ2ZmRiNDc0YWYwMzExYWJmNjRhZWUzZjBlODlhNTY3NGUzZTcyMTk2OGRkZjJiNjM5YjMxODlmYWNjNWVkMzZlNzc4NjI1MWIwNTkxOTMzOWVlM2M4ODI0M2I2NGU2ZjQwOWVkZDMzMDI3MTgyMTc2NTc0YmQwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Medical Photographer & Digital Media Coordinator",
+      "employer": "Adoreal",
+      "location": "Baltimore, Baltimore County",
+      "link": "https://www.adzuna.com/details/5893316442?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Medical Photographer & Digital Media Coordinator Job in Baltimore, MD What? Where? Search Advanced Medical Photographer & Digital Media Coordinator \u276e back to last search Adoreal Baltimore Maryland $17,000 - 24,000 per year Full time EASY APPLY NEW Apply for this job About the Opportunity Adoreal partners with a select group of top-tier aesthetic and cosmetic medicine practices, providing the technology, operational support, and talent that help them deliver an exceptional patient experience while they scale. We are recruiting on behalf of one of our partner practices, a high-end, luxury plastic surgery practice based in Maryland. Position Summary Belcara Health is seeking a creative, organized, and detail-oriented Medical Photographer & Digital Media Coordinator to support our clinical teams and marketing initiatives. This position is responsible for producing consistent, high-quality cl"
+    },
+    {
+      "title": "Digital Content CreatorNexstar Media Group, Inc. \u00b7 Rochester, NYActively recruiting",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4424639775/?trackingId=LLccGdUUrAfNt0KI2gTxNA%3D%3D&refId=nq5QrDPJDwAddAwzlLEmnw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMbAk6s2IQV65dtLnpEd3RQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ZFGCXyitAecs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mubb70hr~ue&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mubb70hr~ue-null-chf2d5~mubb70hr~ue-null-null&eid=chf2d5-mubb70hr-ue&otpToken=ZGMyNjVmZDg2ZTcxNzcxODRjMzM1MTAzZjA3MzI4ZWVjMmY5NzhiMzY3NWVlNGIwZTcyYWNlMzUyYjc5NGUyMDM0NWRmM2U5NWY5NmQ3YzI5NDBmMDlhZGE0ZjNkZGMzMzZiNDVkMGZjMjYwYjBhYjkyMmEwZDgxNzZlMjAzMTcwODk2ZWY3ZjE2MGQ0YjM0LDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Digital Content Creator",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4424639775/?trackingId=LLccGdUUrAfNt0KI2gTxNA%3D%3D&refId=nq5QrDPJDwAddAwzlLEmnw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMbAk6s2IQV65dtLnpEd3RQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ZFGCXyitAecs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mubb70hr~ue&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mubb70hr~ue-null-chf2d5~mubb70hr~ue-null-null&eid=chf2d5-mubb70hr-ue&otpToken=ZGMyNjVmZDg2ZTcxNzcxODRjMzM1MTAzZjA3MzI4ZWVjMmY5NzhiMzY3NWVlNGIwZTcyYWNlMzUyYjc5NGUyMDM0NWRmM2U5NWY5NmQ3YzI5NDBmMDlhZGE0ZjNkZGMzMzZiNDVkMGZjMjYwYjBhYjkyMmEwZDgxNzZlMjAzMTcwODk2ZWY3ZjE2MGQ0YjM0LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
