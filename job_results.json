@@ -1,30 +1,32 @@
 {
-  "generated": "2026-09-24T11:36:02.054900",
-  "count": 3,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 1,
+  "generated": "2026-09-25T11:42:31.743733",
+  "count": 8,
+  "dead_links_dropped": 3,
+  "off_target_dropped": 0,
   "source_counts": {
+    "Media Job Board": 1,
     "USAJobs": 1,
-    "Adzuna": 2
+    "Adzuna": 1,
+    "LinkedIn": 5
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 77,
+      "raw": 65,
       "method": "selectors",
-      "kept": 8
+      "kept": 10
     },
     "MediaBistro": {
-      "http": 200,
+      "http": 405,
       "raw": 0,
-      "method": "anchor-scan",
-      "kept": 0
+      "kept": 0,
+      "note": "http 405"
     },
     "Media Job Board": {
       "http": 200,
-      "raw": 20,
+      "raw": 21,
       "method": "selectors",
-      "kept": 0
+      "kept": 1
     },
     "IRE": {
       "http": 200,
@@ -83,7 +85,7 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 6
+      "kept": 7
     },
     "Study Hall": {
       "kept": 0,
@@ -94,31 +96,98 @@
       "note": "no email from jobs-listings@linkedin.com in last 8 days"
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "LinkedIn",
+      "subject": "News Production Editor at Endpoints News",
+      "id": "<1493044218.1744607.1790287014040@ltx1-app88955.prod.linkedin.com>",
+      "date": "Thu, 24 Sep 2026 21:56:54 +0000 (UTC)",
+      "body": "Endpoints News News Production Editor: About Endpoints News Media Company, LLCEndpoints\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nNews Production Editor\nEndpoints News \u00b7 United States (Remote)\nDistressed Reporter\n9fin \u00b7 New York, United States\nActively recruiting\nNight & Weekend Editor\nThe Center Square \u00b7 United States (Remote)\nEasy Apply\nManaging Editor, Think Global Health\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nWriter and Editor\nThe Huntington \u00b7 Los Angeles, CA\nLive Blog Editor (Newsperson)\nThe Associated Press \u00b7 Los Angeles, CA\n1 connection\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Distressed Reporter at 9fin",
+      "id": "<1293404258.2161427.1790294213279@ltx1-app36325.prod.linkedin.com>",
+      "date": "Thu, 24 Sep 2026 23:56:53 +0000 (UTC)",
+      "body": "9fin Distressed Reporter: About 9fin9fin is the AI platform powering global\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nDistressed Reporter\n9fin \u00b7 New York, United States\nActively recruiting\nWashington Correspondent\nNew York Post \u00b7 New York, NY\n1 connection\nPublic Affairs Specialist (Open to both U.S. Citizens and Federal Employees).\nMaritime Administration (MARAD) \u00b7 New York, NY\nDeputy Editor\nFinancial Times \u00b7 New York, NY (Hybrid)\n1 connection\nManaging Editor, Think Global Health\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nSenior News Editor\nNewsweek \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Communications Officer at Knight Foundation",
+      "id": "<1603837063.2275747.1790296014641@ltx1-app83943.prod.linkedin.com>",
+      "date": "Fri, 25 Sep 2026 00:26:54 +0000 (UTC)",
+      "body": "Knight Foundation Communications Officer: About the role:The John S. and James L. Knight\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nCommunications Officer\nKnight Foundation \u00b7 Miami, FL (On-site)\n1 school alum\nSenior News Editor\nNewsweek \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    }
+  ],
   "jobs": [
     {
-      "title": "Multimedia Communications Specialist - Entry to Mid Level (Maryland)",
-      "employer": "National Security Agency/Central Security Service",
-      "location": "Fort Meade, Maryland",
-      "link": "https://www.usajobs.gov:443/job/885901200",
+      "title": "News Reporter",
+      "employer": "Northeastern University",
+      "location": "New York, NY",
+      "link": "https://jobs.mediajobboard.com/company/northeastern-university-378543/job/news-reporter-in-new-york-ny-1lq6v5hx6v7gj5a68png1l12ia1t4t/",
+      "source": "Media Job Board",
+      "description": "Northeastern University News Reporter in New York, NY | Media Job Board News Reporter at Northeastern University \u00d7 Close Save changes \u00d7 Share this job posting Alert a friend or colleague to this open position News Reporter! New York, NY Friend/Colleague Email Address* Your Name* Your Email* Please enter the following text in the box below* Share Job Posting Private & Confidential No Spam \u00d7 Not ready to apply? No problem. Send yourself a reminder now. News Reporter! New York, NY Your Email Address* Please enter the following text in the box below* Private & Confidential No Spam Send Reminder In Partnership With: Back News Reporter Northeastern University New York, NY Full-time Journalism & Broadcasting Posted on September 24, 2026 Apply Now Share this job Send yourself a reminder Alert me to jobs like this one News Reporter Northeastern University Application Link: To apply for this role,"
+    },
+    {
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Air National Guard Units",
+      "location": "Newburgh, New York",
+      "link": "https://www.usajobs.gov:443/job/886090100",
       "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Multimedia Communications Specialist - Entry to Mid Level (Maryland) Department of Defense National Security Agency/Central Security Service Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Are you a creative strategist with a talent for crafting persuasive narratives, a skilled photographer with an eye for capturing compelling visuals, or a talented videographer who can bring stories to life? The National Security Agency (NSA) is seeking a Multimedia Communications Specialist to harness the power of words and visuals to shape our national security landscape. Learn more about this agency Summary Are you a creative strategist with a talent for crafting persuasive narratives, a skilled photographer with an eye for capturing compelling visuals, or a talented vide"
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air National Guard Units Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary THIS IS A NATIONAL GUARD TITLE 32 EXCEPTED SERVICE POSITION. This National Guard position is for a PUBLIC AFFAIRS SPECIALIST, Position Description Number D2382000 and is part of the 105TH AW, National Guard. This vacancy does not meet the criteria for appointment of annuitants. Learn more about this agency Summary THIS IS A NATIONAL GUARD TITLE 32 EXCEPTED SERVICE POSITION. This National Guard position is for a PUBLIC AFFAIRS SPECIALIST, Position Description Number D2382000 and is part of the 105TH AW, National Guard. This vacancy does not meet the criteria for appointment of annuitants. Learn more about this agency Overvi"
     },
     {
-      "title": "Full-time Nabisco Merchandiser/Order Writer",
-      "employer": "Mondel\u0113z International",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5896740486?utm_medium=api&utm_source=4803a542",
+      "title": "Student Content Creator - Pace University",
+      "employer": "Kaplan",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5898283797?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Full-time Nabisco Merchandiser/Order Writer Job in Miami, FL What? Where? Search Advanced Full-time Nabisco Merchandiser/Order Writer \u276e back to last search Mondel\u0113z International Miami, Florida 16-19 per hour Full time NEW Apply for this job Job Description Join our Mission to Lead the Future of Snacking AT Mondel\u0113z International Full-Time Nabisco Merchandiser/Order Writer A Full-Time Merchandiser Order Writer is a frontline force for retail excellence. As a Brand Execution Merchant, you\u2019ll bring world-famous snacks like Oreo, Ritz, belVita, Chips Ahoy!, and Triscuit to life in-store - building relationships, stocking shelves, executing displays, and ensuring shoppers always find their favorite snacks right where they expect them. Your work delights consumers, drives results, and keeps our iconic brands front and center: perfectly placed, impossible to miss, and always in stock. Represen"
+      "description": "Student Content Creator - Pace University Job in New York City, NY What? Where? Search Advanced Student Content Creator - Pace University \u276e back to last search Kaplan New York, New York $117,788 per year - estimated ? Part time NEW REMOTE Apply for this job Job Title Student Content Creator - Pace University Job Description Who we are Through Kaplan International, students from across the world can earn a degree at our leading university partners in the USA, UK, Canada, Australia and New Zealand. With a wide variety of study routes, including degree preparation courses and degree admission, and dedicated support at every step of the way, we help international students find a study option that's right for them. What is the Student Content Creator program? Kaplan International is looking to recruit a Student Content Creator who will assist in the creation of marketing materials. If you are"
     },
     {
-      "title": "Assignment Desk Editor",
-      "employer": "TelevisaUnivision",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5896616514?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Assignment Desk Editor Job in Miami, FL What? Where? Search Advanced Assignment Desk Editor \u276e back to last search TelevisaUnivision Miami, Florida $77,645 per year - estimated ? Full time NEW REMOTE Apply for this job TelevisaUnivision is seeking a talented and driven Assignment Desk Editor based in Miami to join its news team. The ideal candidate will bring strong editorial judgment, production experience, and a passion for breaking news. This role is responsible for coordinating story development, securing high-profile guests, booking interviews, field producing, and ensuring coverage is compelling and relevant across broadcast, streaming, and digital platforms. The successful candidate will manage story assignments, coordinate logistics, support field crews, and follow up on daily newsroom workflows across multiple news programs and platforms. This individual must be a strategic and c"
+      "title": "Live Blog Editor (Newsperson)The Associated Press \u00b7 Los Angeles, CA1 connection",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4471105203/?trackingId=GZY6c%2BumkSinadhiR%2B557w%3D%3D&refId=fieIE3sxdIg73l7JZ42wGg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BQLldafmcR8SPpY8dMkdohQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=33tDwbKfUAiYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4471105203_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4471105203_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc-null-chf2d5~mug2nuyp~dc-null-null&eid=chf2d5-mug2nuyp-dc&otpToken=NGM0MjU3YWJkZWYzNTQ0NDhjY2U1MTViNGJjZWVmMTllYjcyMGU1ZGQyMGY3OWE2YzU3NGM2NjgxMDgxYTQwZDNkMDYyMDdlMzc3NjRmOTAwMDM2MTI3MzA4YTNhZWY0ZWViN2I2NjJkMDIxMTQ1ZjFkY2QxZGY1MjJhOWI3NDk2NGQ0OWJhMWU4ZDNjZGUwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "News Production EditorEndpoints News \u00b7 United States (Remote)",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4471490221/?trackingId=10tGSj8m4PSQZS7Nd7fMGg%3D%3D&refId=fieIE3sxdIg73l7JZ42wGg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BQLldafmcR8SPpY8dMkdohQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=33tDwbKfUAiYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4471490221_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4471490221_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc-null-chf2d5~mug2nuyp~dc-null-null&eid=chf2d5-mug2nuyp-dc&otpToken=NGM0MjU3YWJkZWYzNTQ0NDhjY2U1MTViNGJjZWVmMTllYjcyMGU1ZGQyMGY3OWE2YzU3NGM2NjgxMDgxYTQwZDNkMDYyMDdlMzc3NjRmOTAwMDM2MTI3MzA4YTNhZWY0ZWViN2I2NjJkMDIxMTQ1ZjFkY2QxZGY1MjJhOWI3NDk2NGQ0OWJhMWU4ZDNjZGUwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "News Production Editor",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4471490221/?trackingId=10tGSj8m4PSQZS7Nd7fMGg%3D%3D&refId=fieIE3sxdIg73l7JZ42wGg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BQLldafmcR8SPpY8dMkdohQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=33tDwbKfUAiYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4471490221_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4471490221_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc-null-chf2d5~mug2nuyp~dc-null-null&eid=chf2d5-mug2nuyp-dc&otpToken=NGM0MjU3YWJkZWYzNTQ0NDhjY2U1MTViNGJjZWVmMTllYjcyMGU1ZGQyMGY3OWE2YzU3NGM2NjgxMDgxYTQwZDNkMDYyMDdlMzc3NjRmOTAwMDM2MTI3MzA4YTNhZWY0ZWViN2I2NjJkMDIxMTQ1ZjFkY2QxZGY1MjJhOWI3NDk2NGQ0OWJhMWU4ZDNjZGUwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Distressed Reporter9fin \u00b7 New York, United StatesActively recruiting",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4469617525/?trackingId=4nDnJt4Y2tPuk0y3Hs5eNQ%3D%3D&refId=fieIE3sxdIg73l7JZ42wGg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BQLldafmcR8SPpY8dMkdohQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=33tDwbKfUAiYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4469617525_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4469617525_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc-null-chf2d5~mug2nuyp~dc-null-null&eid=chf2d5-mug2nuyp-dc&otpToken=NGM0MjU3YWJkZWYzNTQ0NDhjY2U1MTViNGJjZWVmMTllYjcyMGU1ZGQyMGY3OWE2YzU3NGM2NjgxMDgxYTQwZDNkMDYyMDdlMzc3NjRmOTAwMDM2MTI3MzA4YTNhZWY0ZWViN2I2NjJkMDIxMTQ1ZjFkY2QxZGY1MjJhOWI3NDk2NGQ0OWJhMWU4ZDNjZGUwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Distressed Reporter",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4469617525/?trackingId=4nDnJt4Y2tPuk0y3Hs5eNQ%3D%3D&refId=fieIE3sxdIg73l7JZ42wGg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BQLldafmcR8SPpY8dMkdohQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=33tDwbKfUAiYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4469617525_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4469617525_ssid_8934216546_fmid_chf2d5~mug2nuyp~dc-null-chf2d5~mug2nuyp~dc-null-null&eid=chf2d5-mug2nuyp-dc&otpToken=NGM0MjU3YWJkZWYzNTQ0NDhjY2U1MTViNGJjZWVmMTllYjcyMGU1ZGQyMGY3OWE2YzU3NGM2NjgxMDgxYTQwZDNkMDYyMDdlMzc3NjRmOTAwMDM2MTI3MzA4YTNhZWY0ZWViN2I2NjJkMDIxMTQ1ZjFkY2QxZGY1MjJhOWI3NDk2NGQ0OWJhMWU4ZDNjZGUwLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
     }
   ]
 }
