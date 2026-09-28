@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-27T11:54:50.435513",
-  "count": 8,
-  "dead_links_dropped": 1,
+  "generated": "2026-09-28T13:42:39.905838",
+  "count": 7,
+  "dead_links_dropped": 2,
   "off_target_dropped": 0,
   "source_counts": {
-    "LinkedIn": 5,
-    "Adzuna": 3
+    "Adzuna": 2,
+    "LinkedIn": 5
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 57,
+      "raw": 53,
       "method": "selectors",
       "kept": 10
     },
@@ -22,7 +22,7 @@
     },
     "Media Job Board": {
       "http": 200,
-      "raw": 24,
+      "raw": 22,
       "method": "selectors",
       "kept": 1
     },
@@ -83,7 +83,7 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 7
+      "kept": 6
     },
     "Study Hall": {
       "kept": 0,
@@ -97,93 +97,78 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "External Communications Specialist (Remote) at SOLV Energy",
-      "id": "<1440884007.12505834.1790459813199@ltx1-app46514.prod.linkedin.com>",
-      "date": "Sat, 26 Sep 2026 21:56:53 +0000 (UTC)",
-      "body": "SOLV Energy External Communications Specialist (Remote): SOLV Energy is a leading provider of\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nA new job in Miami matches your preferences.\nExternal Communications Specialist (Remote)\nSOLV Energy \u00b7 Florida, United States (Remote)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Multi-Skilled Journalist at CBS News and Stations",
+      "id": "<1141851034.20875850.1790546212658@lor1-app98701.prod.linkedin.com>",
+      "date": "Sun, 27 Sep 2026 21:56:52 +0000 (UTC)",
+      "body": "CBS News and Stations Multi-Skilled Journalist: #WeAreParamount on a mission to unleash the power\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nMulti-Skilled Journalist\nCBS News and Stations \u00b7 San Francisco, CA (On-site)\nNewsNation -Assignment Desk Editor (New York)\nNexstar Media Group, Inc. \u00b7 New York, NY (On-site)\nActively recruiting\nEditor, Sr. (Remote)\nTorentify \u00b7 United States (Remote)\nMedia Relations Coordinator - 2025894\nWorld Relief \u00b7 Towson, MD (Remote)\n$55K-$65K / year\nEasy Apply\nEquity Analyst & Reporter\nVersant Media \u00b7 Englewood Cliffs, NJ (Hybrid)\n6 school alumni\nRegional Editor, MySA\nSan Antonio Express-News \u00b7 San Antonio, TX (Hybrid)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Editor at PoliticalRiskJobs.com",
-      "id": "<1020626784.12724836.1790467012157@ltx1-app77967.prod.linkedin.com>",
-      "date": "Sat, 26 Sep 2026 23:56:52 +0000 (UTC)",
-      "body": "PoliticalRiskJobs.com Editor: About Horizon EngageHorizon Engage is a New\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nEditor\nPoliticalRiskJobs.com \u00b7 New York, NY\nSocial Media Editor (Nonprofit / Investigative Journalism)\nMediabistro \u00b7 United States (Remote)\nNews Reporter (Higher Education / Digital News)\nMediabistro \u00b7 New York, NY (On-site)\nContent Development\nRoarke Regenerative \u00b7 New York, NY (Remote)\nEasy Apply\nDigital & Social Platform Editor\nSEMAFOR \u00b7 New York, NY\n1 connection\nGraphics Multimedia Editor, Open-source Reporting\nThe New York Times \u00b7 New York, NY\n1 connection\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
-      "subject": "External Communications Specialist (Remote) at SOLV Energy",
-      "id": "<1307212373.13015288.1790474214912@ltx1-app100344.prod.linkedin.com>",
-      "date": "Sun, 27 Sep 2026 01:56:54 +0000 (UTC)",
-      "body": "SOLV Energy External Communications Specialist (Remote): SOLV Energy is a leading provider of\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nExternal Communications Specialist (Remote)\nSOLV Energy \u00b7 Washington DC-Baltimore Area (Remote)\nActively recruiting\nExternal Communications Specialist (Remote)\nSOLV Energy \u00b7 Massachusetts, United States (Remote)\nActively recruiting\nSocial Media Editor (Nonprofit / Investigative Journalism)\nMediabistro \u00b7 United States (Remote)\nStaff Writer\nNational Association of Black Journalists (NABJ) \u00b7 Los Angeles, CA\n2027 National Hearst Journalism Fellowship Program\nHouston Chronicle \u00b7 San Francisco, CA (Hybrid)\n1 school alum\nDigital News Reporter\nNTD \u00b7 United States (Remote)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "NewsNation -Assignment Desk Editor (New York) at Nexstar Media\r\n Group, Inc.",
+      "id": "<530132671.19435183.1790553413730@lor1-app102520.prod.linkedin.com>",
+      "date": "Sun, 27 Sep 2026 23:56:53 +0000 (UTC)",
+      "body": "Nexstar Media Group, Inc. NewsNation -Assignment Desk Editor (New York): NewsNation is looking for an Assignment Desk\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nNewsNation -Assignment Desk Editor (New York)\nNexstar Media Group, Inc. \u00b7 New York, NY (On-site)\nActively recruiting\nCommunity Manager\nIAC \u00b7 New York, NY (Hybrid)\n$56K-$65K / year\n1 school alum\nEasy Apply\nProduction Assistant, Media Desk\nFox News Media \u00b7 New York, NY\n1 connection\nOvernight Associate Booking Producer\nNBCUniversal \u00b7 New York, NY (Hybrid)\nActively recruiting\nFamily Office Content Lead\nRamsey Portia \u00b7 New York, NY (Hybrid)\nEasy Apply\nSenior Manager, Corporate Communications &amp;amp; PR\nThe Business of HLTH Podcast \u00b7 New York, United States\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "External Communications Specialist (Remote)SOLV Energy \u00b7 Florida, United States (Remote)Actively recruiting",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4472202794/?trackingId=kO0gLing3ugKqWuoZ1tl7w%3D%3D&refId=oQckDK0ysF5EVWDaaMLZOQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BWnoHxYj%2FSkSSAh8RFQ8E%2Fg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2pHEaxMY1AlIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4472202794_ssid_8934216562_fmid_chf2d5~muixjkn9~14&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4472202794_ssid_8934216562_fmid_chf2d5~muixjkn9~14-null-chf2d5~muixjkn9~14-null-null&eid=chf2d5-muixjkn9-14&otpToken=MTBmM2VmYWJjM2E4NDEzN2Y5NzZiYTRhNzJmMzIxNjdiOGU2YTBhYjMxOTY0YTMxNGYzMGVhNzk1MTZiMGM0NWZjMzVjNGU1NmJhMzhmYWU0YTJlYTJjOGZmY2RjNmU3Zjc1MGZhMDU5MWRhNmVlOGUzM2NiMThjMjJhNTY5M2YzOTY4ZDcwMzY4YmRkYTRlLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Project Coordinator, Public Affairs & Communications",
-      "employer": "Hearst",
-      "location": "Chelsea and Clinton, Manhattan",
-      "link": "https://www.adzuna.com/details/5898827872?utm_medium=api&utm_source=4803a542",
+      "title": "Photo Editor",
+      "employer": "Ross Stores",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5901540569?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Project Coordinator, Public Affairs & Communications Job in Chelsea and Clinton, NY What? Where? Search Advanced Project Coordinator, Public Affairs & Communications \u276e back to last search Hearst New York New York 10001 $65,946 per year - estimated ? Permanent Full time NEW Apply for this job Hearst, one of the world's leading diversified media and information services companies, is seeking an experienced individual to support the Senior Vice President, Public Affairs and Communications. In this role, the individual will provide administrative support and participate in key Hearst projects and initiatives, many with high-level exposure across multiple businesses. An estimated 25% of time is spent on admin duties (most critically, calendar management), with the balance dedicated to project work around: (1) supporting the creation of a new high-profile, multimedia, experiential build-out at"
+      "description": "Photo Editor Job in New York City, NY What? Where? Search Advanced Photo Editor \u276e back to last search Ross Stores New York City $55000.0-$70000.0 per year Full time EASY APPLY NEW Apply for this job We are seeking a talented and detail-oriented Photo Editor to join our creative team. The Photo Editor will be responsible for transforming raw photographs into polished, professional images for use across digital, print, marketing, advertising, social media, websites, and other channels. The ideal candidate has strong technical expertise in Adobe Photoshop and Lightroom , an excellent eye for color and composition, and the ability to consistently produce high-quality work while meeting deadlines. This is a full-time position with an expected salary range of $55,000\u2013$70,000 annually , depending on the candidate's experience, level of retouching expertise, portfolio, and overall qualifications"
     },
     {
-      "title": "External Communications Specialist (Remote)",
+      "title": "Media Relations Coordinator - 2025894World Relief \u00b7 Towson, MD (Remote)$55K-$65K / yearEasy Apply",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4472202794/?trackingId=kO0gLing3ugKqWuoZ1tl7w%3D%3D&refId=oQckDK0ysF5EVWDaaMLZOQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BWnoHxYj%2FSkSSAh8RFQ8E%2Fg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2pHEaxMY1AlIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4472202794_ssid_8934216562_fmid_chf2d5~muixjkn9~14&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4472202794_ssid_8934216562_fmid_chf2d5~muixjkn9~14-null-chf2d5~muixjkn9~14-null-null&eid=chf2d5-muixjkn9-14&otpToken=MTBmM2VmYWJjM2E4NDEzN2Y5NzZiYTRhNzJmMzIxNjdiOGU2YTBhYjMxOTY0YTMxNGYzMGVhNzk1MTZiMGM0NWZjMzVjNGU1NmJhMzhmYWU0YTJlYTJjOGZmY2RjNmU3Zjc1MGZhMDU5MWRhNmVlOGUzM2NiMThjMjJhNTY5M2YzOTY4ZDcwMzY4YmRkYTRlLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469760159/?trackingId=P81pxE%2BJApDKeum4Iho%2FzQ%3D%3D&refId=kV4bKfvK2P9zR7X9IxxzvQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSZ8FWI0BSoahsSPgjwMQtA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3lLHcA10U4ncs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4469760159_ssid_8934216546_fmid_chf2d5~mukczerw~q&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4469760159_ssid_8934216546_fmid_chf2d5~mukczerw~q-null-chf2d5~mukczerw~q-null-null&eid=chf2d5-mukczerw-q&otpToken=YTU1ODRlYmU4N2FhNjJiNmUxMWNmMjBiMGIzNjg0ZDNiOWViMmRjNDYyZTRhNTg0NzYwYTg0NmZhMDU5Y2I2NTA4ZDk1MzEyYzJlZjYzOWYyYzRhMTJiYzI2MDI1ZDM5MjllODkzZGI4MWRkZGUxNjg5NzIyYjBhZTFjYjk2ODY4OWIxNDY0Nzg2YmE2ZWRmLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Media Relations Coordinator - 2025894",
-      "employer": "World Relief",
-      "location": "Towson, Baltimore County",
-      "link": "https://www.adzuna.com/details/5899505499?utm_medium=api&utm_source=4803a542",
+      "title": "Clinical Content Lead",
+      "employer": "Nolla Health",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5901292274?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Media Relations Coordinator - 2025894 Job in Towson, MD What? Where? Search Advanced Media Relations Coordinator - 2025894 \u276e back to last search World Relief Towson, Maryland 55000-65000 per year Full time NEW REMOTE Apply for this job Are you a person of compassion? An advocate for justice? Someone who stands up for the rights of the vulnerable and speaks out for the marginalized, the exploited and the forgotten? Do you believe in our calling as Christians to welcome the least of these and love our neighbor? If you answered \u2018yes\u2019, to any of the above, World Relief, and millions of people around the world need you. At this pivotal moment in time, we are rapidly expanding and growing our team to meet the increasing needs of our world. We are looking for people who want to use their gifts and talents to make a real and tangible difference in our world and the lives of the suffering. If you"
+      "description": "Clinical Content Lead Job in New York City, NY What? Where? Search Advanced Clinical Content Lead \u276e back to last search Nolla Health New York City, New York 125000-150000 per year Full time NEW Apply for this job About Nolla Health Nolla is building AI-powered healthcare to make high-quality care accessible to everyone. Our medical skincare and prescription product, Nolla Derm, helps patients understand their skin and get treatment. We\u2019re expanding into broader care, women\u2019s health, and beyond. We\u2019ve raised $6.5M from General Catalyst and other strategic investors. We\u2019re looking for a clinician who can make medical information clear, useful, and engaging\u2014and become a recognizable face of Nolla. The role You\u2019ll lead clinical content at Nolla: finding the questions patients actually care about, researching the answers, writing scripts, and bringing them to life on camera. This is a hands-o"
     },
     {
-      "title": "External Communications Specialist (Remote)SOLV Energy \u00b7 Washington DC-Baltimore Area (Remote)Actively recruiting",
+      "title": "Overnight Associate Booking ProducerNBCUniversal \u00b7 New York, NY (Hybrid)Actively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4472211549/?trackingId=8v8w99T%2B6lluhdGbyq2axQ%3D%3D&refId=8o7F1LhQ5Mhjgop%2ByxK2Zg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BPAXblFY2S46cAM1wYJmVYw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0cWosetsxklYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4472211549_ssid_8934216546_fmid_chf2d5~muj647fv~a2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4472211549_ssid_8934216546_fmid_chf2d5~muj647fv~a2-null-chf2d5~muj647fv~a2-null-null&eid=chf2d5-muj647fv-a2&otpToken=YTYzZTM0ODUzNWNjOGQ0YTg4Y2I2NDRjMTk5ZWNjOTgxNzkxOTAwYTg3OWUwMzA3MDc2YmIyNTNjM2Q0ZDk2ZmU0ZTE4NjA2MTM2NTVkYTFmNjA5MjRiY2EwMGYyMmM0MmVjNjM0MDczMTkxZWNlOGNjYTg4NmJiNjVlNjU4N2E2M2NmNDIwM2EyZTM3MWQzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4463736805/?trackingId=fgVloev0pG5e49izNbu%2BNw%3D%3D&refId=uEQL%2BkyLEzNUeQYEQ6dFyQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BVd3JabdBSmC1IXCHr0A5eQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2OzuGeJVBYncs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4463736805_ssid_8934216554_fmid_chf2d5~mukh9qq3~eb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4463736805_ssid_8934216554_fmid_chf2d5~mukh9qq3~eb-null-chf2d5~mukh9qq3~eb-null-null&eid=chf2d5-mukh9qq3-eb&otpToken=M2RmZTEyZGE0MzQ2Y2RkMmE3NTE2OWFmMWVjZDAzYjdkYWQyY2U5M2EzMjVmN2RiZjQ0ZGQ5ZDlhMTI0NTg0NmNkN2ZkMDRlZDU2NjFkZmRiZTExODgwMjJkNDE2OGE1M2RmZDAxYTkyZTA0M2Y1ZWRjZjA2OWQzNzgzZmMyMWE5MzZjNDY4Yzc5YWQ0MTZkLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Video Producer, Team Content | University of Miami",
-      "employer": "Legends Global",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5898349735?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Video Producer, Team Content | University of Miami Job in Miami, FL What? Where? Search Advanced Video Producer, Team Content | University of Miami \u276e back to last search Legends Global Miami, Florida $74,302 per year - estimated ? Full time Apply for this job THE ROLE: Video Producer, Team Content LOCATION: University of Miami | Coral Gables, FL ABOUT LEGENDS GLOBAL Legends Global is the premier partner to the world\u2019s greatest live events, venues, and brands. We deliver a fully integrated suite of premium services through a white-label model that keeps our partners front and center \u2014 from feasibility and project development to sales, partnerships, hospitality, merchandise, venue management, and world-class content and booking. With a global network of more than 450 venues, hosting 20,000 events and welcoming 165 million guests annually, Legends Global brings unmatched scale, expertise, a"
-    },
-    {
-      "title": "EditorPoliticalRiskJobs.com \u00b7 New York, NY",
+      "title": "Overnight Associate Booking Producer",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4470540432/?trackingId=gBLtkDLNz3KsPW8%2FfTe12A%3D%3D&refId=0ljyOM9kDyC5RyTTjYwTJg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BZUtN9tXzSmOhS%2BuU%2BfXCEg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0Xn7b9BT3slIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4470540432_ssid_8934216554_fmid_chf2d5~muj1tvmj~y&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4470540432_ssid_8934216554_fmid_chf2d5~muj1tvmj~y-null-chf2d5~muj1tvmj~y-null-null&eid=chf2d5-muj1tvmj-y&otpToken=MTRhZmMzYTBiNzVmOTJmZGE0MGU4YzljYTMxMGE1ODFlNzY4Y2NlNDJiNTMwNWZjN2EwNDNiYmRkMTM3ZTBiNjAzYzViZjEzNjhmYzkyODE3YzZiYTBhN2UwYzkyZWQ0NWE0YjUwMWNjMmQxMDEwODdiYTI1YThlODJlN2ViYmE1YjVkYmQxZGViYTViYjdjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4463736805/?trackingId=fgVloev0pG5e49izNbu%2BNw%3D%3D&refId=uEQL%2BkyLEzNUeQYEQ6dFyQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BVd3JabdBSmC1IXCHr0A5eQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2OzuGeJVBYncs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4463736805_ssid_8934216554_fmid_chf2d5~mukh9qq3~eb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4463736805_ssid_8934216554_fmid_chf2d5~mukh9qq3~eb-null-chf2d5~mukh9qq3~eb-null-null&eid=chf2d5-mukh9qq3-eb&otpToken=M2RmZTEyZGE0MzQ2Y2RkMmE3NTE2OWFmMWVjZDAzYjdkYWQyY2U5M2EzMjVmN2RiZjQ0ZGQ5ZDlhMTI0NTg0NmNkN2ZkMDRlZDU2NjFkZmRiZTExODgwMjJkNDE2OGE1M2RmZDAxYTkyZTA0M2Y1ZWRjZjA2OWQzNzgzZmMyMWE5MzZjNDY4Yzc5YWQ0MTZkLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Social Media Editor (Nonprofit / Investigative Journalism)Mediabistro \u00b7 United States (Remote)",
+      "title": "NewsNation -Assignment Desk Editor (New York)Nexstar Media Group, Inc. \u00b7 New York, NY (On-site)Actively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4470192658/?trackingId=EcABpscA5X7roKGAiByj1g%3D%3D&refId=0ljyOM9kDyC5RyTTjYwTJg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BZUtN9tXzSmOhS%2BuU%2BfXCEg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0Xn7b9BT3slIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4470192658_ssid_8934216554_fmid_chf2d5~muj1tvmj~y&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4470192658_ssid_8934216554_fmid_chf2d5~muj1tvmj~y-null-chf2d5~muj1tvmj~y-null-null&eid=chf2d5-muj1tvmj-y&otpToken=MTRhZmMzYTBiNzVmOTJmZGE0MGU4YzljYTMxMGE1ODFlNzY4Y2NlNDJiNTMwNWZjN2EwNDNiYmRkMTM3ZTBiNjAzYzViZjEzNjhmYzkyODE3YzZiYTBhN2UwYzkyZWQ0NWE0YjUwMWNjMmQxMDEwODdiYTI1YThlODJlN2ViYmE1YjVkYmQxZGViYTViYjdjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4426127926/?trackingId=hat6hGhyQ31sBb%2B7sDwJzA%3D%3D&refId=kV4bKfvK2P9zR7X9IxxzvQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSZ8FWI0BSoahsSPgjwMQtA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3lLHcA10U4ncs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4426127926_ssid_8934216546_fmid_chf2d5~mukczerw~q&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4426127926_ssid_8934216546_fmid_chf2d5~mukczerw~q-null-chf2d5~mukczerw~q-null-null&eid=chf2d5-mukczerw-q&otpToken=YTU1ODRlYmU4N2FhNjJiNmUxMWNmMjBiMGIzNjg0ZDNiOWViMmRjNDYyZTRhNTg0NzYwYTg0NmZhMDU5Y2I2NTA4ZDk1MzEyYzJlZjYzOWYyYzRhMTJiYzI2MDI1ZDM5MjllODkzZGI4MWRkZGUxNjg5NzIyYjBhZTFjYjk2ODY4OWIxNDY0Nzg2YmE2ZWRmLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "NewsNation -Assignment Desk Editor (New York)",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4426127926/?trackingId=hat6hGhyQ31sBb%2B7sDwJzA%3D%3D&refId=kV4bKfvK2P9zR7X9IxxzvQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSZ8FWI0BSoahsSPgjwMQtA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3lLHcA10U4ncs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4426127926_ssid_8934216546_fmid_chf2d5~mukczerw~q&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4426127926_ssid_8934216546_fmid_chf2d5~mukczerw~q-null-chf2d5~mukczerw~q-null-null&eid=chf2d5-mukczerw-q&otpToken=YTU1ODRlYmU4N2FhNjJiNmUxMWNmMjBiMGIzNjg0ZDNiOWViMmRjNDYyZTRhNTg0NzYwYTg0NmZhMDU5Y2I2NTA4ZDk1MzEyYzJlZjYzOWYyYzRhMTJiYzI2MDI1ZDM5MjllODkzZGI4MWRkZGUxNjg5NzIyYjBhZTFjYjk2ODY4OWIxNDY0Nzg2YmE2ZWRmLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
