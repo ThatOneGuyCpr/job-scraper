@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-01T13:01:15.556366",
-  "count": 6,
-  "dead_links_dropped": 0,
-  "off_target_dropped": 2,
+  "generated": "2026-10-02T12:22:49.000542",
+  "count": 8,
+  "dead_links_dropped": 1,
+  "off_target_dropped": 0,
   "source_counts": {
-    "LinkedIn": 5,
-    "JournalismJobs": 1
+    "Adzuna": 3,
+    "LinkedIn": 5
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -15,14 +15,14 @@
       "kept": 13
     },
     "MediaBistro": {
-      "http": 405,
+      "http": 200,
       "raw": 0,
-      "kept": 0,
-      "note": "http 405"
+      "method": "anchor-scan",
+      "kept": 0
     },
     "Media Job Board": {
       "http": 200,
-      "raw": 22,
+      "raw": 23,
       "method": "selectors",
       "kept": 1
     },
@@ -69,15 +69,13 @@
       "note": "http 404"
     },
     "ONA Career Center": {
-      "http": 202,
+      "http": 403,
       "raw": 0,
       "kept": 0,
-      "note": "http 202"
+      "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "http": 503,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets"
+      "kept": 39
     },
     "The Muse": {
       "http": 200,
@@ -99,77 +97,93 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Local Politics Reporter at NJ Advance Media: up to $85K/year",
-      "id": "<344470655.2597469.1790814415898@ltx1-app68174.prod.linkedin.com>",
-      "date": "Thu, 1 Oct 2026 00:26:55 +0000 (UTC)",
-      "body": "$65K-$85K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nLocal Politics Reporter\nNJ Advance Media \u00b7 New Jersey, United States (Hybrid)\n$65K-$85K / year\nContent Operations Manager\nAmerican Red Cross \u00b7 Washington, DC\nActively recruiting\nStatehouse Tech Reporter\nPOLITICO \u00b7 Sacramento, CA\nActively recruiting\nTech Correspondent\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nEditorial Content Lead\nSalaryGuide \u00b7 United States (Remote)\n$75K-$85K / year\nPolitical Desk Editor, Political Unit\nCNN \u00b7 Washington, DC\n1 connection\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Morning Newsletter Editor at Bloomberg Industry Group",
+      "id": "<947675977.251606.1790899014531@lor1-app159746.prod.linkedin.com>",
+      "date": "Thu, 1 Oct 2026 23:56:54 +0000 (UTC)",
+      "body": "Bloomberg Industry Group Morning Newsletter Editor: The most important way Bloomberg Industry Group\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nMorning Newsletter Editor\nBloomberg Industry Group \u00b7 Arlington, VA\nActively recruiting\nFlorida Regional Reporter\nCentellic \u00b7 Florida, United States (Remote)\nOp-Ed Editor\nThe Washington Post \u00b7 Washington, DC\n2 connections\nDeputy Editor\nFinancial Times \u00b7 New York, NY (Hybrid)\n1 connection\nAssistant Editor or Editor, Central Desk\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nVideo Journalist\nDow Jones \u00b7 New York, NY\n1 company alum\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Video Producer at Straight Arrow",
-      "id": "<437680359.2947794.1790819815413@ltx1-app100324.prod.linkedin.com>",
-      "date": "Thu, 1 Oct 2026 01:56:55 +0000 (UTC)",
-      "body": "Straight Arrow Video Producer: About Us: Straight Arrow is fearlessly dedicated\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nVideo Producer\nStraight Arrow \u00b7 United States (Remote)\nActively recruiting\nEditor, Fierce Biotech\nQuestex \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Family Office Reporter role paying up to $100K/year",
+      "id": "<243400367.6050187.1790900815006@lor1-app121968.prod.linkedin.com>",
+      "date": "Fri, 2 Oct 2026 00:26:55 +0000 (UTC)",
+      "body": "$80K-$100K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nFamily Office Reporter\nCrain Communications \u00b7 New York, NY (On-site)\n$80K-$100K / year\nActively recruiting\nGrowth Editor, Free Expression\nDow Jones \u00b7 New York, NY\n1 company alum\nPage Six Associate Editor\nNew York Post \u00b7 New York, NY\n1 connection\nMedia Relations and Content Manager (Nonprofit / Higher Education)\nMediabistro \u00b7 New York, NY (Hybrid)\nDeputy Editor\nFinancial Times \u00b7 New York, NY (Hybrid)\n1 connection\nVideo Journalist\nDow Jones \u00b7 New York, NY\n1 company alum\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Public Information Specialist 2 - NY HELPS at Environmental\r\n Conservation, Department of: up to $115K/year",
-      "id": "<350387828.3485832.1790827014846@ltx1-app86178.prod.linkedin.com>",
-      "date": "Thu, 1 Oct 2026 03:56:54 +0000 (UTC)",
-      "body": "$91K-$115K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nPublic Information Specialist 2 - NY HELPS\nNYS Department of Environmental Conservation \u00b7 Albany, NY (Hybrid)\n$91K-$115K / year\n1 school alum\nBreaking News Politics Reporter (DC-Based)\nNew York Post \u00b7 New York, NY\n1 connection\nMedia Relations and Content Manager (Nonprofit / Higher Education)\nMediabistro \u00b7 New York, NY (Hybrid)\nAssociate, Corporate Issues\nWeber Shandwick \u00b7 New York, NY\nActively recruiting\nEditorial Content Strategist, Digital & Insights\nFTI Consulting \u00b7 New York, NY\nActively recruiting\nNewsletter Writer/Editor\nDow Jones \u00b7 New York, NY\n1 company alum\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Centellic is hiring: Florida Regional Reporter",
+      "id": "<1022283501.6342363.1790906215792@lor1-app159918.prod.linkedin.com>",
+      "date": "Fri, 2 Oct 2026 01:56:55 +0000 (UTC)",
+      "body": "Centellic Florida Regional Reporter: Department: Content Editorial &\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nFlorida Regional Reporter\nCentellic \u00b7 Florida, United States (Remote)\nWriter, Sports Betting\nOutKick \u00b7 United States (Remote)\n1 school alum\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Local Politics ReporterNJ Advance Media \u00b7 New Jersey, United States (Hybrid)$65K-$85K / year",
+      "title": "Associate Producer",
+      "employer": "Monumental Sports & Entertainment",
+      "location": "Rosslyn, Arlington County",
+      "link": "https://www.adzuna.com/details/5907653771?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Associate Producer Job in Rosslyn, VA What? Where? Search Advanced Associate Producer \u276e back to last search Monumental Sports & Entertainment Washington, District of Columbia 20004 70000-80000 per year Full time NEW REMOTE Apply for this job Monumental Sports & Entertainment (MSE) is one of the leading integrated sports and entertainment companies globally. MSE\u2019s portfolio spans premier professional sports teams, world-class venues, and next-generation media properties, with marquee assets including the NHL\u2019s Washington Capitals, NBA\u2019s Washington Wizards, WNBA\u2019s Washington Mystics, NBA G League\u2019s Capital City Go-Go, Capital One Arena, and Monumental Sports Network, along with an investment in Team Liquid. Rooted in the nation\u2019s capital, MSE brings Washington, D.C's distinct influence, ambition, and leadership to the global sports and entertainment landscape. The company harnesses the pow"
+    },
+    {
+      "title": "Assistant Editor or Editor, Central DeskPOLITICO \u00b7 Arlington, VAActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473518149/?trackingId=0rRRbyFoRVtW%2BtyBSVbMEQ%3D%3D&refId=8s3VC9WrQ%2BVjXGz1k%2BcECA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKBkdUH82SWixp%2BsJVMmU0w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=12ZcIHYlFWrss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4473518149_ssid_8934216546_fmid_chf2d5~muosnwq9~zo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4473518149_ssid_8934216546_fmid_chf2d5~muosnwq9~zo-null-chf2d5~muosnwq9~zo-null-null&eid=chf2d5-muosnwq9-zo&otpToken=NjE1NmI2YTMzMjY1YjgzZTEzMGU1OGM1YjA5MTgxMTkzYTcxZWZkMGZjYjk4MGRkMjk5ZWJmYTI0YTRmYzYxYWUyYjdiYjlhNTNmM2Q1OTA0NmIwYzQ1OWQ1ZjQxNzNkZDk3N2M5NmMyNzNkYzc2OTkzM2JjMzlmMjM5YzIyZDM0NjYxOTRkNTUzZTIwYzY2LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4453472454/?trackingId=XVN894Z6w6EyFvJVSCNcIw%3D%3D&refId=Sa8KwaZ2uB0F6wHKvpd2nQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKUq2WQ7lRcOB5UmdsudAwg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0q8_FCDyLYsIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4453472454_ssid_8934216546_fmid_chf2d5~muq716os~lo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4453472454_ssid_8934216546_fmid_chf2d5~muq716os~lo-null-chf2d5~muq716os~lo-null-null&eid=chf2d5-muq716os-lo&otpToken=MDNmMGU5MTFlYmE3ZmUzYzUzZWE0NzFhMmM5ZDg3OWQ4MTQ4NTY3YmRmYzlhOTRkM2VlZmQ5YjE0ZjgxOWIyNjJmODg1ODdmMjhlMjNmMzg2ZGQ5ODRhMzkwZGRjMTdlYTQyNjYzNWNhNjNiZmYxNjY5ZjA3NjIyZWZkZWRmZTNkNmMwMjY0YzZjYjMwZWJkLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Temporary Breaking News Writer",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1693896-temporary-breaking-news-writer-bleacher-report-warner-bros-discovery",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Temporary Breaking News Writer Temporary Breaking News Writer Bleacher Report, Warner Bros. Discovery Remote, United States Save Share Facebook Twitter Linkedin Email Apply Now Date Posted September 30, 2026 Industry Digital Media Specialty Sports/Outdoors Job Status Temporary/Contract Salary Max Pay Rate $35.73/hr Description: Bleacher Report is searching for a Writer for the Breaking News Team. This is a remote-based, temporary position, working nights and weekends, overseeing the top sports stories of the day. To apply, click here: https://flextalent.wbd.com/job/7258214 Apply https://flextalent.wbd.com/job/7258214 When applying, mention you saw this opening listed at JournalismJobs.com. Job ads copyrighted by JournalismJobs.com \u00a9 1998-2026 Share Via Email \u00d7 To: From: Comments: Send Email t \u00d7 Create an Account to Save This Job Your Name Your Email Cre"
-    },
-    {
-      "title": "Local Politics Reporter",
+      "title": "Page Six Associate EditorNew York Post \u00b7 New York, NY1 connection",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473518149/?trackingId=0rRRbyFoRVtW%2BtyBSVbMEQ%3D%3D&refId=8s3VC9WrQ%2BVjXGz1k%2BcECA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKBkdUH82SWixp%2BsJVMmU0w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=12ZcIHYlFWrss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4473518149_ssid_8934216546_fmid_chf2d5~muosnwq9~zo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4473518149_ssid_8934216546_fmid_chf2d5~muosnwq9~zo-null-chf2d5~muosnwq9~zo-null-null&eid=chf2d5-muosnwq9-zo&otpToken=NjE1NmI2YTMzMjY1YjgzZTEzMGU1OGM1YjA5MTgxMTkzYTcxZWZkMGZjYjk4MGRkMjk5ZWJmYTI0YTRmYzYxYWUyYjdiYjlhNTNmM2Q1OTA0NmIwYzQ1OWQ1ZjQxNzNkZDk3N2M5NmMyNzNkYzc2OTkzM2JjMzlmMjM5YzIyZDM0NjYxOTRkNTUzZTIwYzY2LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=96%2BCoWvWyyHISQnraTPzSw%3D%3D&refId=NcuuUXdTfwOE82VehEXPaQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BgWT1O9VIQS%2BnkCkc2WKcRw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2qu59_62wqsYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muq83rs8~4s&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muq83rs8~4s-null-chf2d5~muq83rs8~4s-null-null&eid=chf2d5-muq83rs8-4s&otpToken=MGM3NjhiMWFkZDVhZTFlODg5OTlhZGQ4MDk3MzUzNzYwMDJmYjVhMWU1OTgwYzQ1YjU1YmFjZWI3MjAyZmIzYjczNGRhOWJkMDI1YmE5OTdjZGZiMDcxMjI5MDBhMzFkYTU4MTZlOGYyM2MxMTA2MzU5ODBjNjk2NzEzNjE1NTAxNDJmMWM1OGExOTFlNWZiLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Statehouse Tech ReporterPOLITICO \u00b7 Sacramento, CAActively recruiting",
+      "title": "Sustainability and Infrastructure Communications Specialist",
+      "employer": "Google",
+      "location": "Grand Central, Manhattan",
+      "link": "https://www.adzuna.com/land/ad/5905511977?se=pG6U61u-8RGVe9UZ9ts8hQ&utm_medium=api&utm_source=4803a542&v=5E572CD1B80073C4D8703B6F92182BB27EFC7F8A",
+      "source": "Adzuna",
+      "description": "Sustainability and Infrastructure Communications Specialist Job in Grand Central, NY What? Where? Search Advanced Sustainability and Infrastructure Communications Specialist \u276e back to last search Google New York, New York, 10176 $175,696 per year - estimated ? NEW Apply for this job Sustainability and Infrastructure Communications Specialist Share Sustainability and Infrastructure Communications Specialist _corporate_fare_ Google _place_ San Francisco, CA, USA; New York, NY, USA; +4 more; +3 more **Mid** Experience driving progress, solving problems, and mentoring more junior team members; deeper expertise and applied knowledge within relevant area. Share Sustainability and Infrastructure Communications Specialist _info_outline_ XApplicants in San Francisco: Qualified applications with arrest or conviction records will be considered for employment in accordance with the San Francisco Fai"
+    },
+    {
+      "title": "Page Six Associate Editor",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4471768134/?trackingId=oboXRe2LXrifbQnIwJEedQ%3D%3D&refId=8s3VC9WrQ%2BVjXGz1k%2BcECA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKBkdUH82SWixp%2BsJVMmU0w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=12ZcIHYlFWrss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4471768134_ssid_8934216546_fmid_chf2d5~muosnwq9~zo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4471768134_ssid_8934216546_fmid_chf2d5~muosnwq9~zo-null-chf2d5~muosnwq9~zo-null-null&eid=chf2d5-muosnwq9-zo&otpToken=NjE1NmI2YTMzMjY1YjgzZTEzMGU1OGM1YjA5MTgxMTkzYTcxZWZkMGZjYjk4MGRkMjk5ZWJmYTI0YTRmYzYxYWUyYjdiYjlhNTNmM2Q1OTA0NmIwYzQ1OWQ1ZjQxNzNkZDk3N2M5NmMyNzNkYzc2OTkzM2JjMzlmMjM5YzIyZDM0NjYxOTRkNTUzZTIwYzY2LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=96%2BCoWvWyyHISQnraTPzSw%3D%3D&refId=NcuuUXdTfwOE82VehEXPaQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BgWT1O9VIQS%2BnkCkc2WKcRw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2qu59_62wqsYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muq83rs8~4s&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muq83rs8~4s-null-chf2d5~muq83rs8~4s-null-null&eid=chf2d5-muq83rs8-4s&otpToken=MGM3NjhiMWFkZDVhZTFlODg5OTlhZGQ4MDk3MzUzNzYwMDJmYjVhMWU1OTgwYzQ1YjU1YmFjZWI3MjAyZmIzYjczNGRhOWJkMDI1YmE5OTdjZGZiMDcxMjI5MDBhMzFkYTU4MTZlOGYyM2MxMTA2MzU5ODBjNjk2NzEzNjE1NTAxNDJmMWM1OGExOTFlNWZiLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Statehouse Tech Reporter",
+      "title": "Visual Editor",
+      "employer": "Playboy Enterprises",
+      "location": "Carl Fisher, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5905819276?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Visual Editor Job in Carl Fisher, FL What? Where? Search Advanced Visual Editor \u276e back to last search Playboy Enterprises Miami Beach, Florida, 33139 85000-100000 per year Full time NEW Apply for this job The Job The Visuals Editor is a core member of Playboy\u2019s art department, working directly with the Art Director to bring the brand vision to life across all channels and platforms \u2014 including (but not limited to) the print magazine, Playboy.com, social media, brand partnerships, and experiential activations. This is a hands-on, production-rooted creative role that spans photo shoot planning and logistics, on-set coordination, photography and illustration commissioning, visual research, and support for video and social video assignments. The ideal candidate is a versatile creative professional with a strong visual eye and the organizational discipline to manage multiple projects simultan"
+    },
+    {
+      "title": "Morning Newsletter EditorBloomberg Industry Group \u00b7 Arlington, VAActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4471768134/?trackingId=oboXRe2LXrifbQnIwJEedQ%3D%3D&refId=8s3VC9WrQ%2BVjXGz1k%2BcECA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKBkdUH82SWixp%2BsJVMmU0w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=12ZcIHYlFWrss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4471768134_ssid_8934216546_fmid_chf2d5~muosnwq9~zo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4471768134_ssid_8934216546_fmid_chf2d5~muosnwq9~zo-null-chf2d5~muosnwq9~zo-null-null&eid=chf2d5-muosnwq9-zo&otpToken=NjE1NmI2YTMzMjY1YjgzZTEzMGU1OGM1YjA5MTgxMTkzYTcxZWZkMGZjYjk4MGRkMjk5ZWJmYTI0YTRmYzYxYWUyYjdiYjlhNTNmM2Q1OTA0NmIwYzQ1OWQ1ZjQxNzNkZDk3N2M5NmMyNzNkYzc2OTkzM2JjMzlmMjM5YzIyZDM0NjYxOTRkNTUzZTIwYzY2LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4454085028/?trackingId=lDDsid26i66zyJn%2Fjo5JGQ%3D%3D&refId=Sa8KwaZ2uB0F6wHKvpd2nQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKUq2WQ7lRcOB5UmdsudAwg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0q8_FCDyLYsIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4454085028_ssid_8934216546_fmid_chf2d5~muq716os~lo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4454085028_ssid_8934216546_fmid_chf2d5~muq716os~lo-null-chf2d5~muq716os~lo-null-null&eid=chf2d5-muq716os-lo&otpToken=MDNmMGU5MTFlYmE3ZmUzYzUzZWE0NzFhMmM5ZDg3OWQ4MTQ4NTY3YmRmYzlhOTRkM2VlZmQ5YjE0ZjgxOWIyNjJmODg1ODdmMjhlMjNmMzg2ZGQ5ODRhMzkwZGRjMTdlYTQyNjYzNWNhNjNiZmYxNjY5ZjA3NjIyZWZkZWRmZTNkNmMwMjY0YzZjYjMwZWJkLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Editorial Content LeadSalaryGuide \u00b7 United States (Remote)$75K-$85K / year",
+      "title": "Morning Newsletter Editor",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473767423/?trackingId=Ib96eny6MG2PNjt0fnRqJg%3D%3D&refId=8s3VC9WrQ%2BVjXGz1k%2BcECA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKBkdUH82SWixp%2BsJVMmU0w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=12ZcIHYlFWrss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4473767423_ssid_8934216546_fmid_chf2d5~muosnwq9~zo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4473767423_ssid_8934216546_fmid_chf2d5~muosnwq9~zo-null-chf2d5~muosnwq9~zo-null-null&eid=chf2d5-muosnwq9-zo&otpToken=NjE1NmI2YTMzMjY1YjgzZTEzMGU1OGM1YjA5MTgxMTkzYTcxZWZkMGZjYjk4MGRkMjk5ZWJmYTI0YTRmYzYxYWUyYjdiYjlhNTNmM2Q1OTA0NmIwYzQ1OWQ1ZjQxNzNkZDk3N2M5NmMyNzNkYzc2OTkzM2JjMzlmMjM5YzIyZDM0NjYxOTRkNTUzZTIwYzY2LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4454085028/?trackingId=lDDsid26i66zyJn%2Fjo5JGQ%3D%3D&refId=Sa8KwaZ2uB0F6wHKvpd2nQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BKUq2WQ7lRcOB5UmdsudAwg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0q8_FCDyLYsIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4454085028_ssid_8934216546_fmid_chf2d5~muq716os~lo&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4454085028_ssid_8934216546_fmid_chf2d5~muq716os~lo-null-chf2d5~muq716os~lo-null-null&eid=chf2d5-muq716os-lo&otpToken=MDNmMGU5MTFlYmE3ZmUzYzUzZWE0NzFhMmM5ZDg3OWQ4MTQ4NTY3YmRmYzlhOTRkM2VlZmQ5YjE0ZjgxOWIyNjJmODg1ODdmMjhlMjNmMzg2ZGQ5ODRhMzkwZGRjMTdlYTQyNjYzNWNhNjNiZmYxNjY5ZjA3NjIyZWZkZWRmZTNkNmMwMjY0YzZjYjMwZWJkLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
