@@ -1,11 +1,12 @@
 {
-  "generated": "2026-10-04T12:15:01.132557",
-  "count": 7,
-  "dead_links_dropped": 2,
+  "generated": "2026-10-05T14:25:32.827074",
+  "count": 9,
+  "dead_links_dropped": 1,
   "off_target_dropped": 0,
   "source_counts": {
+    "USAJobs": 1,
     "LinkedIn": 5,
-    "Adzuna": 2
+    "Adzuna": 3
   },
   "diagnostics": {
     "JournalismJobs": {
@@ -21,10 +22,10 @@
       "kept": 0
     },
     "Media Job Board": {
-      "http": 200,
-      "raw": 22,
-      "method": "selectors",
-      "kept": 1
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "IRE": {
       "http": 200,
@@ -75,7 +76,7 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 44
+      "kept": 48
     },
     "The Muse": {
       "http": 200,
@@ -83,7 +84,7 @@
       "kept": 1
     },
     "USAJobs": {
-      "kept": 2
+      "kept": 3
     },
     "Study Hall": {
       "kept": 0,
@@ -97,85 +98,94 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Writing Associate Producer, MS NOW The Assignment with Antonia\r\n Hylton job at Versant Media - 6 school alumni",
-      "id": "<1218605574.15882721.1791064614809@lor1-app111207.prod.linkedin.com>",
-      "date": "Sat, 3 Oct 2026 21:56:54 +0000 (UTC)",
-      "body": "Versant Media Writing Associate Producer, MS NOW The Assignment with Antonia Hylton: Company DescriptionVERSANT (Nasdaq: VSNT) is an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nWriting Associate Producer, MS NOW The Assignment with Antonia Hylton\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nProducer, MS NOW Podcasts\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nIn-House Journalist\nAirGarage \u00b7 United States (Remote)\n$110K-$130K / year\nSenior Editor\nNational Association of Black Journalists (NABJ) \u00b7 New York, NY\nDigital Executive Producer (Production Based)\nCBS Media Ventures \u00b7 New York, NY (On-site)\nPage Six Video Lead Editor\nNew York Post \u00b7 New York, NY\n1 connection\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Versant Media Associate Producer, MS NOW Digital and 6 other jobs\r\n you may be interested in",
+      "id": "<1586870156.15241006.1791151014698@ltx1-app28827.prod.linkedin.com>",
+      "date": "Sun, 4 Oct 2026 21:56:54 +0000 (UTC)",
+      "body": "Versant Media Associate Producer, MS NOW Digital: Company DescriptionVERSANT (Nasdaq: VSNT) is an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nAssociate Producer, MS NOW Digital\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nAssociate Editor, Cond\u00e9 Nast Traveler\nCond\u00e9 Nast \u00b7 New York, NY\nActively recruiting\nEditor/Writer WINS (part time)\nAudacy, Inc. \u00b7 New York, NY\n2 school alumni\nContent Creator and Writer, Virtual Reali-Tea\nNew York Post \u00b7 New York, NY\n1 connection\nManaging Producer of Social Media & NewYorkUpstate.com\nAdvance Local \u00b7 Syracuse, NY (On-site)\n1 school alum\nNewsNation - Segment Producer - MIA Weekend\nNexstar Media Group, Inc. \u00b7 New York, NY (On-site)\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "In-House Journalist job at AirGarage",
-      "id": "<563999749.16180334.1791071816522@lor1-app166043.prod.linkedin.com>",
-      "date": "Sat, 3 Oct 2026 23:56:56 +0000 (UTC)",
-      "body": "$110K-$130K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nIn-House Journalist\nAirGarage \u00b7 United States (Remote)\n$110K-$130K / year\nBillboard: Staff Writer, Latin/Pop\nPenske Media Corporation \u00b7 Miami, FL\n1 school alum\nMarine Money Editor, Data & Analysis\nDiversified USA \u00b7 United States (Remote)\nMarine Money Managing Editor\nDiversified USA \u00b7 United States (Remote)\nSenior Editor, Economics & Financial Services\nDeloitte \u00b7 Miami, FL (Hybrid)\nActively recruiting\nTelevision Camera Operator\nTelevisaUnivision \u00b7 Miami, FL\n5 school alumni\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
-    },
-    {
-      "source": "LinkedIn",
-      "subject": "Writing Associate Producer, MS NOW The Assignment with Antonia\r\n Hylton job at Versant Media - 6 school alumni",
-      "id": "<435532699.16487960.1791079014191@lor1-app145484.prod.linkedin.com>",
-      "date": "Sun, 4 Oct 2026 01:56:54 +0000 (UTC)",
-      "body": "Versant Media Writing Associate Producer, MS NOW The Assignment with Antonia Hylton: Company DescriptionVERSANT (Nasdaq: VSNT) is an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nWriting Associate Producer, MS NOW The Assignment with Antonia Hylton\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nWriting Associate Producer, MS NOW The Briefing with Jen Psaki\nVersant Media \u00b7 New York, NY (Hybrid)\n6 school alumni\nAssociate Legal News Copy Editor\nRELX \u00b7 Miamisburg, OH\n$45K-$74K / year\nActively recruiting\nOvernight Producer/News Writer\niHeartMedia \u00b7 Phoenix, AZ\nActively recruiting\nAssociate Legal News Copy Editor\nLexisNexis \u00b7 Miamisburg, OH\n$45K-$74K / year\nActively recruiting\nIn-House Journalist\nAirGarage \u00b7 United States (Remote)\n$110K-$130K / year\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "You may be a fit for USA TODAY Co., Inc.\u2019s K-12 education reporter role - Actively recruiting",
+      "id": "<1509336260.12019688.1791158213572@ltx1-app102018.prod.linkedin.com>",
+      "date": "Sun, 4 Oct 2026 23:56:53 +0000 (UTC)",
+      "body": "USA TODAY Co., Inc. K-12 education reporter: |Current USA TODAY Co. Employees- Please ensure\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nK-12 education reporter\nUSA TODAY Co., Inc. \u00b7 Indianapolis, IN\nActively recruiting\nBillboard: Staff Writer, Latin/Pop\nPenske Media Corporation \u00b7 Los Angeles Metropolitan Area (On-site)\n1 school alum\nSenior Reporter\nGovExec \u00b7 Washington, DC\nBillboard: Staff Writer, Latin/Pop\nPenske Media Corporation \u00b7 Miami, FL\n1 school alum\nSenior Writer, Investigations\nCond\u00e9 Nast \u00b7 New York, NY\n1 connection\nMorning News Editor\niHeartMedia \u00b7 Denver, CO\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Writing Associate Producer, MS NOW The Assignment with Antonia HyltonVersant Media \u00b7 New York, NY (Hybrid)6 school alumni",
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Bureau of Naval Personnel",
+      "location": "Annapolis, Maryland",
+      "link": "https://www.usajobs.gov:443/job/887472000",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Navy Bureau of Naval Personnel Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary You will serve as a PUBLIC AFFAIRS SPECIALIST in the U.S. Naval Academy Media Relations Branch of NAVAL ACADEMY. Learn more about this agency Summary You will serve as a PUBLIC AFFAIRS SPECIALIST in the U.S. Naval Academy Media Relations Branch of NAVAL ACADEMY. Learn more about this agency Overview Help Accepting applications Location 1 vacancy in the following location: Annapolis, MD 1 vacancy No matching locations found. Work site options Telework eligible Yes\u2014This position is eligible for ad-hoc/situational telework at the discretion of management. Remote job No Relocation expenses reimbursed No Salary $70,623 - $91,815 pe"
+    },
+    {
+      "title": "Associate Producer, MS NOW DigitalVersant Media \u00b7 New York, NY (Hybrid)6 school alumni",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473388696/?trackingId=pQpnhWCIv9t0YNpkjbWdpA%3D%3D&refId=Nom7GYCShQGNLLIQK7NSbQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BxZOL%2B0y7RlSqW%2FJt%2BN7xPA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3eWVkP9Df4vss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4473388696_ssid_8934216554_fmid_chf2d5~musxmk2g~np&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4473388696_ssid_8934216554_fmid_chf2d5~musxmk2g~np-null-chf2d5~musxmk2g~np-null-null&eid=chf2d5-musxmk2g-np&otpToken=MzVjZjgxOTQ0ZWI2ZDMxNTdlYTNiYjY3ZWMyODk1ODFiYjQ0ZTNmZjY3ZGUzMDczOTMxNDBkMjYxNGQ3Y2QzM2ZkMzc1OTAwYTBlN2NhNjU4Nzc4OTdkYjY3MzM5MTQzZmM5MjM4MjQ3ZTNlMDAxMGI0ZTFjYmFiZWE4MzcyNWU5NDAxNzRjYWQwZWI1ODIzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4474201935/?trackingId=4CkfwS%2BaoqVTcGncRCHGaQ%3D%3D&refId=j9OpwWWSmNjrjFqFAmAChw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bndl%2BKmz3Sj%2BfoMxVb2IVaw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1JNunBiMVAwYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4474201935_ssid_8934216554_fmid_chf2d5~muud2ewq~tp&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4474201935_ssid_8934216554_fmid_chf2d5~muud2ewq~tp-null-chf2d5~muud2ewq~tp-null-null&eid=chf2d5-muud2ewq-tp&otpToken=ZDdlOTE3NjM0MWEzNjc4MmMzYTI2ODZiZTlhMDQ5ZmVkZGY2Yjg4MWE4NDVhYjRkZjdmODYyODU1ODVhNDc3Y2JjMGIxNzk3MWY4YTY3OTdhOGY0ZjhmNzMzY2Y3ODAxZGRjZWNiMWQ1YmU5MmMxYjg0MDA2OGFkMmFhY2NhN2U5YmMzZWQzMzNkNTc0NDZhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Policy Correspondence & Editorial Specialist",
-      "employer": "CGH Technologies, Inc.",
-      "location": "Crystal, Arlington County",
-      "link": "https://www.adzuna.com/details/5910718798?utm_medium=api&utm_source=4803a542",
+      "title": "Communications Specialist - CS1001",
+      "employer": "AMG & Associates, Inc.",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5912471190?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Policy Correspondence & Editorial Specialist Job in Crystal, VA What? Where? Search Advanced Policy Correspondence & Editorial Specialist \u276e back to last search CGH Technologies, Inc. Washington, District of Columbia, 20024 $80000.00 - $90000.00 per year EASY APPLY NEW Apply for this job CGH Technologies, Inc. (CGH) is a business solutions firm specializing in Data Management, Software Engineering, and Business Intelligence. Based in the Washington, D.C. corridor, CGH supports government, commercial, and international clients with management consulting, software development, infrastructure and facilities support, and program management for large, complex operational environments. CGH has an exciting opportunity for a Policy Correspondence & Editorial Specialist to join our team supporting the Federal Aviation Administration (FAA). Position Overview The Policy Correspondence & Editorial Sp"
+      "description": "Communications Specialist - CS1001 Job in New York City, NY What? Where? Search Advanced Communications Specialist - CS1001 \u276e back to last search AMG & Associates, Inc. New York $90000.00-$120000.00 per year Contract Full time EASY APPLY NEW Apply for this job We are seeking a professional, strategic, and detail-oriented Communications Specialist to join our team on a full-time contract basis. The Communications Specialist will be responsible for developing, coordinating, and delivering clear, engaging, and consistent internal and external communications that support organizational objectives, strengthen stakeholder engagement, and enhance brand and corporate messaging. The ideal candidate will have strong written and verbal communication skills, excellent attention to detail, and experience developing communications across multiple channels. This individual should be comfortable working"
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Assignment with Antonia Hylton",
+      "title": "Associate Editor, Cond\u00e9 Nast TravelerCond\u00e9 Nast \u00b7 New York, NYActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473388696/?trackingId=pQpnhWCIv9t0YNpkjbWdpA%3D%3D&refId=Nom7GYCShQGNLLIQK7NSbQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BxZOL%2B0y7RlSqW%2FJt%2BN7xPA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3eWVkP9Df4vss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4473388696_ssid_8934216554_fmid_chf2d5~musxmk2g~np&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4473388696_ssid_8934216554_fmid_chf2d5~musxmk2g~np-null-chf2d5~musxmk2g~np-null-null&eid=chf2d5-musxmk2g-np&otpToken=MzVjZjgxOTQ0ZWI2ZDMxNTdlYTNiYjY3ZWMyODk1ODFiYjQ0ZTNmZjY3ZGUzMDczOTMxNDBkMjYxNGQ3Y2QzM2ZkMzc1OTAwYTBlN2NhNjU4Nzc4OTdkYjY3MzM5MTQzZmM5MjM4MjQ3ZTNlMDAxMGI0ZTFjYmFiZWE4MzcyNWU5NDAxNzRjYWQwZWI1ODIzLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4447163995/?trackingId=U9BQ1fiU2mGQhkcneqlLBg%3D%3D&refId=j9OpwWWSmNjrjFqFAmAChw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bndl%2BKmz3Sj%2BfoMxVb2IVaw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1JNunBiMVAwYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4447163995_ssid_8934216554_fmid_chf2d5~muud2ewq~tp&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4447163995_ssid_8934216554_fmid_chf2d5~muud2ewq~tp-null-chf2d5~muud2ewq~tp-null-null&eid=chf2d5-muud2ewq-tp&otpToken=ZDdlOTE3NjM0MWEzNjc4MmMzYTI2ODZiZTlhMDQ5ZmVkZGY2Yjg4MWE4NDVhYjRkZjdmODYyODU1ODVhNDc3Y2JjMGIxNzk3MWY4YTY3OTdhOGY0ZjhmNzMzY2Y3ODAxZGRjZWNiMWQ1YmU5MmMxYjg0MDA2OGFkMmFhY2NhN2U5YmMzZWQzMzNkNTc0NDZhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Latin America (LatAm) Surety Underwriter",
-      "employer": "The Hartford",
-      "location": "West Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5911404611?utm_medium=api&utm_source=4803a542",
+      "title": "Associate Producer, MS NOW Digital",
+      "employer": "Versant Media",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5912234086?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Latin America (LatAm) Surety Underwriter Job in West Miami, FL What? Where? Search Advanced Latin America (LatAm) Surety Underwriter \u276e back to last search The Hartford Coral Gables, Florida, 33114 $170,626 per year - estimated ? NEW Apply for this job Senior Executive Underwriter - UW07FC Executive Underwriter - UW07FD Senior Underwriter - UW08FA Underwriter - UW08FB We're determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals - and to help others accomplish theirs, too. Join our team as we help shape the future. Navigators Re, a division of The Hartford, underwrites assumed treaty reinsurance totaling over $1 billion in annual premiums across targeted lines of business worldwide. We are expanding and seeking talented, inquisitive colleagues to join our hard-w"
+      "description": "Associate Producer, MS NOW Digital Job in New York City, NY What? Where? Search Advanced Associate Producer, MS NOW Digital \u276e back to last search Versant Media New York, NEW YORK $79,151 per year - estimated ? EASY APPLY NEW Apply for this job Job Description MS NOW Digital is seeking an Associate Producer for Original Video / Social Media to help shape smart, distinctive political news content. This is a hands-on creative and editorial role for someone who lives and breathes politics, current events, and social media. The ideal candidate has strong editorial judgment, a sharp instinct for the stories and moments that will resonate, and a genuine passion for video editing and visual storytelling. You know how to take a complicated political story, breaking-news moment, interview, or segment and quickly identify the clearest headline, strongest sound, and most compelling way to tell it ac"
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
+      "title": "Associate Editor, Cond\u00e9 Nast Traveler",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4465165308/?trackingId=Bi0nedJfnM78ueubQWpyWA%3D%3D&refId=kb3CRQp5TNSxqco3pa5liQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Brp5LnVrkT%2BGnnynU3sluSw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2SotfzNwmQvIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4465165308_ssid_8934216546_fmid_chf2d5~mut6778g~1x&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4465165308_ssid_8934216546_fmid_chf2d5~mut6778g~1x-null-chf2d5~mut6778g~1x-null-null&eid=chf2d5-mut6778g-1x&otpToken=ODVmNmUxNWIxYjE4OGQxYWVkZDQ0YmRiNzUyN2FlMjRhN2VjZWMxYjBmOGNjZDI2NGVmN2Q1YzlkNzA1MzdjNTkwYmEyY2E4NzFiNzJiODJhNDBiZmFlYTgzZGEwNTdmMTFiZTRkMTgxNTk5NDRhYTkxMDA3M2QyYWZkZjhlMmJkYzUwMDMzMjY0YmVlOWFkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4447163995/?trackingId=U9BQ1fiU2mGQhkcneqlLBg%3D%3D&refId=j9OpwWWSmNjrjFqFAmAChw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bndl%2BKmz3Sj%2BfoMxVb2IVaw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1JNunBiMVAwYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4447163995_ssid_8934216554_fmid_chf2d5~muud2ewq~tp&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4447163995_ssid_8934216554_fmid_chf2d5~muud2ewq~tp-null-chf2d5~muud2ewq~tp-null-null&eid=chf2d5-muud2ewq-tp&otpToken=ZDdlOTE3NjM0MWEzNjc4MmMzYTI2ODZiZTlhMDQ5ZmVkZGY2Yjg4MWE4NDVhYjRkZjdmODYyODU1ODVhNDc3Y2JjMGIxNzk3MWY4YTY3OTdhOGY0ZjhmNzMzY2Y3ODAxZGRjZWNiMWQ1YmU5MmMxYjg0MDA2OGFkMmFhY2NhN2U5YmMzZWQzMzNkNTc0NDZhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Legal News Copy EditorRELX \u00b7 Miamisburg, OH$45K-$74K / yearActively recruiting",
+      "title": "Digital Content Specialist",
+      "employer": "Baltimore County",
+      "location": "Towson, Baltimore County",
+      "link": "https://www.adzuna.com/details/5911547941?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Digital Content Specialist Job in Towson, MD What? Where? Search Advanced Digital Content Specialist \u276e back to last search Baltimore County Towson, Maryland, 21204 50757-58037 per year Full time NEW Apply for this job Pay Schedule I, Grade 26, Regular Schedule: 35 hours per week A vacancy exists in the Department of Public Works and Transportation, General Administration. A list of eligible applicants will be established based on the examination as outlined below. Current and future vacancies occurring in this classification may be filled from the list of eligible applicants. All interested transfer and promotional candidates must apply at this time. List all promotions and changes in job duties due to reclassification as separate work experience on your application. Applicants must include the dates of the promotions and reclassifications. Note: Failure to complete all fields of the \"Wo"
+    },
+    {
+      "title": "Editor/Writer WINS (part time)Audacy, Inc. \u00b7 New York, NY2 school alumni",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473380626/?trackingId=uQ%2BCLJhtIdsg8A3812q3FQ%3D%3D&refId=kb3CRQp5TNSxqco3pa5liQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Brp5LnVrkT%2BGnnynU3sluSw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2SotfzNwmQvIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4473380626_ssid_8934216546_fmid_chf2d5~mut6778g~1x&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4473380626_ssid_8934216546_fmid_chf2d5~mut6778g~1x-null-chf2d5~mut6778g~1x-null-null&eid=chf2d5-mut6778g-1x&otpToken=ODVmNmUxNWIxYjE4OGQxYWVkZDQ0YmRiNzUyN2FlMjRhN2VjZWMxYjBmOGNjZDI2NGVmN2Q1YzlkNzA1MzdjNTkwYmEyY2E4NzFiNzJiODJhNDBiZmFlYTgzZGEwNTdmMTFiZTRkMTgxNTk5NDRhYTkxMDA3M2QyYWZkZjhlMmJkYzUwMDMzMjY0YmVlOWFkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4380579908/?trackingId=zUi5yMCWPuffxQcPXuTeig%3D%3D&refId=j9OpwWWSmNjrjFqFAmAChw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bndl%2BKmz3Sj%2BfoMxVb2IVaw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1JNunBiMVAwYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4380579908_ssid_8934216554_fmid_chf2d5~muud2ewq~tp&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4380579908_ssid_8934216554_fmid_chf2d5~muud2ewq~tp-null-chf2d5~muud2ewq~tp-null-null&eid=chf2d5-muud2ewq-tp&otpToken=ZDdlOTE3NjM0MWEzNjc4MmMzYTI2ODZiZTlhMDQ5ZmVkZGY2Yjg4MWE4NDVhYjRkZjdmODYyODU1ODVhNDc3Y2JjMGIxNzk3MWY4YTY3OTdhOGY0ZjhmNzMzY2Y3ODAxZGRjZWNiMWQ1YmU5MmMxYjg0MDA2OGFkMmFhY2NhN2U5YmMzZWQzMzNkNTc0NDZhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Legal News Copy Editor",
+      "title": "Editor/Writer WINS (part time)",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4473380626/?trackingId=uQ%2BCLJhtIdsg8A3812q3FQ%3D%3D&refId=kb3CRQp5TNSxqco3pa5liQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Brp5LnVrkT%2BGnnynU3sluSw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2SotfzNwmQvIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4473380626_ssid_8934216546_fmid_chf2d5~mut6778g~1x&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4473380626_ssid_8934216546_fmid_chf2d5~mut6778g~1x-null-chf2d5~mut6778g~1x-null-null&eid=chf2d5-mut6778g-1x&otpToken=ODVmNmUxNWIxYjE4OGQxYWVkZDQ0YmRiNzUyN2FlMjRhN2VjZWMxYjBmOGNjZDI2NGVmN2Q1YzlkNzA1MzdjNTkwYmEyY2E4NzFiNzJiODJhNDBiZmFlYTgzZGEwNTdmMTFiZTRkMTgxNTk5NDRhYTkxMDA3M2QyYWZkZjhlMmJkYzUwMDMzMjY0YmVlOWFkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4380579908/?trackingId=zUi5yMCWPuffxQcPXuTeig%3D%3D&refId=j9OpwWWSmNjrjFqFAmAChw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bndl%2BKmz3Sj%2BfoMxVb2IVaw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1JNunBiMVAwYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4380579908_ssid_8934216554_fmid_chf2d5~muud2ewq~tp&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4380579908_ssid_8934216554_fmid_chf2d5~muud2ewq~tp-null-chf2d5~muud2ewq~tp-null-null&eid=chf2d5-muud2ewq-tp&otpToken=ZDdlOTE3NjM0MWEzNjc4MmMzYTI2ODZiZTlhMDQ5ZmVkZGY2Yjg4MWE4NDVhYjRkZjdmODYyODU1ODVhNDc3Y2JjMGIxNzk3MWY4YTY3OTdhOGY0ZjhmNzMzY2Y3ODAxZGRjZWNiMWQ1YmU5MmMxYjg0MDA2OGFkMmFhY2NhN2U5YmMzZWQzMzNkNTc0NDZhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
