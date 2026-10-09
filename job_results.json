@@ -1,25 +1,25 @@
 {
-  "generated": "2026-10-08T13:18:37.272581",
-  "count": 8,
-  "dead_links_dropped": 2,
+  "generated": "2026-10-09T13:06:08.600025",
+  "count": 9,
+  "dead_links_dropped": 4,
   "off_target_dropped": 1,
   "source_counts": {
-    "LinkedIn": 5,
-    "JournalismJobs": 1,
-    "Adzuna": 2
+    "USAJobs": 2,
+    "JournalismJobs": 2,
+    "LinkedIn": 5
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 45,
+      "raw": 61,
       "method": "selectors",
-      "kept": 10
+      "kept": 14
     },
     "MediaBistro": {
-      "http": 200,
+      "http": 405,
       "raw": 0,
-      "method": "anchor-scan",
-      "kept": 0
+      "kept": 0,
+      "note": "http 405"
     },
     "Media Job Board": {
       "http": 403,
@@ -76,7 +76,7 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 57
+      "kept": 50
     },
     "The Muse": {
       "http": 200,
@@ -84,7 +84,7 @@
       "kept": 1
     },
     "USAJobs": {
-      "kept": 8
+      "kept": 12
     },
     "Study Hall": {
       "kept": 0,
@@ -98,93 +98,101 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Energy Communications Specialist job at Moss",
-      "id": "<877607486.11832891.1791410215288@lva2-app66242.prod.linkedin.com>",
-      "date": "Wed, 7 Oct 2026 21:56:55 +0000 (UTC)",
-      "body": "Moss Energy Communications Specialist: Company OverviewMoss is a national privately held\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nEnergy Communications Specialist\nMoss \u00b7 Fort Lauderdale, FL\nDigital Content Specialist - Cardiac & Vascular Services\nUniversity of Miami \u00b7 Coral Gables, FL\nActively recruiting\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nNews Anchor / Correspondent\nScale Content Inc \u00b7 United States (Remote)\nEasy Apply\nMedia Relations Specialist\nDeVry University \u00b7 United States (Remote)\nActively recruiting\nCommunication Specialist - Corporate Storyteller\nAcuity Insurance \u00b7 United States (Remote)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "University of Miami Digital Content Specialist - Cardiac & Vascular\r\n Services and 10 other jobs you may be interested in",
+      "id": "<1734086914.7086993.1791496615191@lor1-app149936.prod.linkedin.com>",
+      "date": "Thu, 8 Oct 2026 21:56:55 +0000 (UTC)",
+      "body": "University of Miami Digital Content Specialist - Cardiac & Vascular Services: Current Employees:If you are a current Staff\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in Miami match your preferences.\nDigital Content Specialist - Cardiac & Vascular Services\nUniversity of Miami \u00b7 Coral Gables, FL\nActively recruiting\nMessaging Specialist\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nAudience Editor, News\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nReporter\nThe Epoch Times \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nBilingual Senior Regional Media Advocacy Manager (English & Spanish) - Remote\nAmerican Cancer Society \u00b7 Miami, FL\n1 school alum\nNews Anchor / Correspondent\nScale Content Inc \u00b7 United States (Remote)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Council on Foreign Relations is hiring a Staff Writer/ Editor",
-      "id": "<2084886218.12231984.1791417416639@lva2-app64627.prod.linkedin.com>",
-      "date": "Wed, 7 Oct 2026 23:56:56 +0000 (UTC)",
-      "body": "Council on Foreign Relations Staff Writer/ Editor: Position SummaryCFR is building its efforts to\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nStaff Writer/ Editor\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nContent Editor\nSiege Media \u00b7 Chicago, IL (Remote)\n$60K-$70K / year\nWriting Associate Producer, MS NOW The Briefing with Jen Psaki\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nContent Writer\nLaunchSquad \u00b7 New York, United States (Hybrid)\n$58K-$75K / year\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nLocal News Content Producer\nPatch \u00b7 California, United States\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Versant Media Associate Writer/Editor and 35 other jobs you may be\r\n interested in",
+      "id": "<182014402.7121713.1791503814739@lor1-app85503.prod.linkedin.com>",
+      "date": "Thu, 8 Oct 2026 23:56:54 +0000 (UTC)",
+      "body": "Versant Media Associate Writer/Editor: Company DescriptionVERSANT (Nasdaq: VSNT) is an\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in United States match your preferences.\nAssociate Writer/Editor\nVersant Media \u00b7 Universal City, CA (On-site)\n6 school alumni\nWriter/Editor\nAmerican University \u00b7 Washington, DC\nActively recruiting\nCoordinating Editor - Politics, MS NOW Digital\nVersant Media \u00b7 Washington, DC (Hybrid)\n6 school alumni\nNews Editor\nBisnow \u00b7 Chicago, IL (Remote)\n$70K-$80K / year\nActively recruiting\nNews Editor\nBisnow \u00b7 Atlanta, GA (Remote)\n$70K-$80K / year\nActively recruiting\nPolitical Video Journalist\nNews Corp \u00b7 Washington, DC\nActively recruiting\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Bloomberg Subscriptions Editor and 32 other jobs you may be\r\n interested in",
-      "id": "<2023745605.13292796.1791419216273@lva2-app65602.prod.linkedin.com>",
-      "date": "Thu, 8 Oct 2026 00:26:56 +0000 (UTC)",
-      "body": "$90K-$125K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nSubscriptions Editor\nBloomberg \u00b7 New York, NY (On-site)\n$90K-$125K / year\nActively recruiting\nStaff Writer/ Editor\nCouncil on Foreign Relations \u00b7 New York, United States\n5 school alumni\nPage Six Associate Editor\nNew York Post \u00b7 New York, NY\n1 connection\nOvernight Media Journalist\nMANTECH \u00b7 United States (Remote)\nActively recruiting\nMarkets & Investing Reporter\nDow Jones \u00b7 New York, NY\n1 company alum\nWriter\nCBS News and Stations \u00b7 New York, NY (On-site)\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Brennan Center for Justice is hiring: Associate Editor",
+      "id": "<1223559820.508320.1791504787103@lor1-app141039.prod.linkedin.com>",
+      "date": "Fri, 9 Oct 2026 00:13:07 +0000 (UTC)",
+      "body": "Brennan Center for Justice Associate Editor: The Brennan Center for Justice at NYU School of\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNew jobs in New York match your preferences.\nAssociate Editor\nBrennan Center for Justice \u00b7 New York, NY (On-site)\n3 school alumni\nEasy Apply\nStandards Editor\nThe Wall Street Journal \u00b7 New York, NY\n4 connections\nPUBLIC AFFAIRS SPECIALIST.\nUS Army Corps of Engineers \u00b7 New York, NY\nActively recruiting\nCommunications Publications Writer - Editor (HEOa)\nThe City University of New York \u00b7 Bronx, NY\n57 school alumni\nStandards Editor\nDow Jones \u00b7 New York, NY\n1 company alum\nReporter\nThe Daily Catch \u00b7 Rhinebeck, NY (On-site)\nEasy Apply\nSee all jobs\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Energy Communications SpecialistMoss \u00b7 Fort Lauderdale, FL",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4476508126/?trackingId=gwAlPtxXIX6qWlXZau2rBg%3D%3D&refId=PY1JBwsfZYGkxWBjldA5kw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp%2BMM13t8RDeGebHES2OO%2FA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Jc8sWoH94Bcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476508126_ssid_8934216562_fmid_chf2d5~muyndz5l~xb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476508126_ssid_8934216562_fmid_chf2d5~muyndz5l~xb-null-chf2d5~muyndz5l~xb-null-null&eid=chf2d5-muyndz5l-xb&otpToken=N2E3ZmIyNWJhOWRmNzczMmIyOTEwYmQxYmJkZGVhYjhmMzJjYzZmNWMwMTMzYTAyYWFkZWZiN2M3MmEyN2FkOTAxNmIyMzVmZWRkZWM1OWVmMzkxMTYyMjU0MTAwZWQzZDMxMDUwYmQ1Y2UxZGQxYzQzOGE1ZjFiOGIzOWZkOTgyNTYwNGMwNDE2YjIxNGYwLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
+      "title": "Communications Security (COMSEC) Auditor // Corporate Policy Officer - Entry to Mid Level (Maryland)",
+      "employer": "National Security Agency/Central Security Service",
+      "location": "Fort Meade, Maryland",
+      "link": "https://www.usajobs.gov:443/job/888307000",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Communications Security (COMSEC) Auditor // Corporate Policy Officer - Entry to Mid Level (Maryland) Department of Defense National Security Agency/Central Security Service Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Do you have expertise working with COMSEC policy within the federal government? NSA/CSS has two unique positions for you. NSA is seeking individuals with expertise in the control and accountability of Communications Security (COMSEC) material and/or COMSEC policy. If you possess knowledge and experience in this arena, the COMSEC Auditor position for the NSA Central Office of Record might be the perfect fit for you. Learn more about this agency Summary Do you have expertise working with COMSEC policy within the federal government? NSA/CSS has "
     },
     {
-      "title": "Editorial & Marketing Assistant (in-person/on-site)",
+      "title": "Staff Reporter",
       "employer": "",
-      "location": "Fl",
-      "link": "https://www.journalismjobs.com/1692114-editorial--marketing-assistant-in-personon-site-flamingo-magazine",
+      "location": "Virginia",
+      "link": "https://www.journalismjobs.com/1691995-staff-reporter-hampshire-review",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Editorial & Marketing Assistant (in-person/on-site) Editorial & Marketing Assistant (in-person/on-site) Flamingo Magazine Jacksonville Beach, Florida Save Share Facebook Twitter Linkedin Email Date Posted October 07, 2026 Industry Magazines / Publishing Specialty Editorial Required Education Bachelor's Degree Job Status Full-time Salary $40,000 Description: Flamingo is Florida's favorite magazine, online and in print, covering culture, travel, outdoor pursuits, conservation, food, music and fascinating Floridians. Launched in March 2016, Flamingo\u2019s four print editions are available on retail newsstands across the southeast and by subscription. Flamingomag.com is the destination for Florida's most compelling stories and a trusted resource for discovering the best of the Sunshine State. Flamingo is seeking a sharp, fun, creative thinker to be a part of ou"
-    },
-    {
-      "title": "Social Media Coordinator",
-      "employer": "Guardian Dentistry Partners",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5918746248?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Social Media Coordinator Job in Miami, FL What? Where? Search Advanced Social Media Coordinator \u276e back to last search Guardian Dentistry Partners Miami, Florida 65000-75000 per year Full time NEW REMOTE Apply for this job Location: Guardian Corporate Guardian Dentistry Partners is looking for a creative, highly organized, and hands-on Social Media Coordinator to elevate social media across our growing network of dental practices. At Guardian Dentistry Partners, we support a network of 200+ thriving practices across 15.5 states (shoutout, D.C.!). We\u2019re also proud to have been named in the Inc. 5000 list of America\u2019s fastest-growing private companies for the fourth consecutive year, ranking No. 2,915 overall and No. 14 among dental companies nationwide. Our culture is rooted in integrity, collaboration, and purpose, and we believe our success comes from the strength of our partnerships and"
+      "description": "JournalismJobs.com - Job Listing - Staff Reporter Staff Reporter Hampshire Review Romney, West Virginia Save Share Facebook Twitter Linkedin Email Date Posted October 08, 2026 Industry Newspapers Specialty Not Specified Job Status Full-time Salary Not Specified Description: Reporter Wanted-Join Our Award-Winning Team The Hampshire Review, an award-winning weekly newspaper in West Virginia, is seeking a motivated and community-minded reporter to join our newsroom. The ideal candidate is organized, energetic, with a keen interest in telling the stories that matter most to our readers. We're looking for someone eager to cover a wide range of local news-from government and education to features and community events-while helping produce a high-quality print and digital publication each week. Qualifications: -Strong writing, editing, and communication skills -Ability to meet deadlines and man"
     },
     {
       "title": "Digital Content Specialist - Cardiac & Vascular ServicesUniversity of Miami \u00b7 Coral Gables, FLActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4476542087/?trackingId=iN8PRLfl7uwF57r%2BWD9VnA%3D%3D&refId=PY1JBwsfZYGkxWBjldA5kw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bp%2BMM13t8RDeGebHES2OO%2FA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2Jc8sWoH94Bcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4476542087_ssid_8934216562_fmid_chf2d5~muyndz5l~xb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4476542087_ssid_8934216562_fmid_chf2d5~muyndz5l~xb-null-chf2d5~muyndz5l~xb-null-null&eid=chf2d5-muyndz5l-xb&otpToken=N2E3ZmIyNWJhOWRmNzczMmIyOTEwYmQxYmJkZGVhYjhmMzJjYzZmNWMwMTMzYTAyYWFkZWZiN2M3MmEyN2FkOTAxNmIyMzVmZWRkZWM1OWVmMzkxMTYyMjU0MTAwZWQzZDMxMDUwYmQ1Y2UxZGQxYzQzOGE1ZjFiOGIzOWZkOTgyNTYwNGMwNDE2YjIxNGYwLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4476542087/?trackingId=oKQ%2B%2BGn85JWWxpwNJdnCYw%3D%3D&refId=6TXtoCtY54TRZBe85SQ9zw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BLkGP5pI2SIGrGdA2cxTFqg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2_pNkVno7ACss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476542087_ssid_8934216562_fmid_chf2d5~mv02ttpv~5x&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476542087_ssid_8934216562_fmid_chf2d5~mv02ttpv~5x-null-chf2d5~mv02ttpv~5x-null-null&eid=chf2d5-mv02ttpv-5x&otpToken=NzEyMGM2NjdiMGY1NjgwYTRjYTE2MGY0NDFiNDlkNWMxODUyOTAxMGE2ZjA2MjJlY2M0OTdhODM2NTgzNGU4Y2I1M2E4ZjU5MWRiZTFkOTY1NTljZTJlMWMyZTEzZGZmNTdhNzJkMzY5OGM2MWY5Mjg3Y2U1NWE0MzNiN2M4ODAzNzNhMjg4N2RjZTRlZTk1LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Social Media Content Specialist",
-      "employer": "Washington Metropolitan Area Transit Authority",
-      "location": "Fort Myer, Arlington County",
-      "link": "https://www.adzuna.com/details/5918946690?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Social Media Content Specialist Job in Fort Myer, VA What? Where? Search Advanced Social Media Content Specialist \u276e back to last search Washington Metropolitan Area Transit Authority Arlington, Virginia, 22212 $86,507 per year - estimated ? NEW Apply for this job **JOB DESCRIPTION** **Social Media Content Specialist Marketing Statement:** Are you a creative powerhouse with a pulse on the latest trends? Metro is seeking a highly motivated Social Media Content Specialist who excels in crafting engaging and innovative content. In this fast-paced role, you will leverage your expertise in digital marketing to develop and execute compelling social media strategies that resonate with our target audiences. The ideal candidate will possess a deep understanding of emerging trends and a knack for storytelling. If you thrive in a collaborative environment and are ready to work alongside a passionate"
+      "title": "PUBLIC AFFAIRS SPECIALIST",
+      "employer": "Air Force Special Operations Command",
+      "location": "Hurlburt Field, Florida",
+      "link": "https://www.usajobs.gov:443/job/888127700",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Apply PUBLIC AFFAIRS SPECIALIST Department of the Air Force Air Force Special Operations Command Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Click on \"Learn more about this agency\" button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to carry out public affairs assignments that include media operations, social media, community engagement, command/visual information, contingency/crisis response, commination/special event planning, environmental, security, policy review, & public affairs resource management in support of the mission & the commander's priorities. Learn more about this agency Summary Click on \"Learn more about this agency\" button below to view Eligibilities being co"
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen PsakiVersant Media \u00b7 Washington, DC (Hybrid)6 school alumni",
+      "title": "Newsletter Editor",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1693949-newsletter-editor-pbs-kvie",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Newsletter Editor Newsletter Editor PBS KVIE Sacramento, California Save Share Facebook Twitter Linkedin Email Apply Now Date Posted October 07, 2026 Industry Digital Media, Nonprofit Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary $75,000 \u2013 85,000 Description: Summary The Newsletter Editor develops and produces audience-focused newsletters and alerts that connect our readers with Abridged. This role helps create the daily morning newsletter, leads the launch of new newsletters, expands audience reach across platforms, and uses audience data to strengthen engagement throughout Sacramento, Placer, El Dorado, and Yolo counties. Our ideal team player is an early-to mid-career journalist or audience professional who brings strong news judgment, creativity, and an audience-focused mindset, "
+    },
+    {
+      "title": "Digital Content Specialist - Cardiac & Vascular Services",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4457635826/?trackingId=BLqDaddOzQhNkN9a9QTJWw%3D%3D&refId=EifDvpoffrI0jeH3Sc978Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BOH9KLMdTQLqJigcgwT9uSg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2N9HxymACYBcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4457635826_ssid_8934216546_fmid_chf2d5~muyroadn~e7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4457635826_ssid_8934216546_fmid_chf2d5~muyroadn~e7-null-chf2d5~muyroadn~e7-null-null&eid=chf2d5-muyroadn-e7&otpToken=MzI3ZmQ3MDI4NzBjM2I1OThhYzFhZmNmYWQyNDNhYWNlZTA3ZDI5MzFiYTE1NWRlZWEzNzJhMTg1MTg5Nzc1MDExYzNlNWE2MGEzMjEzNDU4ZDA4NzQxZmFhZTc5NzE3Y2NlNDQ1M2QwYWJmMDg5NGNmYjY4Y2ZhZjY0NjY3MWQzNmFiYzk1MjRhY2MxNzVkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4476542087/?trackingId=oKQ%2B%2BGn85JWWxpwNJdnCYw%3D%3D&refId=6TXtoCtY54TRZBe85SQ9zw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BLkGP5pI2SIGrGdA2cxTFqg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2_pNkVno7ACss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4476542087_ssid_8934216562_fmid_chf2d5~mv02ttpv~5x&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4476542087_ssid_8934216562_fmid_chf2d5~mv02ttpv~5x-null-chf2d5~mv02ttpv~5x-null-null&eid=chf2d5-mv02ttpv-5x&otpToken=NzEyMGM2NjdiMGY1NjgwYTRjYTE2MGY0NDFiNDlkNWMxODUyOTAxMGE2ZjA2MjJlY2M0OTdhODM2NTgzNGU4Y2I1M2E4ZjU5MWRiZTFkOTY1NTljZTJlMWMyZTEzZGZmNTdhNzJkMzY5OGM2MWY5Mjg3Y2U1NWE0MzNiN2M4ODAzNzNhMjg4N2RjZTRlZTk1LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Writing Associate Producer, MS NOW The Briefing with Jen Psaki",
+      "title": "Associate Writer/EditorVersant Media \u00b7 Universal City, CA (On-site)6 school alumni",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4457635826/?trackingId=BLqDaddOzQhNkN9a9QTJWw%3D%3D&refId=EifDvpoffrI0jeH3Sc978Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BOH9KLMdTQLqJigcgwT9uSg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2N9HxymACYBcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4457635826_ssid_8934216546_fmid_chf2d5~muyroadn~e7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4457635826_ssid_8934216546_fmid_chf2d5~muyroadn~e7-null-chf2d5~muyroadn~e7-null-null&eid=chf2d5-muyroadn-e7&otpToken=MzI3ZmQ3MDI4NzBjM2I1OThhYzFhZmNmYWQyNDNhYWNlZTA3ZDI5MzFiYTE1NWRlZWEzNzJhMTg1MTg5Nzc1MDExYzNlNWE2MGEzMjEzNDU4ZDA4NzQxZmFhZTc5NzE3Y2NlNDQ1M2QwYWJmMDg5NGNmYjY4Y2ZhZjY0NjY3MWQzNmFiYzk1MjRhY2MxNzVkLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4475966494/?trackingId=sYfnYSZUT1N5MGB2HP%2B4ZA%3D%3D&refId=AR5bDm8xbeSAb0%2FzNqFPAw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BNVQ2iDlfSQ60iWHXVE9jQA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1zGme7e3xsCIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4475966494_ssid_8934216546_fmid_chf2d5~mv0745f8~qb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4475966494_ssid_8934216546_fmid_chf2d5~mv0745f8~qb-null-chf2d5~mv0745f8~qb-null-null&eid=chf2d5-mv0745f8-qb&otpToken=NGE5ODQ0YjIyY2Q1OGNmM2NjMTM1ZGNjZGY5OGU2NmExMzM1M2EwODczMjU2MmE1YTFiZTYyNjQ3NmU4Mzk2YTUxZTdmNzhiMGUzMjU3MmI0ZGM4ZDZkMjUyOWQ4ZTQ1NTgzNDEzMDg3OWFjNDc3NTExNjg0OTNhOTU0Y2I3ZTU5M2I0YWJkNmNhZGIwOTVhLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Page Six Associate EditorNew York Post \u00b7 New York, NY1 connection",
+      "title": "Associate Writer/Editor",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=8Ydprwqhof3hdGsQdWwogA%3D%3D&refId=eucEXkCtsDNCeN4G35AXeA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BGWvkae8bQmugrIsXgXXpMw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0KHHcPyC3qBcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muysqvyv~89&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4461280950_ssid_8934216554_fmid_chf2d5~muysqvyv~89-null-chf2d5~muysqvyv~89-null-null&eid=chf2d5-muysqvyv-89&otpToken=ZjZkNDI5NmJhMzYzZjAxOWU3YzRlNmYzOWRkZTU5ODZiOWYxMzBjMTNlNWE1YTRlMGEwOTQ2YTBlZjg2ODBlNmRmYjFlNDliOWY2ODc5ZTIzYjY2NjY4NDQ1ZDM3MzBiODY4MWZiYTYzNmRkMmE4YTM4MjYyNTllYWY4Y2IzZWIxYjE5YmIwN2YwNDE2YWQ5LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4475966494/?trackingId=sYfnYSZUT1N5MGB2HP%2B4ZA%3D%3D&refId=AR5bDm8xbeSAb0%2FzNqFPAw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BNVQ2iDlfSQ60iWHXVE9jQA%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1zGme7e3xsCIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4475966494_ssid_8934216546_fmid_chf2d5~mv0745f8~qb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4475966494_ssid_8934216546_fmid_chf2d5~mv0745f8~qb-null-chf2d5~mv0745f8~qb-null-null&eid=chf2d5-mv0745f8-qb&otpToken=NGE5ODQ0YjIyY2Q1OGNmM2NjMTM1ZGNjZGY5OGU2NmExMzM1M2EwODczMjU2MmE1YTFiZTYyNjQ3NmU4Mzk2YTUxZTdmNzhiMGUzMjU3MmI0ZGM4ZDZkMjUyOWQ4ZTQ1NTgzNDEzMDg3OWFjNDc3NTExNjg0OTNhOTU0Y2I3ZTU5M2I0YWJkNmNhZGIwOTVhLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Associate EditorBrennan Center for Justice \u00b7 New York, NY (On-site)3 school alumniEasy Apply",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4474835751/?trackingId=9amVgMV0LsB0VCgSx017nA%3D%3D&refId=Qh%2B88ZSAFLYIIvrRI9b5DA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMl9vdXnER66PzGrPJ6DpTw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0xWyDaD4VJCIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4474835751_ssid_8934216554_fmid_chf2d5~mv07ozka~sz&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4474835751_ssid_8934216554_fmid_chf2d5~mv07ozka~sz-null-chf2d5~mv07ozka~sz-null-null&eid=chf2d5-mv07ozka-sz&otpToken=NzQyY2RjMzViMTU3YTc4NTJlNGRkOGY1NDc4MGNlYzc5Y2VmMmQ4YzliOTBhOWRkYTIxZThkZDVhNDUwNGMyYTVmMmVhOWEyYTJlYTAzZWQ4YjM4NzA5MDc1NTZhYjU2NmE3ZTVmMjMzYmViNWVmYTYxNzRmMGRmYWMwM2YwN2M2YmI3OWJhN2E2MDIwMzU2LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
