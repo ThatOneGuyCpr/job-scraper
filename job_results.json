@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-11T12:38:26.749259",
-  "count": 9,
-  "dead_links_dropped": 0,
+  "generated": "2026-10-12T15:12:14.205050",
+  "count": 7,
+  "dead_links_dropped": 2,
   "off_target_dropped": 0,
   "source_counts": {
-    "Adzuna": 4,
+    "Adzuna": 2,
     "LinkedIn": 5
   },
   "diagnostics": {
@@ -21,10 +21,10 @@
       "note": "http 405"
     },
     "Media Job Board": {
-      "http": 200,
-      "raw": 22,
-      "method": "selectors",
-      "kept": 1
+      "http": 403,
+      "raw": 0,
+      "kept": 0,
+      "note": "blocked or rate limited"
     },
     "IRE": {
       "http": 200,
@@ -75,7 +75,7 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 73
+      "kept": 70
     },
     "The Muse": {
       "http": 200,
@@ -97,94 +97,78 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "Starting at $50K/year: Society for Neuroscience Associate I,\r\n Journal Communications",
-      "id": "<509434838.12397461.1791676614037@ltx1-app48350.prod.linkedin.com>",
-      "date": "Sat, 10 Oct 2026 23:56:54 +0000 (UTC)",
-      "body": "$50K-$54K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nAssociate I, Journal Communications\nSociety for Neuroscience \u00b7 United States (Remote)\n$50K-$54K / year\nWriter\nNBCUniversal \u00b7 Miami, FL (Hybrid)\n1 connection\nEditorial Research & Data Associate\nNational Journal \u00b7 Washington, DC (Hybrid)\nSeattle City Hall & Investigative Reporter Openings\nThe Center Square \u00b7 Washington, United States (Remote)\nEasy Apply\nProgramming & Editorial Manager\nWEKA \u00b7 United States (Remote)\nActively recruiting\nDaily Voice Reporter\nWhat If Media Group \u00b7 United States (Remote)\n$46K-$46K / year\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Referment Thought Leadership Associate \u2013 External Communications (88ADF9E) and 1 other job you may be interested in",
+      "id": "<821186462.20978208.1791755817195@lor1-app110544.prod.linkedin.com>",
+      "date": "Sun, 11 Oct 2026 21:56:57 +0000 (UTC)",
+      "body": "$135K-$185K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nThought Leadership Associate \u2013 External Communications (88ADF9E)\nReferment \u00b7 New York, NY (Hybrid)\n$135K-$185K / year\nEasy Apply\nDigital Content Creator\nNexstar Media Group, Inc. \u00b7 Rochester, NY\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "The Transmitter is hiring: News Editor",
-      "id": "<1759453978.12622602.1791683816286@ltx1-app49190.prod.linkedin.com>",
-      "date": "Sun, 11 Oct 2026 01:56:56 +0000 (UTC)",
-      "body": "The Transmitter News Editor: The Transmitter offers up-to-date news and\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNews Editor\nThe Transmitter \u00b7 New York, NY\nDeputy Editor, Well\nThe New York Times \u00b7 New York, NY\n1 company alum\nMultimedia Journalist, WKBW\nWKBW-TV \u00b7 Buffalo, NY (On-site)\nEditorial Copy Associate, The New Yorker\nCond\u00e9 Nast \u00b7 New York, NY\n1 connection\nMultimedia Reporter, Space\nThe New York Times \u00b7 New York, NY\n1 connection\nWealth Reporter\nPensions & Investments \u00b7 New York, United States (On-site)\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "The Washington Post is hiring a National Business Reporter",
+      "id": "<997511475.21214238.1791763015365@lor1-app149095.prod.linkedin.com>",
+      "date": "Sun, 11 Oct 2026 23:56:55 +0000 (UTC)",
+      "body": "The Washington Post National Business Reporter: Application InstructionsPlease list all\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNational Business Reporter\nThe Washington Post \u00b7 Washington, DC\n2 connections\nWealth Reporter\nPensions & Investments \u00b7 New York, United States (On-site)\nReporter\nCBS News and Stations \u00b7 San Francisco, CA (On-site)\nReporter/Writer, Justice, CNN\nCNN \u00b7 Washington, DC\n1 connection\nSenior Editor, Social\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nSenior Associate, Reporter\nFitch Ratings \u00b7 New York, NY (Hybrid)\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Employee Communications Specialist",
-      "employer": "Washington Metropolitan Area Transit Authority",
-      "location": "Fort Myer, Arlington County",
-      "link": "https://www.adzuna.com/details/5923305458?utm_medium=api&utm_source=4803a542",
+      "title": "Video Editor - Junior",
+      "employer": "Flare energy services",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5924204366?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Employee Communications Specialist Job in Fort Myer, VA What? Where? Search Advanced Employee Communications Specialist \u276e back to last search Washington Metropolitan Area Transit Authority Arlington, Virginia, 22212 $75,929 per year - estimated ? NEW Apply for this job **JOB DESCRIPTION** **Marketing Statement** Do you love telling stories, building connections, and creating communications that make an impact? **Metro is looking for an Employee Communications Specialist** to help engage and inform more than 12,000 employees across the Authority. As part of the Office of Corporate Communications and Events, you'll play a key role in ensuring employees stay connected to the information, people, and initiatives that drive Metro forward. In this role, you'll go beyond writing communications. You'll build relationships with employees across departments, locations, and shifts, learn what matte"
+      "description": "Video Editor - Junior Job in New York City, NY What? Where? Search Advanced Video Editor - Junior \u276e back to last search Flare energy services New York $72,146 per year - estimated ? EASY APPLY NEW Apply for this job We're looking for a self-motivated, technically strong, creatively minded Junior Video Editor to join our post-production team. This is an opportunity to learn our workflows and aesthetic while taking increasing responsibility for projects, from organizing raw footage and building timelines to editing finished, publish-ready content. The role is 100% remote . What you'll do Initially, you'll focus on mastering our technical post-production workflows, including: Organizing, transcoding, and managing video and audio media Syncing multi-camera and multi-audio interviews in Premiere Pro Creating and working with AI-generated transcripts Building and organizing Premiere Pro projec"
     },
     {
-      "title": "Associate I, Journal CommunicationsSociety for Neuroscience \u00b7 United States (Remote)$50K-$54K / year",
-      "employer": "",
+      "title": "Thought Leadership Associate",
+      "employer": "External Communications (88ADF9E)",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4476824362/?trackingId=hzuY%2FPJZiSsbYZT6OAkKWQ%3D%3D&refId=tk5IRgCnEDlr4yE9Lyhv0A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BjDj%2F6eevQAe4d6v%2B7UpCtg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ayWoabvmsFss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476824362_ssid_8934216546_fmid_chf2d5~mv31zu79~nb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4476824362_ssid_8934216546_fmid_chf2d5~mv31zu79~nb-null-chf2d5~mv31zu79~nb-null-null&eid=chf2d5-mv31zu79-nb&otpToken=ZjFmZjljNzk3YjNlZTE5NjVhZWViOTAxZDhiNWE4MDBhNTE5MjFjYjM0Yjc0MDhjMTMyNzliZTc2Yzc5ZmNmMzAyZWRkMTA3MjlmZWVlOTU3ZWMzNjRkZjU5MWU5MGMxZTNiNGRkNjQxZmMzMzRiMDg1NTI2NTg0ZmI0ODE3ZmFmZGM5MzI1ZmRjNWVkOGViLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4478317195/?trackingId=PspMulmRIIycSPpfzXU7Bw%3D%3D&refId=0x1%2B6%2F6oPc%2FoC5xdXfVH6A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BC%2BbyR4L2RPSdyr3nY7o1lQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1x2kS5nz74GIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4478317195_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4478317195_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu-null-chf2d5~mv4d5e6b~qu-null-null&eid=chf2d5-mv4d5e6b-qu&otpToken=YmRkMGRiZjY2MGZkOTU3ZTU4ZjE3OGE2OTRiNjRhZDBhZDU2NmI0M2U4NTFhZWUwZjdiYWM2MDYzZDRmZjkyMzlmZDFmZjMwMjRmYTJmMzFjNjI3Y2FhYmY1YTAzZjNlNDhkODY3NTBmNTk4NDVkNTY0NTkwMGU4MzgxMGJkMDJjZDdlMjc4MjNkNGNkNjgyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Communications Specialist",
-      "employer": "AHRI",
-      "location": "State Farm, Arlington County",
-      "link": "https://www.adzuna.com/details/5923274124?utm_medium=api&utm_source=4803a542",
+      "title": "Content Editing Associate",
+      "employer": "Wolters Kluwer",
+      "location": "Grand Central, Manhattan",
+      "link": "https://www.adzuna.com/land/ad/5924156769?se=wrf-N0_G8RGnd9fxutKEAA&utm_medium=api&utm_source=4803a542&v=B1183E201DB609444881B41CB1CF372D93C140FC",
       "source": "Adzuna",
-      "description": "Communications Specialist Job in State Farm, VA What? Where? Search Advanced Communications Specialist \u276e back to last search AHRI Arlington, Virginia, 22201 35.71 per hour Full time NEW Apply for this job The Air-Conditioning, Heating, and Refrigeration Institute (AHRI) is one of the largest trade associations in the nation, representing more than 300 heating, ventilation, air-conditioning (HVAC), water heating, and commercial refrigeration manufacturers from all parts of the world. Ensuring human comfort, productivity, and safety while practicing environmental stewardship is AHRI\u2019s mission. Through our certification program, standards, advocacy, and other activities, we strive to help save energy, improve productivity, and ensure a better environment. AHRI has an opening for a Communications Specialist . The Communications Specialist supports a variety of communications functions, inclu"
+      "description": "Content Editing Associate Job in Grand Central, NY What? Where? Search Advanced Content Editing Associate \u276e back to last search Wolters Kluwer New York, New York, 10176 $112,164 per year - estimated ? NEW Apply for this job **Application** : **Please include a cover letter with your resume together in one document when applying.** **Location** : Hybrid - 8 days a month in the office. Our offices are located in Waltham, MA, Hagerstown, MD, Indianapolis, IN, Kennesaw, GA, Chicago IL, Riverwoods IL, and Madison, WI. **Responsibilities** : We are searching for a Content Editing Associate to join our editorial team. The position requires an individual with very strong organization, communication, and time management skills, as well as someone with close attention to detail and excellent proofreading skills. Prior medical experience and medical knowledge are not required. The main tasks of the"
     },
     {
-      "title": "Associate I, Journal Communications",
+      "title": "Digital Content CreatorNexstar Media Group, Inc. \u00b7 Rochester, NYActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4476824362/?trackingId=hzuY%2FPJZiSsbYZT6OAkKWQ%3D%3D&refId=tk5IRgCnEDlr4yE9Lyhv0A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BjDj%2F6eevQAe4d6v%2B7UpCtg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ayWoabvmsFss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4476824362_ssid_8934216546_fmid_chf2d5~mv31zu79~nb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4476824362_ssid_8934216546_fmid_chf2d5~mv31zu79~nb-null-chf2d5~mv31zu79~nb-null-null&eid=chf2d5-mv31zu79-nb&otpToken=ZjFmZjljNzk3YjNlZTE5NjVhZWViOTAxZDhiNWE4MDBhNTE5MjFjYjM0Yjc0MDhjMTMyNzliZTc2Yzc5ZmNmMzAyZWRkMTA3MjlmZWVlOTU3ZWMzNjRkZjU5MWU5MGMxZTNiNGRkNjQxZmMzMzRiMDg1NTI2NTg0ZmI0ODE3ZmFmZGM5MzI1ZmRjNWVkOGViLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4424639775/?trackingId=ynPG1mF469cDnpf3JLD31w%3D%3D&refId=0x1%2B6%2F6oPc%2FoC5xdXfVH6A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BC%2BbyR4L2RPSdyr3nY7o1lQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1x2kS5nz74GIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu-null-chf2d5~mv4d5e6b~qu-null-null&eid=chf2d5-mv4d5e6b-qu&otpToken=YmRkMGRiZjY2MGZkOTU3ZTU4ZjE3OGE2OTRiNjRhZDBhZDU2NmI0M2U4NTFhZWUwZjdiYWM2MDYzZDRmZjkyMzlmZDFmZjMwMjRmYTJmMzFjNjI3Y2FhYmY1YTAzZjNlNDhkODY3NTBmNTk4NDVkNTY0NTkwMGU4MzgxMGJkMDJjZDdlMjc4MjNkNGNkNjgyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Writer",
-      "employer": "NBCUniversal",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5921107499?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Writer Job in Miami, FL What? Where? Search Advanced Writer \u276e back to last search NBCUniversal Miami, Florida $60,833 per year - estimated ? EASY APPLY NEW Apply for this job Job Description Job Description The Writer is responsible for outlining and polishing the written content for entertainment daily show. The Writer is responsible for supporting the cases with accurate information of other related stories occurring around the world. Responsibilities: Assists producers in all aspects of the production of daily newscasts with a focus on writing. Writes stories as assigned by producers, including readers, voice-overs, vo/sots, and anchor packages. Applies solid news judgment while researching a variety of news sources and materials for stories and graphics creation. Identifies and utilizes best video and sound bites for the stories assigned. Works with the editors to maximize use of vid"
-    },
-    {
-      "title": "Editorial Research & Data AssociateNational Journal \u00b7 Washington, DC (Hybrid)",
+      "title": "Digital Content Creator",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4458987605/?trackingId=7KE80tGisAD0pzQZxkKf6Q%3D%3D&refId=tk5IRgCnEDlr4yE9Lyhv0A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BjDj%2F6eevQAe4d6v%2B7UpCtg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ayWoabvmsFss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4458987605_ssid_8934216546_fmid_chf2d5~mv31zu79~nb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4458987605_ssid_8934216546_fmid_chf2d5~mv31zu79~nb-null-chf2d5~mv31zu79~nb-null-null&eid=chf2d5-mv31zu79-nb&otpToken=ZjFmZjljNzk3YjNlZTE5NjVhZWViOTAxZDhiNWE4MDBhNTE5MjFjYjM0Yjc0MDhjMTMyNzliZTc2Yzc5ZmNmMzAyZWRkMTA3MjlmZWVlOTU3ZWMzNjRkZjU5MWU5MGMxZTNiNGRkNjQxZmMzMzRiMDg1NTI2NTg0ZmI0ODE3ZmFmZGM5MzI1ZmRjNWVkOGViLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4424639775/?trackingId=ynPG1mF469cDnpf3JLD31w%3D%3D&refId=0x1%2B6%2F6oPc%2FoC5xdXfVH6A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BC%2BbyR4L2RPSdyr3nY7o1lQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1x2kS5nz74GIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4424639775_ssid_8934216554_fmid_chf2d5~mv4d5e6b~qu-null-chf2d5~mv4d5e6b~qu-null-null&eid=chf2d5-mv4d5e6b-qu&otpToken=YmRkMGRiZjY2MGZkOTU3ZTU4ZjE3OGE2OTRiNjRhZDBhZDU2NmI0M2U4NTFhZWUwZjdiYWM2MDYzZDRmZjkyMzlmZDFmZjMwMjRmYTJmMzFjNjI3Y2FhYmY1YTAzZjNlNDhkODY3NTBmNTk4NDVkNTY0NTkwMGU4MzgxMGJkMDJjZDdlMjc4MjNkNGNkNjgyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Paid Social Video Editor (Freelance)",
-      "employer": "Frida",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5919460401?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Paid Social Video Editor (Freelance) Job in Miami, FL What? Where? Search Advanced Paid Social Video Editor (Freelance) \u276e back to last search Frida Miami Florida $66,559 per year - estimated ? Contract EASY APPLY REMOTE Apply for this job Who We Are Parenting isn't picture-perfect. It's messy, hilarious, exhausting, and life-changing \u2014 sometimes all before noon. That's where we come in. Founded in 2014 by our CEO Chelsea Hirschhorn, Frida was built to make the raw reality of parenting a little easier to navigate (and a lot less overwhelming). It all started with one legendary snot-sucker \u2014 the NoseFrida \u2014 and has grown into a 200+ product lineup that supports families through every stage: from fertility and postpartum recovery to baby care and beyond. We don't shy away from the stuff no one else wants to talk about \u2014 nipple pain, diaper blowouts, or the emotional rollercoaster that comes"
-    },
-    {
-      "title": "Editorial Research & Data Associate",
+      "title": "National Business ReporterThe Washington Post \u00b7 Washington, DC2 connections",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4458987605/?trackingId=7KE80tGisAD0pzQZxkKf6Q%3D%3D&refId=tk5IRgCnEDlr4yE9Lyhv0A%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BjDj%2F6eevQAe4d6v%2B7UpCtg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=2ayWoabvmsFss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4458987605_ssid_8934216546_fmid_chf2d5~mv31zu79~nb&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4458987605_ssid_8934216546_fmid_chf2d5~mv31zu79~nb-null-chf2d5~mv31zu79~nb-null-null&eid=chf2d5-mv31zu79-nb&otpToken=ZjFmZjljNzk3YjNlZTE5NjVhZWViOTAxZDhiNWE4MDBhNTE5MjFjYjM0Yjc0MDhjMTMyNzliZTc2Yzc5ZmNmMzAyZWRkMTA3MjlmZWVlOTU3ZWMzNjRkZjU5MWU5MGMxZTNiNGRkNjQxZmMzMzRiMDg1NTI2NTg0ZmI0ODE3ZmFmZGM5MzI1ZmRjNWVkOGViLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469203441/?trackingId=2i6qWYkGSglnpc7Xvwy%2FyQ%3D%3D&refId=hdwDJ5QxPw90%2B4hjCJlA%2BQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BO%2F7Emh7pQIec5ogfZdbzLw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0hnAl2ahIYGYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469203441_ssid_8934216546_fmid_chf2d5~mv4hfp2i~yn&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4469203441_ssid_8934216546_fmid_chf2d5~mv4hfp2i~yn-null-chf2d5~mv4hfp2i~yn-null-null&eid=chf2d5-mv4hfp2i-yn&otpToken=ZWNmZmIwMzM5NGUyOTZkMjZjMGFjZDllNDVhMGIwZjExYWZiYzRiYzIyNWVlNGYyYzZjZWI2ZmQwMDQ2MTBhZjdiN2ZkZjQyNDIwY2JkODNjNGM1NjEzYTc0MTk1Y2VlNmY0NWIwZTcyOWFjZTk0YTE0MTcwNDljZGJjMzJkMWZiNTRmNjQyMzlmOTAwZWYyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Editorial Copy Associate, The New YorkerCond\u00e9 Nast \u00b7 New York, NY1 connection",
+      "title": "National Business Reporter",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4476858085/?trackingId=SBbNPyJyLwSc2UND8vppLw%3D%3D&refId=y3fd5ZBp21p7DEwVIjBVXg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BL9FYLSZYS3yV6hwm7DKr1w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0xcTWmDIokFIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4476858085_ssid_8934216554_fmid_chf2d5~mv36a5t2~ez&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4476858085_ssid_8934216554_fmid_chf2d5~mv36a5t2~ez-null-chf2d5~mv36a5t2~ez-null-null&eid=chf2d5-mv36a5t2-ez&otpToken=ZmY2OGNiNjg3MTg0NjgxOTRmZjJiMGY5NGVmNjk4YWIxNTlkMDQ2N2Q1MTQ3ZTMxYjk3OGFkMTFhMjdhZTRkNTNkMmQ1ZWI2YzJlZWZmMThkODVmZGFiYzViMmU5OTk2MzcyZjgzZWQ2ZGJmNTdlYTk0ZTYyOTJjOGM1ODdiMGYxMjZkMjgwZjY3NjI2ODJjLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4469203441/?trackingId=2i6qWYkGSglnpc7Xvwy%2FyQ%3D%3D&refId=hdwDJ5QxPw90%2B4hjCJlA%2BQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BO%2F7Emh7pQIec5ogfZdbzLw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0hnAl2ahIYGYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4469203441_ssid_8934216546_fmid_chf2d5~mv4hfp2i~yn&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4469203441_ssid_8934216546_fmid_chf2d5~mv4hfp2i~yn-null-chf2d5~mv4hfp2i~yn-null-null&eid=chf2d5-mv4hfp2i-yn&otpToken=ZWNmZmIwMzM5NGUyOTZkMjZjMGFjZDllNDVhMGIwZjExYWZiYzRiYzIyNWVlNGYyYzZjZWI2ZmQwMDQ2MTBhZjdiN2ZkZjQyNDIwY2JkODNjNGM1NjEzYTc0MTk1Y2VlNmY0NWIwZTcyOWFjZTk0YTE0MTcwNDljZGJjMzJkMWZiNTRmNjQyMzlmOTAwZWYyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
