@@ -1,31 +1,30 @@
 {
-  "generated": "2026-10-15T11:18:50.330138",
-  "count": 9,
-  "dead_links_dropped": 2,
-  "off_target_dropped": 1,
+  "generated": "2026-10-16T11:13:46.976535",
+  "count": 6,
+  "dead_links_dropped": 3,
+  "off_target_dropped": 0,
   "source_counts": {
-    "JournalismJobs": 2,
-    "Adzuna": 2,
-    "LinkedIn": 5
+    "LinkedIn": 5,
+    "Adzuna": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 65,
+      "raw": 53,
       "method": "selectors",
-      "kept": 12
+      "kept": 11
     },
     "MediaBistro": {
-      "http": 405,
+      "http": 200,
       "raw": 0,
-      "kept": 0,
-      "note": "http 405"
+      "method": "anchor-scan",
+      "kept": 0
     },
     "Media Job Board": {
-      "http": 403,
-      "raw": 0,
-      "kept": 0,
-      "note": "blocked or rate limited"
+      "http": 200,
+      "raw": 22,
+      "method": "selectors",
+      "kept": 1
     },
     "IRE": {
       "http": 200,
@@ -76,7 +75,7 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 72
+      "kept": 69
     },
     "The Muse": {
       "http": 200,
@@ -98,101 +97,77 @@
   "newsletters": [
     {
       "source": "LinkedIn",
-      "subject": "The Wall Street Journal is hiring: Publishing Editor",
-      "id": "<244187452.5628879.1792015015675@lva2-app67228.prod.linkedin.com>",
-      "date": "Wed, 14 Oct 2026 21:56:55 +0000 (UTC)",
-      "body": "The Wall Street Journal Publishing Editor: Job DescriptionDow Jones Newswires is hiring a\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nPublishing Editor\nThe Wall Street Journal \u00b7 New York, NY\n4 connections\nPublishing Editor\nDow Jones \u00b7 New York, NY\n1 company alum\nManaging Editor\nThe Signatry \u00b7 United States (Remote)\nDeputy Editor\nFinancial Times \u00b7 New York, NY (Hybrid)\nActively recruiting\nContent Specialist / Writer\nWiraa \u00b7 United States (Remote)\nContent Creator, Entertainment\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Financial Times US Legal Correspondent",
+      "id": "<597207793.7064488.1792101416565@lor1-app164840.prod.linkedin.com>",
+      "date": "Thu, 15 Oct 2026 21:56:56 +0000 (UTC)",
+      "body": "Financial Times US Legal Correspondent: About UsThe Financial Times is one of the world\u2019s\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nUS Legal Correspondent\nFinancial Times \u00b7 New York, NY (Hybrid)\n1 connection\nMember of Editorial Staff, Economics & Policy\nAnthropic \u00b7 San Francisco Bay Area (Remote)\n1 school alum\nWatchdog Editor\nMediaNews Group \u00b7 San Diego, CA\nActively recruiting\nAccountability Reporter\nThe Bulwark \u00b7 Washington, DC (On-site)\n$135K-$170K / year\nNews Anchor\nBNO News \u00b7 United States (Remote)\nEasy Apply\nReal Estate Reporter\nVox Media \u00b7 New York, NY\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Wiraa Content Specialist / Writer",
-      "id": "<522223143.5955586.1792022214112@lva2-app65287.prod.linkedin.com>",
-      "date": "Wed, 14 Oct 2026 23:56:54 +0000 (UTC)",
-      "body": "Wiraa Content Specialist / Writer: About The CompanyMarymount University, located in\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nContent Specialist / Writer\nWiraa \u00b7 United States (Remote)\nTrending News Writer\nAdvance Local \u00b7 United States (Remote)\n$50K-$60K / year\n1 school alum\nAssociate Video Producer\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "NEON Senior Editor",
+      "id": "<416799814.7448912.1792108615387@lor1-app81623.prod.linkedin.com>",
+      "date": "Thu, 15 Oct 2026 23:56:55 +0000 (UTC)",
+      "body": "NEON Senior Editor: AgencyNEONJob FunctionMedical Scientific\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nSenior Editor\nNEON \u00b7 New York, NY\n1 school alum\nAssociate Executive Editor\nPeople Incorporated \u00b7 New York, NY (On-site)\n$110K-$140K / year\n1 school alum\nEasy Apply\nUS Legal Correspondent\nFinancial Times \u00b7 New York, NY (Hybrid)\nActively recruiting\nGraphics Multimedia Editor, Open-source Reporting\nThe New York Times \u00b7 New York, NY (Hybrid)\n1 connection\nNews Anchor\nBNO News \u00b7 United States (Remote)\nEasy Apply\nReal Estate Reporter\nVox Media \u00b7 New York, NY\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "The Wall Street Journal is hiring: Publishing Editor",
-      "id": "<397949254.6117131.1792024015728@lva2-app64820.prod.linkedin.com>",
-      "date": "Thu, 15 Oct 2026 00:26:55 +0000 (UTC)",
-      "body": "The Wall Street Journal Publishing Editor: Job DescriptionDow Jones Newswires is hiring a\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nPublishing Editor\nThe Wall Street Journal \u00b7 New York, NY\n4 connections\nPublishing Editor\nDow Jones \u00b7 New York, NY\n1 company alum\nDeputy Editor\nFinancial Times \u00b7 New York, NY (Hybrid)\nActively recruiting\nContent Specialist / Writer\nWiraa \u00b7 United States (Remote)\nReporter - Debtwire North America\nION \u00b7 New York, United States (On-site)\nActively recruiting\nBanking Reporter\nThe Wall Street Journal \u00b7 New York, NY\n8 school alumni\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "News Anchor job at BNO News",
+      "id": "<980692297.7494451.1792110415128@lor1-app116472.prod.linkedin.com>",
+      "date": "Fri, 16 Oct 2026 00:26:55 +0000 (UTC)",
+      "body": "BNO News News Anchor: Remote | Paid opportunityBNO News is looking for\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nNews Anchor\nBNO News \u00b7 United States (Remote)\nEasy Apply\nAssociate Editor\nHaute Living \u00b7 Miami-Dade County, FL (On-site)\n$50K-$90K / year\nActively recruiting\nEasy Apply\nSenior State Investigative Editor/Reporter\nLadders \u00b7 United States (Remote)\n$105K-$135K / year\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Freelance Editor/Journalist",
+      "title": "Associate EditorHaute Living \u00b7 Miami-Dade County, FL (On-site)$50K-$90K / yearActively recruitingEasy Apply",
       "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694111-freelance-editorjournalist-the-goshen-news",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Freelance Editor/Journalist Freelance Editor/Journalist The Goshen News Goshen, All Locations Save Share Facebook Twitter Linkedin Email Date Posted October 14, 2026 Industry Newspapers Specialty General Assignment Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Negotiable Description: HELP WANTED: Freelance Editor/Journalist Monthly Regional Nonprofit Newspaper | Northwestern Connecticut A financially stable, fast-growing independent nonprofit newspaper is seeking a freelance editor/journalist to write articles & help edit our monthly coverage of Northwestern Corner, Connecticut, State and National news. This is an opportunity for an experienced investigative journalist/editor who enjoys community reporting, thoughtful storytelling, and working independently. The position can be fully remote or based lo"
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4479834773/?trackingId=r347c6Te4FwILafBLyVgaA%3D%3D&refId=EI0sBnIQKwpk0mPWtc3pJA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Blxu1hu2USFSubOgMbbv8tQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0ntCKlQJvqMss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4479834773_ssid_8934216562_fmid_chf2d5~mva89okl~dj&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4479834773_ssid_8934216562_fmid_chf2d5~mva89okl~dj-null-chf2d5~mva89okl~dj-null-null&eid=chf2d5-mva89okl-dj&otpToken=MjZmYjE1MzgwODFhYWQ2YWMyNmEyOWQwOGRmN2E1ZDk5ZTMzYWVjNjBkMjMyYmNlMWQ1MTUwNWEyYzZkNWFiZWU1MDJjNDIwYTMyNjc5ZDdhZGQ1ODBhOThiZDQ4YjQ2YzkxY2YyZmJlZjY5ODdjMmYwZTcwMTRjNGFlNDUyYWYxNjQyNDFlMDdiZDI2Y2IyLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
     },
     {
-      "title": "Assistant Editor",
-      "employer": "Instasks App platform",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5927814533?utm_medium=api&utm_source=4803a542",
+      "title": "Specialist, Content and Centre Engagement",
+      "employer": "World Economic Forum",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5929124001?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Assistant Editor Job in Miami, FL What? Where? Search Advanced Assistant Editor \u276e back to last search Instasks App platform Miami, Florida $20.00 to $80.00 an hour NEW Apply for this job Instasks App is a Professional Concierge Service. The app provides top-tiered professionals and clients with an online platform. Our unique approach to building an App is to give the client and the provider instant bookings and an easy process of all services: For example, client requests for quick tasks and large projects. Providers receive custom requests for their specialized skills. The app takes care of all invoicing between client and provider with a detailed invoice. And book all the confirmed jobs. We track providers' locations for the client's en route to any job. We created a portal platform to guide you in listing your professions. The platform provides you with schedules, invoicing and credit"
+      "description": "Specialist, Content and Centre Engagement Job in New York City, NY What? Where? Search Advanced Specialist, Content and Centre Engagement \u276e back to last search World Economic Forum New York 80000-85000 per year Full time NEW Apply for this job Please Note: This role requires the ability to work on site 3 days per week per company policy. The annual salary range for this role in New York is $80,000-85,000. The World Economic Forum is an independent, not-for-profit organization, headquartered in Geneva, with offices in New York, San Francisco, Beijing, and Tokyo. We are the trusted platform for public-private cooperation where leaders come together to understand global challenges and drive action across sectors and regions. We create spaces where different stakeholders engage openly, build trust, and collaborate to help solve shared global challenges. Context and why we are recruiting? The"
     },
     {
-      "title": "Content Specialist / WriterWiraa \u00b7 United States (Remote)",
+      "title": "Associate Editor",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4479298544/?trackingId=xrRQmazi%2BAHUxav8V4%2BV6A%3D%3D&refId=N56I6c68uDO3ZZsOZwjxIw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3By50ybSgLS6eoVY5kbPYI7w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3QtvS56ieAKYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4479298544_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4479298544_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr-null-chf2d5~mv8ngxdr~zr-null-null&eid=chf2d5-mv8ngxdr-zr&otpToken=ZWRiYmRlN2RmMzRlMzI2Mzg1YzhkMDRkNzhlZjk3YWQxYjliMTJmYTdhNjA2ZWRjMThhNDU4MTg0ODdmZGUwMWZlZTllODI5ZDA2NTFkM2I5ZjJiYTFiOWE1MGEwNmQ5ZjA4ZTg0NjgzMTJmMDc5YmIxMmUzZGYyOTQyZTczNzc4NGI0MjkyMDdlOTgzNjdiLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4479834773/?trackingId=r347c6Te4FwILafBLyVgaA%3D%3D&refId=EI0sBnIQKwpk0mPWtc3pJA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Blxu1hu2USFSubOgMbbv8tQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0ntCKlQJvqMss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4479834773_ssid_8934216562_fmid_chf2d5~mva89okl~dj&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4479834773_ssid_8934216562_fmid_chf2d5~mva89okl~dj-null-chf2d5~mva89okl~dj-null-null&eid=chf2d5-mva89okl-dj&otpToken=MjZmYjE1MzgwODFhYWQ2YWMyNmEyOWQwOGRmN2E1ZDk5ZTMzYWVjNjBkMjMyYmNlMWQ1MTUwNWEyYzZkNWFiZWU1MDJjNDIwYTMyNjc5ZDdhZGQ1ODBhOThiZDQ4YjQ2YzkxY2YyZmJlZjY5ODdjMmYwZTcwMTRjNGFlNDUyYWYxNjQyNDFlMDdiZDI2Y2IyLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Chicago Far Northwest Side Reporter",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694110-chicago-far-northwest-side-reporter-block-club-chicago",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Chicago Far Northwest Side Reporter Chicago Far Northwest Side Reporter Block Club Chicago Chicago, Illinois Save Share Facebook Twitter Linkedin Email Date Posted October 14, 2026 Industry Newspapers, Digital Media Specialty Local News Remote / Telecommute Hybrid Job Status Full-time Salary starting at $65,000 Description: We\u2019re looking for a full-time reporter to cover Jefferson Park, Portage Park, Norwood Park and other Far Northwest Side neighborhoods. Block Club Chicago, a nonprofit news organization focused on Chicago\u2019s diverse neighborhoods, is looking for a full-time reporter to cover the city\u2019s Far Northwest Side. This is a beat reporting position, and the beat is a group of Northwest Side neighborhoods including Jefferson Park, Portage Park, Edgebrook, Edison Park, Sauganash and Norwood Park. You\u2019ll be expected to cover everything from local s"
-    },
-    {
-      "title": "Junior Copywriter",
-      "employer": "Instasks App platform",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5927814366?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Junior Copywriter Job in Miami, FL What? Where? Search Advanced Junior Copywriter \u276e back to last search Instasks App platform Miami, Florida $20 to $80 an Hour NEW Apply for this job Instasks App is a Professional Concierge Service. The app provides top-tiered professionals and clients with an online platform. Our unique approach to building an App is to give the client and the provider instant bookings and an easy process of all services: For example, client requests for quick tasks and large projects. Providers receive custom requests for their specialized skills. The app takes care of all invoicing between client and provider with a detailed invoice. And book all the confirmed jobs. We track providers' locations for the client's en route to any job. We created a portal platform to guide you in listing your professions. The platform provides you with schedules, invoicing and credit car"
-    },
-    {
-      "title": "Content Specialist / Writer",
+      "title": "Member of Editorial Staff, Economics & PolicyAnthropic \u00b7 San Francisco Bay Area (Remote)1 school alum",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4479298544/?trackingId=xrRQmazi%2BAHUxav8V4%2BV6A%3D%3D&refId=N56I6c68uDO3ZZsOZwjxIw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3By50ybSgLS6eoVY5kbPYI7w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3QtvS56ieAKYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4479298544_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4479298544_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr-null-chf2d5~mv8ngxdr~zr-null-null&eid=chf2d5-mv8ngxdr-zr&otpToken=ZWRiYmRlN2RmMzRlMzI2Mzg1YzhkMDRkNzhlZjk3YWQxYjliMTJmYTdhNjA2ZWRjMThhNDU4MTg0ODdmZGUwMWZlZTllODI5ZDA2NTFkM2I5ZjJiYTFiOWE1MGEwNmQ5ZjA4ZTg0NjgzMTJmMDc5YmIxMmUzZGYyOTQyZTczNzc4NGI0MjkyMDdlOTgzNjdiLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4478496435/?trackingId=KIQdGkcEAPkMSEq8wlg6UA%3D%3D&refId=6lWLuaoGMmANNMn0phT3qQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BxT3yGPF9QA%2BGrA7AXyc15Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0hBIJ-nmx4Mss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4478496435_ssid_8934216546_fmid_chf2d5~mva2wssc~3d&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4478496435_ssid_8934216546_fmid_chf2d5~mva2wssc~3d-null-chf2d5~mva2wssc~3d-null-null&eid=chf2d5-mva2wssc-3d&otpToken=Y2U4NDExMWNiYjRlNGRjMjYxZjI4YTg3OTliNDk0ODE4MDdkMTg1Mzc3NDU3NGFiZGZhMDJiOTViNzJlNzU2NjA1MWMxZTcwMjRiNzcyNjk4ZDFhZmI1ZjczNWJhMzQ2ZDdjOWJhMzJlZjBmMWE1NmJjMGNmYzVjNDJmYjFjMTkwMzY1YzBlNjI4ZjY1YWQ5LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Video ProducerUSA TODAY Co., Inc. \u00b7 United States (Remote)Actively recruiting",
+      "title": "Member of Editorial Staff, Economics & Policy",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4479212998/?trackingId=Md1Pzk7nMGaZliEmbKn%2B5Q%3D%3D&refId=zibl%2FD1QvH0wPQBpQ7YzyA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BkYufb0cMRtqKNEnCi1TLjg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0yOMERJAwsLcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4479212998_ssid_8934216562_fmid_chf2d5~mv8rr97o~7a&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4479212998_ssid_8934216562_fmid_chf2d5~mv8rr97o~7a-null-chf2d5~mv8rr97o~7a-null-null&eid=chf2d5-mv8rr97o-7a&otpToken=YTEwYWY0MTNlNWI5NzUyOWQ0MmRmYzdkNzA2M2UwNzYwNGQ5YmQ5OGFhZmEyYzRmODJkM2IzNmNhNWI4MGQyNGMzM2FmNTRjNDBkNTA2MGVlZDE0NjE0ZmJlODgzNjRhNzRmMjYxYzBkYmQ1NThjZTJlN2IxNjk3MmJiNTExOTgxZjQzYWI5YzNiZWZhYzdlLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4478496435/?trackingId=KIQdGkcEAPkMSEq8wlg6UA%3D%3D&refId=6lWLuaoGMmANNMn0phT3qQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BxT3yGPF9QA%2BGrA7AXyc15Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0hBIJ-nmx4Mss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4478496435_ssid_8934216546_fmid_chf2d5~mva2wssc~3d&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_1_jobid_4478496435_ssid_8934216546_fmid_chf2d5~mva2wssc~3d-null-chf2d5~mva2wssc~3d-null-null&eid=chf2d5-mva2wssc-3d&otpToken=Y2U4NDExMWNiYjRlNGRjMjYxZjI4YTg3OTliNDk0ODE4MDdkMTg1Mzc3NDU3NGFiZGZhMDJiOTViNzJlNzU2NjA1MWMxZTcwMjRiNzcyNjk4ZDFhZmI1ZjczNWJhMzQ2ZDdjOWJhMzJlZjBmMWE1NmJjMGNmYzVjNDJmYjFjMTkwMzY1YzBlNjI4ZjY1YWQ5LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Video Producer",
+      "title": "Watchdog EditorMediaNews Group \u00b7 San Diego, CAActively recruiting",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4479212998/?trackingId=Md1Pzk7nMGaZliEmbKn%2B5Q%3D%3D&refId=zibl%2FD1QvH0wPQBpQ7YzyA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BkYufb0cMRtqKNEnCi1TLjg%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0yOMERJAwsLcs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4479212998_ssid_8934216562_fmid_chf2d5~mv8rr97o~7a&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_2_jobid_4479212998_ssid_8934216562_fmid_chf2d5~mv8rr97o~7a-null-chf2d5~mv8rr97o~7a-null-null&eid=chf2d5-mv8rr97o-7a&otpToken=YTEwYWY0MTNlNWI5NzUyOWQ0MmRmYzdkNzA2M2UwNzYwNGQ5YmQ5OGFhZmEyYzRmODJkM2IzNmNhNWI4MGQyNGMzM2FmNTRjNDBkNTA2MGVlZDE0NjE0ZmJlODgzNjRhNzRmMjYxYzBkYmQ1NThjZTJlN2IxNjk3MmJiNTExOTgxZjQzYWI5YzNiZWZhYzdlLDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Publishing EditorThe Wall Street Journal \u00b7 New York, NY4 connections",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4478167611/?trackingId=tZZgqsYKdd1W7vYqbhIX2w%3D%3D&refId=N56I6c68uDO3ZZsOZwjxIw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3By50ybSgLS6eoVY5kbPYI7w%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=3QtvS56ieAKYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4478167611_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4478167611_ssid_8934216546_fmid_chf2d5~mv8ngxdr~zr-null-chf2d5~mv8ngxdr~zr-null-null&eid=chf2d5-mv8ngxdr-zr&otpToken=ZWRiYmRlN2RmMzRlMzI2Mzg1YzhkMDRkNzhlZjk3YWQxYjliMTJmYTdhNjA2ZWRjMThhNDU4MTg0ODdmZGUwMWZlZTllODI5ZDA2NTFkM2I5ZjJiYTFiOWE1MGEwNmQ5ZjA4ZTg0NjgzMTJmMDc5YmIxMmUzZGYyOTQyZTczNzc4NGI0MjkyMDdlOTgzNjdiLDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4479563378/?trackingId=he0bOkOSu3u7n%2BlmVIPi4Q%3D%3D&refId=6lWLuaoGMmANNMn0phT3qQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BxT3yGPF9QA%2BGrA7AXyc15Q%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0hBIJ-nmx4Mss1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4479563378_ssid_8934216546_fmid_chf2d5~mva2wssc~3d&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4479563378_ssid_8934216546_fmid_chf2d5~mva2wssc~3d-null-chf2d5~mva2wssc~3d-null-null&eid=chf2d5-mva2wssc-3d&otpToken=Y2U4NDExMWNiYjRlNGRjMjYxZjI4YTg3OTliNDk0ODE4MDdkMTg1Mzc3NDU3NGFiZGZhMDJiOTViNzJlNzU2NjA1MWMxZTcwMjRiNzcyNjk4ZDFhZmI1ZjczNWJhMzQ2ZDdjOWJhMzJlZjBmMWE1NmJjMGNmYzVjNDJmYjFjMTkwMzY1YzBlNjI4ZjY1YWQ5LDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
