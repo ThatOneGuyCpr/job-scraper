@@ -1,31 +1,32 @@
 {
-  "generated": "2026-10-19T12:55:45.324362",
-  "count": 8,
+  "generated": "2026-10-20T11:23:57.937006",
+  "count": 10,
   "dead_links_dropped": 2,
-  "off_target_dropped": 2,
+  "off_target_dropped": 1,
   "source_counts": {
-    "USAJobs": 1,
+    "Media Job Board": 1,
+    "JournalismJobs": 2,
     "LinkedIn": 5,
     "Adzuna": 2
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": 200,
-      "raw": 45,
+      "raw": 57,
       "method": "selectors",
-      "kept": 10
+      "kept": 12
     },
     "MediaBistro": {
-      "http": 405,
+      "http": 200,
       "raw": 0,
-      "kept": 0,
-      "note": "http 405"
+      "method": "anchor-scan",
+      "kept": 0
     },
     "Media Job Board": {
       "http": 200,
-      "raw": 21,
+      "raw": 22,
       "method": "selectors",
-      "kept": 1
+      "kept": 2
     },
     "IRE": {
       "http": 200,
@@ -76,7 +77,7 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 60
+      "kept": 31
     },
     "The Muse": {
       "http": 200,
@@ -88,7 +89,7 @@
     },
     "Study Hall": {
       "kept": 0,
-      "note": "0 email(s) captured"
+      "note": "1 email(s) captured"
     },
     "LinkedIn": {
       "kept": 0,
@@ -97,94 +98,117 @@
   },
   "newsletters": [
     {
-      "source": "LinkedIn",
-      "subject": "You may be a fit for TaskVerse\u2019s Graphic Designer role",
-      "id": "<549047953.15915752.1792360615229@ltx1-app68658.prod.linkedin.com>",
-      "date": "Sun, 18 Oct 2026 21:56:55 +0000 (UTC)",
-      "body": "TaskVerse Graphic Designer: About The CompanyThe U.S. Navy is a premier\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nGraphic Designer\nTaskVerse \u00b7 United States (Remote)\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "source": "Study Hall",
+      "subject": "Media Digest: Can Journalism Be Funny?",
+      "id": "<AvNBHQCuTra1jtN-WcHrag@geopod-ismtpd-60>",
+      "date": "Mon, 19 Oct 2026 18:34:29 +0000 (UTC)",
+      "body": "Media Digest: Can Journalism Be Funny?\nAn interview with comedian-reporter Mary Houlihan \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\nOctober 19, 2026\nMedia Digest: Can Journalism Be Funny?\nAn interview with comedian-reporter Mary Houlihan\nJournalism and AI:\nAddressing Fears, Anxieties, and Concerns\nWednesday, October 28, 2026\n10:00 AM PT / 1:00 PM ET\nFree to attend\nIn this webinar panel, three seasoned journalists \u2014\nTaylor Lorenz\n,\nAlexandra Marvar\n, and\nBrian Merchant\n\u2014 will share how media workers can navigate AI tools and the various ways in which this technology has transformed the industry.\nThis panel will touch upon how legacy media outlets are coming up with AI rules, and what writers can do to protect their work. In addition, the panelists will discuss larger questions about how AI has changed the industry: Is it possible to integrate these tools in a workflow without plagiarizing other writers' work? Is there a double standard of media outlets banning freelancers from using these tools, while editors use in-house AI tools? What does it mean to have original prose in a time when LLMs can mimic style?\nRegister\nhere\n.\nInterview with Mary Houlihan\nOn the latest podcast\nepisode\n, Mary Houlihan, a comedian, discussed her humorous approach to independent reporting. In addition, she talked about her reporting on detention centers.\nThe episode is available on\nApple Podcasts\n.\nCan Journalism Be Funny? ft. Mary Houlihan\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 19 \u00b7 33m\nApple Podcasts\nICYMI:\nArchie Hall on how\nThe Economist\ncovers the DSA, Trump, and bonds.\nAstead Herndon on political reporting.\nBridget Read on writing a zeitgeisty feature.\nPlug Your Work\nPlease\nsubmit\nyour work via our members site to share your work across our newsletters, blog, and social media channels.\nWill Coldwell Reported On An Injustice In The World of Merchant Shipping\nFor\nThe Guardian\n, Will Coldwell \"took a closer look at the case of Ali Albokhari, a Finnish seafarer who was arrested in October 2023 after Turkish police found cocaine on board his cargo ship. While no evidence has been presented linking Ali to the drugs, he was convicted on the basis of 'command responsibility' and sentenced to 30 years. The case reveals much about the fragile systems that hold maritime infrastructure together, and the way seafarers can slip between the cracks \u2013 falling victim to negligent companies, corrupt states and criminal enterprises. While Ali's story has been widely reported in the maritime press it has had little coverage elsewhere. This in itself speaks to a gap in public understanding relating to the complex \u2013 and worsening \u2013 conditions facing seafarers.\"\nWilliam Antonelli Profiled the Carpenters Who Set Up Every Single Event at the Jacob Javits Center\nFor\nUnder Construction News\n, William Antonelli toured \"NYC'S famous Jacob Javits Convention Center, talked to the union carpenters who work there, and wrote about the work they do building (and building and building and building) the walls, booths, and stages for every event that comes through the Center.\"\nAlessandra Bergamin Reported On The Environmental Impact of The War in Southern Lebanon\nFor\nTruthout\n, Alessandra Bergamin wrote about \"land and environmental defenders killed by Israel in Southern Lebanon and how their deaths are tied to the ongoing destruction of the region.\""
     },
     {
       "source": "LinkedIn",
-      "subject": "Roarke Regenerative is hiring: Content Manager",
-      "id": "<1530656608.16229782.1792367815258@ltx1-app49178.prod.linkedin.com>",
-      "date": "Sun, 18 Oct 2026 23:56:55 +0000 (UTC)",
-      "body": "Roarke Regenerative Content Manager: Company Description Roarke Regenerative is a\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nContent Manager\nRoarke Regenerative \u00b7 New York, NY (Remote)\nEasy Apply\nNewsNation - Booking Producer\nNexstar Media Group, Inc. \u00b7 New York, NY (On-site)\nActively recruiting\nManaging Producer International News\nNewsmax Media, Inc. \u00b7 New York, NY (On-site)\n3 school alumni\nVideo Producer Fellowship\nSEMAFOR \u00b7 New York, NY\n1 connection\nSenior Producer\nFortune \u00b7 New York, NY\nActively recruiting\nProduction Assistant, Media Desk\nFox News Media \u00b7 New York, NY\n1 connection\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "Content Creator, Sports at USA TODAY Co., Inc.",
+      "id": "<2122458491.393991.1792447016296@lor1-app163380.prod.linkedin.com>",
+      "date": "Mon, 19 Oct 2026 21:56:56 +0000 (UTC)",
+      "body": "USA TODAY Co., Inc. Content Creator, Sports: |Current USA TODAY Co. Employees- Please ensure\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nContent Creator, Sports\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nMarket Reporter - Spanish Speaking\nWalker Lovell \u00b7 United States (Remote)\nActively recruiting\nEasy Apply\nEditor\nHealthCentral \u00b7 United States (Remote)\n4 school alumni\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     },
     {
       "source": "LinkedIn",
-      "subject": "Macguffin Co. Editor",
-      "id": "<1489919895.16355761.1792369614847@ltx1-app84451.prod.linkedin.com>",
-      "date": "Mon, 19 Oct 2026 00:26:54 +0000 (UTC)",
-      "body": "Macguffin Co. Editor: About Book Cover RummyBook Cover Rummy brings\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nEditor\nMacguffin Co. \u00b7 Seattle, WA (Remote)\nEasy Apply\nPolitical Correspondent, Colorado\nNational Association of Black Journalists (NABJ) \u00b7 Colorado, United States\nFeatures Multimedia Journalist (Los Angeles)\nNational Association of Black Journalists (NABJ) \u00b7 Sacramento, CA\nHealth Care Reporter, Food and Drug Administration\nPOLITICO \u00b7 Arlington, VA\nActively recruiting\nEnergy and Data Center Reporter\nHouston Chronicle \u00b7 Houston, TX (Hybrid)\n1 school alum\nNews Reporter-MMJ\nNexstar Media Group, Inc. \u00b7 Washington, DC (On-site)\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+      "subject": "New York Post Page Six Associate Editor",
+      "id": "<1734336313.978042.1792454214987@lor1-app172427.prod.linkedin.com>",
+      "date": "Mon, 19 Oct 2026 23:56:54 +0000 (UTC)",
+      "body": "New York Post Page Six Associate Editor: Job DescriptionThe New York Post delivers the\u2026\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nPage Six Associate Editor\nNew York Post \u00b7 New York, NY\n1 connection\nContent Creator, Sports\nUSA TODAY Co., Inc. \u00b7 United States (Remote)\nActively recruiting\nAssignment Editor, Network News Desk\nNBCUniversal \u00b7 New York, NY (Hybrid)\n$70K-$85K / year\nActively recruiting\nBeauty Writer, Vogue\nCond\u00e9 Nast \u00b7 New York, NY\nActively recruiting\nEditor\nHealthCentral \u00b7 United States (Remote)\n4 school alumni\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
+    },
+    {
+      "source": "LinkedIn",
+      "subject": "Assignment Editor, Network News Desk role paying up to $85K/year",
+      "id": "<672541189.1579808.1792461414574@lor1-app158960.prod.linkedin.com>",
+      "date": "Tue, 20 Oct 2026 01:56:54 +0000 (UTC)",
+      "body": "$70K-$85K / year salary\n\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0 \u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\u00a0\u034f\nYour job alert for\njournalism\nAssignment Editor, Network News Desk\nNBCUniversal \u00b7 New York, NY (Hybrid)\n$70K-$85K / year\n1 connection\nEditor (must reside on Oahu when applying)\nTrade Media Hui \u00b7 Honolulu, HI (On-site)\nEasy Apply\nInvestigative Reporter\nSinclair Inc. \u00b7 Charleston, SC\nActively recruiting\nAnchor/Reporter\nNational Association of Black Journalists (NABJ) \u00b7 Jersey City, NJ\nMulti-Media Journalist/Reporter\nNexstar Media Group, Inc. \u00b7 Wichita, KS\nActively recruiting\nBorder Reporter/MMJ\nNexstar Media Group, Inc. \u00b7 San Diego, CA (On-site)\nActively recruiting\nSee all jobs\nManage alerts\nStand out and let hirers know when a role they\u2019ve posted is your top choice.\nRetry Premium for $0\nInstall LinkedIn Widgets\nStay updated at a glance\nAdd widget\nThis email was intended for Christian Richey (Associate Editor, Daily Briefings at State Affairs)\nLearn why we included this.\nYou are receiving Job Alert emails.\nManage job alerts\n\u00b7"
     }
   ],
   "jobs": [
     {
-      "title": "Public Affairs Specialist CTAP/ICTAP/LAND MGMT/VEOA",
-      "employer": "Internal Revenue Service",
-      "location": "New York, New York",
-      "link": "https://www.usajobs.gov:443/job/889212600",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist CTAP/ICTAP/LAND MGMT/VEOA Department of the Treasury Internal Revenue Service Criminal Investigation Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary WHAT IS CRIMINAL INVESTIGATION ? A description of the business units can be found at: https://www.jobs.irs.gov/about/who/business-divisions REVIEW THE ADDITIONAL INFORMATION BELOW FOR FURTHER DETAILS Learn more about this agency Summary WHAT IS CRIMINAL INVESTIGATION ? A description of the business units can be found at: https://www.jobs.irs.gov/about/who/business-divisions REVIEW THE ADDITIONAL INFORMATION BELOW FOR FURTHER DETAILS Learn more about this agency Overview Help Accepting applications Location 1 vacancy in the following location: (NY0350) 290 Broadway Foley Squar"
+      "title": "Group Editor",
+      "employer": "Mid-Atlantic Media",
+      "location": "Columbia, MD",
+      "link": "https://jobs.mediajobboard.com/company/mid-atlantic-media-525107/job/group-editor-in-columbia-md-0d7q1bk34x46gm3ps3bds7ge9fhg01/",
+      "source": "Media Job Board",
+      "description": "Mid-Atlantic Media Group Editor in Columbia, MD | Media Job Board Group Editor at Mid-Atlantic Media \u00d7 All fields are required unless specified optional Your Name Your Email Your Mobile Phone Your resume Apply Now By clicking Submit, I agree that Mid-Atlantic Media may contact me regarding my application, including application status updates and interview scheduling. I acknowledge that my information will be processed in accordance with the Terms & Conditions and Privacy Policy . Close Save changes \u00d7 Share this job posting Alert a friend or colleague to this open position Group Editor! Columbia, MD Friend/Colleague Email Address* Your Name* Your Email* Please enter the following text in the box below* Share Job Posting Private & Confidential No Spam \u00d7 Not ready to apply? No problem. Send yourself a reminder now. Group Editor! Columbia, MD Your Email Address* Please enter the following te"
     },
     {
-      "title": "EditorMacguffin Co. \u00b7 Seattle, WA (Remote)Easy Apply",
+      "title": "Planning/Assignments Editor",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694133-planningassignments-editor-the-ledger-newspapers",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Planning/Assignments Editor Planning/Assignments Editor The Ledger Newspapers Nashville, Tennessee Save Share Facebook Twitter Linkedin Email Date Posted October 19, 2026 Industry Newspapers Specialty Local News Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary $70,000 to $75,000 Description: Planning/Assignments Editor Westview Publishing/The Ledger Newspapers is looking for a full-time planning/assignments editor based in its Nashville office. The Ledger newspapers \u2013 Nashville/Middle Tennessee, Knoxville/East Tennessee and Chattanooga/Hamilton County \u2013 are general-interest publications with a business and business-adjacent focus, along with an emphasis on compelling human-interest features and profiles. We\u2019re looking for a multitool of an editor: someone who not only generates strong story ideas but can artic"
+    },
+    {
+      "title": "Page Six Associate EditorNew York Post \u00b7 New York, NY1 connection",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4479694117/?trackingId=VozJax%2FZ2%2BvTMzQynkfAFw%3D%3D&refId=Nv%2BeBbLXnny1D3nJ%2BKqiKQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BqxE%2BilJ9SbGzd2kBXvQ0iQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=19WGD-Ch6WQIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4479694117_ssid_8934216546_fmid_chf2d5~mveil8ue~xv&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4479694117_ssid_8934216546_fmid_chf2d5~mveil8ue~xv-null-chf2d5~mveil8ue~xv-null-null&eid=chf2d5-mveil8ue-xv&otpToken=NGNiYTM5ZDE3YTg5YTA0ZTRjZmQ5NjlmZGZlZTYwMWNlMzdlODRiNTRmZGQzNzM3MDVhZjg3NmU3YTliYmY4MTMyMjExMjMwOWRkMTk2NGNlODE2ZjA2MTQzZjY1ZjkyOTY2MjVjZTMzODNkMmM5NTg4NzU5ZmI1NWU0MjA2NzJkZGUxMmFiN2NkZWRlZGY3LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=M0UNBcGX9FN46LtqC4o8tQ%3D%3D&refId=3TschdH90gY%2Fc86eNj0JcA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B6OYuCUOGQ0q0baSN4Y3hzQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1oubnZwOEYScs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mvfwyid2~mj&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mvfwyid2~mj-null-chf2d5~mvfwyid2~mj-null-null&eid=chf2d5-mvfwyid2-mj&otpToken=YmYwMjVkMjZhMmQxZWEwYjAxYmQ0MjkyZjMzY2NlOTQ1MjEyNWY5OWVkMDg5OWUwZWI5Mzk4ODUzNDEzZDU3YmJiZTRjMzdiZDM2YWE4ZDVlZWQwYTEwNGNiNGJjMDI4ZmU0ZTMwOTk0NDQ1YmE3MmM5YjY1MGQxZDFkZWY2MDA4NjdjYjUyMWI0M2YxNWNiLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Video Journalist",
-      "employer": "Wall Street Journal",
+      "title": "Communications Specialist II, Public Relations",
+      "employer": "Johns Hopkins Medicine",
+      "location": "East Case, Baltimore",
+      "link": "https://www.adzuna.com/details/5935104208?utm_medium=api&utm_source=4803a542",
+      "source": "Adzuna",
+      "description": "Communications Specialist II, Public Relations Job in East Case, MD What? Where? Search Advanced Communications Specialist II, Public Relations \u276e back to last search Johns Hopkins Medicine Baltimore, Maryland, 21276 $76,984 per year - estimated ? Full time NEW Apply for this job Summary Responsible for creating and distributing content such as patient newsletters, social media updates, and press releases. Assists with monitoring, supports event logistics and community outreach, and ensures all communications adhere to guidelines. Performs administrative tasks, updates the organization's website, and provides support during crisis communications. Gathers feedback from patients and staff to improve communication strategies and assists with basic graphic design for educational materials. Mentors junior staff, handles relationships with external vendors, and assists in budget management. **T"
+    },
+    {
+      "title": "Page Six Associate Editor",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4461280950/?trackingId=M0UNBcGX9FN46LtqC4o8tQ%3D%3D&refId=3TschdH90gY%2Fc86eNj0JcA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B6OYuCUOGQ0q0baSN4Y3hzQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=1oubnZwOEYScs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mvfwyid2~mj&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4461280950_ssid_8934216554_fmid_chf2d5~mvfwyid2~mj-null-chf2d5~mvfwyid2~mj-null-null&eid=chf2d5-mvfwyid2-mj&otpToken=YmYwMjVkMjZhMmQxZWEwYjAxYmQ0MjkyZjMzY2NlOTQ1MjEyNWY5OWVkMDg5OWUwZWI5Mzk4ODUzNDEzZDU3YmJiZTRjMzdiZDM2YWE4ZDVlZWQwYTEwNGNiNGJjMDI4ZmU0ZTMwOTk0NDQ1YmE3MmM5YjY1MGQxZDFkZWY2MDA4NjdjYjUyMWI0M2YxNWNiLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Staff Writer",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694129-staff-writer-hartford-business-journal",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Staff Writer Staff Writer Hartford Business Journal Hartford, Connecticut Save Share Facebook Twitter Linkedin Email Date Posted October 19, 2026 Industry Magazines / Publishing Specialty Business Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary Approximately $55,000 Description: Hartford Business Journal | Connecticut Hartford Business Journal is seeking a full-time staff writer to cover Connecticut\u2019s business community. We\u2019re looking for an experienced, enterprising journalist who develops sources, generates compelling story ideas and writes clean, accurate copy for a business audience. This role combines breaking news coverage with in-depth reporting on the companies, people and trends shaping Connecticut\u2019s economy. Candidates must live in Connecticut but do not need to be based in Greater Hartford. Journal"
+    },
+    {
+      "title": "Content Creator, SportsUSA TODAY Co., Inc. \u00b7 United States (Remote)Actively recruiting",
+      "employer": "",
+      "location": "",
+      "from_email": true,
+      "link": "https://www.linkedin.com/comm/jobs/view/4468244964/?trackingId=r9FTqaYbO7SA0OchYQtcbA%3D%3D&refId=WDouUXTCq0jYgxZ61ddf1w%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSrblZ%2FurT9m9rFPwixHupw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0wEqk8h8H4RYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4468244964_ssid_8934216562_fmid_chf2d5~mvfso72z~b2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4468244964_ssid_8934216562_fmid_chf2d5~mvfso72z~b2-null-chf2d5~mvfso72z~b2-null-null&eid=chf2d5-mvfso72z-b2&otpToken=ZTNkYTYwZDkzZmFkMmUyOGE2MTVhOGU1MWVmNzIzYjA0OTk2YTE5ZGMzMmIwMzFmOTc5NDYwYzg0MTY1ZTc4MDMzNjcxOTJlOGM4NmQwMzE1YzQ0ZTNhNjA5YjU4NzYyYjg5NzkxYzIxNWQ2NjI5MmQwOTIyY2YxOTMzMDhmOTEzZTE0ZDA3ODdkNTc1NzFiLDIsMQ%3D%3D",
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Assignment Editor, Network News Desk",
+      "employer": "NBCUniversal",
       "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5933326693?utm_medium=api&utm_source=4803a542",
+      "link": "https://www.adzuna.com/details/5934454076?utm_medium=api&utm_source=4803a542",
       "source": "Adzuna",
-      "description": "Associate Video Journalist Job in New York City, NY What? Where? Search Advanced Associate Video Journalist \u276e back to last search Wall Street Journal New York City, New York 65000-85000 per year Full time NEW Apply for this job Job Description: Associate Producer Location: New York, NY Job Description: The Associate Producer will closely work with news editors and the breaking news team at \u201cthe Hub\u201d to create quick-turn videos and cutdowns of our feature content for on-platform, YouTube and social platforms. You are an agile visual journalist who can shepherd a breaking news story from pitch to final cut under tight deadlines. You should have sharp news judgment, a firm grasp of business and economic news and the technical editing skill to craft compelling short-form video independently. This role will report to the Senior Supervising Producer, Video. You will\u2026 Closely monitor daily news"
+      "description": "Assignment Editor, Network News Desk Job in New York City, NY What? Where? Search Advanced Assignment Editor, Network News Desk \u276e back to last search NBCUniversal New York, NEW YORK $100,509 per year - estimated ? EASY APPLY NEW Apply for this job Job Description As an Assignment Editor on the Network News Desk, you will work alongside a shift-based team and in collaboration with the bureaus on all domestic news coverage. You will work to provide editorial and logistical support to all platforms across broadcast, cable, digital, and streaming. Responsibilities: Coordinate the gathering and feeding of news materials Effectively research & implement coverage of breaking news & on-going stories Ability to jump in & quickly assess what is needed on coverage of a breaking story Collaborate with NBC News digital, streaming and broadcast platforms on newsgathering, social media initiatives, and"
     },
     {
-      "title": "Health Care Reporter, Food and Drug AdministrationPOLITICO \u00b7 Arlington, VAActively recruiting",
+      "title": "Content Creator, Sports",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4461193082/?trackingId=Bca7%2BYSFb9Tln8%2Bz2fJHnw%3D%3D&refId=Nv%2BeBbLXnny1D3nJ%2BKqiKQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BqxE%2BilJ9SbGzd2kBXvQ0iQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=19WGD-Ch6WQIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4461193082_ssid_8934216546_fmid_chf2d5~mveil8ue~xv&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4461193082_ssid_8934216546_fmid_chf2d5~mveil8ue~xv-null-chf2d5~mveil8ue~xv-null-null&eid=chf2d5-mveil8ue-xv&otpToken=NGNiYTM5ZDE3YTg5YTA0ZTRjZmQ5NjlmZGZlZTYwMWNlMzdlODRiNTRmZGQzNzM3MDVhZjg3NmU3YTliYmY4MTMyMjExMjMwOWRkMTk2NGNlODE2ZjA2MTQzZjY1ZjkyOTY2MjVjZTMzODNkMmM5NTg4NzU5ZmI1NWU0MjA2NzJkZGUxMmFiN2NkZWRlZGY3LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4468244964/?trackingId=r9FTqaYbO7SA0OchYQtcbA%3D%3D&refId=WDouUXTCq0jYgxZ61ddf1w%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSrblZ%2FurT9m9rFPwixHupw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0wEqk8h8H4RYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4468244964_ssid_8934216562_fmid_chf2d5~mvfso72z~b2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_0_jobid_4468244964_ssid_8934216562_fmid_chf2d5~mvfso72z~b2-null-chf2d5~mvfso72z~b2-null-null&eid=chf2d5-mvfso72z-b2&otpToken=ZTNkYTYwZDkzZmFkMmUyOGE2MTVhOGU1MWVmNzIzYjA0OTk2YTE5ZGMzMmIwMzFmOTc5NDYwYzg0MTY1ZTc4MDMzNjcxOTJlOGM4NmQwMzE1YzQ0ZTNhNjA5YjU4NzYyYjg5NzkxYzIxNWQ2NjI5MmQwOTIyY2YxOTMzMDhmOTEzZTE0ZDA3ODdkNTc1NzFiLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Health Care Reporter, Food and Drug Administration",
+      "title": "Market Reporter - Spanish SpeakingWalker Lovell \u00b7 United States (Remote)Actively recruitingEasy Apply",
       "employer": "",
       "location": "",
       "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4461193082/?trackingId=Bca7%2BYSFb9Tln8%2Bz2fJHnw%3D%3D&refId=Nv%2BeBbLXnny1D3nJ%2BKqiKQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BqxE%2BilJ9SbGzd2kBXvQ0iQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=19WGD-Ch6WQIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4461193082_ssid_8934216546_fmid_chf2d5~mveil8ue~xv&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_3_jobid_4461193082_ssid_8934216546_fmid_chf2d5~mveil8ue~xv-null-chf2d5~mveil8ue~xv-null-null&eid=chf2d5-mveil8ue-xv&otpToken=NGNiYTM5ZDE3YTg5YTA0ZTRjZmQ5NjlmZGZlZTYwMWNlMzdlODRiNTRmZGQzNzM3MDVhZjg3NmU3YTliYmY4MTMyMjExMjMwOWRkMTk2NGNlODE2ZjA2MTQzZjY1ZjkyOTY2MjVjZTMzODNkMmM5NTg4NzU5ZmI1NWU0MjA2NzJkZGUxMmFiN2NkZWRlZGY3LDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Web Content Specialist",
-      "employer": "Guidehouse",
-      "location": "Fort Myer, Arlington County",
-      "link": "https://www.adzuna.com/details/5933253404?utm_medium=api&utm_source=4803a542",
-      "source": "Adzuna",
-      "description": "Web Content Specialist Job in Fort Myer, VA What? Where? Search Advanced Web Content Specialist \u276e back to last search Guidehouse ARLINGTON, Virginia, 22212 $95,927 per year - estimated ? NEW Apply for this job **Job Family** **:** Software Development & Support **Travel Required** **:** None **Clearance Required** **:** Ability to Obtain Public Trust **What You Will Do** **:** The Web Content Specialist will support transportation research and communications programs by developing, editing, maintaining, and publishing web and digital content. This role ensures content is accurate, accessible, current, user-friendly, optimized for search engines, and compliant with federal accessibility and agency standards. Key responsibilities include: + Drafting, editing, reviewing, routing, publishing, and maintaining website and digital content using approved government systems and workflows. + Suppo"
-    },
-    {
-      "title": "Energy and Data Center ReporterHouston Chronicle \u00b7 Houston, TX (Hybrid)1 school alum",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454559145/?trackingId=L%2B1Pyk32gDr80PSucMmwTg%3D%3D&refId=Nv%2BeBbLXnny1D3nJ%2BKqiKQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BqxE%2BilJ9SbGzd2kBXvQ0iQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=19WGD-Ch6WQIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4454559145_ssid_8934216546_fmid_chf2d5~mveil8ue~xv&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4454559145_ssid_8934216546_fmid_chf2d5~mveil8ue~xv-null-chf2d5~mveil8ue~xv-null-null&eid=chf2d5-mveil8ue-xv&otpToken=NGNiYTM5ZDE3YTg5YTA0ZTRjZmQ5NjlmZGZlZTYwMWNlMzdlODRiNTRmZGQzNzM3MDVhZjg3NmU3YTliYmY4MTMyMjExMjMwOWRkMTk2NGNlODE2ZjA2MTQzZjY1ZjkyOTY2MjVjZTMzODNkMmM5NTg4NzU5ZmI1NWU0MjA2NzJkZGUxMmFiN2NkZWRlZGY3LDIsMQ%3D%3D",
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Energy and Data Center Reporter",
-      "employer": "",
-      "location": "",
-      "from_email": true,
-      "link": "https://www.linkedin.com/comm/jobs/view/4454559145/?trackingId=L%2B1Pyk32gDr80PSucMmwTg%3D%3D&refId=Nv%2BeBbLXnny1D3nJ%2BKqiKQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BqxE%2BilJ9SbGzd2kBXvQ0iQ%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=19WGD-Ch6WQIs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4454559145_ssid_8934216546_fmid_chf2d5~mveil8ue~xv&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_4_jobid_4454559145_ssid_8934216546_fmid_chf2d5~mveil8ue~xv-null-chf2d5~mveil8ue~xv-null-null&eid=chf2d5-mveil8ue-xv&otpToken=NGNiYTM5ZDE3YTg5YTA0ZTRjZmQ5NjlmZGZlZTYwMWNlMzdlODRiNTRmZGQzNzM3MDVhZjg3NmU3YTliYmY4MTMyMjExMjMwOWRkMTk2NGNlODE2ZjA2MTQzZjY1ZjkyOTY2MjVjZTMzODNkMmM5NTg4NzU5ZmI1NWU0MjA2NzJkZGUxMmFiN2NkZWRlZGY3LDIsMQ%3D%3D",
+      "link": "https://www.linkedin.com/comm/jobs/view/4481203174/?trackingId=QgTTn%2FKzfjCl3HvOBEyuMA%3D%3D&refId=WDouUXTCq0jYgxZ61ddf1w%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSrblZ%2FurT9m9rFPwixHupw%3D%3D&midToken=AQF9Os8t4r8Dgg&midSig=0wEqk8h8H4RYs1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4481203174_ssid_8934216562_fmid_chf2d5~mvfso72z~b2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4481203174_ssid_8934216562_fmid_chf2d5~mvfso72z~b2-null-chf2d5~mvfso72z~b2-null-null&eid=chf2d5-mvfso72z-b2&otpToken=ZTNkYTYwZDkzZmFkMmUyOGE2MTVhOGU1MWVmNzIzYjA0OTk2YTE5ZGMzMmIwMzFmOTc5NDYwYzg0MTY1ZTc4MDMzNjcxOTJlOGM4NmQwMzE1YzQ0ZTNhNjA5YjU4NzYyYjg5NzkxYzIxNWQ2NjI5MmQwOTIyY2YxOTMzMDhmOTEzZTE0ZDA3ODdkNTc1NzFiLDIsMQ%3D%3D",
       "source": "LinkedIn",
       "description": ""
     }
