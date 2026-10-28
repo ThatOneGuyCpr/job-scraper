@@ -15,7 +15,9 @@ Memory file:  seen_jobs.json  (do not delete unless you want repeats)
 
 import requests
 from bs4 import BeautifulSoup
-import json, os, re, time, difflib
+import json, os, re, time, difflib, warnings
+from bs4 import XMLParsedAsHTMLWarning
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 from datetime import datetime, timedelta
 
 # ═══════════════════════════════════════════════════════════
@@ -65,6 +67,13 @@ NEWSLETTER_CHAR_CAP      = 22000  # per email. Study Hall's roundup runs long an
 NEWSLETTER_TOTAL_CAP     = 50000  # across all emails in one run, so a busy week
                                   # cannot blow up usage
 
+# Which email sources get their full text handed to Claude. Only prose
+# newsletters belong here, where listings can't be pulled out as links.
+# LinkedIn alerts are structured job cards that the scraper reads directly.
+# Sending their text as well made Claude pull the same jobs out a second time,
+# which is why LinkedIn flooded the digest.
+DIGEST_SOURCES = {"Study Hall"}
+
 MAX_FINALISTS = 25          # how many jobs get handed to Claude
 DESC_CHARS    = 900         # characters of job description kept per listing
 
@@ -74,7 +83,8 @@ PER_SOURCE_CAP = 3
 SOURCE_CAPS = {
     "Adzuna": 4,
     "Study Hall": 5,      # curated, high signal, worth more slots
-    "LinkedIn": 5,        # cannot be reached any other way
+    "LinkedIn": 3,        # cannot be reached any other way, but it was
+                          # crowding out every other source at 5
     "Indeed": 3,
     "The Muse": 3,
 }
@@ -111,7 +121,9 @@ EXCLUDE_TITLE = [
     # seniority
     "senior", "sr.", "director", "vp ", "vice president", "chief", "head of",
     "managing editor", "executive editor", "principal", "lead ", "manager",
-    "president", "founder", "partner", "intern",
+    "president", "founder", "partner",
+    # "intern" is checked as a whole word in is_relevant. As a plain substring
+    # it also matched "Internal Communications" and threw those roles out.
     # wrong field entirely — these slipped through the old filter
     "attorney", "paralegal", "veterinar", "nurse", "physician", "dentist",
     "customer service", "loyalty", "sales associate", "retail", "cashier",
@@ -177,6 +189,29 @@ def fetch(url, timeout=20, retry_403=True):
         r = SESSION.get(url, timeout=timeout,
                         headers={"Referer": host + "/", "Sec-Fetch-Site": "same-origin"})
     return r
+
+
+# Query parameters that only track the click. They change on every email and
+# every API call, so a link that carries them never matches the copy already in
+# seen_jobs.json, and the same job comes back day after day.
+TRACKING_PARAMS = ("utm_", "trackingid", "refid", "trk", "midtoken", "midsig",
+                   "otptoken", "lipi")
+
+def normalize_link(url):
+    """One canonical form per posting, so dedup can compare links reliably."""
+    if not url:
+        return url
+    m = re.search(r"linkedin\.com/(?:comm/)?jobs/view/(\d+)", url)
+    if m:
+        return f"https://www.linkedin.com/jobs/view/{m.group(1)}/"
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    try:
+        s = urlsplit(url)
+        q = [(k, v) for k, v in parse_qsl(s.query, keep_blank_values=True)
+             if not k.lower().startswith(TRACKING_PARAMS)]
+        return urlunsplit((s.scheme, s.netloc, s.path, urlencode(q), ""))
+    except ValueError:
+        return url
 
 
 SEEN_FILE   = "seen_jobs.json"
@@ -284,10 +319,11 @@ def is_job_url(url):
     if any(h in u for h in CATEGORY_URL_HINTS):
         return False
     tail = u.split("/")[-1].split("?")[0]
+    query = u.split("?", 1)[1] if "?" in u else ""
     if not tail:
         return False
-    has_digits = any(c.isdigit() for c in tail)
-    long_slug  = tail.count("-") >= 3
+    has_digits = any(c.isdigit() for c in tail) or bool(re.search(r"=\d{3,}", query))
+    long_slug  = tail.count("-") >= 2     # "reporter-oklahoma-voice"
     return has_digits or long_slug
 
 
@@ -299,6 +335,8 @@ def is_relevant(title, location=""):
     """
     t, l = title.lower(), location.lower()
     if any(bad in t for bad in EXCLUDE_TITLE):
+        return False
+    if re.search(r"\bintern(s|ship|ships)?\b", t):
         return False
     if not any(kw in t for kw in TOPIC_KEYWORDS):
         return False
@@ -407,7 +445,10 @@ def balance_sources(jobs):
 DEAD_PAGE_SIGNS = [
     "no longer accepting", "position has been filled", "job has expired",
     "posting is closed", "this job is no longer", "no longer available",
-    "page not found", "404", "position filled",
+    "page not found", "error 404", "404 error", "404 not found",
+    "position filled",
+    # A bare "404" used to be on this list. It matched federal pay ranges
+    # like "$84,404" and threw out live USAJobs postings.
 ]
 
 # If the link lands on one of these, it's a careers homepage, not a posting
@@ -453,110 +494,331 @@ def link_is_good(url):
 #  GENERIC HTML BOARD SCRAPER
 # ═══════════════════════════════════════════════════════════
 
-def scrape_board(name, url, base=None):
-    """
-    Handles any plain-HTML job board. Tries structured selectors first, then
-    falls back to scanning anchors. Records diagnostics either way so a board
-    that returns nothing tells you WHY instead of failing silently.
-    """
-    jobs = []
-    base = base or "/".join(url.split("/")[:3])
-    try:
-        r = fetch(url)
-        diag(name, http=r.status_code)
+# Links that point at a single posting, used when a board has no recognisable
+# listing markup. "/staff-openings/" is States Newsroom; "bulpreview" is
+# Maryland's state jobs system.
+JOB_LINK_HINTS = ("/job", "/jobs/", "-job/", "/career", "/position", "/opening",
+                  "/staff-openings/", "bulpreview", "/vacanc", "/posting")
 
+# Anchor text that says nothing about the job. When a board links each listing
+# with "Learn more", the title has to come from the heading above the link.
+GENERIC_ANCHORS = {"learn more", "read more", "apply", "apply now", "view job",
+                   "details", "more", "view", "see details", "view details",
+                   "more info", "view posting", "continue reading"}
+
+JOB_URL_IN_SITEMAP = re.compile(r"/jobs?/[a-z0-9][a-z0-9-]{6,}/?(\d+)?/?$", re.I)
+
+
+def _abs(link, base):
+    if not link:
+        return ""
+    if link.startswith("//"):
+        return "https:" + link
+    if not link.startswith("http"):
+        return base.rstrip("/") + "/" + link.lstrip("/")
+    return link
+
+
+def _slug_title(url):
+    """Best-effort title from a URL slug: /job/associate-editor/83086473/."""
+    parts = [p for p in url.split("?")[0].rstrip("/").split("/") if p]
+    for p in reversed(parts):
+        p = re.sub(r"^\d+-", "", p)           # MediaBistro: 3543053054-junior-writer
+        if re.search(r"[a-z]", p, re.I) and "-" in p and not p.endswith((".html", ".asp")):
+            return p.replace("-", " ").strip().title()
+    return ""
+
+
+def _from_jsonld(soup, base):
+    """
+    schema.org JobPosting data. Job boards embed it so Google for Jobs can index
+    their listings, and it is in the page even when the visible list is drawn
+    by JavaScript.
+    """
+    out = []
+    def walk(node):
+        if isinstance(node, list):
+            for n in node:
+                walk(n)
+        elif isinstance(node, dict):
+            kind = node.get("@type")
+            kinds = kind if isinstance(kind, list) else [kind]
+            if "JobPosting" in kinds and node.get("title"):
+                org = node.get("hiringOrganization") or {}
+                loc = node.get("jobLocation") or {}
+                if isinstance(loc, list):
+                    loc = loc[0] if loc else {}
+                addr = (loc.get("address") or {}) if isinstance(loc, dict) else {}
+                place = ", ".join(x for x in (addr.get("addressLocality"),
+                                              addr.get("addressRegion")) if isinstance(x, str) and x)
+                if node.get("jobLocationType") == "TELECOMMUTE":
+                    place = f"{place} (Remote)" if place else "Remote"
+                out.append({"title": node["title"],
+                            "employer": org.get("name", "") if isinstance(org, dict) else "",
+                            "location": place,
+                            "link": _abs(node.get("url") or node.get("@id") or "", base)})
+            for v in node.values():
+                if isinstance(v, (dict, list)):
+                    walk(v)
+    for tag in soup.find_all("script", type="application/ld+json"):
+        try:
+            walk(json.loads(tag.string or tag.get_text() or "null"))
+        except (ValueError, TypeError):
+            continue
+    return [j for j in out if j["link"]]
+
+
+def _from_embedded_json(soup, base):
+    """
+    Data that JavaScript-built sites ship inside the page (Next.js puts it in
+    __NEXT_DATA__). Looks for objects with a job title and a link to a posting.
+    """
+    out, seen = [], set()
+    def walk(node, depth=0):
+        if depth > 14:
+            return
+        if isinstance(node, list):
+            for n in node:
+                walk(n, depth + 1)
+        elif isinstance(node, dict):
+            title = next((node[k] for k in ("jobTitle", "title", "name")
+                          if isinstance(node.get(k), str)), "")
+            link = next((node[k] for k in ("url", "absolute_url", "applyUrl", "link", "href")
+                         if isinstance(node.get(k), str)), "")
+            if title and link and any(h in link.lower() for h in JOB_LINK_HINTS):
+                link = _abs(link, base)
+                if link not in seen:
+                    seen.add(link)
+                    emp = node.get("orgName") or node.get("companyName") or node.get("company") or ""
+                    out.append({"title": title,
+                                "employer": emp if isinstance(emp, str) else "",
+                                "location": "", "link": link})
+            for v in node.values():
+                if isinstance(v, (dict, list)):
+                    walk(v, depth + 1)
+    for tag in soup.find_all("script"):
+        raw = (tag.string or "").strip()
+        if tag.get("id") == "__NEXT_DATA__" or tag.get("type") == "application/json" \
+                or raw.startswith(("{", "[")):
+            try:
+                walk(json.loads(raw))
+            except (ValueError, TypeError):
+                continue
+    return out
+
+
+def _parse_feed(xml):
+    out = []
+    soup = BeautifulSoup(xml, "html.parser")
+    for item in soup.find_all(["item", "entry"]):
+        t = item.find("title")
+        l = item.find("link")
+        link = ""
+        if l is not None:
+            link = l.get("href") or l.get_text(strip=True) or (l.next_sibling or "").strip()
+        if t and link:
+            out.append({"title": t.get_text(strip=True), "employer": "",
+                        "location": "", "link": link.strip()})
+    return out
+
+
+def _from_feed(soup, url, base):
+    """An RSS or Atom feed: the one the page advertises, else a few common paths."""
+    tried = []
+    for tag in soup.find_all("link", href=True):
+        if "rss" in (tag.get("type") or "") or "atom" in (tag.get("type") or ""):
+            tried.append(_abs(tag["href"], base))
+    root = url.split("?")[0].rstrip("/")
+    tried += [root + "/feed/", base.rstrip("/") + "/jobs/feed/", base.rstrip("/") + "/rss"]
+    for feed in dict.fromkeys(tried):
+        try:
+            r = fetch(feed, timeout=12, retry_403=False)
+        except Exception:
+            continue
+        if r.status_code == 200 and ("<rss" in r.text[:500] or "<feed" in r.text[:500]):
+            jobs = _parse_feed(r.text)
+            if jobs:
+                return jobs
+    return []
+
+
+def _from_sitemap(base):
+    """
+    The site's sitemap, which lists every page including each posting, and is
+    plain XML that needs no JavaScript. Posting URLs usually carry the title as
+    a slug, which is enough to filter on; the link check fills in the rest.
+    """
+    try:
+        r = fetch(base.rstrip("/") + "/sitemap.xml", timeout=15, retry_403=False)
+    except Exception:
+        return []
+    if r.status_code != 200:
+        return []
+    locs = re.findall(r"<loc>\s*([^<]+?)\s*</loc>", r.text)
+    # A sitemap index points at further sitemaps; follow the job-related ones
+    if locs and all(l.endswith(".xml") for l in locs[:5]):
+        sub = [l for l in locs if "job" in l.lower()][:3] or locs[:2]
+        locs = []
+        for sm in sub:
+            try:
+                rr = fetch(sm, timeout=15, retry_403=False)
+                if rr.status_code == 200:
+                    locs += re.findall(r"<loc>\s*([^<]+?)\s*</loc>", rr.text)
+            except Exception:
+                continue
+    out = []
+    for loc in locs:
+        if JOB_URL_IN_SITEMAP.search(loc.split("?")[0]):
+            title = _slug_title(loc)
+            if title:
+                out.append({"title": title, "employer": "", "location": "", "link": loc})
+    return out[-400:]     # newest postings are usually listed last
+
+
+def _from_html(soup, url, base):
+    """Listing markup first, then any link that looks like a single posting."""
+    rows = (soup.select("article, .job, .job-listing, .job-result, .job-card, "
+                        ".jb-job-list-row, li.job, tr.data-row, .views-row")
+            or soup.find_all("div", class_=lambda c: c and "job" in c.lower()))
+    out = []
+    if len(rows) >= 2:
+        for row in rows:
+            t_tag = row.find(["h2", "h3", "h4"]) or row.find("a")
+            if not t_tag:
+                continue
+            l_tag = row.find(class_=lambda c: c and "location" in c.lower())
+            e_tag = row.find(class_=lambda c: c and any(
+                k in c.lower() for k in ("company", "employer", "organization", "department")))
+            a_tag = row.find("a", href=True)
+            out.append({"title": t_tag.get_text(strip=True),
+                        "employer": e_tag.get_text(strip=True) if e_tag else "",
+                        "location": l_tag.get_text(strip=True) if l_tag else "",
+                        "link": _abs(a_tag["href"] if a_tag else url, base)})
+        # One stray <article> wrapping the whole page is not a listing. Only
+        # trust the markup when it yields several distinct postings.
+        good = [j for j in out if j["link"] != url and is_job_url(j["link"])]
+        if len({j["link"] for j in good}) >= 2:
+            return good, "selectors"
+        out = []
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if not any(k in href.lower() for k in JOB_LINK_HINTS):
+            continue
+        link = _abs(href, base)
+        if not is_job_url(link):
+            continue
+        # When the link wraps a whole card, the heading inside it is the
+        # title; otherwise the first line is, before employer and location.
+        inner = a.find(["h1", "h2", "h3", "h4", "h5", "strong"])
+        lines = [l for l in a.get_text("\n", strip=True).split("\n") if l.strip()]
+        text = inner.get_text(" ", strip=True) if inner else (lines[0] if lines else "")
+        if text.lower().strip(" »›>→") in GENERIC_ANCHORS or len(text) < 4:
+            head = a.find_previous(["h1", "h2", "h3", "h4"])
+            text = head.get_text(" ", strip=True) if head else _slug_title(link)
+        out.append({"title": text, "employer": "", "location": "", "link": link})
+    return out, "anchor-scan"
+
+
+def scrape_board(name, urls):
+    """
+    Collect listings from a job board, trying several ways in until one works.
+
+    Many boards send a near-empty page and draw the listings with JavaScript,
+    which this script can't run. The listings still exist somewhere readable:
+    structured data embedded for Google, data bundled into the page, an RSS
+    feed, or the sitemap. The first method that turns anything up wins, and the
+    diagnostics record which one, so a board going quiet shows why.
+    """
+    if isinstance(urls, str):
+        urls = [urls]
+    jobs, methods, statuses, raw_total = [], [], [], 0
+    seen_links = set()
+
+    for url in urls:
+        base = "/".join(url.split("/")[:3])
+        try:
+            r = fetch(url)
+        except Exception as e:
+            statuses.append(f"error {type(e).__name__}")
+            continue
+        statuses.append(str(r.status_code))
         if r.status_code != 200:
-            reason = ("blocked or rate limited" if r.status_code in (403, 429)
-                      else f"http {r.status_code}")
-            diag(name, raw=0, kept=0, note=reason)
-            print(f"  {name}: 0  ({reason})")
-            return jobs
+            continue
 
         soup = BeautifulSoup(r.text, "html.parser")
+        # Structured data and the visible links are read together, since a
+        # page can carry structured data for only a featured job or two.
+        ld = _from_jsonld(soup, base)
+        html_jobs, method = _from_html(soup, url, base)
+        found = ld + [j for j in html_jobs if j["link"] not in {x["link"] for x in ld}]
+        if ld:
+            method = "structured data" + ("+" + method if html_jobs else "")
+        if not found:
+            found, method = _from_embedded_json(soup, base), "page data"
+        if not found:
+            found, method = _from_feed(soup, url, base), "rss feed"
+        if not found:
+            found, method = _from_sitemap(base), "sitemap"
+        if not found:
+            continue
 
-        rows = (soup.select("article, .job, .job-listing, .job-result, .job-card, "
-                            ".jb-job-list-row, li.job, tr.data-row, .views-row")
-                or soup.find_all("div", class_=lambda c: c and "job" in c.lower()))
-
-        method = "selectors"
-        if not rows:
-            # Fallback: any anchor whose href looks like a job detail page.
-            method = "anchor-scan"
-            rows = [a for a in soup.find_all("a", href=True)
-                    if any(k in a["href"].lower()
-                           for k in ("/job", "/jobs/", "/career", "/position", "/opening"))]
-
-        diag(name, raw=len(rows), method=method)
-
-        for row in rows:
-            if row.name == "a":
-                title, a_tag = row.get_text(strip=True), row
-                location = employer = ""
-            else:
-                t_tag = row.find(["h2", "h3", "h4"]) or row.find("a")
-                if not t_tag:
-                    continue
-                title = t_tag.get_text(strip=True)
-                l_tag = row.find(class_=lambda c: c and "location" in c.lower())
-                e_tag = row.find(class_=lambda c: c and any(
-                    k in c.lower() for k in ("company", "employer", "organization", "department")))
-                a_tag = row.find("a", href=True)
-                location = l_tag.get_text(strip=True) if l_tag else ""
-                employer = e_tag.get_text(strip=True) if e_tag else ""
-
-            title = clean_title(title)
-            if not title:
+        methods.append(method)
+        raw_total += len(found)
+        for j in found:
+            title = clean_title(j["title"])
+            link = j["link"]
+            if not title or not link or link in seen_links:
                 continue
-
-            link = a_tag["href"] if a_tag and a_tag.has_attr("href") else url
-            if not link.startswith("http"):
-                link = base.rstrip("/") + "/" + link.lstrip("/")
-
-            # Anchor-scan is prone to grabbing category pages; structured
-            # selectors are more trustworthy, so only gate the fallback path.
             if method == "anchor-scan" and not is_job_url(link):
                 continue
+            if is_relevant(title, j.get("location", "")):
+                seen_links.add(link)
+                jobs.append({"title": title, "employer": j.get("employer", ""),
+                             "location": j.get("location", ""), "link": link,
+                             "source": name})
+        time.sleep(0.3)
 
-            if is_relevant(title, location):
-                jobs.append({"title": title, "employer": employer,
-                             "location": location, "link": link, "source": name})
-
-        diag(name, kept=len(jobs))
-        note = ""
-        if len(rows) == 0:
-            note = "  (no listing elements found — layout likely changed or JS-rendered)"
-        elif len(jobs) == 0:
-            note = f"  ({len(rows)} candidates found, none matched filters)"
-        print(f"  {name}: {len(jobs)}{note}")
-
-    except Exception as e:
-        diag(name, raw=0, kept=0, note=f"error: {type(e).__name__}")
-        print(f"  {name}: 0  (error: {type(e).__name__})")
+    method = "/".join(dict.fromkeys(methods)) or "none"
+    http = ",".join(dict.fromkeys(statuses))
+    if not methods:
+        if statuses and all(s in ("403", "429") for s in statuses):
+            note = "blocked or rate limited"
+        elif statuses and all(s == "404" for s in statuses):
+            note = "page not found (404): the board moved its listings"
+        elif statuses and not any(s == "200" for s in statuses):
+            note = f"http {http}"
+        else:
+            note = "page loaded but no listings found by any method"
+        diag(name, http=http, raw=0, kept=0, method="none", note=note)
+        print(f"  {name}: 0  ({note})")
+    else:
+        diag(name, http=http, raw=raw_total, method=method, kept=len(jobs))
+        print(f"  {name}: {len(jobs)}  (via {method}, {raw_total} listings read)")
     return jobs
 
 
-# Boards that can actually be scraped from a GitHub Actions runner.
-#
-# Four boards were removed because they return 403 to datacenter traffic no
-# matter what headers are sent: INN, ONA Career Center, PR News, and Work In
-# Sports. That is Cloudflare-style bot protection keyed to the IP range, and no
-# amount of header tuning gets past it. Sign up for their job alert emails
-# instead and add the sender to NEWSLETTER_SENDERS above. That path cannot be
-# blocked, because the site is choosing to send you the listings.
+# Job boards. Each entry is a name and one or more listing pages. Several of
+# these draw their listings with JavaScript; scrape_board works around that
+# (see its docstring). Addresses were updated in October 2026: MediaBistro,
+# Media Job Board, SPJ, PRSA and Maryland had all moved their listings.
 HTML_BOARDS = [
     ("JournalismJobs",   "https://www.journalismjobs.com/"),
-    ("MediaBistro",      "https://www.mediabistro.com/jobs/search/"),
-    ("Media Job Board",  "https://mediajobboard.com/"),
     ("IRE",              "https://www.ire.org/jobs/"),
-    ("SPJ",              "https://jobs.spj.org/jobs/"),
+    ("MediaBistro",      ["https://www.mediabistro.com/jobs?category=Writing+%26+Editing",
+                          "https://www.mediabistro.com/jobs?category=Marketing+%26+Communications"]),
+    ("Media Job Board",  ["https://jobs.mediajobboard.com/search?keyword=journalism&location=Remote",
+                          "https://jobs.mediajobboard.com/search?keyword=communications"]),
+    ("SPJ",              ["https://jobs.spj.org/q-reporter-jobs.html",
+                          "https://jobs.spj.org/q-editor-jobs.html"]),
+    ("PRSA",             ["https://jobs.prsa.org/q-communications-jobs.html",
+                          "https://jobs.prsa.org/l-remote-jobs.html"]),
     ("States Newsroom",  "https://statesnewsroom.com/staff-openings/"),
-    ("PRSA",             "https://jobs.prsa.org/jobs/"),
     ("Ragan TalentHub",  "https://www.ragan.com/talenthub/"),
     ("Idealist",         "https://www.idealist.org/en/jobs?q=communications"),
-    ("MD State Jobs",    "https://www.jobapscloud.com/MD/sup/bulklist.aspx"),
-    # ONA runs on Momentive Careers and serves the same listings from two
-    # hosts. careers.journalists.org returns 403 to datacenter traffic; this
-    # mirror may not. If it also 403s, drop the line and use email alerts.
+    ("MD State Jobs",    "https://www.jobapscloud.com/MD/"),
+    # ONA blocks GitHub's servers outright (403). It stays in case that
+    # changes, but its job alert email is the reliable route.
     ("ONA Career Center","https://journalists.careerwebsite.com/jobs/"),
 ]
 
@@ -606,6 +868,78 @@ def strip_newsletter_boilerplate(text):
     return "\n".join(out).strip()
 
 
+# Lines inside a LinkedIn job card that are badges, not the title
+LINKEDIN_BADGE = re.compile(
+    r"^(actively recruiting|easy apply|promoted|new|be an early applicant|"
+    r"view job|apply|save|see all jobs|\d+\s+(connections?|school alum(ni|nus)?|"
+    r"company alum(ni|nus)?|applicants?)|.*\$.*|.*/\s*(hour|hr|year|yr))$", re.I)
+
+
+def parse_linkedin_alert(soup, label):
+    """
+    Read job cards out of a LinkedIn alert email.
+
+    Each card links to the same posting more than once (the title, the logo,
+    the whole card), and every link carries a tracking code that changes from
+    email to email. Grouping by LinkedIn's job ID collapses those into one job.
+    Reading the card's lines separately gives a clean title plus the
+    "Employer · Location" line, which the old anchor-text approach mashed
+    together into one long title with no employer.
+    """
+    cards = {}
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"linkedin\.com/(?:comm/)?jobs/view/(\d+)", a["href"])
+        if not m:
+            continue
+        card = cards.setdefault(m.group(1), {"title": "", "employer": "", "location": ""})
+        lines = [l.strip() for l in a.get_text("\n", strip=True).split("\n") if l.strip()]
+        for line in lines:
+            if re.search(r"\s·\s", line):
+                if not card["employer"]:
+                    emp, loc = re.split(r"\s+·\s+", line, maxsplit=1)
+                    card["employer"], card["location"] = emp.strip(), loc.strip()
+            elif not card["title"] and len(line) > 3 and not LINKEDIN_BADGE.match(line):
+                card["title"] = line
+
+    jobs = []
+    for job_id, card in cards.items():
+        title = clean_title(card["title"])
+        if not title or not is_relevant(title, card["location"]):
+            continue
+        jobs.append({"title": title, "employer": card["employer"],
+                     "location": card["location"],
+                     "link": f"https://www.linkedin.com/jobs/view/{job_id}/",
+                     "from_email": True, "source": label})
+    return jobs, len(cards)
+
+
+def generic_email_jobs(soup, label):
+    """Anchors that read like job titles, for newsletters without a known format."""
+    jobs = []
+    for a in soup.find_all("a", href=True):
+        anchor = a.get_text(strip=True)
+        href   = a["href"]
+        if (len(anchor) > 8 and href.startswith("http")
+                and "unsubscribe" not in href.lower()
+                and is_relevant(anchor)):
+            # Newsletter anchors usually read "Title at Employer" or "Title |
+            # Employer". Splitting them gives each job an employer, which is
+            # what makes cross-source dedup possible.
+            raw = clean_title(anchor) or anchor
+            emp = ""
+            mm = re.match(r"^(.*?)\s+(?:at|@|\||–|,)\s+(.+)$", raw)
+            if mm and len(mm.group(1)) > 3:
+                raw, emp = mm.group(1).strip(), mm.group(2).strip()
+            jobs.append({"title": raw, "employer": emp, "location": "",
+                         "from_email": True, "link": href, "source": label})
+    return jobs
+
+
+# Invisible characters that marketing emails pad their preview text with.
+# Study Hall's opens with hundreds of them, which ate into the character cap.
+INVISIBLE = re.compile(r"[͏​-‏ ­﻿]")
+
+
 def scrape_newsletters(seen_emails=frozenset()):
     """
     Read job newsletters out of Gmail over IMAP.
@@ -626,12 +960,12 @@ def scrape_newsletters(seen_emails=frozenset()):
     import imaplib, email as email_lib
     from email.header import decode_header
 
-    jobs, digests = [], []
+    jobs, digests, processed = [], [], set()
 
     if GMAIL_APP_PASS.startswith("your-"):
         diag("Newsletters", kept=0, note="SKIPPED — GMAIL_APP_PASS not set")
         print("  Newsletters: skipped (no Gmail app password)")
-        return jobs, digests
+        return jobs, digests, set()
 
     since = (datetime.now() - timedelta(days=NEWSLETTER_LOOKBACK_DAYS)).strftime("%d-%b-%Y")
 
@@ -640,22 +974,29 @@ def scrape_newsletters(seen_emails=frozenset()):
         mail.login(GMAIL_ADDRESS, GMAIL_APP_PASS)
         mail.select("inbox")
 
+        # Counts are kept per source, not per sender address. LinkedIn sends
+        # alerts from two addresses; reporting each address separately let the
+        # empty one overwrite the one that had mail, so the diagnostics said no
+        # LinkedIn email arrived on days when three had.
+        stats = {}
         for domain, label in NEWSLETTER_SENDERS.items():
+            st = stats.setdefault(label, {"new": 0, "seen": 0, "links": 0,
+                                          "cards": 0, "error": ""})
             try:
                 _, data = mail.search(None, f'(FROM "{domain}" SINCE {since})')
                 ids = data[0].split()
-                if not ids:
-                    diag(label, kept=0, note=f"no email from {domain} in last {NEWSLETTER_LOOKBACK_DAYS} days")
-                    print(f"  {label}: 0  (no recent email)")
-                    continue
 
-                for msg_id in ids[-4:]:              # newest four at most
-                    _, raw = mail.fetch(msg_id, "(RFC822)")
+                for num in ids[-4:]:              # newest four at most
+                    _, raw = mail.fetch(num, "(RFC822)")
                     msg = email_lib.message_from_bytes(raw[0][1])
 
                     msg_id = (msg.get("Message-ID") or "").strip()
                     if msg_id and msg_id in seen_emails:
+                        st["seen"] += 1
                         continue
+                    st["new"] += 1
+                    if msg_id:
+                        processed.add(msg_id)
 
                     subject = ""
                     for part, enc in decode_header(msg.get("Subject", "")):
@@ -682,49 +1023,51 @@ def scrape_newsletters(seen_emails=frozenset()):
                         soup = BeautifulSoup(html, "html.parser")
                         for tag in soup(["script", "style"]):
                             tag.decompose()
-
-                        # Pass 1: anchors that look like job titles
-                        for a in soup.find_all("a", href=True):
-                            anchor = a.get_text(strip=True)
-                            href   = a["href"]
-                            if (len(anchor) > 8 and href.startswith("http")
-                                    and "unsubscribe" not in href.lower()
-                                    and is_relevant(anchor)):
-                                # Newsletter anchors usually read "Title at
-                                # Employer" or "Title | Employer". Splitting
-                                # them out gives each job an employer, which is
-                                # what makes cross-source dedup possible.
-                                raw = clean_title(anchor) or anchor
-                                emp = ""
-                                mm = re.match(r"^(.*?)\s+(?:at|@|\||\u2013|,)\s+(.+)$", raw)
-                                if mm and len(mm.group(1)) > 3:
-                                    raw, emp = mm.group(1).strip(), mm.group(2).strip()
-                                jobs.append({"title": raw, "employer": emp,
-                                             "location": "",
-                                             "from_email": True, "link": href,
-                                             "source": label})
-
+                        if label == "LinkedIn":
+                            found, cards = parse_linkedin_alert(soup, label)
+                            st["cards"] += cards
+                        else:
+                            found = generic_email_jobs(soup, label)
+                        jobs += found
+                        st["links"] += len(found)
                         text = soup.get_text("\n", strip=True)
 
-                    # Pass 2: the readable text, for Claude.
-                    # Strip the boilerplate first so the character budget is
-                    # spent on listings rather than footers and social links.
-                    if text:
+                    # The readable text goes to Claude only for prose
+                    # newsletters. Boilerplate and invisible padding are
+                    # stripped first so the character budget goes to listings.
+                    if label in DIGEST_SOURCES and text:
+                        text = INVISIBLE.sub("", text).replace("\xa0", " ")
+                        text = re.sub(r"[ \t]{2,}", " ", text)
                         clean = strip_newsletter_boilerplate(text)
                         clean = re.sub(r"\n{3,}", "\n\n", clean)[:NEWSLETTER_CHAR_CAP]
-                        used = sum(len(d.get("text", "")) for d in digests)
+                        used = sum(len(d.get("body", "")) for d in digests)
                         if used + len(clean) > NEWSLETTER_TOTAL_CAP:
                             clean = clean[:max(0, NEWSLETTER_TOTAL_CAP - used)]
                         digests.append({"source": label, "subject": subject,
                                         "id": msg_id,
                                         "date": msg.get("Date", ""), "body": clean})
 
-                diag(label, kept=len(jobs), note=f"{len(digests)} email(s) captured")
-                print(f"  {label}: {len(jobs)} direct links, {len(digests)} email(s) for Claude")
-
             except Exception as e:
-                diag(label, kept=0, note=f"error: {type(e).__name__}")
-                print(f"  {label}: error ({type(e).__name__})")
+                st["error"] = type(e).__name__
+
+        for label, st in stats.items():
+            if st["error"]:
+                note = f"error: {st['error']}"
+            elif st["new"] == 0 and st["seen"] == 0:
+                note = f"no email in the last {NEWSLETTER_LOOKBACK_DAYS} days"
+            elif st["new"] == 0:
+                note = (f"no new email ({st['seen']} already read in an "
+                        f"earlier run)")
+            else:
+                note = f"{st['new']} new email(s), {st['links']} relevant job(s)"
+                if label == "LinkedIn":
+                    note += f" out of {st['cards']} in the alerts"
+                if label in DIGEST_SOURCES:
+                    note += ", full text sent to Claude"
+                if label == "LinkedIn" and st["cards"] == 0:
+                    note += ". No job cards found: LinkedIn may have changed its email layout"
+            diag(label, kept=st["links"], note=note)
+            print(f"  {label}: {note}")
 
         mail.logout()
 
@@ -733,7 +1076,7 @@ def scrape_newsletters(seen_emails=frozenset()):
         print(f"  Newsletters: IMAP error ({type(e).__name__})")
         print("  → check GMAIL_ADDRESS, GMAIL_APP_PASS, and that IMAP is on in Gmail settings")
 
-    return jobs, digests
+    return jobs, digests, processed
 
 
 def scrape_adzuna():
@@ -909,6 +1252,33 @@ def preflight():
         "such as GitHub Actions. It cannot run inside the Cowork sandbox.\n")
 
 
+def tally(jobs):
+    out = {}
+    for j in jobs:
+        out[j["source"]] = out.get(j["source"], 0) + 1
+    return out
+
+
+def record_funnel(collected, new, checked, final):
+    """
+    Where each source's jobs went, stage by stage. Before this, the diagnostics
+    showed only the first count, so a board that found eight jobs and had all
+    eight filtered out as already sent looked broken when it was working.
+
+      found    matched the filters this run
+      new      not sent on an earlier day
+      checked  made the per-source cap and had its link tested
+      final    in today's file
+    """
+    for src in set(collected) | set(final):
+        diag(src, found=collected.get(src, 0), new=new.get(src, 0),
+             checked=checked.get(src, 0), final=final.get(src, 0))
+    print("\n  Source funnel (found > new > checked > final):")
+    for src in sorted(collected, key=lambda s: -collected[s]):
+        print(f"    {src:18} {collected.get(src,0):>3} > {new.get(src,0):>3} > "
+              f"{checked.get(src,0):>3} > {final.get(src,0):>3}")
+
+
 def main():
     print(f"\nJob collection starting — {datetime.now():%Y-%m-%d %H:%M}\n")
     preflight()
@@ -934,12 +1304,25 @@ def main():
     jobs += scrape_muse()
     jobs += scrape_usajobs()
 
-    news_jobs, news_digests = scrape_newsletters(seen_emails)
+    news_jobs, news_digests, read_emails = scrape_newsletters(seen_emails)
     jobs += news_jobs
 
     print(f"\nRaw matches: {len(jobs)}")
 
-    jobs = fuzzy_dedupe(jobs)
+    for j in jobs:
+        j["link"] = normalize_link(j["link"])
+    collected = tally(jobs)
+
+    # Same posting twice in one run (one LinkedIn job sits in several alert
+    # emails, and boards repeat featured listings)
+    unique, links_this_run = [], set()
+    for j in jobs:
+        if j["link"] in links_this_run:
+            continue
+        links_this_run.add(j["link"])
+        unique.append(j)
+    jobs = fuzzy_dedupe(unique)
+
     before = len(jobs)
     jobs = [j for j in jobs if j["link"] not in seen]
     by_link = before - len(jobs)
@@ -950,8 +1333,10 @@ def main():
 
     print(f"New since last run: {len(jobs)}  "
           f"({by_link} seen by link, {by_title} seen by title and employer)")
+    new = tally(jobs)
 
     if not jobs:
+        record_funnel(collected, new, {}, {})
         with open(OUTPUT_FILE, "w") as f:
             json.dump({"generated": datetime.now().isoformat(),
                        "count": 0,
@@ -961,10 +1346,15 @@ def main():
                        "diagnostics": DIAG,
                        "newsletters": news_digests,
                        "jobs": []}, f, indent=2)
+        seen_emails.update(read_emails)
+        with open(SEEN_FILE, "w") as f:
+            json.dump({"links": sorted(seen), "fingerprints": sorted(seen_fp),
+                       "emails": sorted(seen_emails)}, f, indent=2)
         print("\nNothing new today. Wrote empty job_results.json")
         return
 
     jobs = balance_sources(jobs)
+    checked = tally(jobs)
 
     print(f"\nChecking links (this is the slow part)...")
     finalists, dead, off_target = [], 0, 0
@@ -1007,9 +1397,8 @@ def main():
         finalists.append(job)
         time.sleep(0.3)
 
-    counts = {}
-    for j in finalists:
-        counts[j["source"]] = counts.get(j["source"], 0) + 1
+    counts = tally(finalists)
+    record_funnel(collected, new, checked, counts)
 
     print(f"  {len(finalists)} live postings, {dead} dead links dropped, "
           f"{off_target} dropped for being outside target areas")
@@ -1028,7 +1417,7 @@ def main():
     # Mark everything checked as seen, including the dead ones
     seen.update(j["link"] for j in jobs)
     seen_fp.update(fp for fp in (fingerprint(j) for j in jobs) if fp)
-    seen_emails.update(d["id"] for d in news_digests if d.get("id"))
+    seen_emails.update(read_emails)
     with open(SEEN_FILE, "w") as f:
         json.dump({"links": sorted(seen),
                    "fingerprints": sorted(seen_fp),
