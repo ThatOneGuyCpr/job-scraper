@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-29T12:50:19.293503",
-  "count": 7,
-  "dead_links_dropped": 5,
-  "off_target_dropped": 11,
+  "generated": "2026-10-30T12:41:47.128524",
+  "count": 5,
+  "dead_links_dropped": 4,
+  "off_target_dropped": 3,
   "source_counts": {
-    "USAJobs": 1,
-    "MD State Jobs": 3,
+    "JournalismJobs": 1,
+    "The Muse": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
@@ -15,9 +15,9 @@
       "method": "selectors",
       "kept": 5,
       "found": 5,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "IRE": {
       "http": "200",
@@ -25,19 +25,16 @@
       "method": "page data",
       "kept": 1,
       "found": 1,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "MediaBistro": {
       "http": "200",
-      "raw": 20,
-      "method": "rss feed",
-      "kept": 2,
-      "found": 2,
-      "new": 2,
-      "checked": 2,
-      "final": 0
+      "raw": 0,
+      "kept": 0,
+      "method": "none",
+      "note": "page loaded but no listings found by any method"
     },
     "Media Job Board": {
       "http": "403",
@@ -52,17 +49,17 @@
       "method": "sitemap",
       "kept": 2,
       "found": 2,
-      "new": 2,
-      "checked": 2,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 48,
+      "raw": 46,
       "method": "sitemap",
-      "kept": 11,
-      "found": 11,
-      "new": 11,
+      "kept": 10,
+      "found": 10,
+      "new": 7,
       "checked": 3,
       "final": 0
     },
@@ -77,31 +74,31 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 3,
-      "found": 3,
-      "new": 3,
-      "checked": 3,
+      "kept": 2,
+      "found": 2,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 130,
+      "raw": 126,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 643,
+      "raw": 661,
       "method": "anchor-scan",
       "kept": 4,
       "found": 4,
-      "new": 3,
-      "checked": 3,
-      "final": 3
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "ONA Career Center": {
       "http": "202",
@@ -111,9 +108,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 60,
-      "found": 60,
-      "new": 36,
+      "kept": 38,
+      "found": 38,
+      "new": 28,
       "checked": 4,
       "final": 0
     },
@@ -122,25 +119,25 @@
       "raw": 20,
       "kept": 1,
       "found": 1,
-      "new": 0,
-      "checked": 0,
-      "final": 0
-    },
-    "USAJobs": {
-      "kept": 6,
-      "found": 6,
       "new": 1,
       "checked": 1,
       "final": 1
     },
+    "USAJobs": {
+      "kept": 6,
+      "found": 6,
+      "new": 0,
+      "checked": 0,
+      "final": 0
+    },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (4 already read in an earlier run)"
+      "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 17,
-      "note": "3 new email(s), 17 relevant job(s) out of 18 in the alerts",
-      "found": 17,
+      "kept": 16,
+      "note": "3 new email(s), 16 relevant job(s) out of 18 in the alerts",
+      "found": 16,
       "new": 15,
       "checked": 3,
       "final": 3
@@ -149,60 +146,44 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Communications Specialist",
-      "employer": "Citizenship and Immigration Services",
-      "location": "Camp Springs, Maryland",
-      "link": "https://www.usajobs.gov:443/job/890673100",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Communications Specialist Department of Homeland Security Citizenship and Immigration Services External Affairs DIrectorate, Office of Public Affairs Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary Protect your homeland and defend your culture. Join USCIS, America's frontline defense against illegal foreign infiltration and fraud. As an Communications Specialist , you will plan, develop, and coordinate strategic communications for agency programs and initiatives as well as advise leadership on messaging and communication strategies for internal and external stakeholders. Learn more about this agency Summary Protect your homeland and defend your culture. Join USCIS, America's frontline defense against illegal foreign infiltration and fraud. As an C"
-    },
-    {
-      "title": "HEALTH POLICY ANALYST ASSOCIATE (FULL-TIME CONTRACTUAL)",
+      "title": "Editor",
       "employer": "",
-      "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002417&R3=0003",
-      "source": "MD State Jobs",
-      "description": "Job Announcement: HEALTH POLICY ANALYST ASSOCIATE - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST ASSOCIATE FULL-TIME CONTRACTUAL Recruitment # 26-002417-0003 Department MDH Med Care Prgms - MMIS II Enhancements Date Opened 10/21/2026 11:59:00 PM Filing Deadline 11/4/2026 11:59:00 PM Salary $32.27 - $41.75/hour, with potential growth to $50.90/hour Employment Type Full-Time HR Analyst Quiana Tarleton Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0016 LOCATION OF POSITION MDH - Provider Policy & Compliance 201 W. Preston Street Baltimore, MD 21201 Main Purpose of Job This full-time contractual position will evaluate, analyze, research, and develop provider policies and programs to address high-priority projects within Policy and Compliance. To satisfy its responsi"
+      "location": "New York",
+      "link": "https://www.journalismjobs.com/1694209-editor-washington-monthly",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Editor Editor Washington Monthly Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Date Posted October 29, 2026 Industry Magazines / Publishing Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $55,000 to $60,000 Description: Description: The Washington Monthly is looking for a talented journalist to be its newest editor. Since 1969, the Monthly has been a leading voice in liberal policy circles. ( New York Times op-ed columnist David Leonhardt recommended it as the policy magazine to subscribe to.) Our staffers routinely appear on national and international radio stations, like NPR , Sirius XM , and the BBC . And the unique editor position has long been known as a training ground for successful journalists. Past editors include James Fallows ( The Atlantic ), Nicholas Confessore ( New York Times )"
     },
     {
-      "title": "Energy Communications Specialist",
-      "employer": "Moss",
-      "location": "Fort Lauderdale, FL",
-      "link": "https://www.linkedin.com/jobs/view/4476508126/",
+      "title": "Technical Social Media Strategist",
+      "employer": "Atlassian",
+      "location": "Flexible / Remote, San Francisco, CA",
+      "link": "https://www.themuse.com/jobs/atlassian/technical-social-media-strategist",
+      "source": "The Muse",
+      "description": "Technical Social Media Strategist at Atlassian | The Muse | The Muse Working at Atlassian Atlassians can choose where they work whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. The opportunity Atlassian is building narrative authority in AI not just shipping products, but shaping how the market understands what AI for teams actually means. This role is at the center of that effort: turning real product and AI insight into distinctive, sustained executive social presence. Reporting to the Editorial & Executive lead, you'll partner closely with social media, product marketing and communications team as well as senior executives to develop and execute social content that is credible, timely, and worth paying a"
+    },
+    {
+      "title": "Digital Content Specialist, Ratchet + Wrench and NOLN",
+      "employer": "EndeavorB2B",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4458260459/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "DATA SPECIALIST / BUSINESS ANALYST (REPOST) (HEALTH POLICY ANALYST II)",
-      "employer": "",
-      "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002419&R3=0005",
-      "source": "MD State Jobs",
-      "description": "Job Announcement: DATA SPECIALIST / BUSINESS ANALYST (REPOST) - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services DATA SPECIALIST / BUSINESS ANALYST (REPOST) HEALTH POLICY ANALYST II Recruitment # 26-002419-0005 Department MDH Med Care Prgms - Office of Eligibility Svcs Date Opened 3/26/2026 11:59:00 PM Filing Deadline 11/4/2026 11:59:00 PM Salary $76,608.00 - $99,105.00/year, with potential growth to $120,814.00/year Employment Type Full-Time HR Analyst Quiana Tarleton Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE 18 LOCATION OF POSITION MDH - Office of Eligibility Services 6 St. Paul Street Baltimore, MD 21202 Main Purpose of Job This position will function as the Health Policy Analyst II (Data Specialist / Business Analyst) for the Office of Eligibility Services, Eligibility Determination"
-    },
-    {
-      "title": "Publications Associate",
-      "employer": "Business Executives for National Security (BENS)",
-      "location": "Washington, DC (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4482898305/",
+      "title": "Writer",
+      "employer": "TelevisaUnivision",
+      "location": "Miami, FL",
+      "link": "https://www.linkedin.com/jobs/view/4484738736/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "TECHNICAL WRITER (ADMINISTRATOR IV)",
-      "employer": "",
-      "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002589&R3=0020",
-      "source": "MD State Jobs",
-      "description": "Job Announcement: TECHNICAL WRITER - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services TECHNICAL WRITER ADMINISTRATOR IV Recruitment # 26-002589-0020 Department MDH Deputy Secretary for Operations Date Opened 10/19/2026 11:59:00 PM Filing Deadline 11/2/2026 11:59:00 PM Salary $81,750.00 - $105,759.00/year, with potential growth to $128,924.00/year Employment Type Full-Time HR Analyst Latosha Keene Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0019 LOCATION OF POSITION MDH Office of Contract Management & Procurement (OCMP) 201 W. Preston Street Baltimore, MD 21201 Main Purpose of Job The Technical Writer is a hybrid position that specializes in researching, developing, writing, editing, and generating written technical specifications for complex requests for proposals. This position involv"
-    },
-    {
-      "title": "Associate Reporter/Reporter, MandateWire",
-      "employer": "Financial Times",
-      "location": "New York, NY (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4458551782/",
+      "title": "Alerts Editor - Sports Journalism",
+      "employer": "Creative Circle",
+      "location": "Fort Lauderdale, FL (On-site)",
+      "link": "https://www.linkedin.com/jobs/view/4482575249/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
