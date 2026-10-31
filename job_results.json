@@ -1,11 +1,10 @@
 {
-  "generated": "2026-10-30T12:41:47.128524",
-  "count": 5,
+  "generated": "2026-10-31T12:11:35.333100",
+  "count": 4,
   "dead_links_dropped": 4,
-  "off_target_dropped": 3,
+  "off_target_dropped": 4,
   "source_counts": {
-    "JournalismJobs": 1,
-    "The Muse": 1,
+    "MD State Jobs": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
@@ -17,7 +16,7 @@
       "found": 5,
       "new": 1,
       "checked": 1,
-      "final": 1
+      "final": 0
     },
     "IRE": {
       "http": "200",
@@ -45,21 +44,21 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 20,
+      "raw": 18,
       "method": "sitemap",
-      "kept": 2,
-      "found": 2,
+      "kept": 1,
+      "found": 1,
       "new": 0,
       "checked": 0,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 46,
+      "raw": 51,
       "method": "sitemap",
-      "kept": 10,
-      "found": 10,
-      "new": 7,
+      "kept": 9,
+      "found": 9,
+      "new": 4,
       "checked": 3,
       "final": 0
     },
@@ -82,7 +81,7 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 126,
+      "raw": 127,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -92,13 +91,13 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 661,
+      "raw": 663,
       "method": "anchor-scan",
-      "kept": 4,
-      "found": 4,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 5,
+      "found": 5,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "ONA Career Center": {
       "http": "202",
@@ -108,9 +107,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 38,
-      "found": 38,
-      "new": 28,
+      "kept": 58,
+      "found": 58,
+      "new": 39,
       "checked": 4,
       "final": 0
     },
@@ -119,71 +118,71 @@
       "raw": 20,
       "kept": 1,
       "found": 1,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "USAJobs": {
-      "kept": 6,
-      "found": 6,
+      "kept": 3,
+      "found": 3,
       "new": 0,
       "checked": 0,
       "final": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 16,
-      "note": "3 new email(s), 16 relevant job(s) out of 18 in the alerts",
-      "found": 16,
-      "new": 15,
+      "kept": 13,
+      "note": "3 new email(s), 13 relevant job(s) out of 14 in the alerts",
+      "found": 13,
+      "new": 7,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Media Opps: Fortune, Vanity Fair,  Wirecutter",
+      "id": "<oCXcfR69Qeyk-3vH5s59pQ@geopod-ismtpd-16>",
+      "date": "Fri, 30 Oct 2026 18:14:06 +0000 (UTC)",
+      "body": "Media Opps: Fortune, Vanity Fair, Wirecutter\nA Newsroom Fellowship with a rate of $30 per hour\nOctober 30, 2026\nMedia Opps: Fortune, Vanity Fair, Wirecutter\nA Newsroom Fellowship with a rate of $30 per hour\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry.\nThe latest party in the Deez Drinks event series is\n\"The Publishing Party,\"\nbringing together everyone in New York's publishing industry and book biz together under one roof for a night (and with an open bar) on Oct. 27. All literary-minded folks are welcome,\ntickets\nare $20.\nWriters Sarah Miller and A.S. Hamrah are teaching a two-day (in person and on Zoom from November 14 and 15t)\nwriting class\nabout using \u201chumor as a weapon.\u201d The class will show you how to \u201cget comfortable with strong feelings and opinions required for memorable writing\u201d and \u201cunderstand how to make things you think are funny funny to others.\u201d More info\nhere\n.\nThe Institute for Independent Journalists have opened registration for the\nFall 2026 Business of Freelancing course\n, offered from Oct. 1 through Nov. 19.\nThis eight-week, live online course provides a comprehensive foundation in the business of freelance journalism and has sold out every time they\u2019ve presented it. Each session combines real-world strategy with personalized guidance, covering topics such as rate setting, time and income management, client relationships, and long-term planning.\nRegistration is $249 before Sept 24, and $299 after.\nThey\u2019ve also announced\ntheir lineup of webinars\nfor freelancers, featuring assigning editors, fellowship directors, and independent creators. Each webinar runs from 12-1:15 pm EST and costs $30.\nNov. 20 Fund your Freelancing with Fellowships and Grants\nDec. 11 Pitching Arts, Culture, and Travel Stories\nJan. 22 Winning Revenue Strategies for Creator Journalists\nFeb. 4-5 Pitch the Editors: Sign Up for 1:1 Pitch Sessions\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-The Design Doha Biennale shared with Study Hall that they are hiring a Journalist, Radio Presenter, or Podcast Host based in Doha to conduct live interviews with artists and designers during the opening days of the Design Doha Biennale from November 5 to 7. They will research participating creators in advance, conduct short-form live interviews for the Biennale\u2019s online radio station, and lead conversations on contemporary art and design. Candidates should be comfortable interviewing primarily in Arabic as well as English and have a demonstrated interest in art, design, and culture. The rate is $150 to $200. Apply via email to\nhello@panarabicradio.com\nby November 1\n. See our\nOpps Finder listing\nfor more info.\n(Oct 28)\nNEW:\n-Desert Luz is\naccepting submissions\nof poetry, prose, and visual art for its March 2027 issue, which will explore the theme of First Light/Primera Luz. They are seeking work that \"explores beginnings, emergence, and the quiet moments that bring us into the light. Like the desert at dawn, every story begins with a first light.\" The rate is $50 per poem, $100 per prose piece, and $100 per visual art piece.\nSubmit through their\nsubmission page\nby November 15.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 28)\n-USA Today Director of Election Results Operations, Kelly Martin, shared with Study Hall that they are hiring Election Night Stringers based in the US to report election results on November 3, 2026. They will upload new results as officials release them and remain on site to answer questions about the release process. Candidates should have availability on election night and the ability to complete a short training prior to election day. The rate is a flat fee of $125. Send an email to\nkmartin@usatodayco.com\nwith your name, phone number, zip code, and a brief statement on why you are a good fit for the role. See our\nOpps Finder listing\nfor more info.\n(Sep 28)\nEVERGREEN PITCH CALLS\nNEW:\n-BGR is\nhiring\nwriters to cover tech news, including smartphones, computers, and AI. They will write daily assignments, pitch ideas, and work with editors to produce high-quality content. Candidates should have experience in tech journalism, a strong grasp of the English language, and the ability to explain complex topics to a wide audience. The rate is $21 to $25 per hour or $0.08 to $0.10 per word. This is a remote, freelance position. See our\nOpps Finder listing\nfor more info.\n(Oct 30)\nNEW:\n-Jewish News of Greater Phoenix is\nhiring\nfreelance writers to report on Jewish communal events, gatherings, celebrations, and other news relating to the more than 113,000 Jews living in Phoenix, AZ and its surrounding areas. \u201cSome journalism, reporting and/or photography experience are preferred.\u201d The rate is $150 per article (700-900 words), and each article must include a related photo. To apply, email Managing Editor Mala Blomquist at\neditor@jewishaz.com\nand include \u201cFreelance\u201d in the subject line. See our\nOpps Finder listing\nfor more info.\n(Oct 28)\nNEW:\n-Psychreg is\naccepting submissions\nof essays on psychology, mental health, and wellness. \u201cWe look for lively essays on any topic in psychology, mental health, and wellness. This could be either research-based or something based on your experience.\u201d The rate is not given, but they say \u201cPsychreg can provide additional exposure to you and your work. We receive more than 400,000 views each month, and we\u2019ve won awards for what we do.\u201d Send submissions to\ndennis@psychreg.org\n. See our\nOpps Finder listing\nfor more info.\n(Oct 28)\n-Hunker is\nhiring\nfreelance writers for home and garden content, including home maintenance, gardening tips, and DIY decor. They will produce short and long-form assignments, including celebrity interior design tips, product roundups, and cleaning hacks. Candidates should have a passion for home and garden topics and the ability to produce original, well-researched content. The rate is $21 to $25 per hour or $0.08 to $0.10 per word. See our\nOpps Finder listing\nfor more info.\n(Oct 21)\n-Dazed is\ncalling for\nstory and photography pitches from US-based Gen Z creators for \"State of Youth,\" an editorial series exploring underground subcultures and underrepresented communities. They are seeking distinctly American stories and photo essays highlighting local youth scenes across US states and territories from writers and photographers who have not yet had a major byline. The rate is $300 per published piece. Send pitches through the\nDazed Club app\n. See our\nOpps Finder listing\nfor more info.\n(Oct 14)\n-Jamie Lawrence of Ellipsus shared with Study Hall that they are always looking for essays, deep-dives, and reported pitches on writing, publishing, and creative communities in the age of generative AI. They are seeking thoughtful, personal, and analytical pieces exploring fandom culture, online writing platforms, and how technology and corporate policies affect creative work. The rate is $250 for 700 to 800 words. Send a pitch, writing samples, and a short bio to\nsocial@ellipsus.com\n. See our\nOpps Finder listing\nfor more info.\n(Oct 14)\nFELLOWSHIPS, INTERNSHIPS, AND RESIDENCIES\nNEW:\n-Fortune is\naccepting applications\nfor its Newsroom Fellowships, a six-month program for early-career journalists to gain hands-on reporting and digital production experience covering business and economics. The program is based in NYC and begins in January 2026. Fellows will pitch and write daily and enterprise stories across verticals like business news or finance and crypto, craft explainers and newsletters, and contribute to flagship lists like the Fortune 500. Applicants must hold an undergraduate or graduate degree, with preferred collegiate or professional newsroom experience and a strong interest in business and financial journalism. The rate is $30 per hour. See our\nOpps Finder listing\nfor more info.\n(Oct 29)\nNEW:\n-CNBC International is hiring a News Editorial Intern based in Singapore for a 6-month internship from January to June to provide support to show production teams. They will cut videos, build graphics, write scripts, and manage teleprompters for live programming. Candidates should be university students pursuing an undergraduate degree in business, economics, or media production, with a keen interest in business news and financial markets. The salary is $1,500 SGD per month. Apply through the\njob page\n. See our\nOpps Finder listing\nfor more info.\n(Oct 26)\n-The New York Times is\naccepting applications\nfor its A.I. Initiatives Fellowship in NYC, a program combining machine learning and journalism to tackle newsroom investigative challenges. The year-long program is based in NYC and runs from June 2027 to May 2028. Applicants should have no more than five years of professional experience in journalism or machine learning, experience analyzing data and working with LLMs, and prior newsroom editorial experience. The salary is $82,414.80, and this is a guild position.\nApply through the\nfellowship page\nby November 20.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 23)\n-Versant is\nhiring\nan intern for its MS NOW News & Content Production internship in NYC, where they will help shape a news brand that commands one of the most engaged audiences on television and reaches millions of Americans across cable, online, social media, and audio platforms every day. Interns may be placed in areas such as newsgathering, digital and audio, social media, content strategy, dayside and weekend production, primetime, and production operations. Candidates must be enrolled in a degree-granting program during the internship period, be available to work 40 hours per week on-site, and have a cumulative GPA of 3.0 or above. The hourly rate is $19.00 to $25.00.\nApply through the\njob page\nby November 16.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 22)\n-Audubon is\naccepting applications\nfor its Editorial Fellowship, a training program for early-career journalists to contribute digital and print reporting on birds, science, and the environment. The six-month program is based in NYC and runs from January to June 2027. Applicants should have reporting and writing experience, an avid interest in wildlife and conservation issues, and graduate coursework in journalism or equivalent experience. The rate is $20 per hour. Apply through the\nfellowship page\n. See our\nOpps Finder listing\nfor more info.\n(Oct 21)\nGRANTS, SCHOLARSHIPS, CONTESTS, COURSES, AND PRIZES\n-Narratively is\naccepting applications\nfor the 2026 Memoir Prize, seeking \u201crevealing and emotional first-person nonfiction narratives from unique and overlooked points of view.\u201d The winner will receive publication on Narratively and participate in a virtual awards ceremony, with author Alexander Chee serving as guest judge. The prize is $3,000.\nApply through the\ngrant page\nby December 6, 2026.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 19)\nFULL-TIME JOURNALISM JOBS\nNEW YORK CITY\nNEW:\n-NBCUniversal is\nhiring\na Director of Content Analytics based in NYC to oversee content performance and forecasting for entertainment series across NBC and Bravo. They will develop deep expertise in Nielsen and first-party data, create actionable insights for senior stakeholders, and lead a high-performing analytics team. Candidates should have eight or more years of experience in media and entertainment, expertise in Nielsen measurement methodology, and proficiency in Excel, PowerPoint, SQL, and Tableau. The salary range is $130,000 to $200,000. See our\nOpps Finder listing\nfor more info.\n(Oct 30)\nNEW:\n-Vanity Fair is\nhiring\na Senior Editor based in NYC to help lead its cultural coverage and shape stories across digital and print platforms. They will assign and edit daily and long-lead features, assist with liveblogging major cultural events, contribute to newsletters, manage writers, and use audience metrics to optimize story performance. Candidates should have at least five years of experience in a fast-paced news environment, experience managing teams and developing writers, and a background in covering breaking news and current events on digital platforms. The salary range is $88,000 to $165,000. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\n-MS NOW is\nhiring\na Writing Associate Producer based in NYC for its new weekday show, State of Play, airing 11AM - 12PM ET on Monday through Friday with host Peter Alexander. The role involves researching and writing daily segments, editing lower-third banner chyrons, and leading production for digital platforms. Candidates should have three or more years of experience in journalism, strong research skills, and knowledge of American politics and global news. The salary range is $75,000 to $80,000. See our\nOpps Finder listing\nfor more info.\n(Oct 22)\n-NBC News is\nhiring\nan Assignment Editor based in NYC for the Network News Desk to coordinate newsgathering and logistical support across broadcast, cable, digital, and streaming platforms. They will research and implement coverage of breaking news, collaborate with digital and broadcast teams, and manage field assignments. Candidates should have three years of editorial production experience and proficiency with newsroom systems and social media. The salary is $70,000 to $85,000. See our\nOpps Finder listing\nfor more info.\n(Oct 20)\n-Gizmodo is\nhiring\na Head of Social and Video based in NYC to lead video and social strategy, production, and distribution across Gizmodo, Kotaku, and io9. They will develop original video formats, oversee channel strategy across TikTok, Instagram, and YouTube, manage a team of contributors, and oversee the production budget. Candidates should have at least seven years of social media or video experience, a track record of growing audience engagement, and cultural fluency in tech, gaming, or pop culture. The salary range is $110,000 to $150,000. See our\nOpps Finder listing\nfor more info.\n(Oct 19)\n-The Wall Street Journal is\nhiring\na Standards Editor based in NYC to uphold reporting standards and ensure fairness and integrity across the newsroom. They will conduct pre-publication reviews of high-impact stories, collaborate with media attorneys to guide reporters, adjudicate editorial disputes, and resolve post-publication issues. Candidates should have at least 10 years of journalism and leadership experience, sharp news judgment, and deep knowledge of Wall Street Journal standards. The salary range is $190,000 to $225,000. See our\nOpps Finder listing\nfor more info.\n(Oct 19)\n-GQ is\nhiring\na Commerce Writer, Lifestyle based in NYC to produce commerce and service journalism across grooming, wellness, fitness, and modern lifestyle. They will write product recommendations, first-person reviews, and evergreen guides, adapt content across newsletters, social media, and short-form video, and apply SEO and analytics to optimize coverage. Candidates should have at least two years of writing experience in a digital media environment, strong knowledge of SEO and commerce data, and comfort creating multiplatform content including video. The salary range is $75,000 to $83,000, and this is a union position. See our\nOpps Finder listing\nfor more info.\n(Oct 15)\nWASHINGTON, DC\nNEW:\n-NPR is\nhiring\na Senior Vice President of Audience Development & Content Distribution based in Washington, DC to lead multi-platform distribution and network syndication strategy. They will drive enterprise content planning, oversee third-party platform distribution, and architect station network publishing. Candidates should have 15 years of media strategy experience, executive-level familiarity with enterprise publishing architecture, and strong operational budget management skills. The salary range is $250,000 to $270,000. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nCALIFORNIA\n-Southern California News Group is\nhiring\na Reporter for the Grunion Gazette based in Long Beach, CA to cover local government, community news, and enterprise stories. They will report breaking news, produce stories across print and digital platforms, cultivate local sources, and cover issues such as housing, schools, and development. Candidates should have three to four years of reporting experience, knowledge of the Long Beach area, and a bachelor\u2019s degree in journalism or a related field. The rate is $24.04 per hour, and this is a guild position. See our\nOpps Finder listing\nfor more info.\n(Oct 19)\nOTHER LOCATIONS\nNEW:\n-Telemundo 62 is\nhiring\na Multi-Media Journalist based in Philadelphia, PA to deliver original, impactful journalism across broadcast, streaming, digital, and social platforms. They will identify and execute original stories, pursue enterprise reporting, and deliver live breaking news coverage. Candidates should have at least two years of professional reporting experience, fluency in Spanish and English, and proficiency in videography and nonlinear editing. The salary range is $50,000 to $60,000. See our\nOpps Finder listing\nfor more info.\n(Oct 30)\nNEW:\n-CNBC is\nhiring\na Newsletter Strategy and Ops Specialist based in Englewood Cliffs, NJ to lead the execution and optimization of its newsletter portfolio. They will oversee email service provider relationships, develop production workflows, and drive subscriber acquisition and retention. Candidates should have experience managing high-volume newsletter portfolios and deep expertise administering enterprise email service providers. The salary range is $90,000 to $120,000. See our\nOpps Finder listing\nfor more info.\n(Oct 29)\nNEW:\n-Reach PLC is\nhiring\nan Audience Editor based remotely across London and East to drive audience growth across regional brands including MyLondon and the Nottingham Post. They will package tailored content for social media, newsletters, and direct messaging, manage social channels, mentor engagement producers, and execute high-priority newsroom growth projects. Candidates should have newsroom writing experience, a track record of expanding audiences across digital channels, an NCTJ or equivalent qualification, and a deep knowledge of media law. Salary undisclosed/negotiable in application, claimed to be \"competitive + excellent company benefits\".\nApply by November 5.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 29)\nNEW:\n-Vermont Public is\nhiring\na News Editor based in Colchester, VT to supervise a reporting team and help lead daily news planning, coordination, and editing. They will oversee story assignments across digital and broadcast platforms, lead editorial meetings, help set the daily news budget, and collaborate with teams across the content department. Candidates should have at least five years of journalism experience, strong news judgment, one to three years of preferred supervisory experience, and a firm grasp of journalistic ethics. The salary range is $78,840 to $92,753. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nNEW:\n-Reach PLC is\nhiring\nan Assistant Content Editor based in Glasgow to lead its news team and deliver multi-platform coverage across its Scottish titles. They will review and edit articles for style and legal standards, analyze editorial KPIs to drive audience growth, incorporate multimedia elements, and mentor reporters. Candidates should have digital publishing experience, team leadership skills, an NCTJ or equivalent qualification, and strong knowledge of media law and Scottish news. The salary range is \u00a325,000 - \u00a328,000 per annum, negotiable in application. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nNEW:\n-ChronicleLive is\nhiring\na Local Democracy Reporter for ChronicleLive based in Newcastle to cover Newcastle City Council and the North East Mayoral Combined Authority. They will report on council meetings and civic decisions, cultivate local sources, write features, and break exclusive public-interest stories. Candidates should be NCTJ- or NQJ-qualified, have experience covering local government, and possess deep knowledge of the Newcastle patch. Salary is \u00a325,000 per annum. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nNEW:\n-Reach PLC is\nhiring\na Local Democracy Reporter based in Leicester, Leicestershire to cover local councils and NHS trusts. They will report on council meetings, break exclusives, and write features for LeicestershireLive. Candidates should have NCTJ or NQJ qualifications, 100wp"
+    }
+  ],
   "jobs": [
     {
-      "title": "Editor",
+      "title": "HEALTH POLICY ANALYST I",
       "employer": "",
-      "location": "New York",
-      "link": "https://www.journalismjobs.com/1694209-editor-washington-monthly",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Editor Editor Washington Monthly Washington, District of Columbia Save Share Facebook Twitter Linkedin Email Date Posted October 29, 2026 Industry Magazines / Publishing Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $55,000 to $60,000 Description: Description: The Washington Monthly is looking for a talented journalist to be its newest editor. Since 1969, the Monthly has been a leading voice in liberal policy circles. ( New York Times op-ed columnist David Leonhardt recommended it as the policy magazine to subscribe to.) Our staffers routinely appear on national and international radio stations, like NPR , Sirius XM , and the BBC . And the unique editor position has long been known as a training ground for successful journalists. Past editors include James Fallows ( The Atlantic ), Nicholas Confessore ( New York Times )"
+      "location": "Maryland",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002418&R3=0006",
+      "source": "MD State Jobs",
+      "description": "Job Announcement: HEALTH POLICY ANALYST I - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST I Recruitment # 26-002418-0006 Department MDH Dep Secretary Health Care Financing & Medicaid Date Opened 10/30/2026 11:59:00 PM Filing Deadline 11/13/2026 11:59:00 PM Salary $71,805.00 - $92,894.00/year, with potential growth to $113,243.00/year Employment Type Full-Time HR Analyst Quiana Tarleton Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0017 LOCATION OF POSITION MDH - Office of Innovation, Research and Development 201 West Preston Street Baltimore, MD 21201 Main Purpose of Job The main purpose of this position is to provide health program and policy expertise to high-priority initiatives for the Medicaid Office of Innovation, Research and Development (IRD) under the De"
     },
     {
-      "title": "Technical Social Media Strategist",
-      "employer": "Atlassian",
-      "location": "Flexible / Remote, San Francisco, CA",
-      "link": "https://www.themuse.com/jobs/atlassian/technical-social-media-strategist",
-      "source": "The Muse",
-      "description": "Technical Social Media Strategist at Atlassian | The Muse | The Muse Working at Atlassian Atlassians can choose where they work whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. The opportunity Atlassian is building narrative authority in AI not just shipping products, but shaping how the market understands what AI for teams actually means. This role is at the center of that effort: turning real product and AI insight into distinctive, sustained executive social presence. Reporting to the Editorial & Executive lead, you'll partner closely with social media, product marketing and communications team as well as senior executives to develop and execute social content that is credible, timely, and worth paying a"
-    },
-    {
-      "title": "Digital Content Specialist, Ratchet + Wrench and NOLN",
-      "employer": "EndeavorB2B",
+      "title": "PLOS One Public Health and Epidemiology Associate Editor- 2 Year Full Time Contract",
+      "employer": "PLOS",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4458260459/",
+      "link": "https://www.linkedin.com/jobs/view/4485387738/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Writer",
-      "employer": "TelevisaUnivision",
-      "location": "Miami, FL",
-      "link": "https://www.linkedin.com/jobs/view/4484738736/",
+      "title": "Editor, Consumer Industry",
+      "employer": "Deloitte",
+      "location": "Miami, FL (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4468853262/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Alerts Editor - Sports Journalism",
-      "employer": "Creative Circle",
-      "location": "Fort Lauderdale, FL (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4482575249/",
+      "title": "Audience Editor, Sports",
+      "employer": "USA TODAY Co., Inc.",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4468250951/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
