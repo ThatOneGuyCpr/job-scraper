@@ -1,15 +1,16 @@
 {
-  "generated": "2026-11-01T13:10:34.199299",
-  "count": 3,
+  "generated": "2026-11-02T15:35:01.909444",
+  "count": 4,
   "dead_links_dropped": 4,
-  "off_target_dropped": 0,
+  "off_target_dropped": 2,
   "source_counts": {
+    "USAJobs": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 17,
+      "raw": 15,
       "method": "selectors",
       "kept": 5,
       "found": 5,
@@ -45,10 +46,10 @@
       "http": "200",
       "raw": 16,
       "method": "sitemap",
-      "kept": 1,
-      "found": 1,
-      "new": 0,
-      "checked": 0,
+      "kept": 2,
+      "found": 2,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "PRSA": {
@@ -57,8 +58,8 @@
       "method": "sitemap",
       "kept": 8,
       "found": 8,
-      "new": 0,
-      "checked": 0,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "States Newsroom": {
@@ -90,7 +91,7 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 655,
+      "raw": 661,
       "method": "anchor-scan",
       "kept": 5,
       "found": 5,
@@ -106,9 +107,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 51,
-      "found": 51,
-      "new": 30,
+      "kept": 52,
+      "found": 52,
+      "new": 31,
       "checked": 4,
       "final": 0
     },
@@ -122,21 +123,21 @@
       "final": 0
     },
     "USAJobs": {
-      "kept": 3,
-      "found": 3,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 4,
+      "found": 4,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "Study Hall": {
       "kept": 0,
       "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 13,
-      "note": "3 new email(s), 13 relevant job(s) out of 18 in the alerts",
-      "found": 13,
-      "new": 8,
+      "kept": 5,
+      "note": "3 new email(s), 5 relevant job(s) out of 13 in the alerts",
+      "found": 5,
+      "new": 4,
       "checked": 3,
       "final": 3
     }
@@ -144,28 +145,36 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Editorial Copy Associate, The New Yorker",
-      "employer": "Cond\u00e9 Nast",
+      "title": "Public Affairs Specialist (Congressional Affairs Officer) (Open to both U.S. Citizens and Federal Employees)",
+      "employer": "Maritime Administration",
+      "location": "Kings Point, New York",
+      "link": "https://www.usajobs.gov:443/job/891159200",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist (Congressional Affairs Officer) (Open to both U.S. Citizens and Federal Employees) Department of Transportation Maritime Administration Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is located in the Office of External Affairs, United States Merchant Marine Academy (USMMA), Maritime Administration (MARAD). Mission Statement: To educate and graduate leaders of exemplary character who are inspired to serve the national security, marine transportation, and economic needs of the United States as licensed Merchant Marine Officers and commissioned officers in the Armed Forces. Learn more about this agency Summary This position is located in the Office of External Affairs, United States Merchant Marine Academy (U"
+    },
+    {
+      "title": "Writer, Personal Finance",
+      "employer": "CBS News and Stations",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4476858085/",
+      "link": "https://www.linkedin.com/jobs/view/4469223574/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Multimedia Editor",
-      "employer": "Freedom of the Press Foundation",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4485633626/",
+      "title": "Ralph Lauren Editorial Lead",
+      "employer": "BoF Careers",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4485175671/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Editor, Mad Money - CNBC",
-      "employer": "Versant Media",
-      "location": "New York, NY (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4485124410/",
+      "title": "Credit Markets Reporter (New York)",
+      "employer": "Fitch Ratings",
+      "location": "New York, NY (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4450033883/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
