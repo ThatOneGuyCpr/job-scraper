@@ -1,19 +1,18 @@
 {
-  "generated": "2026-11-02T15:35:01.909444",
-  "count": 4,
+  "generated": "2026-11-03T14:01:43.558571",
+  "count": 3,
   "dead_links_dropped": 4,
-  "off_target_dropped": 2,
+  "off_target_dropped": 1,
   "source_counts": {
-    "USAJobs": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 15,
+      "raw": 12,
       "method": "selectors",
-      "kept": 5,
-      "found": 5,
+      "kept": 3,
+      "found": 3,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -48,18 +47,18 @@
       "method": "sitemap",
       "kept": 2,
       "found": 2,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 49,
+      "raw": 51,
       "method": "sitemap",
       "kept": 8,
       "found": 8,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "States Newsroom": {
@@ -73,15 +72,15 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
+      "kept": 3,
+      "found": 3,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 114,
+      "raw": 121,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -93,8 +92,8 @@
       "http": "200",
       "raw": 661,
       "method": "anchor-scan",
-      "kept": 5,
-      "found": 5,
+      "kept": 4,
+      "found": 4,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -107,74 +106,72 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 52,
-      "found": 52,
-      "new": 31,
+      "http": 502,
+      "kept": 0,
+      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets",
+      "found": 23,
+      "new": 13,
       "checked": 4,
       "final": 0
     },
     "The Muse": {
       "http": 200,
       "raw": 20,
-      "kept": 1,
-      "found": 1,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 0
     },
     "USAJobs": {
       "kept": 4,
       "found": 4,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 5,
-      "note": "3 new email(s), 5 relevant job(s) out of 13 in the alerts",
-      "found": 5,
-      "new": 4,
+      "kept": 13,
+      "note": "3 new email(s), 13 relevant job(s) out of 18 in the alerts",
+      "found": 13,
+      "new": 9,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Reporting On Counterculture",
+      "id": "<ZKhHW1y5T4KnmqGm9Zw6fQ@geopod-ismtpd-18>",
+      "date": "Mon, 02 Nov 2026 19:10:28 +0000 (UTC)",
+      "body": "Reporting On Counterculture\nAn interview with Michelle Lhooq\nNovember 02, 2026\nReporting On Counterculture\nAn interview with Michelle Lhooq\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nInterview with Michelle Lhooq\nOn the latest podcast\nepisode\n, Michelle Lhooq discussed her reporting on counterculture and Substack newsletter \u201c\nRave New World\n.\u201d She also shared insight into her\nreporting\non conservatives dabbling in psychedelics.\nCounterculture: From Party Monster to Rick Perry ft. Michelle Lhooq\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 2 \u00b7 56m\nApple Podcasts\nInterested In Midterm Political Coverage? Catch Up On These Episodes\nKim Kelly on labor reporting.\nAstead Herndon on reporting outside of the political media bubble.\nGaby Del Valle on covering far-right conservatism.\nElie Mystal on Supreme Court coverage.\nAllegra Hobbs on reporting on Texas politics."
+    }
+  ],
   "jobs": [
     {
-      "title": "Public Affairs Specialist (Congressional Affairs Officer) (Open to both U.S. Citizens and Federal Employees)",
-      "employer": "Maritime Administration",
-      "location": "Kings Point, New York",
-      "link": "https://www.usajobs.gov:443/job/891159200",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist (Congressional Affairs Officer) (Open to both U.S. Citizens and Federal Employees) Department of Transportation Maritime Administration Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is located in the Office of External Affairs, United States Merchant Marine Academy (USMMA), Maritime Administration (MARAD). Mission Statement: To educate and graduate leaders of exemplary character who are inspired to serve the national security, marine transportation, and economic needs of the United States as licensed Merchant Marine Officers and commissioned officers in the Armed Forces. Learn more about this agency Summary This position is located in the Office of External Affairs, United States Merchant Marine Academy (U"
-    },
-    {
-      "title": "Writer, Personal Finance",
-      "employer": "CBS News and Stations",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4469223574/",
+      "title": "Assistant Editor, David M. Rubenstein Editorial Fellow",
+      "employer": "Council on Foreign Relations",
+      "location": "New York, United States",
+      "link": "https://www.linkedin.com/jobs/view/4486433276/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Ralph Lauren Editorial Lead",
-      "employer": "BoF Careers",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4485175671/",
+      "title": "AI-Assisted Reporter",
+      "employer": "USA TODAY Co., Inc.",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4486434154/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Credit Markets Reporter (New York)",
-      "employer": "Fitch Ratings",
-      "location": "New York, NY (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4450033883/",
+      "title": "Reporter -Exclusives",
+      "employer": "Daily Mail US",
+      "location": "Los Angeles Metropolitan Area (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4486431076/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
