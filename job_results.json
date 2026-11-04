@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T14:01:43.558571",
+  "generated": "2026-11-04T14:19:36.295221",
   "count": 3,
   "dead_links_dropped": 4,
-  "off_target_dropped": 1,
+  "off_target_dropped": 0,
   "source_counts": {
     "LinkedIn": 3
   },
@@ -11,8 +11,8 @@
       "http": "200",
       "raw": 12,
       "method": "selectors",
-      "kept": 3,
-      "found": 3,
+      "kept": 2,
+      "found": 2,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -72,15 +72,15 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 3,
-      "found": 3,
-      "new": 1,
-      "checked": 1,
+      "kept": 2,
+      "found": 2,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 121,
+      "raw": 127,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -90,7 +90,7 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 661,
+      "raw": 623,
       "method": "anchor-scan",
       "kept": 4,
       "found": 4,
@@ -106,11 +106,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "http": 502,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets",
-      "found": 23,
-      "new": 13,
+      "kept": 49,
+      "found": 49,
+      "new": 27,
       "checked": 4,
       "final": 0
     },
@@ -131,10 +129,10 @@
       "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 13,
-      "note": "3 new email(s), 13 relevant job(s) out of 18 in the alerts",
-      "found": 13,
-      "new": 9,
+      "kept": 18,
+      "note": "3 new email(s), 18 relevant job(s) out of 18 in the alerts",
+      "found": 18,
+      "new": 12,
       "checked": 3,
       "final": 3
     }
@@ -142,36 +140,36 @@
   "newsletters": [
     {
       "source": "Study Hall",
-      "subject": "Reporting On Counterculture",
-      "id": "<ZKhHW1y5T4KnmqGm9Zw6fQ@geopod-ismtpd-18>",
-      "date": "Mon, 02 Nov 2026 19:10:28 +0000 (UTC)",
-      "body": "Reporting On Counterculture\nAn interview with Michelle Lhooq\nNovember 02, 2026\nReporting On Counterculture\nAn interview with Michelle Lhooq\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nInterview with Michelle Lhooq\nOn the latest podcast\nepisode\n, Michelle Lhooq discussed her reporting on counterculture and Substack newsletter \u201c\nRave New World\n.\u201d She also shared insight into her\nreporting\non conservatives dabbling in psychedelics.\nCounterculture: From Party Monster to Rick Perry ft. Michelle Lhooq\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 2 \u00b7 56m\nApple Podcasts\nInterested In Midterm Political Coverage? Catch Up On These Episodes\nKim Kelly on labor reporting.\nAstead Herndon on reporting outside of the political media bubble.\nGaby Del Valle on covering far-right conservatism.\nElie Mystal on Supreme Court coverage.\nAllegra Hobbs on reporting on Texas politics."
+      "subject": "Opps of the Week: Wine Enthusiast, Punchbowl News, MS Now",
+      "id": "<P5BDicoRRz6h3HC0Ovx5kQ@geopod-ismtpd-92>",
+      "date": "Tue, 03 Nov 2026 18:25:30 +0000 (UTC)",
+      "body": "Opps of the Week: Wine Enthusiast, Punchbowl News, MS Now\nWrite about wine for $0.50 per word\nNovember 03, 2026\nOpps of the Week: Wine Enthusiast, Punchbowl News, MS Now\nWrite about wine for $0.50 per word\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nNews Opps\nJewish News of Greater Phoenix\n$150 per article\nHiring freelance writers to report on Jewish communal events in Phoenix, AZ.\nJewish News of Greater Phoenix is hiring freelance writers to report on Jewish communal events, gatherings, celebrations, and other news relating to the more than 113,000 Jews living in Phoenix, AZ and its surrounding areas. \u201cSome journalism, reporting and/or photography experience are preferred.?...\nDetails and pitch contact here\nThe Design Doha Biennale\n$150 to $200 USD/550-730 QAR\nHiring a Journalist, Radio Presenter, or Podcast Host based in Doha to cover the opening d...\nThe Design Doha Biennale shared with Study Hall that they are hiring a Journalist, Radio Presenter, or Podcast Host based in Doha to conduct live interviews with artists and designers during the opening days of the Design Doha Biennale from November 5 to 7. They will research participating creators...\nDetails and pitch contact here\nLebTown\n$150 per meeting\nHiring freelance local government reporters for 2027 coverage in Lebanon County, PA\nLebTown is hiring freelance local government reporters for 2027 coverage in Lebanon County, PA. They will attend and report on local government meetings, including municipalities and school boards, with a focus on trust-building and comprehensive coverage. Candidates should have previous local gover...\nDetails and pitch contact here\nLebTown\n$150 per meeting\nHiring freelance local government reporters for 2027 coverage\nLebTown is hiring freelance local government reporters for 2027 coverage in Lebanon County, PA. They will attend and report on local government meetings, including municipalities and school boards, with a focus on trust-building and comprehensive coverage. Candidates should have previous local gover...\nDetails and pitch contact here\nBGR\n$21-$25/hour or $0.08-$0.10/word\nHiring writers to cover tech news, including smartphones, computers, and AI.\nBGR is hiring writers to cover tech news, including smartphones, computers, and AI. They will write daily assignments, pitch ideas, and work with editors to produce high-quality content. Candidates should have experience in tech journalism, a strong grasp of the English language, and the ability to...\nDetails and pitch contact here\nGlobal Brands Magazine\nAccepting applications for its contributor network.\nGlobal Brands Magazine is accepting applications for its contributor network. They are looking for experienced writers, analysts, and practitioners to write under their own names on subjects in which they hold demonstrable expertise. They are specifically looking for contributors for luxury and fash...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nArts and Culture Opps\nPsychreg\nAccepting submissions of essays on psychology, mental health, and wellness.\nPsychreg is accepting submissions of essays on psychology, mental health, and wellness. \u201cWe look for lively essays on any topic in psychology, mental health, and wellness. This could be either research-based or something based on your experience.\u201dThe rate is not given, but they say \u201cPsychreg c...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more Arts and culture listings on the\nopps finder\n.\nDeadline Approaching\nPunchbowl News\n$23/hour\nAccepting applications for fall 2026 and spring 2027 Editorial Internships in Washington, ...\nPunchbowl News is accepting applications for its fall 2026 and spring 2027 Editorial Internships, a Washington DC-based reporting program for graduate students to cover power and politics surrounding Congress. They will report from Capitol Hill, interview lawmakers, and contribute to daily political...\nDetails and pitch contact here\nWine Enthusiast\n$0.50/word\nCalling for pitches on wine, spirits, beer, and the broader beverage landscape across digi...\nWine Enthusiast is always calling for pitches on wine, spirits, beer, and the broader beverage landscape across digital and print. They are seeking reported features, profiles of industry pros, subculture deep dives, opinionated essays, and travel stories.Digital rates start at $0.50 per word. Send...\nDetails and pitch contact here\nMS NOW\n$75,000-$80,000\nHiring a Writing Associate Producer based in NYC for The Assignment with Antonia Hylton\nMS NOW is hiring a Writing Associate Producer based in NYC for The Assignment with Antonia Hylton. They will research and write daily segments, determine video and sound for assigned segments, and pitch story ideas. Candidates should have at least two years of experience in journalism, strong resear...\nDetails and pitch contact here\nThe Chronicle of Higher Education\n$800/week\nAccepting applications for the Spring 2027 Reporting Internship from January to May of 202...\nThe Chronicle of Higher Education is accepting applications for the Spring 2027 Reporting Internship, a full-time program for journalists to cover higher education news. The hybrid position is based in Washington, DC from January to May 2027, with remote options available in select states. Applicant...\nDetails and pitch contact here\nThe Guardian\n\u00a354,239\nHiring an Arts and Culture Correspondent based in London on a 12 month contracted role\nThe Guardian is hiring an Arts and Culture Correspondent based in London on a 12 month contracted role to break major stories and produce ambitious features across arts and culture. They will write news, features, and liveblogs, conduct interviews, analyze cultural trends, and contribute reporting a...\nDetails and pitch contact here\nProPublica\n$90,000-$115,000\nHiring a Temporary Video Editor and Motion Designer based in NYC\nProPublica is hiring a Temporary Video Editor and Motion Designer based in NYC to produce midlength video adaptations of investigative journalism for YouTube. They will own creative and technical postproduction for assigned videos, design motion graphics and animations, and build a central motion de...\nDetails and pitch contact here\nFinancial Times\n$85,000-$115,000\nHiring a US Data Journalist based in NYC or DC\nThe Financial Times is hiring a US Data Journalist based in NYC or DC to cover US politics, economics, and financial news. They will collaborate with US-based news editors and correspondents to deliver data-driven journalism on trade, economics, financial markets, and electoral politics. Candidates...\nDetails and pitch contact here\nCNBC\n$150,000-$200,000\nHiring a Senior Equity Analyst & Reporter based in Englewood Cliffs, NJ\nCNBC is hiring a Senior Equity Analyst & Reporter based in Englewood Cliffs, NJ to uncover compelling investment ideas and write or explain them on air with clarity and authority. They will identify opportunities through deep research, analyze company financials and market trends, and gather ins...\nDetails and pitch contact here\nTelemundo Arizona\nNot given, but the Glassdoor estimate is $50,000 to $60,000\nHiring a Multimedia Journalist based in Phoenix, AZ\nTelemundo Arizona is hiring a Multimedia Journalist based in Phoenix, AZ to manage shooting, writing, and editing daily stories and file content for OTT platforms. They will write and produce fair and correct news stories, set up and manage live shots, and develop a network of exclusive story contac...\nDetails and pitch contact here\nE! News\n$70,000-$75,000\nHiring an Associate Writer/Editor based in Los Angeles, CA to cover entertainment news.\nE! News is hiring an Associate Writer/Editor based in Los Angeles, CA to help drive daily entertainment news coverage across E! Online in the afternoon/evening. They will write and publish approximately 5-7 pieces of content daily, ranging from breaking and trending news stories to galleries, interv...\nDetails and pitch contact here"
     }
   ],
   "jobs": [
     {
-      "title": "Assistant Editor, David M. Rubenstein Editorial Fellow",
-      "employer": "Council on Foreign Relations",
-      "location": "New York, United States",
-      "link": "https://www.linkedin.com/jobs/view/4486433276/",
+      "title": "Audience Editor",
+      "employer": "Earthjustice",
+      "location": "New York, NY (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4486005536/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "AI-Assisted Reporter",
-      "employer": "USA TODAY Co., Inc.",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4486434154/",
+      "title": "Letters Editor, Opinion",
+      "employer": "Dow Jones",
+      "location": "New York, NY (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4457569741/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Reporter -Exclusives",
-      "employer": "Daily Mail US",
-      "location": "Los Angeles Metropolitan Area (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4486431076/",
+      "title": "GEO editor, Amazon News",
+      "employer": "Amazon",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4478708789/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
