@@ -1,21 +1,24 @@
 {
-  "generated": "2026-11-04T14:19:36.295221",
-  "count": 3,
-  "dead_links_dropped": 4,
-  "off_target_dropped": 0,
+  "generated": "2026-11-05T14:30:28.308810",
+  "count": 7,
+  "dead_links_dropped": 0,
+  "off_target_dropped": 1,
   "source_counts": {
+    "MD State Jobs": 1,
+    "USAJobs": 1,
+    "JournalismJobs": 2,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 12,
+      "raw": 14,
       "method": "selectors",
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 6,
+      "found": 6,
+      "new": 4,
+      "checked": 3,
+      "final": 2
     },
     "IRE": {
       "http": "200",
@@ -80,7 +83,7 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 127,
+      "raw": 124,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -90,13 +93,13 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 623,
+      "raw": 611,
       "method": "anchor-scan",
-      "kept": 4,
-      "found": 4,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 2,
+      "found": 2,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "ONA Career Center": {
       "http": "202",
@@ -106,11 +109,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 49,
-      "found": 49,
-      "new": 27,
-      "checked": 4,
-      "final": 0
+      "http": 503,
+      "kept": 0,
+      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets"
     },
     "The Muse": {
       "http": 200,
@@ -118,58 +119,82 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 4,
-      "found": 4,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 6,
+      "found": 6,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "Study Hall": {
       "kept": 0,
-      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
+      "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 18,
-      "note": "3 new email(s), 18 relevant job(s) out of 18 in the alerts",
-      "found": 18,
-      "new": 12,
+      "kept": 14,
+      "note": "3 new email(s), 14 relevant job(s) out of 18 in the alerts",
+      "found": 14,
+      "new": 11,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [
-    {
-      "source": "Study Hall",
-      "subject": "Opps of the Week: Wine Enthusiast, Punchbowl News, MS Now",
-      "id": "<P5BDicoRRz6h3HC0Ovx5kQ@geopod-ismtpd-92>",
-      "date": "Tue, 03 Nov 2026 18:25:30 +0000 (UTC)",
-      "body": "Opps of the Week: Wine Enthusiast, Punchbowl News, MS Now\nWrite about wine for $0.50 per word\nNovember 03, 2026\nOpps of the Week: Wine Enthusiast, Punchbowl News, MS Now\nWrite about wine for $0.50 per word\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nNews Opps\nJewish News of Greater Phoenix\n$150 per article\nHiring freelance writers to report on Jewish communal events in Phoenix, AZ.\nJewish News of Greater Phoenix is hiring freelance writers to report on Jewish communal events, gatherings, celebrations, and other news relating to the more than 113,000 Jews living in Phoenix, AZ and its surrounding areas. \u201cSome journalism, reporting and/or photography experience are preferred.?...\nDetails and pitch contact here\nThe Design Doha Biennale\n$150 to $200 USD/550-730 QAR\nHiring a Journalist, Radio Presenter, or Podcast Host based in Doha to cover the opening d...\nThe Design Doha Biennale shared with Study Hall that they are hiring a Journalist, Radio Presenter, or Podcast Host based in Doha to conduct live interviews with artists and designers during the opening days of the Design Doha Biennale from November 5 to 7. They will research participating creators...\nDetails and pitch contact here\nLebTown\n$150 per meeting\nHiring freelance local government reporters for 2027 coverage in Lebanon County, PA\nLebTown is hiring freelance local government reporters for 2027 coverage in Lebanon County, PA. They will attend and report on local government meetings, including municipalities and school boards, with a focus on trust-building and comprehensive coverage. Candidates should have previous local gover...\nDetails and pitch contact here\nLebTown\n$150 per meeting\nHiring freelance local government reporters for 2027 coverage\nLebTown is hiring freelance local government reporters for 2027 coverage in Lebanon County, PA. They will attend and report on local government meetings, including municipalities and school boards, with a focus on trust-building and comprehensive coverage. Candidates should have previous local gover...\nDetails and pitch contact here\nBGR\n$21-$25/hour or $0.08-$0.10/word\nHiring writers to cover tech news, including smartphones, computers, and AI.\nBGR is hiring writers to cover tech news, including smartphones, computers, and AI. They will write daily assignments, pitch ideas, and work with editors to produce high-quality content. Candidates should have experience in tech journalism, a strong grasp of the English language, and the ability to...\nDetails and pitch contact here\nGlobal Brands Magazine\nAccepting applications for its contributor network.\nGlobal Brands Magazine is accepting applications for its contributor network. They are looking for experienced writers, analysts, and practitioners to write under their own names on subjects in which they hold demonstrable expertise. They are specifically looking for contributors for luxury and fash...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nArts and Culture Opps\nPsychreg\nAccepting submissions of essays on psychology, mental health, and wellness.\nPsychreg is accepting submissions of essays on psychology, mental health, and wellness. \u201cWe look for lively essays on any topic in psychology, mental health, and wellness. This could be either research-based or something based on your experience.\u201dThe rate is not given, but they say \u201cPsychreg c...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more Arts and culture listings on the\nopps finder\n.\nDeadline Approaching\nPunchbowl News\n$23/hour\nAccepting applications for fall 2026 and spring 2027 Editorial Internships in Washington, ...\nPunchbowl News is accepting applications for its fall 2026 and spring 2027 Editorial Internships, a Washington DC-based reporting program for graduate students to cover power and politics surrounding Congress. They will report from Capitol Hill, interview lawmakers, and contribute to daily political...\nDetails and pitch contact here\nWine Enthusiast\n$0.50/word\nCalling for pitches on wine, spirits, beer, and the broader beverage landscape across digi...\nWine Enthusiast is always calling for pitches on wine, spirits, beer, and the broader beverage landscape across digital and print. They are seeking reported features, profiles of industry pros, subculture deep dives, opinionated essays, and travel stories.Digital rates start at $0.50 per word. Send...\nDetails and pitch contact here\nMS NOW\n$75,000-$80,000\nHiring a Writing Associate Producer based in NYC for The Assignment with Antonia Hylton\nMS NOW is hiring a Writing Associate Producer based in NYC for The Assignment with Antonia Hylton. They will research and write daily segments, determine video and sound for assigned segments, and pitch story ideas. Candidates should have at least two years of experience in journalism, strong resear...\nDetails and pitch contact here\nThe Chronicle of Higher Education\n$800/week\nAccepting applications for the Spring 2027 Reporting Internship from January to May of 202...\nThe Chronicle of Higher Education is accepting applications for the Spring 2027 Reporting Internship, a full-time program for journalists to cover higher education news. The hybrid position is based in Washington, DC from January to May 2027, with remote options available in select states. Applicant...\nDetails and pitch contact here\nThe Guardian\n\u00a354,239\nHiring an Arts and Culture Correspondent based in London on a 12 month contracted role\nThe Guardian is hiring an Arts and Culture Correspondent based in London on a 12 month contracted role to break major stories and produce ambitious features across arts and culture. They will write news, features, and liveblogs, conduct interviews, analyze cultural trends, and contribute reporting a...\nDetails and pitch contact here\nProPublica\n$90,000-$115,000\nHiring a Temporary Video Editor and Motion Designer based in NYC\nProPublica is hiring a Temporary Video Editor and Motion Designer based in NYC to produce midlength video adaptations of investigative journalism for YouTube. They will own creative and technical postproduction for assigned videos, design motion graphics and animations, and build a central motion de...\nDetails and pitch contact here\nFinancial Times\n$85,000-$115,000\nHiring a US Data Journalist based in NYC or DC\nThe Financial Times is hiring a US Data Journalist based in NYC or DC to cover US politics, economics, and financial news. They will collaborate with US-based news editors and correspondents to deliver data-driven journalism on trade, economics, financial markets, and electoral politics. Candidates...\nDetails and pitch contact here\nCNBC\n$150,000-$200,000\nHiring a Senior Equity Analyst & Reporter based in Englewood Cliffs, NJ\nCNBC is hiring a Senior Equity Analyst & Reporter based in Englewood Cliffs, NJ to uncover compelling investment ideas and write or explain them on air with clarity and authority. They will identify opportunities through deep research, analyze company financials and market trends, and gather ins...\nDetails and pitch contact here\nTelemundo Arizona\nNot given, but the Glassdoor estimate is $50,000 to $60,000\nHiring a Multimedia Journalist based in Phoenix, AZ\nTelemundo Arizona is hiring a Multimedia Journalist based in Phoenix, AZ to manage shooting, writing, and editing daily stories and file content for OTT platforms. They will write and produce fair and correct news stories, set up and manage live shots, and develop a network of exclusive story contac...\nDetails and pitch contact here\nE! News\n$70,000-$75,000\nHiring an Associate Writer/Editor based in Los Angeles, CA to cover entertainment news.\nE! News is hiring an Associate Writer/Editor based in Los Angeles, CA to help drive daily entertainment news coverage across E! Online in the afternoon/evening. They will write and publish approximately 5-7 pieces of content daily, ranging from breaking and trending news stories to galleries, interv...\nDetails and pitch contact here"
-    }
-  ],
+  "newsletters": [],
   "jobs": [
     {
-      "title": "Audience Editor",
-      "employer": "Earthjustice",
-      "location": "New York, NY (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4486005536/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
+      "title": "HEALTH POLICY ANALYST I (FULL-TIME CONTRACTUAL)",
+      "employer": "",
+      "location": "Maryland",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002418&R3=0005",
+      "source": "MD State Jobs",
+      "description": "Job Announcement: HEALTH POLICY ANALYST I - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST I FULL-TIME CONTRACTUAL Recruitment # 26-002418-0005 Department MDH Med Care Prgms - MMIS II Enhancements Date Opened 10/28/2026 11:59:00 PM Filing Deadline 11/11/2026 11:59:00 PM Salary $34.43 - $44.54/hour, with potential growth to $54.29/hour Employment Type Full-Time HR Analyst Quiana Tarleton Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0017 LOCATION OF POSITION MDH - Acute Care Administration/Dental Clinic and Labs 201 West Preston Street Baltimore, MD 21201 Main Purpose of Job The primary purpose of this full-time contractual position is to design, evaluate, analyze, develop, research and update all statewide policies, data and reports related to the Maryland Healthy"
     },
     {
-      "title": "Letters Editor, Opinion",
+      "title": "Public Affairs Specialist (Speechwriter)",
+      "employer": "Indian Health Service",
+      "location": "Rockville, Maryland",
+      "link": "https://www.usajobs.gov:443/job/891691700",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist (Speechwriter) Department of Health and Human Services Indian Health Service Office of the Director, Office of External Affairs Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is located in the Public Affairs Staff, Office of External Affairs, Office of the Director, Indian Health Service. Reports to IHS Headquarters. The official duty station is at IHS Headquarters, Rockville, MD. A REAL ID will be required beginning May 7, 2025, in accordance with 6 C.F.R. 37.5 (2021). Learn more about this agency Summary This position is located in the Public Affairs Staff, Office of External Affairs, Office of the Director, Indian Health Service. Reports to IHS Headquarters. The official duty station is at IHS Headquarte"
+    },
+    {
+      "title": "Freelance Reporter",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1663279-freelance-reporter-inland-valley-publishing-co--the-independent-newspaper",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Freelance Reporter Freelance Reporter Inland Valley Publishing Co / The Independent Newspaper Livermore, California Save Share Facebook Twitter Linkedin Email Date Posted November 04, 2026 Industry Newspapers Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Freelance reporters are paid per article Description: Description: The Independent is growing its network of professional freelance reporters for ongoing coverage of news in the Tri-Valley region. We are currently seeking journalists who can cover events, such as city council meetings or breaking news; along with in-depth topics, such as land-use policies, COVID-19, homelessness, or environmental issues. Please note: we are not seeking feature writers at this time. Responsibilities: Attend municipal and/or county meetings; Pitch"
+    },
+    {
+      "title": "Assistant Editor, Opinion",
       "employer": "Dow Jones",
-      "location": "New York, NY (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4457569741/",
+      "location": "New York, NY (On-site)",
+      "link": "https://www.linkedin.com/jobs/view/4457554811/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "GEO editor, Amazon News",
-      "employer": "Amazon",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4478708789/",
+      "title": "Audience Editor",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694234-audience-editor-earthjustice",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Audience Editor Audience Editor Earthjustice Remote, Oregon Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 04, 2026 Industry Other Specialty Not Specified Job Status Full-time Salary $91,400 to $119,400 Description: Earthjustice is the nation's leading environmental law organization. We wield the power of law and the strength of partnership to protect people\u2019s health, preserve magnificent places and wildlife, advance clean energy, and combat climate change. We are here because the Earth needs a good lawyer. Driven by a passion for justice, inclusion, partnership, and excellence, our core values lead us to seek a broad range of perspectives and backgrounds to achieve our mission and maintain an inclusive environment where all staff are valued and respected. In addition to a talented cadre of environmental lawyers and legislativ"
+    },
+    {
+      "title": "Associate Producer, Visual Content",
+      "employer": "USA TODAY Co., Inc.",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4479212998/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Junior Magazine Editor (Remote)",
+      "employer": "Crewlia",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4486393516/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
