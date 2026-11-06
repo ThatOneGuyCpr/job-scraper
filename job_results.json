@@ -1,24 +1,22 @@
 {
-  "generated": "2026-11-05T14:30:28.308810",
-  "count": 7,
-  "dead_links_dropped": 0,
+  "generated": "2026-11-06T14:08:19.645312",
+  "count": 4,
+  "dead_links_dropped": 4,
   "off_target_dropped": 1,
   "source_counts": {
     "MD State Jobs": 1,
-    "USAJobs": 1,
-    "JournalismJobs": 2,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 14,
+      "raw": 12,
       "method": "selectors",
-      "kept": 6,
-      "found": 6,
-      "new": 4,
-      "checked": 3,
-      "final": 2
+      "kept": 5,
+      "found": 5,
+      "new": 1,
+      "checked": 1,
+      "final": 0
     },
     "IRE": {
       "http": "200",
@@ -46,7 +44,7 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 16,
+      "raw": 14,
       "method": "sitemap",
       "kept": 2,
       "found": 2,
@@ -56,7 +54,7 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 51,
+      "raw": 52,
       "method": "sitemap",
       "kept": 8,
       "found": 8,
@@ -75,15 +73,15 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 2,
-      "found": 2,
+      "kept": 1,
+      "found": 1,
       "new": 0,
       "checked": 0,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 124,
+      "raw": 129,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -93,10 +91,10 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 611,
+      "raw": 607,
       "method": "anchor-scan",
-      "kept": 2,
-      "found": 2,
+      "kept": 3,
+      "found": 3,
       "new": 1,
       "checked": 1,
       "final": 1
@@ -109,9 +107,11 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "http": 503,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets"
+      "kept": 51,
+      "found": 51,
+      "new": 30,
+      "checked": 4,
+      "final": 0
     },
     "The Muse": {
       "http": 200,
@@ -121,19 +121,19 @@
     "USAJobs": {
       "kept": 6,
       "found": 6,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "Study Hall": {
       "kept": 0,
       "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 14,
-      "note": "3 new email(s), 14 relevant job(s) out of 18 in the alerts",
-      "found": 14,
-      "new": 11,
+      "kept": 15,
+      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
+      "found": 15,
+      "new": 12,
       "checked": 3,
       "final": 3
     }
@@ -141,60 +141,36 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "HEALTH POLICY ANALYST I (FULL-TIME CONTRACTUAL)",
+      "title": "Policy Advisor (ADMINISTRATOR V)",
       "employer": "",
       "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002418&R3=0005",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=007787&R3=0002",
       "source": "MD State Jobs",
-      "description": "Job Announcement: HEALTH POLICY ANALYST I - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST I FULL-TIME CONTRACTUAL Recruitment # 26-002418-0005 Department MDH Med Care Prgms - MMIS II Enhancements Date Opened 10/28/2026 11:59:00 PM Filing Deadline 11/11/2026 11:59:00 PM Salary $34.43 - $44.54/hour, with potential growth to $54.29/hour Employment Type Full-Time HR Analyst Quiana Tarleton Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0017 LOCATION OF POSITION MDH - Acute Care Administration/Dental Clinic and Labs 201 West Preston Street Baltimore, MD 21201 Main Purpose of Job The primary purpose of this full-time contractual position is to design, evaluate, analyze, develop, research and update all statewide policies, data and reports related to the Maryland Healthy"
+      "description": "Job Announcement: Policy Advisor - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services Policy Advisor ADMINISTRATOR V Recruitment # 26-007787-0002 Department Governor's Office for Children Date Opened 11/5/2026 10:00:00 AM Filing Deadline 11/19/2026 11:59:00 PM Salary $87,253-$104,281/year Employment Type Full-Time Work Location Anne Arundel Telework Eligible Yes Go Back View Benefits Introduction About the Governor's Office for Children: The Maryland Governor's Office for Children (GOC) serves as a central hub to support the well-being of children and families and reduce childhood poverty. This mission requires a holistic, coordinated approach across state government, as well as public and private sectors at the local, state, and federal levels. The Office leads statewide efforts to build a comprehensive network of support that ta"
     },
     {
-      "title": "Public Affairs Specialist (Speechwriter)",
-      "employer": "Indian Health Service",
-      "location": "Rockville, Maryland",
-      "link": "https://www.usajobs.gov:443/job/891691700",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Apply Public Affairs Specialist (Speechwriter) Department of Health and Human Services Indian Health Service Office of the Director, Office of External Affairs Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is located in the Public Affairs Staff, Office of External Affairs, Office of the Director, Indian Health Service. Reports to IHS Headquarters. The official duty station is at IHS Headquarters, Rockville, MD. A REAL ID will be required beginning May 7, 2025, in accordance with 6 C.F.R. 37.5 (2021). Learn more about this agency Summary This position is located in the Public Affairs Staff, Office of External Affairs, Office of the Director, Indian Health Service. Reports to IHS Headquarters. The official duty station is at IHS Headquarte"
-    },
-    {
-      "title": "Freelance Reporter",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1663279-freelance-reporter-inland-valley-publishing-co--the-independent-newspaper",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Freelance Reporter Freelance Reporter Inland Valley Publishing Co / The Independent Newspaper Livermore, California Save Share Facebook Twitter Linkedin Email Date Posted November 04, 2026 Industry Newspapers Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Freelance reporters are paid per article Description: Description: The Independent is growing its network of professional freelance reporters for ongoing coverage of news in the Tri-Valley region. We are currently seeking journalists who can cover events, such as city council meetings or breaking news; along with in-depth topics, such as land-use policies, COVID-19, homelessness, or environmental issues. Please note: we are not seeking feature writers at this time. Responsibilities: Attend municipal and/or county meetings; Pitch"
-    },
-    {
-      "title": "Assistant Editor, Opinion",
-      "employer": "Dow Jones",
-      "location": "New York, NY (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4457554811/",
+      "title": "Billboard: Staff Writer, Latin/Pop",
+      "employer": "Penske Media Corporation",
+      "location": "Miami, FL",
+      "link": "https://www.linkedin.com/jobs/view/4465167531/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Audience Editor",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694234-audience-editor-earthjustice",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Audience Editor Audience Editor Earthjustice Remote, Oregon Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 04, 2026 Industry Other Specialty Not Specified Job Status Full-time Salary $91,400 to $119,400 Description: Earthjustice is the nation's leading environmental law organization. We wield the power of law and the strength of partnership to protect people\u2019s health, preserve magnificent places and wildlife, advance clean energy, and combat climate change. We are here because the Earth needs a good lawyer. Driven by a passion for justice, inclusion, partnership, and excellence, our core values lead us to seek a broad range of perspectives and backgrounds to achieve our mission and maintain an inclusive environment where all staff are valued and respected. In addition to a talented cadre of environmental lawyers and legislativ"
-    },
-    {
-      "title": "Associate Producer, Visual Content",
-      "employer": "USA TODAY Co., Inc.",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4479212998/",
+      "title": "Research Editor",
+      "employer": "Moby",
+      "location": "New York, NY (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4488013817/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Junior Magazine Editor (Remote)",
-      "employer": "Crewlia",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4486393516/",
+      "title": "Reporter",
+      "employer": "New York Post",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4452007727/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
