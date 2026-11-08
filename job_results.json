@@ -1,22 +1,21 @@
 {
-  "generated": "2026-11-07T12:52:23.525799",
-  "count": 4,
+  "generated": "2026-11-08T13:13:59.372473",
+  "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
   "source_counts": {
-    "JournalismJobs": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 13,
+      "raw": 14,
       "method": "selectors",
-      "kept": 5,
-      "found": 5,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "kept": 6,
+      "found": 6,
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "IRE": {
       "http": "200",
@@ -54,10 +53,10 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 51,
+      "raw": 46,
       "method": "sitemap",
-      "kept": 7,
-      "found": 7,
+      "kept": 5,
+      "found": 5,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -81,7 +80,7 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 129,
+      "raw": 126,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -107,15 +106,15 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 44,
-      "found": 44,
-      "new": 25,
+      "kept": 39,
+      "found": 39,
+      "new": 22,
       "checked": 4,
       "final": 0
     },
     "The Muse": {
-      "http": 200,
-      "raw": 20,
+      "http": 404,
+      "raw": 0,
       "kept": 0
     },
     "USAJobs": {
@@ -127,58 +126,42 @@
     },
     "Study Hall": {
       "kept": 0,
-      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
+      "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
       "kept": 15,
-      "note": "3 new email(s), 15 relevant job(s) out of 17 in the alerts",
+      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
       "found": 15,
-      "new": 11,
+      "new": 12,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [
-    {
-      "source": "Study Hall",
-      "subject": "Media Opps: Reuters, The Pulitzer Center, BonApp\u00e9tit",
-      "id": "<0JGT2gZQSGCoBsE3t-iYkQ@geopod-ismtpd-63>",
-      "date": "Fri, 06 Nov 2026 18:15:14 +0000 (UTC)",
-      "body": "Media Opps: Reuters, The Pulitzer Center, Bon Appe\u0301tit\nSenior Commerce Writer role with a salary range of $85,000 to $95,000\nNovember 06, 2026\nMedia Opps: Reuters, The Pulitzer Center, Bon Appe\u0301tit\nSenior Commerce Writer role with a salary range of $85,000 to $95,000\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nThe listings are now posted throughout the week on our\nOpportunity Finder\n.\nIf you have any technical questions or want to submit an opportunity m, please email \u2018\nsupport AT studyhall DOT xyz\nwith \u201cOpps:\u201d in the subject line.\nPlease note:\nAnything marked as \u201c\nNEW\n\u201d is from the past seven days and is included alongside newly added opps (but more than one week old). Finally, old opps from previous issues with upcoming deadlines are listed at the end of the newsletter.\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry\nWriters Sarah Miller and A.S. Hamrah are teaching a two-day (in person and on Zoom from November 14 and 15t)\nwriting class\nabout using \u201chumor as a weapon.\u201d\nThe class will show you how to \u201cget comfortable with strong feelings and opinions required for memorable writing\u201d and \u201cunderstand how to make things you think are funny funny to others.\u201d More info\nhere\n.\nThe Institute for Independent Journalists have opened registration for the\nFall 2026 Business of Freelancing course\n, offered from Oct. 1 through Nov. 19.\nThis eight-week, live online course provides a comprehensive foundation in the business of freelance journalism and has sold out every time they\u2019ve presented it. Each session combines real-world strategy with personalized guidance, covering topics such as rate setting, time and income management, client relationships, and long-term planning.\nRegistration is $299.\nThey\u2019ve also announced\ntheir lineup of webinars\nfor freelancers, featuring assigning editors, fellowship directors, and independent creators. Each webinar runs from 12-1:15 pm EST and costs $30.\nNov. 20 Fund your Freelancing with Fellowships and Grants\nDec. 11 Pitching Arts, Culture, and Travel Stories\nJan. 22 Winning Revenue Strategies for Creator Journalists\nFeb. 4-5 Pitch the Editors: Sign Up for 1:1 Pitch Sessions\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-MIT Technology Review is\ncalling for pitches\nfrom freelance writers for online and print stories exploring where technology collides with society and human lives. They are commissioning news and analysis pieces (800 to 1,000 words), longform narrative features and investigations (2,500 to 4,000 words), reported essays, and short front-of-book dispatches (350 to 750 words), with upcoming print themes covering topics such as Automation, How to Survive, and Rivalry. Pitches should establish a clear narrative arc or argument, explain why the story matters to a broad audience now, and showcase original reporting and writing without the use of generative AI. Rates range from $1 to $2 per word.\nSend pitches for online news and analysis to\npitch-news@technologyreview.com\n, or send print ideas, features, and essays to\npitch-print@technologyreview.com\nby November 13.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 03)\nNEW:\n-Discretionary Love is\naccepting submissions\nof creative nonfiction, essays, and poetry about love. \u201cWe are currently accepting: poetry, short stories, creative nonfiction, essays and articles. Send us the beauty and the chaos.\u201d The rate is $0.05 per word.\nSubmit through the\nsubmission page\nby November 15\n. See our\nOpps Finder listing\nfor more info.\n(Nov 03)\n-Desert Luz is\naccepting submissions\nof poetry, prose, and visual art for its March 2027 issue, which will explore the theme of First Light/Primera Luz. They are seeking work that \"explores beginnings, emergence, and the quiet moments that bring us into the light. Like the desert at dawn, every story begins with a first light.\" The rate is $50 per poem, $100 per prose piece, and $100 per visual art piece.\nSubmit through their\nsubmission page\nby November 15.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 28)\n-USA Today Director of Election Results Operations, Kelly Martin, shared with Study Hall that they are hiring Election Night Stringers based in the US to report election results on November 3, 2026. They will upload new results as officials release them and remain on site to answer questions about the release process. Candidates should have availability on election night and the ability to complete a short training prior to election day. The rate is a flat fee of $125. Send an email to\nkmartin@usatodayco.com\nwith your name, phone number, zip code, and a brief statement on why you are a good fit for the role. See our\nOpps Finder listing\nfor more info.\n(Sep 28)\nEVERGREEN PITCH CALLS\nNEW:\n-LebTown is\nhiring\nfreelance local government reporters for 2027 coverage in Lebanon County, PA. They will attend and report on local government meetings, including municipalities and school boards, with a focus on trust-building and comprehensive coverage. Candidates should have previous local government reporting experience and familiarity with AP style. The rate is $150 per meeting. Apply by sending clips and a resume to\nhiring@lebtown.com\n. See our\nOpps Finder listing\nfor more info.\n(Nov 02)\n-Dazed is\ncalling for\nstory and photography pitches from US-based Gen Z creators for \"State of Youth,\" an editorial series exploring underground subcultures and underrepresented communities. They are seeking distinctly American stories and photo essays highlighting local youth scenes across US states and territories from writers and photographers who have not yet had a major byline. The rate is $300 per published piece. Send pitches through the\nDazed Club app\n. See our\nOpps Finder listing\nfor more info.\n(Oct 14)\n-Jamie Lawrence of Ellipsus shared with Study Hall that they are always looking for essays, deep-dives, and reported pitches on writing, publishing, and creative communities in the age of generative AI. They are seeking thoughtful, personal, and analytical pieces exploring fandom culture, online writing platforms, and how technology and corporate policies affect creative work. The rate is $250 for 700 to 800 words. Send a pitch, writing samples, and a short bio to\nsocial@ellipsus.com\n. See our\nOpps Finder listing\nfor more info.\n(Oct 14)\nFELLOWSHIPS, INTERNSHIPS, AND RESIDENCIES\nNEW:\n-Reuters is\naccepting applications\nfor its News Internship Program (Graphics), a 12-week program for students and early-career journalists to gain visual journalism experience telling stories through charts, maps, and interactives. The program is based in NYC and begins in June 2027. Interns will partner with reporters and data journalism teams worldwide, produce visual reporting and interactive graphics, and contribute to in-depth stories across digital platforms. Applicants should have a commitment to a career in journalism, an international outlook, strong writing and communication skills, and experience blending journalism, computer programming, and design. The rate is $23 to $24 per hour and this is a guild position.\nApply through the\ninternship page\nby December 11.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 03)\n-Fortune is\naccepting applications\nfor its Newsroom Fellowships, a six-month program for early-career journalists to gain hands-on reporting and digital production experience covering business and economics. The program is based in NYC and begins in January 2026. Fellows will pitch and write daily and enterprise stories across verticals like business news or finance and crypto, craft explainers and newsletters, and contribute to flagship lists like the Fortune 500. Applicants must hold an undergraduate or graduate degree, with preferred collegiate or professional newsroom experience and a strong interest in business and financial journalism. The rate is $30 per hour. See our\nOpps Finder listing\nfor more info.\n(Oct 29)\n-CNBC International is hiring a News Editorial Intern based in Singapore for a 6-month internship from January to June to provide support to show production teams. They will cut videos, build graphics, write scripts, and manage teleprompters for live programming. Candidates should be university students pursuing an undergraduate degree in business, economics, or media production, with a keen interest in business news and financial markets. The salary is $1,500 SGD per month. Apply through the\njob page\n. See our\nOpps Finder listing\nfor more info.\n(Oct 26)\n-The New York Times is\naccepting applications\nfor its A.I. Initiatives Fellowship in NYC, a program combining machine learning and journalism to tackle newsroom investigative challenges. The year-long program is based in NYC and runs from June 2027 to May 2028. Applicants should have no more than five years of professional experience in journalism or machine learning, experience analyzing data and working with LLMs, and prior newsroom editorial experience. The salary is $82,414.80, and this is a guild position.\nApply through the\nfellowship page\nby November 20.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 23)\nGRANTS, SCHOLARSHIPS, CONTESTS, COURSES, AND PRIZES\nNEW:\n-The Pulitzer Center is\naccepting applications\nfor its Ocean and Fisheries Reporting Grant to support in-depth, enterprising journalism on marine health and global fisheries by freelance and staff journalists worldwide. Grantees will investigate underreported ocean issues such as illegal and unregulated fishing, forced labor in seafood supply chains, ocean governance, deep-sea mining, and climate impacts. Applicants must submit a project description under 250 words, a preliminary budget estimate, and a distribution plan with letters of commitment from publishing outlets; collaborative reporting teams and journalists from the Global South are particularly encouraged to apply. No grant amount listed. Apply through the\ngrant page\non a rolling basis. See our\nOpps Finder listing\nfor more info.\n(Nov 06)\n-Narratively is\naccepting applications\nfor the 2026 Memoir Prize, seeking \u201crevealing and emotional first-person nonfiction narratives from unique and overlooked points of view.\u201d The winner will receive publication on Narratively and participate in a virtual awards ceremony, with author Alexander Chee serving as guest judge. The prize is $3,000.\nApply through the\ngrant page\nby December 6, 2026.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 19)\nFULL-TIME JOURNALISM JOBS\nNEW YORK CITY\nNEW:\n-The New York Times is\nhiring\na Vice President, Audience Insights based in NYC to lead a multidisciplinary research team informing company-wide priorities across product, marketing, strategy, and the newsroom. They will oversee audience research programs to shape product and design roadmaps, guide marketing strategies and creative messaging, drive digital engagement, retention, and subscription conversions, and synthesize actionable findings for executive leadership. Candidates should have at least 15 years of experience in primary research, UX research, and consumer insights within a digital product or content company, at least seven years of experience managing teams in matrixed environments, and a preferred advanced degree in a quantitative or social science field. The salary range is $275,000 to $300,000. See our\nOpps Finder listing\nfor more info.\n(Nov 04)\nNEW:\n-Bon App\u00e9tit is\nhiring\na Senior Test Kitchen Editor based in NYC to conceive, develop, and execute original recipes and culinary content across digital, print, and video platforms. They will set recipe lineups across columns, manage recipe development workflows from ideation through packaging, collaborate with chefs and external contributors, write digital and print copy, apply SEO and audience data to coverage plans, and participate in on-camera video and social media programming. Candidates should have at least four years of hands-on culinary experience, at least three years of editorial experience developing multi-platform content, on-camera experience, and strong cross-functional collaboration skills. The salary range is $92,000 to $140,000 and this is a guild position. See our\nOpps Finder listing\nfor more info.\n(Nov 03)\nNEW:\n-Vogue is\nhiring\na Senior Commerce Writer based in NYC to cover style, fashion, and commerce for the Vogue Shopping team. They will produce a mix of shopping edits, runway trend stories, product reviews, and evergreen guides, develop service-driven styling content and repeatable editorial franchises, apply SEO best practices to capture search trends, and create multi-platform content including social-first video. Candidates should have at least four years of digital writing experience in fashion, commerce, or service journalism, deep knowledge of the designer and retail landscape, strong styling instincts, and experience using audience and commerce data to inform coverage. The salary range is $85,000 to $95,000 and this is a guild position. See our\nOpps Finder listing\nfor more info.\n(Nov 03)\nNEW:\n-CNBC is\nhiring\nan Editor based in NYC for Mad Money with Jim Cramer to shape and prepare coverage of business, markets, technology, and economic stories. They will edit scripts, research companies and markets, and coordinate with CNBC\u2019s production teams. Candidates should have five or more years of writing or editing experience in a fast-paced newsroom, strong research and fact-checking skills, and broad knowledge of business and technology. The salary range is $100,000 to $130,000. See our\nOpps Finder listing\nfor more info.\n(Nov 02)\n-Vanity Fair is\nhiring\na Senior Editor based in NYC to help lead its cultural coverage and shape stories across digital and print platforms. They will assign and edit daily and long-lead features, assist with liveblogging major cultural events, contribute to newsletters, manage writers, and use audience metrics to optimize story performance. Candidates should have at least five years of experience in a fast-paced news environment, experience managing teams and developing writers, and a background in covering breaking news and current events on digital platforms. The salary range is $88,000 to $165,000. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nWASHINGTON, DC\n-NPR is\nhiring\na Senior Vice President of Audience Development & Content Distribution based in Washington, DC to lead multi-platform distribution and network syndication strategy. They will drive enterprise content planning, oversee third-party platform distribution, and architect station network publishing. Candidates should have 15 years of media strategy experience, executive-level familiarity with enterprise publishing architecture, and strong operational budget management skills. The salary range is $250,000 to $270,000. See our\nOpps Finder listing\nfor more info.\n(Oct 27)\nCALIFORNIA\nNEW:\n-Lookout Santa Cruz is\nhiring\na Senior News Editor based in Santa Cruz, CA to lead its daily editorial operations and shape news coverage across the county. They will run daily news meetings, assign and edit stories for accuracy and clarity, coach and mentor reporters, guide enterprise and accountability journalism alongside breaking news, and craft sharp headlines and packaging. Candidates should have at least five years of professional journalism experience, meaningful experience editing or leading reporters, strong line-editing skills, and fluency in digital-first journalism and CMS platforms. The salary range is $90,000 to $110,000. See our\nOpps Finder listing\nfor more info.\n(Nov 02)\nNEW:\n-Lookout Santa Cruz is\nhiring\na Breaking News/General Assignment Correspondent based in Santa Cruz, CA to lead coverage of fast-moving events and develop enterprise community reporting across the county. They will report on major breaking news including severe weather, emergencies, and public safety incidents, capture field photos and video, verify emerging facts under tight deadlines, and pursue general assignment features. Candidates should have two to five years of daily news reporting experience, strong verification instincts, and the ability to work independently in the field during fast-evolving situations. The salary range is $60,000 to $75,000. See our\nOpps Finder listing\nfor more info.\n(Nov 02)\nOTHER LOCATIONS\nNEW:\n-The Chelsea Magazine Company is\nhiring\na remote Editor for The English Garden based in the UK to lead the editorial direction and print production schedule for its market-leading gardening publications. They will oversee the end-to-end delivery of 13 UK editions, six North American editions, bookazines, and special supplements, maintain multi-issue flatplans, commission long-lead features and photography, manage editorial budgets, and collaborate across commercial and digital teams. Candidates should have a proven track record in a senior print editorial role, demonstrated horticultural expertise or relevant qualifications, an established network of gardening writers and photographers, and strong proficiency in InDesign and press workflows. Salary undisclosed, but negotiable in application. See our\nOpps Finder listing\nfor more info.\n(Nov 05)\nNEW:\n-Fox News Media is\nhiring\na Freelance Producer based in Atlanta, GA to deliver live shots and packages covering breaking and planned news events across the Southeast. They will collaborate with reporters to arrange interviews and gather information, log events and identify news developments, monitor wires and social media feeds, build graphics, and pitch original story ideas. Candidates should have at least five years of relevant field producing experience, strong logistical and editorial skills, the ability to work in fast-paced environments across flexible shifts including weekends, and a preferred bachelor\u2019s degree or equivalent experience. The rate is $40 to $48 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 05)\nNEW:\n-Telemundo is\nhiring\na Multimedia Journalist based in Orlando, FL to shoot, write, and edit news stories for newscasts and live broadcasts. They will report live during breaking news, coordinate interviews, and develop sweeps and special series stories. Candidates should have at least two years of experience in reporting, shooting, writing, and video editing, and be completely fluent in Spanish. The salary range is $50,000 to $60,000. See our\nOpps Finder listing\nfor more info.\n(Nov 05)\nNEW:\n-NBCUniversal is\nhiring\na Vice President, Sports Content Partnerships based in Miami, FL to serve as a conduit to Ad Sales teams across NBCUniversal, facilitating collaborative IP development and program planning for Telemundo Sports. They will work with Ad Sales teams to fabricate breakthrough ideas, integrate industry trends and consumer insights, and collaborate with Marketing to maximize promotional opportunities. Candidates should have at least eight years of experience in long-form Spanish language scripted productions, three years of experience as part of the executive team, and extensive creative and managerial experience in scheduling and production planning for novella/soap opera genre. The salary range is $200,000 to $220,000. See our\nOpps Finder listing\nfor more info.\n(Nov 05)\nNEW:\n-The New York Times is\nhiring\nan Assistant Editor, Visuals based in Seoul, South Korea to lead visual journalism across Asia. They will collaborate with international editors to drive visual coverage, coordinate multimedia projects, and edit visual stories. Candidates should have strong news judgment, experience leading multidisciplinary teams, and a portfolio in data visualization, mapping, or interactive development. The salary range is $120,000 to $140,000. See our\nOpps Finder listing\nfor more info.\n(Nov 05)\nNEW:\n-Telemundo is\nhiring\na Multimedia Journalist based in Miami, FL to produce content for multiple platforms in a fast-paced news market. They will pitch angles on daily news stories, shoot and edit video, and create digital/social content. Candidates should have five years of newsgathering experience, fluency in Spanish and English, and a bachelor\u2019s degree in journalism or a related field. The salary range is $50,000 to $60,000. See our\nOpps Finder listing\nfor more info.\n(Nov 04)\nNEW:\n-NBC10 Philadelphia is\nhiring\na General Assignment Reporter based in Philadelphia, PA to develop and deliver original enterprise stories through strong sourcing, in"
-    }
-  ],
+  "newsletters": [],
   "jobs": [
     {
-      "title": "Reporter",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694250-reporter-triblive",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Reporter Reporter TribLive Pittsburgh, Pennsylvania Save Share Facebook Twitter Linkedin Email Date Posted November 06, 2026 Industry Newspapers Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary Negotiable Description: Good reporters cover stories. Great reporters uncover them. TribLive, the largest newsroom in Western Pennsylvania, is looking for a seasoned, versatile reporter to join our growing team of journalists. We want an experienced journalist who knows how to uncover compelling stories and has the curiosity, sound judgment and competitive drive to produce distinctive, high-impact journalism. This is not an entry-level position. We're looking for someone with proven reporting chops \u2014 a journalist who can hit the ground running, tackle tough assignments and develop the sources and"
-    },
-    {
-      "title": "Writer",
-      "employer": "CBS News and Stations",
-      "location": "New York, NY (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4488174787/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Newsletter Writer & Strategist",
-      "employer": "Food52",
-      "location": "Brooklyn, NY (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4488171234/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Editor, AD PRO",
-      "employer": "Cond\u00e9 Nast",
+      "title": "Associate Producer/Writer, America Reports",
+      "employer": "Fox News Media",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4479153830/",
+      "link": "https://www.linkedin.com/jobs/view/4480545635/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Associate Producer, Big Money in the Morning",
+      "employer": "Fox Business Network",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4480561189/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "SEASONAL - League Staff Writer",
+      "employer": "Unrivaled Basketball",
+      "location": "Miami, FL (On-site)",
+      "link": "https://www.linkedin.com/jobs/view/4488474408/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
