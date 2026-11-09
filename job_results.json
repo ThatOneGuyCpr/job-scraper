@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T13:13:59.372473",
+  "generated": "2026-11-09T16:00:31.552162",
   "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
@@ -9,7 +9,7 @@
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 14,
+      "raw": 15,
       "method": "selectors",
       "kept": 6,
       "found": 6,
@@ -53,7 +53,7 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 46,
+      "raw": 45,
       "method": "sitemap",
       "kept": 5,
       "found": 5,
@@ -80,17 +80,13 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 126,
+      "raw": 124,
       "method": "sitemap",
-      "kept": 1,
-      "found": 1,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 607,
+      "raw": 619,
       "method": "anchor-scan",
       "kept": 3,
       "found": 3,
@@ -106,9 +102,11 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 39,
-      "found": 39,
-      "new": 22,
+      "http": 503,
+      "kept": 0,
+      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets",
+      "found": 24,
+      "new": 14,
       "checked": 4,
       "final": 0
     },
@@ -129,10 +127,10 @@
       "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 15,
-      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
-      "found": 15,
-      "new": 12,
+      "kept": 3,
+      "note": "2 new email(s), 3 relevant job(s) out of 11 in the alerts",
+      "found": 3,
+      "new": 3,
       "checked": 3,
       "final": 3
     }
@@ -140,28 +138,28 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Associate Producer/Writer, America Reports",
-      "employer": "Fox News Media",
+      "title": "Analyst and Journalist/Writer",
+      "employer": "EMARKETER",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4480545635/",
+      "link": "https://www.linkedin.com/jobs/view/4488814028/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Producer, Big Money in the Morning",
-      "employer": "Fox Business Network",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4480561189/",
+      "title": "News Reporter-MMJ",
+      "employer": "Nexstar Media Group, Inc.",
+      "location": "Washington, DC (On-site)",
+      "link": "https://www.linkedin.com/jobs/view/4368547296/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "SEASONAL - League Staff Writer",
-      "employer": "Unrivaled Basketball",
-      "location": "Miami, FL (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4488474408/",
+      "title": "Data Enterprise Reporter",
+      "employer": "TEGNA",
+      "location": "Tysons Corner, VA",
+      "link": "https://www.linkedin.com/jobs/view/4460395759/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
