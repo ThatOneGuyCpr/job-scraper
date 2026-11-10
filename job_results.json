@@ -1,21 +1,22 @@
 {
-  "generated": "2026-11-09T16:00:31.552162",
-  "count": 3,
+  "generated": "2026-11-10T14:46:05.382723",
+  "count": 4,
   "dead_links_dropped": 4,
-  "off_target_dropped": 0,
+  "off_target_dropped": 2,
   "source_counts": {
-    "LinkedIn": 3
+    "LinkedIn": 3,
+    "JournalismJobs": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
       "raw": 15,
       "method": "selectors",
-      "kept": 6,
-      "found": 6,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 9,
+      "found": 9,
+      "new": 4,
+      "checked": 3,
+      "final": 1
     },
     "IRE": {
       "http": "200",
@@ -80,13 +81,13 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 124,
+      "raw": 135,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 619,
+      "raw": 633,
       "method": "anchor-scan",
       "kept": 3,
       "found": 3,
@@ -102,11 +103,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "http": 503,
-      "kept": 0,
-      "note": "check ADZUNA_APP_ID / ADZUNA_APP_KEY secrets",
-      "found": 24,
-      "new": 14,
+      "kept": 42,
+      "found": 42,
+      "new": 24,
       "checked": 4,
       "final": 0
     },
@@ -116,50 +115,66 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 6,
-      "found": 6,
+      "kept": 3,
+      "found": 3,
       "new": 0,
       "checked": 0,
       "final": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 3,
-      "note": "2 new email(s), 3 relevant job(s) out of 11 in the alerts",
-      "found": 3,
-      "new": 3,
+      "kept": 9,
+      "note": "3 new email(s), 9 relevant job(s) out of 15 in the alerts",
+      "found": 9,
+      "new": 7,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Media Digest: Janet Malcolm and \"You Can See Everything\"",
+      "id": "<mXOYf6g-TrWuaQehtdMIxg@geopod-ismtpd-23>",
+      "date": "Mon, 09 Nov 2026 19:10:29 +0000 (UTC)",
+      "body": "Media Digest: Janet Malcolm and \"You Can See Everything\"\nAn interview with Eve Sneider\nNovember 09, 2026\nMedia Digest: Janet Malcolm and \"You Can See Everything\"\nAn interview with Eve Sneider\nClassified Ads\nAt Study Hall, we\u2019re constantly looking for ways to improve the quality of our job postings and content. With beehiiv\u2019s analytical tools, we\u2019re able to assess what links our subscribers are interacting with and get actionable data on what type of content is performing best. beehiiv provides essential information like click-through-rates and verified total clicks, which in turn, let us provide more of the job postings and content that\u2019s relevant to you. Sign up for\nbeehiiv\nif you\u2019re looking to scale up your newsletter with state-of-the-art analytical tools that help you get a better read on what your subscribers actually want. Use\nSTUDYHALL30\nfor\n30% off 3 months of beehiiv\n.\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nInterview with Eve Sneider\nOn the latest Study Hall Podcast\nepisode\n, Eve Sneider discussed her new book\nThe Absent Woman: The Genius of Janet Malcolm\n. Sneider talked about how Janet Malcolm\u2019s writing foreshadowed Nathan Fielder\u2019s\nYou Can See Everything\n, and what contemporary writers can learn from Malcolm\u2019s deconstructive approach to reporting.\nListen\nhere\n.\nHow Janet Malcolm Foreshadowed \"You Can See Everything\" ft. Eve Sneider\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 9 \u00b7 35m\nApple Podcasts\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nPlug Your Work\nPlease\nsubmit\nyour work via our members site to share your work across our newsletters, blog, and social media channels.\nBenjamin Swift Reported on Chinese Miners in the Bolivian Amazon\nFor\nThe Guardian\n, Benjamin Swift \"spent five days with Chinese miners, investors and traders in Mayaya, Bolivia.\u201d He said this was \u201cthe first time that the lives of Chinese gold prospectors in the Amazon have been documented in detail.\" Swift told\nStudy Hall\n, \"Mayaya is a small town that in recent years has become a hub for Chinese mining operating outside Bolivian law. The gold miners, investors, and importers welcomed us into their homes, where they told us everything about their operations in Bolivia \u2013 and how they got there.\"\nAdam Robb Tracked Down Mario Batali in Michigan\nFor\nCaper\n, Adam Robb traveled \"to Michigan, to the Traverse City Food and Wine Festival, to interview the infamous chef Mario Batali about his recent inroads toward making a comeback years after his sex scandal.\"\nRobb told\nStudy Hall: \"\nAfter my plans to attend his lunch event and interview him were canceled right before I arrived, I spent the weekend interviewing so many food celebrities in attendance, from Ruth Reichl to Andrew Zimmern, about whether Batali deserves to be redeemed. Finally, fate led Batali and I right to one other on my last morning in town. Along the way I also learned he was never a recluse in Traverse City, but instead become a local celebrity on rock radio even at the height of his civil and criminal investigations.\"\nAndrea Cooper Wrote About The \"Jewish Inspired\" Farming Tradition\nFor\nThe Guardian\n, Andrea Cooper explored \"the growing number of Jewish people in the U.S. who are seeking purpose and community through farming.\""
+    }
+  ],
   "jobs": [
     {
-      "title": "Analyst and Journalist/Writer",
-      "employer": "EMARKETER",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4488814028/",
+      "title": "Freelance basketball writer",
+      "employer": "Dexerto",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4487149809/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "News Reporter-MMJ",
-      "employer": "Nexstar Media Group, Inc.",
+      "title": "Deputy Politics Editor/Breaking News",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694258-deputy-politics-editorbreaking-news-the-washington-times",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Deputy Politics Editor/Breaking News Deputy Politics Editor/Breaking News The Washington Times Washington, District of Columbia See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 09, 2026 Industry Newspapers Specialty Politics Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary 100,000-115,000 Description: If you have sharp news judgment, solid editing skills and high standards for quality, the most respected provider of hard-hitting journalism and razor-sharp commentary in the nation's capital wants to hear from you. The Washington Times is seeking an experienced editor to help oversee a news team covering the White House, Congress, the executive branch and political campaigns from the nation\u2019s capital. The Deputy Politics Editor will assist in developing c"
+    },
+    {
+      "title": "Video Producer | Presenter-Led Content",
+      "employer": "Jobgether",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4487678383/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Natural Gas News Reporter",
+      "employer": "S&P Global",
       "location": "Washington, DC (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4368547296/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Data Enterprise Reporter",
-      "employer": "TEGNA",
-      "location": "Tysons Corner, VA",
-      "link": "https://www.linkedin.com/jobs/view/4460395759/",
+      "link": "https://www.linkedin.com/jobs/view/4487673680/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
