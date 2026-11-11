@@ -1,21 +1,22 @@
 {
-  "generated": "2026-11-10T14:46:05.382723",
-  "count": 4,
+  "generated": "2026-11-11T14:02:52.751625",
+  "count": 5,
   "dead_links_dropped": 4,
-  "off_target_dropped": 2,
+  "off_target_dropped": 1,
   "source_counts": {
+    "MD State Jobs": 1,
     "LinkedIn": 3,
     "JournalismJobs": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 15,
+      "raw": 17,
       "method": "selectors",
-      "kept": 9,
-      "found": 9,
-      "new": 4,
-      "checked": 3,
+      "kept": 10,
+      "found": 10,
+      "new": 2,
+      "checked": 2,
       "final": 1
     },
     "IRE": {
@@ -54,10 +55,10 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 45,
+      "raw": 43,
       "method": "sitemap",
-      "kept": 5,
-      "found": 5,
+      "kept": 4,
+      "found": 4,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -81,19 +82,19 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 135,
+      "raw": 141,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 633,
+      "raw": 625,
       "method": "anchor-scan",
-      "kept": 3,
-      "found": 3,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 4,
+      "found": 4,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "ONA Career Center": {
       "http": "202",
@@ -103,9 +104,9 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 42,
-      "found": 42,
-      "new": 24,
+      "kept": 35,
+      "found": 35,
+      "new": 25,
       "checked": 4,
       "final": 0
     },
@@ -126,9 +127,9 @@
       "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 9,
-      "note": "3 new email(s), 9 relevant job(s) out of 15 in the alerts",
-      "found": 9,
+      "kept": 12,
+      "note": "3 new email(s), 12 relevant job(s) out of 18 in the alerts",
+      "found": 12,
       "new": 7,
       "checked": 3,
       "final": 3
@@ -137,44 +138,52 @@
   "newsletters": [
     {
       "source": "Study Hall",
-      "subject": "Media Digest: Janet Malcolm and \"You Can See Everything\"",
-      "id": "<mXOYf6g-TrWuaQehtdMIxg@geopod-ismtpd-23>",
-      "date": "Mon, 09 Nov 2026 19:10:29 +0000 (UTC)",
-      "body": "Media Digest: Janet Malcolm and \"You Can See Everything\"\nAn interview with Eve Sneider\nNovember 09, 2026\nMedia Digest: Janet Malcolm and \"You Can See Everything\"\nAn interview with Eve Sneider\nClassified Ads\nAt Study Hall, we\u2019re constantly looking for ways to improve the quality of our job postings and content. With beehiiv\u2019s analytical tools, we\u2019re able to assess what links our subscribers are interacting with and get actionable data on what type of content is performing best. beehiiv provides essential information like click-through-rates and verified total clicks, which in turn, let us provide more of the job postings and content that\u2019s relevant to you. Sign up for\nbeehiiv\nif you\u2019re looking to scale up your newsletter with state-of-the-art analytical tools that help you get a better read on what your subscribers actually want. Use\nSTUDYHALL30\nfor\n30% off 3 months of beehiiv\n.\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nInterview with Eve Sneider\nOn the latest Study Hall Podcast\nepisode\n, Eve Sneider discussed her new book\nThe Absent Woman: The Genius of Janet Malcolm\n. Sneider talked about how Janet Malcolm\u2019s writing foreshadowed Nathan Fielder\u2019s\nYou Can See Everything\n, and what contemporary writers can learn from Malcolm\u2019s deconstructive approach to reporting.\nListen\nhere\n.\nHow Janet Malcolm Foreshadowed \"You Can See Everything\" ft. Eve Sneider\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 9 \u00b7 35m\nApple Podcasts\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\nor on\nYouTube\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nPlug Your Work\nPlease\nsubmit\nyour work via our members site to share your work across our newsletters, blog, and social media channels.\nBenjamin Swift Reported on Chinese Miners in the Bolivian Amazon\nFor\nThe Guardian\n, Benjamin Swift \"spent five days with Chinese miners, investors and traders in Mayaya, Bolivia.\u201d He said this was \u201cthe first time that the lives of Chinese gold prospectors in the Amazon have been documented in detail.\" Swift told\nStudy Hall\n, \"Mayaya is a small town that in recent years has become a hub for Chinese mining operating outside Bolivian law. The gold miners, investors, and importers welcomed us into their homes, where they told us everything about their operations in Bolivia \u2013 and how they got there.\"\nAdam Robb Tracked Down Mario Batali in Michigan\nFor\nCaper\n, Adam Robb traveled \"to Michigan, to the Traverse City Food and Wine Festival, to interview the infamous chef Mario Batali about his recent inroads toward making a comeback years after his sex scandal.\"\nRobb told\nStudy Hall: \"\nAfter my plans to attend his lunch event and interview him were canceled right before I arrived, I spent the weekend interviewing so many food celebrities in attendance, from Ruth Reichl to Andrew Zimmern, about whether Batali deserves to be redeemed. Finally, fate led Batali and I right to one other on my last morning in town. Along the way I also learned he was never a recluse in Traverse City, but instead become a local celebrity on rock radio even at the height of his civil and criminal investigations.\"\nAndrea Cooper Wrote About The \"Jewish Inspired\" Farming Tradition\nFor\nThe Guardian\n, Andrea Cooper explored \"the growing number of Jewish people in the U.S. who are seeking purpose and community through farming.\""
+      "subject": "Opps of the Week: CBS Sports, Slate, Philadelphia Inquirer",
+      "id": "<j6yRdTtFRtiKDnAcYCYgWw@geopod-ismtpd-46>",
+      "date": "Tue, 10 Nov 2026 18:10:25 +0000 (UTC)",
+      "body": "Opps of the Week: CBS Sports, Slate, Philadelphia Inquirer\nA staff writer role with a salary range of $80,000 - $105,000\nNovember 10, 2026\nOpps of the Week: CBS Sports, Slate, Philadelphia Inquirer\nA staff writer role with a salary range of $80,000 - $105,000\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nInterview with Eve Sneider\nOn the latest Study Hall Podcast\nepisode\n, Eve Sneider discussed her new book\nThe Absent Woman: The Genius of Janet Malcolm\n. Sneider talked about how Janet Malcolm\u2019s writing foreshadowed Nathan Fielder\u2019s\nYou Can See Everything\n, and what contemporary writers can learn from Malcolm\u2019s deconstructive approach to reporting.\nListen\nhere\n.\nHow Janet Malcolm Foreshadowed \"You Can See Everything\" ft. Eve Sneider\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 9 \u00b7 35m\nApple Podcasts\nNews Opps\nVersant Sports\n$25-$35/hr\nHiring a Freelance Digital Writer/Editor based in Stamford, CT\nVersant Sports is hiring a Freelance Digital Writer/Editor based in Stamford, CT to create and distribute sports content across digital platforms. They will write SEO-optimized articles, manage video publishing, and ideate sponsored content. Candidates should have two to three years of experience in...\nDetails and pitch contact here\nComicBook.com\n$15.66-$26.93/hour\nHiring a freelance remote Gaming Contributor\nComicBook.com is hiring a freelance remote Gaming Contributor to cover player-minded news stories and write regular features and listicles. They will write one to two articles per day, pitch timely news angles and analysis, own dedicated gaming beats, and produce clean copy packed with industry insi...\nDetails and pitch contact here\nEngadget\nFlat rate based on experience.\nHiring freelance contributing writers for consumer tech coverage.\nEngadget is hiring Contributing Writers based remotely to cover consumer technology news and features. They will turn around fast, clean copy on daily assignments, distill complex technical subjects into accessible stories for a general audience, and pitch and develop original reporting ideas. Candi...\nDetails and pitch contact here\nMIT Technology Review\n$1-$2/word\nCalling for pitches from freelance writers for online and print stories exploring where te...\nMIT Technology Review is calling for pitches from freelance writers for online and print stories exploring where technology collides with society and human lives. They are commissioning news and analysis pieces (800 to 1,000 words), longform narrative features and investigations (2,500 to 4,000 word...\nDetails and pitch contact here\nOsteopathy Magazine\nAccepting submissions of articles on osteopathy and related topics.\nOsteopathy Magazine is accepting submissions of articles on osteopathy and related topics, including innovative treatment techniques, clinical experiences, practice management, patient communication, and reflections on the profession. They are open to both unpublished ideas and draft articles. The r...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nDeadline Approaching\nCBS Sports\n$20-$28/hour\nHiring a contract Prediction Markets Staff Writer and Editor based in NYC\nCBS Sports is hiring a contract Prediction Markets Staff Writer and Editor based in NYC to produce affiliate content and build out its prediction market coverage. They will write and update site reviews and landing pages, report daily news on market promotions and developments, and edit copy while i...\nDetails and pitch contact here\nAmerican Association for the Advancement of Science\n$35/hour\nHiring a part-time remote On-Call Reporter based in select U.S. states\nThe American Association for the Advancement of Science is hiring a part-time remote On-Call Reporter based in select U.S. states to report and write stories that help journalists incorporate scientific research and expertise into news coverage. They will pitch story ideas, interview expert sources...\nDetails and pitch contact here\nMIT Technology Review\n$1-$2/word\nCalling for pitches from freelance writers for online and print stories exploring where te...\nMIT Technology Review is calling for pitches from freelance writers for online and print stories exploring where technology collides with society and human lives. They are commissioning news and analysis pieces (800 to 1,000 words), longform narrative features and investigations (2,500 to 4,000 word...\nDetails and pitch contact here\nSlate\n$80,000-$105,000\nHiring a Staff Writer based in NYC or Washington, DC\nSlate is hiring a Staff Writer based in NYC or Washington, DC (with remote options available) to explore culture, social trends, and news for its life section. They will pitch and write daily stories responding to breaking headlines while developing several reported long-form features each year. Can...\nDetails and pitch contact here\nDiscretionary Love\n$0.05 per word\nAccepting submissions of creative nonfiction, essays, and poetry about love.\nDiscretionary Love is accepting submissions of creative nonfiction, essays, and poetry about love. \u201cWe are currently accepting: poetry, short stories, creative nonfiction, essays and articles. Send us the beauty and the chaos.\u201d The rate is $0.05 per word. Submit through the submission page...\nDetails and pitch contact here\nNBCUniversal\n$200-$300/day\nHiring a Freelance Editorial Distribution Specialist based in Stamford, CT\nNBCUniversal is hiring a Freelance Editorial Distribution Specialist based in Stamford, CT to expand digital content distribution across organic search, AI engines, referral platforms, aggregators, Reddit/community surfaces, and partner ecosystems. They will support editorial teams in making content...\nDetails and pitch contact here\nMinnesota Star Tribune\n$21.25/hour\nAccepting applications for its Summer Sports Reporting Internship in Minneapolis, MN from ...\nThe Minnesota Star Tribune is accepting applications for its Summer Sports Reporting Internship, a program for college juniors, seniors, and graduate students to cover breaking news, live sports, and enterprise stories. The 10-week program is based in Minneapolis, MN and runs from early June to earl...\nDetails and pitch contact here\nNBCUniversal\n$150,000-$190,000\nHiring a Senior Product Manager, Content Experience based in NYC\nNBCUniversal is hiring a Senior Product Manager, Content Experience based in NYC to lead product development for sports and live event experiences across Peacock, NOW/WOW, SkyShowtime, and Showmax. They will contribute to the strategy and roadmap for sports viewing, collaborate with production and e...\nDetails and pitch contact here\nThe New York Times\n$170,000-$185,000\nHiring an Executive Producer, The Interview based in NYC\nThe New York Times is hiring an Executive Producer, The Interview based in NYC to lead the editorial and creative direction of its flagship conversational show across video, audio, and digital platforms. They will manage the production team, work with hosts to book high-profile guests in politics an...\nDetails and pitch contact here\nPhiladelphia Inquirer\nHiring a Food Writer based in Philadelphia, PA\nThe Philadelphia Inquirer is hiring a Food Writer based in Philadelphia, PA to cover underrecognized culinary scenes and off-the-beaten-path dining across the city and surrounding suburbs. They will report multiple times weekly on regional food trends and restaurant news, produce curated guides and...\nDetails and pitch contact here"
     }
   ],
   "jobs": [
     {
-      "title": "Freelance basketball writer",
-      "employer": "Dexerto",
+      "title": "HEALTH POLICY ANALYST (ADMINISTRATOR IV)",
+      "employer": "",
+      "location": "Maryland",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=006097&R3=0008",
+      "source": "MD State Jobs",
+      "description": "Job Announcement: HEALTH POLICY ANALYST - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST ADMINISTRATOR IV Recruitment # 26-006097-0008 Department MDH Executive Direction Date Opened 11/10/2026 11:59:00 PM Filing Deadline 11/24/2026 11:59:00 PM Salary $81,750.00 - $105,759.00/year, with potential growth to $128,924.00/year Employment Type Full-Time HR Analyst Latosha Keene Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0019 LOCATION OF POSITION MDH Office of Governmental Affairs 201 W. Preston Street Baltimore, MD 21201 Main Purpose of Job The main purpose of this full-time position is to provide assistance to the Director of Governmental Affairs, Chief of Staff, and as needed to the Secretary, Deputy Secretaries, Assistant Secretaries and Program Directors, on a wi"
+    },
+    {
+      "title": "Associate Editor, Branded and Sponsored Content",
+      "employer": "Afar",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4487149809/",
+      "link": "https://www.linkedin.com/jobs/view/4489170906/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Deputy Politics Editor/Breaking News",
+      "title": "Managing Producer for National News",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694258-deputy-politics-editorbreaking-news-the-washington-times",
+      "link": "https://www.journalismjobs.com/1694254-managing-producer-for-national-news-radio-bilinge",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Deputy Politics Editor/Breaking News Deputy Politics Editor/Breaking News The Washington Times Washington, District of Columbia See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 09, 2026 Industry Newspapers Specialty Politics Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary 100,000-115,000 Description: If you have sharp news judgment, solid editing skills and high standards for quality, the most respected provider of hard-hitting journalism and razor-sharp commentary in the nation's capital wants to hear from you. The Washington Times is seeking an experienced editor to help oversee a news team covering the White House, Congress, the executive branch and political campaigns from the nation\u2019s capital. The Deputy Politics Editor will assist in developing c"
+      "description": "JournalismJobs.com - Job Listing - Managing Producer for National News Managing Producer for National News Radio Biling\u00fce Fresno, California Save Share Facebook Twitter Linkedin Email Date Posted November 08, 2026 Industry Radio Specialty National/World News Remote / Telecommute Hybrid Job Status Full-time Salary $72,384 - $79,310 Description: ABOUT RADIO BILING\u00dcE Radio Biling\u00fce is a nonprofit, non-commercial public radio network of, by, and for Latino and Indigenous communities. Its trusted, fact-based reporting brings community perspectives to journalism of national relevance, centering the experiences of farmworkers and other low-wage essential workers. High editorial standards, independence, community accountability, and public service guide its journalism. Headquartered in Fresno, the network operates thirty FM stations across six states and provides a national Spanish-language news"
     },
     {
-      "title": "Video Producer | Presenter-Led Content",
-      "employer": "Jobgether",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4487678383/",
+      "title": "Associate Producer",
+      "employer": "WETA",
+      "location": "Washington, DC",
+      "link": "https://www.linkedin.com/jobs/view/4487495600/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Natural Gas News Reporter",
-      "employer": "S&P Global",
-      "location": "Washington, DC (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4487673680/",
+      "title": "Associate Producer",
+      "employer": "Ark Media",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4487949972/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
