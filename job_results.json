@@ -1,21 +1,22 @@
 {
-  "generated": "2026-11-12T15:04:18.462778",
-  "count": 3,
+  "generated": "2026-11-13T14:28:08.860081",
+  "count": 4,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
   "source_counts": {
+    "JournalismJobs": 1,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 14,
+      "raw": 19,
       "method": "selectors",
-      "kept": 7,
-      "found": 7,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 9,
+      "found": 9,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "IRE": {
       "http": "200",
@@ -52,14 +53,11 @@
       "final": 0
     },
     "PRSA": {
-      "http": "404,200",
-      "raw": 44,
-      "method": "sitemap",
-      "kept": 4,
-      "found": 4,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "http": "404",
+      "raw": 0,
+      "kept": 0,
+      "method": "none",
+      "note": "page not found (404): the board moved its listings"
     },
     "States Newsroom": {
       "http": "200",
@@ -80,13 +78,13 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 139,
+      "raw": 129,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 617,
+      "raw": 621,
       "method": "anchor-scan",
       "kept": 3,
       "found": 3,
@@ -102,8 +100,8 @@
       "note": "http 202"
     },
     "Adzuna": {
-      "kept": 51,
-      "found": 51,
+      "kept": 53,
+      "found": 53,
       "new": 28,
       "checked": 4,
       "final": 0
@@ -114,50 +112,66 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 3,
-      "found": 3,
+      "kept": 2,
+      "found": 2,
       "new": 0,
       "checked": 0,
       "final": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 14,
-      "note": "3 new email(s), 14 relevant job(s) out of 18 in the alerts",
-      "found": 14,
-      "new": 10,
+      "kept": 5,
+      "note": "1 new email(s), 5 relevant job(s) out of 6 in the alerts",
+      "found": 5,
+      "new": 3,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "So Long, Salon. We\u2019ll Miss You",
+      "id": "<JPz-qDnoTd6nXxZlacLjFw@geopod-ismtpd-41>",
+      "date": "Thu, 12 Nov 2026 22:30:48 +0000 (UTC)",
+      "body": "So Long, Salon. We\u2019ll Miss You\nThe publication\u2019s legacy, as told to us by its editors and writers\nNovember 12, 2026\nSo Long, Salon. We\u2019ll Miss You\nThe publication\u2019s legacy, as told to us by its editors and writers\nSTUDY HALL COURSES:\n\u25b6 Pitch Workshop: Master the Art of Storytelling\nIn this live Study Hall\ncourse\n, Adam Popescu \u2014 a narrative journalist and author whose work has appeared in The New York Times, Bloomberg, and many other outlets \u2014 will cover everything from identifying stories to securing assignments. This workshop will focus on pitching (so bring your pitches!) and cover what it takes to succeed in the competitive world of freelance journalism using practical tips and techniques that have helped him build a career at some of the world's most prestigious publications. There will also be a Q&A with Adam at the end of the course.\nThe 1.5-hour\ncourse\nwill take place\nMonday, November 16th, at 10 AM / 1 PM ET\n. The standard price is $99. Study Hall members can use the discount code \u201cstudyhallmember\u201d to bring the price to $49.50. For any questions, email\nsupport@studyhall.xyz\n.\nSo Long, Salon. We\u2019ll Miss You\nBy Carina Imbornone\nShare on\nX\n, Share on\nBluesky\nOn November 5, after 31 years in business, the pioneering news site\nSalon\nannounced it would cease publication that same day. The history of the digital outlet tracks the history of the World Wide Web. For every trend in digital publishing, you can bet that\nSalon\ntried it, from digital ads, to moderated comments sections, to\ncryptocurrency-mining-as-ad-block-alternative\n.\nFrom culture-junkie roots, the online magazine\u2019s editors launched a nimble, politically progressive news organization that helped influence the internet\u2019s role as a public sphere. It produced some of the key cultural-political stories and packages of the 2000s and 2010s, like the post-9/11\n\u201cwar reader\u201d\n, a syllabus on Afghanistan and Osama bin Laden compiled by Anthony York, and Steve Kornacki\u2019s earnest\ncoming out story\n. In 1998, the online site published a major scoop detailing how House Judiciary Committee Chairman Henry Hyde, who played a central role in the impeachment of former President Bill Clinton, had an extramarital affair in the 1960s. There was, well, also that Jake Tapper \u201c\nGangbanging in media land\u201d piece\n. Writers like Tapper, Glenn Greenwald, Joan Walsh, and Michelle Goldberg passed through the\nSalon\nparlor room before becoming the pillars of the media world that we know them to be.\nUltimately, the site succumbed to \u201cbusiness realities of independent digital journalism,\u201d according to a farewell note on the homepage that is signed simply \u201cSalon.\u201d The magazine\u2019s publishing model, which included revenue with advertising and paid subscriptions, was no longer sustainable.\nFind.co\n, a cryptocurrency marketing company, had purchased\nSalon\nfor an undisclosed sum in November 2023 from Chris Richmond and Drew Schoentrup, who had previously paid $5 million for the publication in August 2019.\nTo remember\nSalon\n\u2019s legacy, I spoke to folks whose experience spanned 1995 to 2026: co-founder Scott Rosenberg; Joel Whitney, author of\nThe Paris Review-CIA exclusive\n; Annemarie Dooling, 2010s comments section pioneer; and arts critic Coleman Spilde.\nThese interviews have been edited and condensed for clarity.\nScott Rosenberg was part of the crew of editors and writers with alt-weekly roots who founded\nSalon\nin 1995. Before\nSalon\n, he worked at the\nSan Francisco Examiner\nwith David Talbot and several other founders. He also was an early adopter of personal website publishing. He helped launch the site and worked at the publication for the next decade. In his time, he saw the internet grow up and digital media transform. There was even talk, he said, at one point, of a\nSalon\ncruise, \u00e0 la\nThe Nation cruise\n, but as far as he could remember, a hurricane put a stop to the plan.\nScott Rosenberg:\nAlmost all of the founders were people who had worked at the\nSan Francisco Examiner\n. During the newspaper strike in San Francisco in 1994, we put out what was called a strike paper, a daily news website that we produced while on strike. When we went back to our jobs, our editors at the\nExaminer\nwere vindictive. My colleague, David Talbot, always wanted to start a magazine. But no one was putting money into a new general interest magazine, even, you know, 30 years ago. He pivoted and said, well, let's do this on the web.\nPeople looked at us like we were crazy, because our jobs were coveted, rare, and union protected. The first year was very touch and go. We had very little revenue. But by 1997, it was clear that we were growing our audience.\nThe Henry Hyde story marked the moment that we realized that we were really making an impact. In September 1998, a source who knew a woman who had had an affair with then-House Judiciary Committee Chairman Henry Hyde\ncame to us\n. He told us that he had taken the story to all sorts of mainstream news outlets that all turned him away. We had a lot of debates inside our newsroom, and ultimately, collectively, decided that the American people should know that there were people in glass houses throwing stones. The story was a part of the\npolitical dynamic\nof the Clinton impeachment saga.\nEvery year, there was something happening that would make us wonder, would we make it to the next? We IPO\u2019d in 1999, near the peak of the dot-com bubble. At that point, we were a website company. And we actually knew how to build a website, which was not exactly common knowledge at the time. We went public because it was the only way to survive. We needed money, and the market was showering businesses with money. The first investor was Adobe\u2019s venture capital arm. And as it turned out, the money that we took in from the IPO was just enough to help get us through the bust. We speed ran our way through every possible online business model in those years: a membership program, personal ads, display ads, a paywall after 9/11.\nAll the advertisers disappeared after 9/11, a year and a half after the beginning of the dot-com bust. Our position at\nSalon\nwas a little more heterodox than most publications at that point. We raised a lot of questions that were not popular. A few days after 9/11, we ran a pretty persuasive article that said that we shouldn't be going to\nwar in Afghanistan\n. For better or worse, Talbot was very committed to having lots of different voices in the mix. For a time, we had a conservative columnist, which drove our readers crazy.\nWe started a program that I ran called Salon Blogs, an early blogging platform in partnership with a software company. In 2002, Julie Powell started a blog on\nSalon\nwhere she cooked her way through Julia Child\u2019s cookbook. That inspired the film\nJulie & Julia\n. This was pre- Facebook. It was a time when the web industry had just coined \u201cuser generated content.\u201d\nWe were much more in charge of our destiny than we had been as employees of newspaper companies, where the business model was set in stone and you were going to ride that stone to the bottom of the ocean as the technology changed. The fact that, you know, we actually built a business that lasted this long is astonishing to me. If you had told me in 1995 that\nSalon\nwould survive for 31 years, I would have been thrilled, but I would have found it absolutely not credible. We tried all these things that later proved to be actually good businesses in various ways, but we were either, you know, premature, or we didn't know how to do it right, or the technology wasn't ready, or it wasn't a big enough audience.\nThe thing that mattered most to us was that we were publishing really unique voices and people who were a little bit odd. We were not part of New York. We were just a bunch of weirdos in the Bay Area, excited about the chance to post our writing.\nJoel Whitney published his\nSalon\nexclusive\n\u201cThe Paris Review, the Cold War, and the CIA\u201d\nin 2012. His reporting revealed that the magazine\u2019s editors, including George Plimpton, sought ties to the Congress for Cultural Freedom, a covert anti-communist\nCIA operation\n. The story built on other reporting about\nconnections\nbetween\nThe Paris Review\nand the CIA. The piece was Whitney\u2019s first in which the source died, he said, and his first time going viral.\nJoel Whitney:\nIt started as a story about Barney Rosset, the rebel publisher who founded\nThe Evergreen Review\nand was the owner of Grove Press. I wanted to write about Rosset because I got an unverified tip that Rosset had been approached by the editors of\nThe Paris Review\nto publish writers who were a part of the non-Communist Left, which is what the CIA's Congress for Cultural Freedom\nwas into\n.\nRosset apparently declined. When I heard about this, I immediately emailed Rosset, I think on a Sunday night, and he agreed to an interview on Wednesday morning. But by Tuesday\nhe was dead\n. So I went to\nThe Paris Review\narchives and I found the story.\nAs a freelancer, the relationship with\nSalon\nwas key. My editor, Dave Daley, was just so supportive.\nSalon\nhelped pioneer the idea that people want to sit down on web-only platforms and read things that make you a better citizen. Dave told me he thought the story would have a \u201clong tail.\u201d He was the first editor to teach me the phrase.\nBeing an MFA brat coming out of Columbia University, I wanted to write about the cross section between art and politics.\nSalon\npioneered the space between pop culture, high culture, anti-war, and left progressive politics. At their best, that's what culture and literary magazines do.\nThe thing that always stuck with me was showing that you could push back against legacy media from the left. You can be clear on your anti-war progressive values.\nSalon\nwas one of the places that I saw at the cutting edge of that.\nAnnemarie Dooling\njoined\nSalon\nin 2014 to help build the community section of the site, a moderated comments section where readers could engage with fellow readers and the site\u2019s writers. She went on to become the vice president of audience growth and experiences at\nUSA Today,\nand now works for\nNews Creator Corps\n, a program for creators to produce digital stories that empower communities with information and resources. She also runs\nThe Platia\n, her own micro newsroom, which connects readers with mutual aid opportunities in Philadelphia.\nAnnemarie Dooling:\nIt was 24/7. I was moderating comments all day. We felt like we had to be online constantly. People didn't bring their laptops home from work before that.\nSalon\nhad hundreds and hundreds of commenters who were very interested in chatting with the writers. Back then, people weren't chatting on social media that much. And so people were leaving comments on news sites. We realized that that was a separate business in itself. We were definitely the best at moderation. We blocked the trolls.\nI monitored the comments for\nSalon\u2019s\nTV and film writing. Content about film and TV really bonds people. You can have nothing else in common, but you can both love a TV show. The writers were very involved in their communities. They knew commenters' names.\nI sometimes wonder if we made an error opening the floodgates and telling everyone that they should say things all the time on the internet. And I mean, this didn't happen right away. At the time, we elevated a commenter because they have lived experience in television or they had knowledge we don't have. And then that sort of moderation stopped, people stopped paying for that. And so then everyone's opinion truly became equal. There's no hierarchy. There's no expertise.\nAnd I'm one of the people that championed the open internet, right? I willingly architected the internet we have now. But sometimes I feel sort of like the guy who made the office cubicle.\nDo you know the story about the guy who invented the cubicle? He lived the rest of his life in\nregret\n. And sometimes I feel like that.\nColeman Spilde was part of the last masthead of\nSalon\n. As senior culture writer and critic at\nSalon\n, he covered film. Previously, he worked as a staff critic at\nThe Daily Beast\n, and his work has appeared in\nVulture\nand\nSlate\n. He\u2019s now at work on a novel and open for new opportunities. Working at\nSalon\nwas a unicorn of a job, he said, even though he got a lot of email inquiries from confused folks asking where to get a haircut.\nColeman Spilde\n:\nAt\nSalon\n, there was always an emphasis on making sure that arts and culture were in conversation with politics. A lot of the work that we ended up trying to do was take a very liberal audience and keep pushing them to the left by asking tougher questions. We were very scrappy. We knew that we had to throw some punches here and there. I think our senior politics writer,\nAmanda Marcotte\n, was so good at that. She has such a strong feminist, progressive voice that offered so many solutions.\nThe end was truly like those horror stories that you read about. We all got a Slack message to join a meeting with the general manager and the parent company. And I was like, \u201coh, the bottom has fallen out and we're all about to get the axe.\u201d I think maybe it was like four people had their cameras on to start, and by the end, I'm pretty sure almost all of them were off. We got to spend the rest of the day commiserating and celebrating together, which was really, really wonderful because I think so much of the experience of being at\nSalon\nwas having such incredible, supportive, kind colleagues who truly were there for you.\nIt was such a small team that we knew we had to help each other out in any way that we could. So when the blow came down, it was a lot of us just being like, \u201cman, we fought so fucking hard, but it just wasn't enough.\u201d We had felt like we were starting to make gains and see the business turn around and see traffic boosting. And it just wasn't enough time to turn it all around in the way that the owners would have liked to see.\nThe owners, from what I knew, really, really believed in us. It was a site of voices. They weren't so concerned about a consistent editorial voice. That\u2019s what made it so interesting and fun to read. I think you could go to our site and you wouldn't know entirely what to expect. The angles were always sharp and very voice-forward. You just see that less and less in journalism. It really was important for us to always be asking more questions than answers, and then providing answers. We really considered it our place to look at the world as it is and be really honest. We pitched stories by asking questions like, \u201cdoes this make me believe that the world can be a better place?\u201d \u201cCan I make the reader think twice about something?\u201d\nWe're all just trying to make sense of a very chaotic, scary, tough world.\nSalon\nis a seismic loss.\nInterview with Eve Sneider\nOn the latest Study Hall Podcast\nepisode\n, Eve Sneider discussed her new book\nThe Absent Woman: The Genius of Janet Malcolm\n. Sneider talked about how Janet Malcolm\u2019s writing foreshadowed Nathan Fielder\u2019s\nYou Can See Everything\n, and what contemporary writers can learn from Malcolm\u2019s deconstructive approach to reporting.\nListen\nhere\n."
+    }
+  ],
   "jobs": [
     {
-      "title": "Editorial Coordinator",
-      "employer": "Resident Magazine",
-      "location": "Miami Beach, FL (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490008418/",
+      "title": "Associate Producer",
+      "employer": "",
+      "location": "Arlington",
+      "link": "https://www.journalismjobs.com/1694290-associate-producer-weta",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Associate Producer Associate Producer WETA Arlington, Virginia See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 12, 2026 Industry Nonprofit Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Hybrid Job Status Full-time Salary $60,000 to $65,000 Description: POSITION OVERVIEW: This Associate Producer will be responsible for assisting with editorial preparations and studio production of a weekly local public affairs program produced by WETA and PBS News focused on Greater Washington and other productions as needed. The AP will focus on production planning, development, editing, and coordination with the control room. PRIMARY RESPONSIBILITIES: \u00b7 Research, pitch and develop discussion ideas for the round table and moderator. \u00b7 Identify and secure media assets for elemen"
+    },
+    {
+      "title": "Writing Associate Producer, MS NOW State of Play",
+      "employer": "Versant Media",
+      "location": "New York, NY (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4481165311/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Commerce Editor, CNT",
-      "employer": "Cond\u00e9 Nast",
+      "title": "Newsletter Writer/Editor",
+      "employer": "Dow Jones",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4471947562/",
+      "link": "https://www.linkedin.com/jobs/view/4473554136/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Associate Editor, Think Global Health",
-      "employer": "Council on Foreign Relations",
-      "location": "Washington DC-Baltimore Area",
-      "link": "https://www.linkedin.com/jobs/view/4489686203/",
+      "title": "Writer/Editor",
+      "employer": "Manhattan University",
+      "location": "Bronx County, NY",
+      "link": "https://www.linkedin.com/jobs/view/4489076285/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
