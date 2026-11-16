@@ -1,21 +1,23 @@
 {
-  "generated": "2026-11-15T13:51:36.659407",
-  "count": 3,
-  "dead_links_dropped": 4,
-  "off_target_dropped": 0,
+  "generated": "2026-11-16T15:35:00.697756",
+  "count": 7,
+  "dead_links_dropped": 2,
+  "off_target_dropped": 2,
   "source_counts": {
-    "LinkedIn": 3
+    "JournalismJobs": 2,
+    "LinkedIn": 3,
+    "Adzuna": 2
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 15,
+      "raw": 18,
       "method": "selectors",
-      "kept": 7,
-      "found": 7,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 10,
+      "found": 10,
+      "new": 3,
+      "checked": 3,
+      "final": 2
     },
     "IRE": {
       "http": "200",
@@ -53,7 +55,7 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 46,
+      "raw": 42,
       "method": "sitemap",
       "kept": 3,
       "found": 3,
@@ -72,21 +74,21 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 1,
-      "found": 1,
-      "new": 0,
-      "checked": 0,
+      "kept": 2,
+      "found": 2,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 122,
+      "raw": 119,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 623,
+      "raw": 633,
       "method": "anchor-scan",
       "kept": 3,
       "found": 3,
@@ -95,18 +97,18 @@
       "final": 0
     },
     "ONA Career Center": {
-      "http": "202",
+      "http": "200",
       "raw": 0,
       "kept": 0,
       "method": "none",
-      "note": "http 202"
+      "note": "page loaded but no listings found by any method"
     },
     "Adzuna": {
-      "kept": 53,
-      "found": 53,
-      "new": 34,
+      "kept": 45,
+      "found": 45,
+      "new": 28,
       "checked": 4,
-      "final": 0
+      "final": 2
     },
     "The Muse": {
       "http": 404,
@@ -125,10 +127,10 @@
       "note": "no new email (4 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 16,
-      "note": "3 new email(s), 16 relevant job(s) out of 18 in the alerts",
-      "found": 16,
-      "new": 10,
+      "kept": 18,
+      "note": "4 new email(s), 18 relevant job(s) out of 23 in the alerts",
+      "found": 18,
+      "new": 11,
       "checked": 3,
       "final": 3
     }
@@ -136,31 +138,63 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "National News Boats Reporter",
-      "employer": "USA TODAY Co., Inc.",
+      "title": "Investigative Reporter",
+      "employer": "",
+      "location": "Ny",
+      "link": "https://www.journalismjobs.com/1694305-investigative-reporter-bangor-daily-news",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Investigative Reporter Investigative Reporter Bangor Daily News Bangor, Maine Save Share Facebook Twitter Linkedin Email Date Posted November 16, 2026 Industry Newspapers, Digital Media Specialty Investigative Required Education Bachelor's Degree Job Status Full-time Salary $56,000-$63,356.80 Description: Bangor Daily News, an innovative, award-winning and family-owned digital media company, has an immediate opening for an ambitious investigative reporter on its prestigious Maine Focus team. We\u2019re looking for a tenacious journalist who will help us build an investigative beat from the ground up, with a steady mix of short-form scoops, medium-term enterprise and deep investigations. Maine Focus assigns every story around two questions: Who are we holding accountable, and who has been harmed? We answer both with the human stories behind them. We measure s"
+    },
+    {
+      "title": "Junior News Editor (Wednesday\u2014Sunday)",
+      "employer": "Polygon",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4482739131/",
+      "link": "https://www.linkedin.com/jobs/view/4490781720/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Market Reporter - Spanish Speaking",
-      "employer": "Walker Lovell",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490702954/",
+      "title": "Page Six Reporter (Tues-Sat)",
+      "employer": "New York Post",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4446852908/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Audience Engagement Editor",
-      "employer": "Radio Free Asia",
-      "location": "Washington, DC",
-      "link": "https://www.linkedin.com/jobs/view/4482155008/",
+      "title": "Deputy Editor, AD",
+      "employer": "Cond\u00e9 Nast",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5967663463",
+      "source": "Adzuna",
+      "description": "Deputy Editor, AD Job in New York City, NY What? Where? Search Advanced Deputy Editor, AD \u276e back to last search Cond\u00e9 Nast New York, New York $141,525 per year - estimated ? Full time NEW Apply for this job AD is the international authority on design and architecture. AD provides exclusive access to the world\u2019s most beautiful homes and the fascinating people who live in them, bringing its audience a wealth of information on architecture and interior design, art and antiques, travel destinations, and extraordinary products; its AD100 list of top architects and designers is one of the industry\u2019s most relied-upon indexes of talent. Every day AD inspires millions of affluent readers to redesign and refresh their lives through a multiplatform presence that includes print and digital editions, social media, signature events, and the brand\u2019s website, archdigest.com. Job Description Location: Ne"
+    },
+    {
+      "title": "Congressional & Federal Policy Reporter",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694301-congressional--federal-policy-reporter-opb",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Congressional & Federal Policy Reporter Congressional & Federal Policy Reporter OPB Washington D.C., District of Columbia See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 13, 2026 Industry Nonprofit Specialty Politics Remote / Telecommute Hybrid Job Status Temporary/Contract Salary 109,000-120,000 Description: Application instructions for this and all current OPB employment opportunities are available at OPB's careers page . Applications are due on November 30 th , at 8:59pm Pacific Time This anticipated start date for this role is by January 3 rd , 2027. About OPB OPB is a leader in public media, serving diverse communities of the Northwest with fact-based, in-depth news and information about politics, the environment, science, arts, history, and cultures; business, education and more. Powered b"
+    },
+    {
+      "title": "Morning Newsletter Editor",
+      "employer": "Bloomberg Industry Group",
+      "location": "Arlington, VA",
+      "link": "https://www.linkedin.com/jobs/view/4454085028/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
+    },
+    {
+      "title": "Freelance Assistant Video Editor",
+      "employer": "Day One Agency",
+      "location": "Chelsea and Clinton, Manhattan",
+      "link": "https://www.adzuna.com/details/5966607240",
+      "source": "Adzuna",
+      "description": "Freelance Assistant Video Editor Job in Chelsea and Clinton, NY What? Where? Search Advanced Freelance Assistant Video Editor \u276e back to last search Day One Agency New York, New York, 10001 25-30 per hour Contract Full time NEW Apply for this job Looking for something fresh? Day One Agency is hiring. Day One is a creative agency committed to bringing fresh thinking to our work. Every. Single. Day. For us, every day is day one, a new opportunity to start from the beginning, find a new angle, and let our creativity and curiosity lead us to learn the unexpected. We\u2019ve built a reputation as a creative partner tuned for navigating culture today; helping brands build legacy through relevance. We\u2019re looking to expand our team with a new Freelance Assistant Video Editor to support our integrated teams and client work. You\u2019ll become part of an award-winning collective of cultural insiders, all of "
     }
   ]
 }
