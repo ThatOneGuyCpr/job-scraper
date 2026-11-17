@@ -1,23 +1,22 @@
 {
-  "generated": "2026-11-16T15:35:00.697756",
-  "count": 7,
-  "dead_links_dropped": 2,
+  "generated": "2026-11-17T15:53:36.732049",
+  "count": 4,
+  "dead_links_dropped": 4,
   "off_target_dropped": 2,
   "source_counts": {
-    "JournalismJobs": 2,
     "LinkedIn": 3,
-    "Adzuna": 2
+    "JournalismJobs": 1
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 18,
+      "raw": 17,
       "method": "selectors",
-      "kept": 10,
-      "found": 10,
-      "new": 3,
-      "checked": 3,
-      "final": 2
+      "kept": 7,
+      "found": 7,
+      "new": 2,
+      "checked": 2,
+      "final": 1
     },
     "IRE": {
       "http": "200",
@@ -55,7 +54,7 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 42,
+      "raw": 45,
       "method": "sitemap",
       "kept": 3,
       "found": 3,
@@ -74,21 +73,21 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 2,
-      "found": 2,
+      "kept": 3,
+      "found": 3,
       "new": 1,
       "checked": 1,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 119,
+      "raw": 117,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 633,
+      "raw": 597,
       "method": "anchor-scan",
       "kept": 3,
       "found": 3,
@@ -97,18 +96,18 @@
       "final": 0
     },
     "ONA Career Center": {
-      "http": "200",
+      "http": "403",
       "raw": 0,
       "kept": 0,
       "method": "none",
-      "note": "page loaded but no listings found by any method"
+      "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 45,
-      "found": 45,
+      "kept": 41,
+      "found": 41,
       "new": 28,
       "checked": 4,
-      "final": 2
+      "final": 0
     },
     "The Muse": {
       "http": 404,
@@ -124,77 +123,61 @@
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (4 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 18,
-      "note": "4 new email(s), 18 relevant job(s) out of 23 in the alerts",
-      "found": 18,
-      "new": 11,
+      "kept": 6,
+      "note": "2 new email(s), 6 relevant job(s) out of 12 in the alerts",
+      "found": 6,
+      "new": 4,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "How Substack Wants to Save Media",
+      "id": "<iwMNXoOlTEuZ_8nJeaySKg@geopod-ismtpd-21>",
+      "date": "Mon, 16 Nov 2026 18:04:33 +0000 (UTC)",
+      "body": "How Substack Wants to Save Media\nAn interview with co-founder Hamish McKenzie\nNovember 16, 2026\nHow Substack Wants to Save Media\nAn interview with co-founder Hamish McKenzie\nInterview with Hamish McKenzie\nOn the latest podcast\nepisode\n, Hamish McKenzie, co-founder of Substack, discussed his plan to save media, content moderation policies, Twitter\u2019s attempt to buy his company, and the future of Notes. Listen\nhere\n.\nA Substack Co-Founder's Plan to Save Media ft. Hamish McKenzie\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 16 \u00b7 40m\nApple Podcasts\nICMYI: Interview with Eve Sneider\nOn this\nepisode\n, Eve Sneider discussed her new book\nThe Absent Woman: The Genius of Janet Malcolm\n. Sneider talked about how Janet Malcolm\u2019s writing foreshadowed Nathan Fielder\u2019s\nYou Can See Everything\n, and what contemporary writers can learn from Malcolm\u2019s deconstructive approach to reporting.\nListen\nhere\n.\nHow Janet Malcolm Foreshadowed \"You Can See Everything\" ft. Eve Sneider\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 November 9 \u00b7 35m\nApple Podcasts\nICYMI:\nMichelle Lhooq on reporting on counterculture.\nJournalism and AI panel featuring Taylor Lorenz, Brian Merchant, and Alexandra Marvar.\nMary Houlihan on journalism and comedy."
+    }
+  ],
   "jobs": [
     {
-      "title": "Investigative Reporter",
-      "employer": "",
-      "location": "Ny",
-      "link": "https://www.journalismjobs.com/1694305-investigative-reporter-bangor-daily-news",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Investigative Reporter Investigative Reporter Bangor Daily News Bangor, Maine Save Share Facebook Twitter Linkedin Email Date Posted November 16, 2026 Industry Newspapers, Digital Media Specialty Investigative Required Education Bachelor's Degree Job Status Full-time Salary $56,000-$63,356.80 Description: Bangor Daily News, an innovative, award-winning and family-owned digital media company, has an immediate opening for an ambitious investigative reporter on its prestigious Maine Focus team. We\u2019re looking for a tenacious journalist who will help us build an investigative beat from the ground up, with a steady mix of short-form scoops, medium-term enterprise and deep investigations. Maine Focus assigns every story around two questions: Who are we holding accountable, and who has been harmed? We answer both with the human stories behind them. We measure s"
-    },
-    {
-      "title": "Junior News Editor (Wednesday\u2014Sunday)",
-      "employer": "Polygon",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490781720/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Page Six Reporter (Tues-Sat)",
-      "employer": "New York Post",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4446852908/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Deputy Editor, AD",
+      "title": "Features Editor, WIRED",
       "employer": "Cond\u00e9 Nast",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5967663463",
-      "source": "Adzuna",
-      "description": "Deputy Editor, AD Job in New York City, NY What? Where? Search Advanced Deputy Editor, AD \u276e back to last search Cond\u00e9 Nast New York, New York $141,525 per year - estimated ? Full time NEW Apply for this job AD is the international authority on design and architecture. AD provides exclusive access to the world\u2019s most beautiful homes and the fascinating people who live in them, bringing its audience a wealth of information on architecture and interior design, art and antiques, travel destinations, and extraordinary products; its AD100 list of top architects and designers is one of the industry\u2019s most relied-upon indexes of talent. Every day AD inspires millions of affluent readers to redesign and refresh their lives through a multiplatform presence that includes print and digital editions, social media, signature events, and the brand\u2019s website, archdigest.com. Job Description Location: Ne"
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4481948419/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
     },
     {
-      "title": "Congressional & Federal Policy Reporter",
+      "title": "BROADCAST JOURNALIST: ARTS & CULTURE",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694301-congressional--federal-policy-reporter-opb",
+      "link": "https://www.journalismjobs.com/1694217-broadcast-journalist-arts--culture-aspen-public-radio",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Congressional & Federal Policy Reporter Congressional & Federal Policy Reporter OPB Washington D.C., District of Columbia See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 13, 2026 Industry Nonprofit Specialty Politics Remote / Telecommute Hybrid Job Status Temporary/Contract Salary 109,000-120,000 Description: Application instructions for this and all current OPB employment opportunities are available at OPB's careers page . Applications are due on November 30 th , at 8:59pm Pacific Time This anticipated start date for this role is by January 3 rd , 2027. About OPB OPB is a leader in public media, serving diverse communities of the Northwest with fact-based, in-depth news and information about politics, the environment, science, arts, history, and cultures; business, education and more. Powered b"
+      "description": "JournalismJobs.com - Job Listing - BROADCAST JOURNALIST: ARTS & CULTURE BROADCAST JOURNALIST: ARTS & CULTURE Aspen Public Radio ASPEN, Colorado Save Share Facebook Twitter Linkedin Email Date Posted October 30, 2026 Industry Radio Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary Not Specified Description: BROADCAST JOURNALIST: ARTS & CULTURE Aspen Public Radio is a 45-year-old public media organization serving the vibrant Roaring Fork and Colorado River valleys, nestled in the heart of the Rocky Mountains. We seek a sharp, curious, and team-oriented person with a passion for covering the arts. Our culture is friendly and familiar, but we are professional broadcasters with high standards. Who We Are Looking For: We seek an experienced broadcast journalist with a strong skill set that includes reporting, writing, producing, and anchoring. We are looking for s"
     },
     {
-      "title": "Morning Newsletter Editor",
-      "employer": "Bloomberg Industry Group",
-      "location": "Arlington, VA",
-      "link": "https://www.linkedin.com/jobs/view/4454085028/",
+      "title": "Technology Writer",
+      "employer": "TESCREAL",
+      "location": "New York, NY (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4491260351/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Freelance Assistant Video Editor",
-      "employer": "Day One Agency",
-      "location": "Chelsea and Clinton, Manhattan",
-      "link": "https://www.adzuna.com/details/5966607240",
-      "source": "Adzuna",
-      "description": "Freelance Assistant Video Editor Job in Chelsea and Clinton, NY What? Where? Search Advanced Freelance Assistant Video Editor \u276e back to last search Day One Agency New York, New York, 10001 25-30 per hour Contract Full time NEW Apply for this job Looking for something fresh? Day One Agency is hiring. Day One is a creative agency committed to bringing fresh thinking to our work. Every. Single. Day. For us, every day is day one, a new opportunity to start from the beginning, find a new angle, and let our creativity and curiosity lead us to learn the unexpected. We\u2019ve built a reputation as a creative partner tuned for navigating culture today; helping brands build legacy through relevance. We\u2019re looking to expand our team with a new Freelance Assistant Video Editor to support our integrated teams and client work. You\u2019ll become part of an award-winning collective of cultural insiders, all of "
+      "title": "Content Lead",
+      "employer": "AiPrise",
+      "location": "San Francisco, CA (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4490203659/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
     }
   ]
 }
