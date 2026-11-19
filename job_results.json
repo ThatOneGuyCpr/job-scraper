@@ -1,11 +1,9 @@
 {
-  "generated": "2026-11-18T15:31:57.086577",
-  "count": 6,
+  "generated": "2026-11-19T15:39:35.349004",
+  "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
   "source_counts": {
-    "MD State Jobs": 1,
-    "JournalismJobs": 2,
     "LinkedIn": 3
   },
   "diagnostics": {
@@ -15,9 +13,9 @@
       "method": "selectors",
       "kept": 7,
       "found": 7,
-      "new": 2,
-      "checked": 2,
-      "final": 2
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "IRE": {
       "http": "200",
@@ -45,7 +43,7 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 16,
+      "raw": 18,
       "method": "sitemap",
       "kept": 2,
       "found": 2,
@@ -54,14 +52,11 @@
       "final": 0
     },
     "PRSA": {
-      "http": "404,200",
-      "raw": 45,
-      "method": "sitemap",
-      "kept": 3,
-      "found": 3,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "http": "404",
+      "raw": 0,
+      "kept": 0,
+      "method": "none",
+      "note": "page not found (404): the board moved its listings"
     },
     "States Newsroom": {
       "http": "200",
@@ -82,19 +77,19 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 122,
+      "raw": 123,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 617,
+      "raw": 601,
       "method": "anchor-scan",
       "kept": 4,
       "found": 4,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "ONA Career Center": {
       "http": "403",
@@ -104,9 +99,9 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 48,
-      "found": 48,
-      "new": 30,
+      "kept": 43,
+      "found": 43,
+      "new": 25,
       "checked": 4,
       "final": 0
     },
@@ -116,82 +111,46 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
+      "note": "no new email (4 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 8,
-      "note": "3 new email(s), 8 relevant job(s) out of 15 in the alerts",
-      "found": 8,
-      "new": 7,
+      "kept": 15,
+      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
+      "found": 15,
+      "new": 11,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [
-    {
-      "source": "Study Hall",
-      "subject": "Opps of the Week: NPR, The Wall Street Journal, Inc.",
-      "id": "<G6H48HNtSW-ElnHPbzM77g@geopod-ismtpd-22>",
-      "date": "Tue, 17 Nov 2026 19:01:54 +0000 (UTC)",
-      "body": "Opps of the Week: NPR, The Wall Street Journal, Inc.\nWrite about the climate for $500\nNovember 17, 2026\nOpps of the Week: NPR, The Wall Street Journal, Inc.\nWrite about the climate for $500\nAt Study Hall, we\u2019re constantly looking for ways to improve the quality of our job postings and content. With beehiiv\u2019s analytical tools, we\u2019re able to assess what links our subscribers are interacting with and get actionable data on what type of content is performing best. beehiiv provides essential information like click-through-rates and verified total clicks, which in turn, let us provide more of the job postings and content that\u2019s relevant to you. Sign up for\nbeehiiv\nif you\u2019re looking to scale up your newsletter with state-of-the-art analytical tools that help you get a better read on what your subscribers actually want. Use\nSTUDYHALL30\nfor\n30% off 3 months of beehiiv\n.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\n.\nJournalism and AI 101 ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nPodcast Episode \u00b7 The Study Hall Podcast \u00b7 October 30 \u00b7 55m\nApple Podcasts\nNews Opps\nPsyche\n$750-$2000\nAccepting pitches for Deep Dives, a new section covering debates, new ideas, and cutting-e...\nPsyche is accepting pitches for Deep Dives, a new section covering debates, new ideas, and cutting-edge topics in psychology. Contributors will examine emerging research and complex questions across psychology and related disciplines such as philosophy, history, and anthropology to help readers bett...\nDetails and pitch contact here\nExpress Healthcare\nNot given, but in the past they have paid \u20b9500 per 100 words\nAccepting submissions of \"editorial material for regular columns and from pre-approved con...\nExpress Healthcare is accepting contributions for regular columns and special-focus features covering healthcare technology, policy trends, and business discussions. Contributors will write 1,200- to 1,500-word articles (or longer pieces when merited) examining broader concepts and industry trends r...\nDetails and pitch contact here\nIEEE Climate Magazine\n$1.25/word or $500/story\nAccepting pitches covering the intersection of technology, engineering, and climate soluti...\nIEEE Climate Magazine is accepting pitches covering the intersection of technology, engineering, and climate solutions around the world. Contributors will examine emerging engineering trends, systems-level climate challenges, technical standards, policy frameworks, and real-world technology deployme...\nDetails and pitch contact here\nThe Sick Times\n$400-$1,300\nCalling for pitches for reported news features and commentary essays covering Long COVID a...\nThe Sick Times is calling for pitches for reported news features and commentary essays covering Long COVID and related chronic diseases. Contributors will examine scientifically backed treatment options, related conditions such as ME and dysautonomia, disability justice, international reporting, pub...\nDetails and pitch contact here\nThe Pivot Academic\n$300-$500 per piece\nHiring a Global Strategic Research Fellow to write research-based reports on China and Asi...\nThe Pivot Academic is hiring a Global Strategic Research Fellow based in Hong Kong or remotely to write research-based reports on China and Asia policy. They will produce 1,200\u20131,800 word reports on topics matched to their background, built on verified facts and primary sources with full citations...\nDetails and pitch contact here\nDaily Tribune Herald\n$250 for reported pieces, $150 for opinion pieces, and $50 for letters\nCalling for pitches of \"reported pieces and analyses on subjects within our coverage area....\nThe Daily Tribune Herald is always calling for pitches of \u201creported pieces and analyses on subjects within our coverage area (national news, business and economics, technology, features, science, opinion); first-person essays of substantive interest, on subjects of public significance; opinion pie...\nDetails and pitch contact here\nAI News Round\n$100 per piece\nPitches about use of AI in African healthcare and the Global South\nAI News Round is calling for pitches about use of AI in African healthcare the Global South. \u201cWe are particularly interested in work grounded in the Global South, in reporting that draws on primary sources, and in pieces willing to reach an unpopular conclusion and defend it.\u201d The rate is $...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nCreative Opps\nNieman Storyboard\n$200/piece\nAccepting pitches exploring the art and craft of nonfiction storytelling across platforms\nNieman Storyboard is accepting pitches exploring the art and craft of nonfiction storytelling across platforms. Contributors will examine the reporting, writing, editing, production, and ethics behind narrative journalism through Q&As, story annotations, craft essays, personal reflections, and c...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more Creative listings on the\nopps finder\n.\nDeadline Approaching\nNPR\n$127,500-$137,499\nHiring a Senior Editor for its Arts and Culture Hub\nNPR is hiring a Senior Editor for its Arts and Culture Hub to lead coverage of cultural insights and emerging trends across broadcast and digital platforms. They will generate story ideas, direct daily news and feature coverage, and collaborate with digital and visuals teams. Candidates should have...\nDetails and pitch contact here\nSentient\n$110,000-$118,000\nHiring a remote Managing Editor\nSentient, a nonprofit newsroom focused on factory farming, is hiring a remote Managing Editor compatible with Eastern Time Zone working hours to oversee daily editorial operations and investigative reporting. They will manage editorial workflow, supervise staff reporters and editors, shape stories f...\nDetails and pitch contact here\nBristolLive\nSalary range of \u00a340,000 to \u00a345,000 per annum, negotiable in application\nHiring an Executive Editor on a 6-month contract\nBristolLive is hiring an Executive Editor on a 6-month contract to lead newsdesk operations and drive audience growth. They will shape team workflows, create high-impact content, and manage reporters in Bristol, England. Candidates should have experience in newsroom leadership, deep digital publishi...\nDetails and pitch contact here\nThe Globe and Mail\n$117,000-$130,000\nHiring a Deputy Opinion Editor based in Toronto, Canada\nThe Globe and Mail is hiring a Deputy Opinion Editor based in Toronto, Canada to help lead the opinion team and oversee commentary, columns, and essays. They will assign and edit opinion pieces, guide production of the daily op-ed page and Saturday Opinion section, generate coverage ideas, and use a...\nDetails and pitch contact here\nInc.\n$89,000-$110,000\nHiring a Senior Marketing Editor based in NYC\nInc. is hiring a Senior Marketing Editor based in NYC to lead and grow the marketing section on Inc.com. They will assign and edit daily news and enterprise coverage, manage staff writers and freelance contributors, use performance data to guide editorial strategy, and support live event programming...\nDetails and pitch contact here\nNBC News\n$70,000-$85,000\nHiring an Assignment Editor based in NYC\nNBC News is hiring an Assignment Editor based in NYC for the Network News Desk to coordinate newsgathering and logistical support across broadcast, cable, digital, and streaming platforms. They will research and implement coverage of breaking news, collaborate with digital and broadcast teams, and m...\nDetails and pitch contact here\nThe Wall Street Journal\n$190,000-$225,000\nHiring a Standards Editor based in NYC\nThe Wall Street Journal is hiring a Standards Editor based in NYC to uphold reporting standards and ensure fairness and integrity across the newsroom. They will conduct pre-publication reviews of high-impact stories, collaborate with media attorneys to guide reporters, adjudicate editorial disputes...\nDetails and pitch contact here\nThe New York Times\n$124,979.94-$150,000\nHiring a FOIA Editor based in NYC\nThe New York Times is hiring a FOIA Editor based in NYC to guide newsroom strategy for using public records laws to obtain information from governmental entities. They will advise reporters on integrating records requests into early reporting, propose FOIA-driven story ideas, maintain a central trac...\nDetails and pitch contact here\nThe Standard\n$76,250-$111,500\nHiring a Senior Writer and Editor based in Portland, OR\nThe Standard is hiring a Senior Writer and Editor based in Portland, OR to develop brand messaging and content for enterprise campaigns, sponsorships, and thought leadership programs. They will write copy across multiple channels, draft video scripts and white papers, conduct brand reviews, and coll...\nDetails and pitch contact here\nSouthern California News Group\n$24.04/hour\nHiring a Reporter for the Grunion Gazette based in Long Beach, CA\nSouthern California News Group is hiring a Reporter for the Grunion Gazette based in Long Beach, CA to cover local government, community news, and enterprise stories. They will report breaking news, produce stories across print and digital platforms, cultivate local sources, and cover issues such as...\nDetails and pitch contact here"
-    }
-  ],
+  "newsletters": [],
   "jobs": [
     {
-      "title": "HEARING REPORTER II",
-      "employer": "",
-      "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=003232&R3=0002",
-      "source": "MD State Jobs",
-      "description": "Job Announcement: HEARING REPORTER II - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEARING REPORTER II Recruitment # 26-003232-0002 Department Worker's Compensation Commission Date Opened 11/17/2026 1:30:00 PM Filing Deadline 12/2/2026 11:59:00 PM Salary $67,309.00 - $88,821.00/year Employment Type Full-Time HR Analyst Paige Bailey Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits Introduction Reimagine a career in public service. At WCC, we are collaborative and team oriented, innovative in our approach, and passionate about our work. We thrive on initiative, creativity and challenges to the status quo. Our employees are valued and empowered. We are proud of our achievements and consider excellence a continuous journey\u00e2\u0080\u00a6not a destination end point. If you've got the right stuff and a passion "
-    },
-    {
-      "title": "Freelance Writer",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694320-freelance-writer-surround-sound-media",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Freelance Writer Freelance Writer Surround Sound Media Nationwide, All Locations Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 17, 2026 Industry Digital Media Specialty Local News Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary 125-250 per article Description: Freelance Community News Reporters \u2014 Multiple U.S. Markets Surround Sound News (SSN) Freelance | $125\u2013$250 per article | Multiple U.S. Locations Applications and freelance assignments are managed through Upwork. About Surround Sound News Surround Sound News (SSN) is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're looking for experienced freelance journalists who know their communities, recognize compelling local stories, and have the "
-    },
-    {
-      "title": "US Assistant Editor",
-      "employer": "Daily Mail US",
-      "location": "New York, NY (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4491575683/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Writer/Contributor",
-      "employer": "",
-      "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694288-writercontributor-inside-radio",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Writer/Contributor Writer/Contributor Inside Radio Remote, All Locations Save Share Facebook Twitter Linkedin Email Date Posted November 11, 2026 Industry Radio Specialty Other Job Status Full-time Salary $45000 - $50000 Description: We're looking for a writer/editor who isn't afraid to pick up the phone or send an email to get comments from industry executives, develop sources and uncover stories. Experience covering radio, television and advertising is preferred. We want an idea person who can spot a good story, pursue it and write it \u2014 not someone who simply rewrites press releases. If that sounds like you, send your background and writing samples to apply@insideradio.com . When applying, mention you saw this opening listed at JournalismJobs.com. Job ads copyrighted by JournalismJobs.com \u00a9 1998-2026 Share Via Email \u00d7 To: From: Comments: Send Email t "
-    },
-    {
-      "title": "Freelance Features Writer",
-      "employer": "Military.com",
+      "title": "Saltwater South Content Specialist, McClatchy Content Innovation Lab",
+      "employer": "McClatchy Media",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490119777/",
+      "link": "https://www.linkedin.com/jobs/view/4481819134/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Public Affairs and Communications Strategist, Clean Energy",
-      "employer": "Earthjustice",
-      "location": "New York, NY (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490976921/",
+      "title": "Crime Hunter Content Specialist, McClatchy Content Innovation Lab",
+      "employer": "McClatchy Media",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4481813390/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "News Editor \u2013 Daily Edition & Breaking News (Part-Time)",
+      "employer": "Aebly Media",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4490945966/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
