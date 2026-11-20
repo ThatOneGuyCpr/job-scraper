@@ -1,21 +1,25 @@
 {
-  "generated": "2026-11-19T15:39:35.349004",
-  "count": 3,
-  "dead_links_dropped": 4,
+  "generated": "2026-11-20T15:19:17.441236",
+  "count": 10,
+  "dead_links_dropped": 1,
   "off_target_dropped": 0,
   "source_counts": {
-    "LinkedIn": 3
+    "MD State Jobs": 1,
+    "USAJobs": 1,
+    "JournalismJobs": 2,
+    "LinkedIn": 3,
+    "Adzuna": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 17,
+      "raw": 20,
       "method": "selectors",
-      "kept": 7,
-      "found": 7,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 11,
+      "found": 11,
+      "new": 2,
+      "checked": 2,
+      "final": 2
     },
     "IRE": {
       "http": "200",
@@ -43,7 +47,7 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 18,
+      "raw": 16,
       "method": "sitemap",
       "kept": 2,
       "found": 2,
@@ -52,11 +56,14 @@
       "final": 0
     },
     "PRSA": {
-      "http": "404",
-      "raw": 0,
-      "kept": 0,
-      "method": "none",
-      "note": "page not found (404): the board moved its listings"
+      "http": "404,200",
+      "raw": 42,
+      "method": "sitemap",
+      "kept": 3,
+      "found": 3,
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "States Newsroom": {
       "http": "200",
@@ -77,33 +84,33 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 123,
+      "raw": 120,
       "method": "sitemap",
       "kept": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 601,
+      "raw": 605,
       "method": "anchor-scan",
       "kept": 4,
       "found": 4,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "ONA Career Center": {
-      "http": "403",
+      "http": "202",
       "raw": 0,
       "kept": 0,
       "method": "none",
-      "note": "blocked or rate limited"
+      "note": "http 202"
     },
     "Adzuna": {
-      "kept": 43,
-      "found": 43,
-      "new": 25,
+      "kept": 34,
+      "found": 34,
+      "new": 22,
       "checked": 4,
-      "final": 0
+      "final": 3
     },
     "The Muse": {
       "http": 404,
@@ -111,17 +118,21 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 0
+      "kept": 1,
+      "found": 1,
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "Study Hall": {
       "kept": 0,
       "note": "no new email (4 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 15,
-      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
-      "found": 15,
-      "new": 11,
+      "kept": 13,
+      "note": "3 new email(s), 13 relevant job(s) out of 17 in the alerts",
+      "found": 13,
+      "new": 10,
       "checked": 3,
       "final": 3
     }
@@ -129,31 +140,87 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Saltwater South Content Specialist, McClatchy Content Innovation Lab",
-      "employer": "McClatchy Media",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4481819134/",
+      "title": "Communications Specialist (Administrator III)",
+      "employer": "",
+      "location": "Maryland",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002588&R3=0068",
+      "source": "MD State Jobs",
+      "description": "Job Announcement: Communications Specialist - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services Communications Specialist Administrator III Recruitment # 26-002588-0068 Department MD State Department of Education Date Opened 11/19/2026 11:59:00 PM Filing Deadline 12/3/2026 11:59:00 PM Salary $76,608.00 - $91,556 with progression to $120,814.00/year Employment Type Full-Time HR Analyst Christopher Langley Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits Introduction The Maryland State Department of Education is dedicated to supporting a world-class educational system that prepares all students for college and\u00c2 career success in the 21st century. With excellent stewardship from our\u00c2 divisions, we oversee State and federal programs that support the needs of\u00c2 a diverse population \u00e2\u0080\u0093 students, teachers, "
+    },
+    {
+      "title": "SUPERVISORY PUBLIC AFFAIRS OFFICER",
+      "employer": "Defense Information Systems Agency",
+      "location": "Fort Meade, Maryland",
+      "link": "https://www.usajobs.gov:443/job/893649400",
+      "source": "USAJobs",
+      "description": "USAJOBS - Job Announcement Skip to main content Back to results Back to results Apply SUPERVISORY PUBLIC AFFAIRS OFFICER Department of Defense Defense Information Systems Agency DOD CYBER DEFENSE COMMAND (DCDC)-JOINT FORCES HQ DCDC (REIM) (ORG DKAAJH-JH9) Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is being recruited under 10 USC 1599f into the Cyber Excepted Service and does not convey eligibility to be converted to the Competitive Service. It has been identified as a position necessary to carry out and support the mission of the US Cyber Command. It is in the Supervision/Management Work Category at the Expert Work Level within the CES Occupational Structure. It is located in the DoD Cyber Defense Command (DCDC). Learn more about this agency Summary This position is being recruited"
+    },
+    {
+      "title": "Ellsworth/Acadia Reporter",
+      "employer": "",
+      "location": "Ny",
+      "link": "https://www.journalismjobs.com/1694344-ellsworthacadia-reporter-bangor-daily-news",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Ellsworth/Acadia Reporter Ellsworth/Acadia Reporter Bangor Daily News Bangor, Maine See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 20, 2026 Industry Newspapers, Digital Media Specialty Not Specified Required Education Bachelor's Degree Job Status Full-time Salary $42,000-$55,000 based on experience Description: The Bangor Daily News, an innovative, award-winning and family-owned digital media company, has an immediate opening for a driven reporter covering news in coastal Maine. This is an incredible opportunity to live in one of the country\u2019s most beautiful and fascinating regions while doing forward-looking journalism that matters to our audience. The position covers two major beats: Mount Desert Island, a national tourist destination that is home to Bar Harbor and Acadia National Park, and Ellsworth, "
+    },
+    {
+      "title": "Junior Sports Writer",
+      "employer": "Sotheby's",
+      "location": "New York, United States",
+      "link": "https://www.linkedin.com/jobs/view/4467792618/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Crime Hunter Content Specialist, McClatchy Content Innovation Lab",
-      "employer": "McClatchy Media",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4481813390/",
+      "title": "Social Media & Creator Relations Associate",
+      "employer": "BETANDEAL",
+      "location": "Miami, Miami-Dade County",
+      "link": "https://www.adzuna.com/details/5972399224",
+      "source": "Adzuna",
+      "description": "Social Media & Creator Relations Associate Job in Miami, FL What? Where? Search Advanced Social Media & Creator Relations Associate \u276e back to last search BETANDEAL Miami, Florida, United States $105,529 per year - estimated ? NEW Apply for this job Join BETANDEAL! At Betandeal , we are Gamechangers in affiliate marketing within the iGaming industry. We develop innovative digital solutions for sports betting, poker, and casino, partnering with some of the world's leading betting companies. We operate in more than 20 international markets , with offices in Miami, Madrid, Bogot\u00e1, and S\u00e3o Paulo, and a growing team of over 50 professionals. We are currently looking for a Social Media & Creator Relations Associate to join our team in Miami . We are looking for someone passionate about social media, the digital world, and especially sports. Someone creative, proactive, and eager to grow profess"
+    },
+    {
+      "title": "Freelance Writer",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694333-freelance-writer-surround-sound-media",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Freelance Writer Freelance Writer Surround Sound Media Greater Chicago Area, Illinois See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: Freelance Community News Reporter \u2014 Greater Chicagoland Surround Sound News (SSN) Independent Freelance Contract | Three-Month Renewable Engagement |$150-$300 Per Article About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking an experienced freelance journalist with strong knowledge of Greater Chicagoland who can independently identify and report compelling sto"
+    },
+    {
+      "title": "Part-Time Reporter",
+      "employer": "New York Post",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4475884084/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "News Editor \u2013 Daily Edition & Breaking News (Part-Time)",
-      "employer": "Aebly Media",
+      "title": "Content Specialist",
+      "employer": "Navy Mutual",
+      "location": "Arlington, Arlington County",
+      "link": "https://www.adzuna.com/details/5972843625",
+      "source": "Adzuna",
+      "description": "Content Specialist Job in Arlington, VA What? Where? Search Advanced Content Specialist \u276e back to last search Navy Mutual Arlington, Virginia $72,762 per year - estimated ? NEW Apply for this job Job Title: Content SpecialistFLSA Status: ExemptLocation: Marketing DepartmentReports To: Marketing Operations Manager Position Overview: The Content Specialist role supports the Marketing Team on a variety of projects that include creating communications content for use online and in print and designing print and digital ad materials. Job Brief: The position will have the opportunity to contribute to ongoing creative campaigns, educational content, and advertisements. This position supports all company branded efforts. Primary Responsibilities:\u2022 Create internal and external marketing and communications content, including print and digital materials (blog posts, emails, direct mail, newsletters,"
+    },
+    {
+      "title": "Multiplatform Editor, Sports (Temporary)",
+      "employer": "Boston Globe Media",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4490945966/",
+      "link": "https://www.linkedin.com/jobs/view/4491867520/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
+    },
+    {
+      "title": "Content Producer",
+      "employer": "The RealReal",
+      "location": "New York City, New York",
+      "link": "https://www.adzuna.com/details/5972849778",
+      "source": "Adzuna",
+      "description": "Content Producer Job in New York City, NY What? Where? Search Advanced Content Producer \u276e back to last search The RealReal New York City, New York $72,994 per year - estimated ? Contract Full time NEW Apply for this job About The Role The Content Producer will lead production of The RealReal\u2019s video content series, liveselling initiatives and our podcast, REAL TALK. This person owns the production process from first idea to final delivery, bringing to life the creative vision set by the Senior Creative Director and Senior Editorial Director. You\u2019ll work hand in hand with the Senior Producer and Social team on video franchises and social production, and help build live selling into a repeatable, on-brand format. This is a role for a producer with a strong narrative POV as you\u2019ll partner closely with our Chief Brand Officer on shaping our podcast. What You Get To Do Every Day Video Series "
     }
   ]
 }
