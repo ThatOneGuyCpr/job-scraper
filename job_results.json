@@ -1,24 +1,22 @@
 {
-  "generated": "2026-11-20T15:19:17.441236",
-  "count": 10,
-  "dead_links_dropped": 1,
-  "off_target_dropped": 0,
+  "generated": "2026-11-21T14:34:55.505678",
+  "count": 6,
+  "dead_links_dropped": 5,
+  "off_target_dropped": 3,
   "source_counts": {
     "MD State Jobs": 1,
-    "USAJobs": 1,
-    "JournalismJobs": 2,
     "LinkedIn": 3,
-    "Adzuna": 3
+    "JournalismJobs": 2
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 20,
+      "raw": 18,
       "method": "selectors",
-      "kept": 11,
-      "found": 11,
-      "new": 2,
-      "checked": 2,
+      "kept": 12,
+      "found": 12,
+      "new": 3,
+      "checked": 3,
       "final": 2
     },
     "IRE": {
@@ -46,23 +44,23 @@
       "note": "blocked or rate limited"
     },
     "SPJ": {
-      "http": "200",
-      "raw": 16,
-      "method": "sitemap",
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
-      "final": 0
-    },
-    "PRSA": {
-      "http": "404,200",
-      "raw": 42,
+      "http": "503,200",
+      "raw": 10,
       "method": "sitemap",
       "kept": 3,
       "found": 3,
-      "new": 0,
-      "checked": 0,
+      "new": 1,
+      "checked": 1,
+      "final": 0
+    },
+    "PRSA": {
+      "http": "503,200",
+      "raw": 44,
+      "method": "sitemap",
+      "kept": 3,
+      "found": 3,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "States Newsroom": {
@@ -84,33 +82,37 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 120,
+      "raw": 121,
       "method": "sitemap",
-      "kept": 0
+      "kept": 1,
+      "found": 1,
+      "new": 1,
+      "checked": 1,
+      "final": 0
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 605,
+      "raw": 599,
       "method": "anchor-scan",
-      "kept": 4,
-      "found": 4,
+      "kept": 5,
+      "found": 5,
       "new": 1,
       "checked": 1,
       "final": 1
     },
     "ONA Career Center": {
-      "http": "202",
+      "http": "403",
       "raw": 0,
       "kept": 0,
       "method": "none",
-      "note": "http 202"
+      "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 34,
-      "found": 34,
-      "new": 22,
+      "kept": 42,
+      "found": 42,
+      "new": 25,
       "checked": 4,
-      "final": 3
+      "final": 0
     },
     "The Muse": {
       "http": 404,
@@ -118,109 +120,85 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 1,
-      "found": 1,
-      "new": 1,
-      "checked": 1,
-      "final": 1
+      "kept": 2,
+      "found": 2,
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (4 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 13,
-      "note": "3 new email(s), 13 relevant job(s) out of 17 in the alerts",
-      "found": 13,
-      "new": 10,
+      "kept": 15,
+      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
+      "found": 15,
+      "new": 11,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Media Opps: Scientific American, Morning Brew, MS NOW",
+      "id": "<O9Z7_DvwTQWeTB7wFgzIZA@geopod-ismtpd-116>",
+      "date": "Fri, 20 Nov 2026 18:46:02 +0000 (UTC)",
+      "body": "Media Opps: Scientific American, Morning Brew, MS NOW\nAssociate Platforms Editor role with a salary range of $75,000 to $85,000\nNovember 20, 2026\nMedia Opps: Scientific American, Morning Brew, MS NOW\nAssociate Platforms Editor role with a salary range of $75,000 to $85,000\nClassified Ads\nQuick note: beehiiv is running a limited-time Black Friday/Cyber Monday promotion that gives you 20% off any annual plan. Just use the code\nBFCM2026\nat checkout. Be quick, as it runs out on December 7th!\nA crucial part to running your own media project is understanding what\u2019s resonating with your audience. With\nbeehiiv\n, you can get top-notch analytics on what your subscribers are gravitating towards. You can see crucial data like delivery rates, click-through-rates, and retention information. beehiiv\u2019s tools give you the knowledge you need to ensure you\u2019re creating content that\u2019s making a lasting impact. This is the perfect time to get a headstart on next year\u2019s milestones.\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode (Now on\nYouTube\n)!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\n.\nAI and Journalism Webinar Panel ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry.\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-Scott Monaco Travel is\naccepting submissions\nof paid travel writing about the Global South and less-traveled destinations. They pay 50\u2013200 for essays, photo essays, and humor pieces. The essay category pays $200 for 1,000 to 3,000 words, the photo essay category pays $200 for 6 to 15 images with 700 to 1,500 words, and the humor category pays $50 for 500 to 1,000 words.\nSubmit through their\nsubmission page\nby November 30.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 20)\nNEW:\n-This Magazine is\nlooking for pitches\nof stories about the state of media in Canada for their 60th anniversary issue. They are \u201clooking for features, news, arts, and opinion stories. Features pay $150 to $300, and columns pay $60 to $100. They only publish Canadian residents. Send pitches to\neditor@thismagazine.ca\nby December 4\n. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\n-Floodlight is\ncalling for pitches\nfor 1,000 to 2,000-word investigations into the plastics industry. Contributors will pursue clear accountability angles examining plastic pollution, public health effects, industry lobbying, disinformation, and greenwashing, with priority given to stories highlighting environmental injustices affecting vulnerable communities. The publication is seeking freelance journalists with relevant writing samples to deliver thoroughly fact-checked stories\nslated for January publication\n. Pay is $2 per word. See our\nOpps Finder listing\nfor more info.\n(Nov 25)\nEVERGREEN PITCH CALLS\nNEW:\n-IEEE Climate Magazine is\naccepting pitches\ncovering the intersection of technology, engineering, and climate solutions around the world. Contributors will examine emerging engineering trends, systems-level climate challenges, technical standards, policy frameworks, and real-world technology deployments across its News department, as well as produce career pathways, personal specialist reflections, leader Q&As, and visual features. The publication is seeking freelance writers, photographers, illustrators, and videographers who can submit an introduction outlining their areas of expertise alongside relevant samples or story ideas, with new contributors required to complete a six- to eight-week contracting process before assignments begin. Pay starts at $500 per story for flat-rate news pieces and $1.25 per assigned word for fully reported news stories and features. See our\nOpps Finder listing\nfor more info.\n(Nov 17)\nNEW:\n-Nieman Storyboard is\naccepting pitches\nexploring the art and craft of nonfiction storytelling across platforms. Contributors will examine the reporting, writing, editing, production, and ethics behind narrative journalism through Q&As, story annotations, craft essays, personal reflections, and curated reading lists. The publication is seeking proposals from professional journalists and students that outline a specific topic or published work, explain its relevance and approach, and include a brief bio for new contributors. Pay starts at $200, varying based on the time and level of effort required. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\nNEW:\n-AI News Round is\ncalling for pitches\nabout use of AI in African healthcare the Global South. \u201cWe are particularly interested in work grounded in the Global South, in reporting that draws on primary sources, and in pieces willing to reach an unpopular conclusion and defend it.\u201d The rate is $100 per piece. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\nNEW:\n-The Daily Tribune Herald is always calling for pitches of \u201creported pieces and analyses on subjects within our coverage area (national news, business and economics, technology, features, science, opinion); first-person essays of substantive interest, on subjects of public significance; opinion pieces from contributors with credentials in the field and a clear argumentative line; and short letters intended for our Letters to the Editor section.\u201d The rate is $250 for reported pieces, $150 for opinion pieces, and $50 for letters. Send pitches to\neditor@dailytribuneherald.com\n. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\n-The Sick Times is\ncalling for pitches\nfor reported news features and commentary essays covering Long COVID and related chronic diseases. Contributors will examine scientifically backed treatment options, related conditions such as ME and dysautonomia, disability justice, international reporting, public records investigations, service journalism, and novel perspectives tailored to chronically ill readers and allies. The publication prioritizes proposals from writers with Long COVID and related conditions and is seeking original, human-written pitches\u2014not full drafts\u2014that make complex topics accessible to a general audience. Pay is $1,300 for reported news features of 1,500 to 1,700 words and $400 for essays of 1,000 to 1,200 words. Pitch by emailing\neditors@thesicktimes.org\n. See our\nOpps Finder listing\nfor more info.\n(Nov 12)\nFELLOWSHIPS, INTERNSHIPS, AND RESIDENCIES\n-The New York Times is\naccepting applications\nfor its Local Investigations Fellowship based in Louisiana, Mississippi, or Arkansas, which provides reporters with a local investigative story idea an opportunity to pursue it under the guidance of Dean Baquet and a group of veteran investigative editors. The program is a one-year program focused on producing signature investigative work for The Times. Candidates should have three to five years of professional experience as a reporter covering a local beat, and be an independent journalist or employed at a newsroom willing to provide a year-long sabbatical. The salary is $85,262.84. See our\nOpps Finder listing\nfor more info.\n(Nov 13)\n-NBCUniversal is\nhiring\nan Editorial Intern based in NYC for its Local News division to support the production of lifestyle and entertainment content. They will assist producers with planning and guest booking, help with post-production, and manage social media platforms. Candidates should have strong writing and editing skills, experience with Adobe Creative Suite, and a background in journalism or a related field. The rate is $19 to $20 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 13)\n-ProPublica is\naccepting applications\nfor its Local Reporting Network Fellowship, a yearlong program based remotely in the U.S. to support accountability journalism projects of importance to local communities. Fellows will execute ambitious, in-depth investigative reporting projects in partnership with ProPublica editors, uncovering critical issues and driving local impact. Applicants must be reporters at eligible local or regional newsrooms in the United States and its territories with proposals for high-impact accountability projects. The fellowship provides salary reimbursement up to $82,500 for 2027, plus a benefits stipend. Apply through the\nfellowship page\nby Jan 25\n. See our\nOpps Finder listing\nfor more info.\n(Nov 10)\n-Reuters is\naccepting applications\nfor its News Internship Program (Graphics), a 12-week program for students and early-career journalists to gain visual journalism experience telling stories through charts, maps, and interactives. The program is based in NYC and begins in June 2027. Interns will partner with reporters and data journalism teams worldwide, produce visual reporting and interactive graphics, and contribute to in-depth stories across digital platforms. Applicants should have a commitment to a career in journalism, an international outlook, strong writing and communication skills, and experience blending journalism, computer programming, and design. The rate is $23 to $24 per hour and this is a guild position.\nApply through the\ninternship page\nby December 11.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 03)\nGRANTS, SCHOLARSHIPS, CONTESTS, COURSES, AND PRIZES\n-Arizona State University\u2019s Walter Cronkite School of Journalism and Mass Communication is\naccepting entries\nfor the 2026 Shaufler Prize in Journalism, a contest recognizing outstanding U.S. reporting that advances the understanding of underserved communities. Open to professional and student journalists, the competition honors print, digital, audio, and video journalism published or aired between September 1, 2025, and December 31, 2026, exploring issues affecting LGBTQ+ individuals, communities of color, immigrants, and people with disabilities. Submissions may include single stories, series of up to four related pieces, audio features or podcasts up to 30 minutes, or video broadcasts under 10 minutes that demonstrate deep narrative storytelling. Prizes are $5,000 for first place and $2,500 for second place in the professional category, and $2,500 for the student winner.\nApply through the\nentry page\nby January 7.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 10)\n-Narratively is\naccepting applications\nfor the 2026 Memoir Prize, seeking \u201crevealing and emotional first-person nonfiction narratives from unique and overlooked points of view.\u201d The winner will receive publication on Narratively and participate in a virtual awards ceremony, with author Alexander Chee serving as guest judge. The prize is $3,000.\nApply through the\ngrant page\nby December 6, 2026.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 19)\nFULL-TIME JOURNALISM JOBS\nNEW YORK CITY\nNEW:\n-Scientific American is\nhiring\na remote Senior Enterprise Editor based in NYC to commission, develop, edit, and write ambitious, deeply reported stories across all areas of science. They will generate original story ideas and uncover overlooked developments across scientific disciplines, report and write major enterprise pieces, news analyses, explainers, and mini-features, shape narratives from conception through publication alongside fact-checking, copy, art, and multimedia teams, manage and mentor an enterprise reporter while building a freelance writer network, and help package coverage across print, digital, social, video, and podcast platforms. Candidates should have at least eight years of journalism experience including significant long-form feature or enterprise editing at a national publication, a strong portfolio as both an editor and writer, the ability to translate complex science into compelling narratives for a general audience, experience managing reporters and commissioning freelancers, and a commitment to rigorous fact-checking and journalistic ethics. The salary range is $100,000 to $120,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-NBC News is\nhiring\na Data Reporter based in NYC to cover polling, elections, and political data. They will pitch and execute weekly analysis, contribute to enterprise projects, and coordinate with multiple NBC News teams. Candidates should have five or more years of professional journalism experience, including experience covering public opinion polling and election results, and experience writing for newsletters. The salary range is $93,000 to $150,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-Fox News Media is\nhiring\na freelance Associate Producer for America\u2019s Newsroom based in NYC to contribute to its live morning news program. They will write conversational scripts, teases, guest tosses, and banners under tight deadlines, pitch story ideas, soundbites, and visual elements, coordinate reporter live shots and guest segments, research developing stories, and monitor live events and breaking news. Candidates should have experience working in a major-market or national newsroom, exceptional writing skills and strong editorial judgment, a deep understanding of politics and current events, the ability to thrive under pressure in a breaking news environment, and a bachelor\u2019s degree in journalism or equivalent experience. Pay is $33.65 to $36.06 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 17)\nNEW:\n-ProPublica is\nhiring\nan Assistant Managing Editor, National based in NYC or remote to oversee and elevate accountability journalism produced by editors and reporters on its national staff. They will supervise teams of editors and reporters, provide top-level guidance and editing, and help staffers collaborate with researchers, data visualization reporters, and audience teams. Candidates should have at least 10 years of experience overseeing investigative reporting, a track record of landing revelatory stories, and the ability to juggle fast-breaking and long-term projects. The salary range is $200,000 to $250,000.\nApply by December 31.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 13)\nWASHINGTON, DC\nNEW:\n-The Washington Times is\nhiring\na Senior Editor based in Washington, DC to run a fast-paced news desk producing breaking and exclusive coverage across national, local, sports, and cultural news. They will manage and mentor a diverse team of early-career and veteran reporters, help shape story ideas for digital and print platforms, and edit copy from the political and foreign teams. Candidates should have at least 10 years of news reporting and editing experience across national, cultural, political, and foreign or faith beats, sharp news judgment, strong and transparent communication skills, and a bachelor\u2019s degree in journalism, communications, or a related field. The salary range is $100,000 to $115,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\nNEW:\n-The Washington Times is\nhiring\na Deputy Politics Editor/Breaking News based in Washington, DC to help oversee a news team covering the White House, Congress, the executive branch, and political campaigns. They will assist in developing coverage plans, assigning stories, and line-editing breaking news and enterprise reporting across the politics desk as well as breaking coverage from the national, foreign, and metro desks. Candidates should have five to 10 years of experience writing and editing national politics and policy coverage (including the White House, Congress, and political campaigns), strong writing, editing, and interpersonal communication skills, the ability to manage competing priorities and deadlines, and a bachelor\u2019s degree (preferably in journalism). The salary range is $100,000 to $115,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\nCALIFORNIA\nNEW:\n-Telemundo T33 Sacramento is\nhiring\na Multimedia Journalist based in the Sacramento, CA area to shoot, write, create, and edit original news stories in Spanish. They will coordinate interviews, report live during newscasts, and post content to social media. Candidates should have at least two years of experience as a reporter in a Spanish-language broadcast market and a valid driver\u2019s license. The salary range is $65,000 to $85,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-Telemundo T33 Sacramento is\nhiring\na Multimedia Journalist based in Sacramento, CA to produce original news stories in Spanish. They will shoot, write, create, and edit news reports, coordinate interviews, and post content to social media. Candidates should have at least two years of experience as a bilingual broadcast reporter and fluency in both Spanish and English. The salary range is $65,000 to $85,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-NBC News Digital is\nhiring\nan Associate Platforms Editor based in Los Angeles, CA to work nights and weekends. They will curate the NBC News homepage and social channels, write breaking news alerts, and distribute stories across social accounts. Candidates should have at least one year of experience working in a digital newsroom, strong knowledge of current events, and the ability to work independently during nights and weekends. The salary range is $65,000 to $85,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\nOTHER LOCATIONS\nNEW:\n-Versant Sports is\nhiring\na Freelance Digital Writer/Editor based in Stamford, CT to create and distribute sports content across digital platforms. They will write SEO-optimized articles, manage video publishing, and ideate sponsored content. Candidates should have two to three years of experience in digital editorial and strong CMS platform experience. The rate is $25 to $35 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-NBC Boston is\nhiring\nan On-Air Panelist/Contributor based in Boston, MA to contribute to a nightly discussion show focused on the Boston zeitgeist. They will provide daily on-air commentary, participate in panel discussions, and contribute to social media content. Candidates should have a comfortable on-camera presence and be available for evening shifts Monday-Thursday. The rate is $350 per show. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-NBCUniversal is\nhiring\na Bilingual Assignment Desk Editor based in Miami, FL to facilitate newsgathering and coordinate comprehensive coverage of breaking and daily news stories. They will monitor police scanners and social media, assign story coverage, and update news content across broadcast and digital platforms. Candidates should have at least two years of experience as an Assignment Editor, a bachelor\u2019s degree, and bilingual proficiency in English and Spanish. The salary range is $50,000 to $55,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\nNEW:\n-Telemundo Houston is\nhiring\nan Assignment Desk Editor based in Houston, TX to assist in the efficient operation of the assignment desk. They will assemble the daybook, monitor police scanners, coordinate field crews, and facilitate multiplatform news coverage. Candidates should have prior experience as an assignment editor, fluency in Spanish and English, and experience using online and social media resources for news research. The salary is $45,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\nNEW:\n-Telemundo Arizona is\nhiring\nan Assignment Desk Editor - Multiplatform based in Phoenix or Tucson, AZ to manage newsgathering logistics and produce digital content. They will monitor breaking news, dispatch reporters, and publish content across broadcast and social platforms. Candidates should have at least two years of experience as an Assignment Editor or Producer, fluency in Spanish and English, and familiarity with newsroom computer systems. The salary range is $50,000 to $55,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\n-The New York Times is\nhiring\na Midwest Correspondent based in Chicago, IL to cover the region for the National desk. They will produce a portfolio of work ranging from breaking news to enterprise pieces, cultivate deep source networks, and deliver a steady stream of story ideas. Candidates should have five or more years of experience at a journalism or media company, strong reporting and writing skills, and a portfolio that includes politics, news, enterprise, and analysis. The salary range is $124,979.94 to $160,000. See our\nOpps Finder listing\nfor more info.\n(Nov 12)\nREMOTE-FRIENDLY OR MULTIPLE LOCATIONS\nNEW:\n-MS NOW is\nhiring\na Writing Associate Producer for The Briefing with Jen Psaki based in NYC or Washington, D.C. to produce digital video, social media content, and on-screen broadcast elements for the program. They will write, edit, and produce vertical videos and original YouTube segments, pitch daily and long-term video ideas tied to the political news cycle, adapt linear broadcast moments and design graphics and thumbnails, research and write lower-third banner chyrons and weekend on-screen copy, and collaborate with broadcast and digital teams during breaking news. Candidates should have at least two years of journalism experience in television news, digital media, or social video production, proven scriptwriting and original digital video editing skills, strong editorial judgment and knowledge of U.S. politics and current events, flexibility to work nights, weekends, and holidays, and a bachelor\u2019s degree or equivalent experience. The salary range is $75,000 to $80,000 and this is a union position. See our\nOpps Finder listing\nfor more info.\n(Nov 17)\nNEW:\n-NPR is\nhiring\na Hybrid Chief Business Editor based in Washington, DC, NYC, or Culver City, CA to lead business and economics coverage across all platforms. They will supervise assignments,"
+    }
+  ],
   "jobs": [
     {
-      "title": "Communications Specialist (Administrator III)",
+      "title": "COMMUNICATIONS OFFICER, RHTP ((Administrator I))",
       "employer": "",
       "location": "Maryland",
-      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002588&R3=0068",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002586&R3=0067",
       "source": "MD State Jobs",
-      "description": "Job Announcement: Communications Specialist - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services Communications Specialist Administrator III Recruitment # 26-002588-0068 Department MD State Department of Education Date Opened 11/19/2026 11:59:00 PM Filing Deadline 12/3/2026 11:59:00 PM Salary $76,608.00 - $91,556 with progression to $120,814.00/year Employment Type Full-Time HR Analyst Christopher Langley Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits Introduction The Maryland State Department of Education is dedicated to supporting a world-class educational system that prepares all students for college and\u00c2 career success in the 21st century. With excellent stewardship from our\u00c2 divisions, we oversee State and federal programs that support the needs of\u00c2 a diverse population \u00e2\u0080\u0093 students, teachers, "
+      "description": "Job Announcement: COMMUNICATIONS OFFICER, RHTP - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services COMMUNICATIONS OFFICER, RHTP (Administrator I) Recruitment # 26-002586-0067 Department MDH Executive Direction Date Opened 11/20/2026 3:00:00 PM Filing Deadline 12/4/2026 11:59:00 PM Salary $32.27 - $41.75/hour, with potential growth to $50.90/hour Employment Type Full-Time HR Analyst Michelle Johnson Work Location Baltimore City Telework Eligible Yes Go Back Apply View Benefits GRADE STD0016 LOCATION OF POSITION MDH State Office of Rural Health, Baltimore MD 21201 Main Purpose of Job The Maryland Department of Health\u00e2\u0080\u0099s (MDH) State Office of Rural Health (SORH) serves as a focal point and state clearinghouse for collection and dissemination of information regarding rural health care issues, research findings, and innovative approa"
     },
     {
-      "title": "SUPERVISORY PUBLIC AFFAIRS OFFICER",
-      "employer": "Defense Information Systems Agency",
-      "location": "Fort Meade, Maryland",
-      "link": "https://www.usajobs.gov:443/job/893649400",
-      "source": "USAJobs",
-      "description": "USAJOBS - Job Announcement Skip to main content Back to results Back to results Apply SUPERVISORY PUBLIC AFFAIRS OFFICER Department of Defense Defense Information Systems Agency DOD CYBER DEFENSE COMMAND (DCDC)-JOINT FORCES HQ DCDC (REIM) (ORG DKAAJH-JH9) Apply Print Share Save Summary This job is open to Duties Requirements How you will be evaluated Required documents How to apply Summary This position is being recruited under 10 USC 1599f into the Cyber Excepted Service and does not convey eligibility to be converted to the Competitive Service. It has been identified as a position necessary to carry out and support the mission of the US Cyber Command. It is in the Supervision/Management Work Category at the Expert Work Level within the CES Occupational Structure. It is located in the DoD Cyber Defense Command (DCDC). Learn more about this agency Summary This position is being recruited"
-    },
-    {
-      "title": "Ellsworth/Acadia Reporter",
-      "employer": "",
-      "location": "Ny",
-      "link": "https://www.journalismjobs.com/1694344-ellsworthacadia-reporter-bangor-daily-news",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Ellsworth/Acadia Reporter Ellsworth/Acadia Reporter Bangor Daily News Bangor, Maine See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 20, 2026 Industry Newspapers, Digital Media Specialty Not Specified Required Education Bachelor's Degree Job Status Full-time Salary $42,000-$55,000 based on experience Description: The Bangor Daily News, an innovative, award-winning and family-owned digital media company, has an immediate opening for a driven reporter covering news in coastal Maine. This is an incredible opportunity to live in one of the country\u2019s most beautiful and fascinating regions while doing forward-looking journalism that matters to our audience. The position covers two major beats: Mount Desert Island, a national tourist destination that is home to Bar Harbor and Acadia National Park, and Ellsworth, "
-    },
-    {
-      "title": "Junior Sports Writer",
-      "employer": "Sotheby's",
-      "location": "New York, United States",
-      "link": "https://www.linkedin.com/jobs/view/4467792618/",
+      "title": "Assistant Editor",
+      "employer": "Wainscot Media",
+      "location": "Park Ridge, NJ (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4490968251/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Social Media & Creator Relations Associate",
-      "employer": "BETANDEAL",
-      "location": "Miami, Miami-Dade County",
-      "link": "https://www.adzuna.com/details/5972399224",
-      "source": "Adzuna",
-      "description": "Social Media & Creator Relations Associate Job in Miami, FL What? Where? Search Advanced Social Media & Creator Relations Associate \u276e back to last search BETANDEAL Miami, Florida, United States $105,529 per year - estimated ? NEW Apply for this job Join BETANDEAL! At Betandeal , we are Gamechangers in affiliate marketing within the iGaming industry. We develop innovative digital solutions for sports betting, poker, and casino, partnering with some of the world's leading betting companies. We operate in more than 20 international markets , with offices in Miami, Madrid, Bogot\u00e1, and S\u00e3o Paulo, and a growing team of over 50 professionals. We are currently looking for a Social Media & Creator Relations Associate to join our team in Miami . We are looking for someone passionate about social media, the digital world, and especially sports. Someone creative, proactive, and eager to grow profess"
+      "title": "General Assignment Reporter",
+      "employer": "",
+      "location": "New York",
+      "link": "https://www.journalismjobs.com/1694347-general-assignment-reporter-the-forward",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - General Assignment Reporter General Assignment Reporter the Forward New York, New York See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 20, 2026 Industry Digital Media Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $65,000 - 75,000 Description: The Forward seeks a General Assignment Reporter to file daily stories that reflect and explain Jewish life in America. The ideal candidate will bring a sense of urgency and curiosity to the role, generating a steady stream of ideas to drive the day\u2019s Jewish conversations. They will pair originality with excellent news judgment to develop quick, smart stories that resonate with Forward readers, viewers and followers. The reporter will cover breaking news, find fresh Jewish angles on trending topics, and report and write explainers tha"
     },
     {
-      "title": "Freelance Writer",
+      "title": "Associate Editor, History.com",
+      "employer": "A+E Global Media",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4484162106/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Audience Editor",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694333-freelance-writer-surround-sound-media",
+      "link": "https://www.journalismjobs.com/1694351-audience-editor-arkansas-today",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Freelance Writer Freelance Writer Surround Sound Media Greater Chicago Area, Illinois See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: Freelance Community News Reporter \u2014 Greater Chicagoland Surround Sound News (SSN) Independent Freelance Contract | Three-Month Renewable Engagement |$150-$300 Per Article About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking an experienced freelance journalist with strong knowledge of Greater Chicagoland who can independently identify and report compelling sto"
+      "description": "JournalismJobs.com - Job Listing - Audience Editor Audience Editor Arkansas Today Little Rock, Arkansas See other jobs from this company Save Share Facebook Twitter Linkedin Email Apply Now Date Posted November 20, 2026 Industry Other Specialty Not Specified Remote / Telecommute Hybrid Job Status Full-time Salary $60,000 to $65,000 Description: Arkansas Today is a nonprofit newsroom founded upon the idea that every Arkansan is entitled to have their voice heard. Launched in 2026 with an on-the-ground reporting presence in Little Rock and Northwest Arkansas, Arkansas Today is committed to in-depth accountability and investigative journalism that reaches every corner of the Natural State. Arkansas Today is part of the regional news network Deep South Today that is rebuilding and re-energizing local journalism in communities where it had previously eroded. About the role The Audience Editor"
     },
     {
-      "title": "Part-Time Reporter",
-      "employer": "New York Post",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4475884084/",
+      "title": "Editor",
+      "employer": "Robert Half",
+      "location": "Pasadena, CA (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4492445278/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
-    },
-    {
-      "title": "Content Specialist",
-      "employer": "Navy Mutual",
-      "location": "Arlington, Arlington County",
-      "link": "https://www.adzuna.com/details/5972843625",
-      "source": "Adzuna",
-      "description": "Content Specialist Job in Arlington, VA What? Where? Search Advanced Content Specialist \u276e back to last search Navy Mutual Arlington, Virginia $72,762 per year - estimated ? NEW Apply for this job Job Title: Content SpecialistFLSA Status: ExemptLocation: Marketing DepartmentReports To: Marketing Operations Manager Position Overview: The Content Specialist role supports the Marketing Team on a variety of projects that include creating communications content for use online and in print and designing print and digital ad materials. Job Brief: The position will have the opportunity to contribute to ongoing creative campaigns, educational content, and advertisements. This position supports all company branded efforts. Primary Responsibilities:\u2022 Create internal and external marketing and communications content, including print and digital materials (blog posts, emails, direct mail, newsletters,"
-    },
-    {
-      "title": "Multiplatform Editor, Sports (Temporary)",
-      "employer": "Boston Globe Media",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4491867520/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Content Producer",
-      "employer": "The RealReal",
-      "location": "New York City, New York",
-      "link": "https://www.adzuna.com/details/5972849778",
-      "source": "Adzuna",
-      "description": "Content Producer Job in New York City, NY What? Where? Search Advanced Content Producer \u276e back to last search The RealReal New York City, New York $72,994 per year - estimated ? Contract Full time NEW Apply for this job About The Role The Content Producer will lead production of The RealReal\u2019s video content series, liveselling initiatives and our podcast, REAL TALK. This person owns the production process from first idea to final delivery, bringing to life the creative vision set by the Senior Creative Director and Senior Editorial Director. You\u2019ll work hand in hand with the Senior Producer and Social team on video franchises and social production, and help build live selling into a repeatable, on-brand format. This is a role for a producer with a strong narrative POV as you\u2019ll partner closely with our Chief Brand Officer on shaping our podcast. What You Get To Do Every Day Video Series "
     }
   ]
 }
