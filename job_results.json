@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T14:28:32.471378",
+  "generated": "2026-11-23T17:56:46.470019",
   "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 2,
@@ -9,12 +9,12 @@
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 17,
+      "raw": 14,
       "method": "selectors",
-      "kept": 12,
-      "found": 12,
-      "new": 1,
-      "checked": 1,
+      "kept": 10,
+      "found": 10,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "IRE": {
@@ -43,17 +43,17 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 20,
+      "raw": 18,
       "method": "sitemap",
       "kept": 3,
       "found": 3,
-      "new": 0,
-      "checked": 0,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 46,
+      "raw": 47,
       "method": "sitemap",
       "kept": 4,
       "found": 4,
@@ -80,7 +80,7 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 116,
+      "raw": 110,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -90,7 +90,7 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 599,
+      "raw": 617,
       "method": "anchor-scan",
       "kept": 5,
       "found": 5,
@@ -106,9 +106,9 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 49,
-      "found": 49,
-      "new": 29,
+      "kept": 47,
+      "found": 47,
+      "new": 25,
       "checked": 4,
       "final": 0
     },
@@ -129,10 +129,10 @@
       "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 11,
-      "note": "3 new email(s), 11 relevant job(s) out of 16 in the alerts",
-      "found": 11,
-      "new": 7,
+      "kept": 7,
+      "note": "4 new email(s), 7 relevant job(s) out of 13 in the alerts",
+      "found": 7,
+      "new": 4,
       "checked": 3,
       "final": 3
     }
@@ -140,28 +140,28 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Associate Editor",
-      "employer": "Formedics",
-      "location": "Basking Ridge, NJ (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4493284942/",
+      "title": "Social Media Specialist",
+      "employer": "USA TODAY Co., Inc.",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4468251969/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Writer",
-      "employer": "Jobgether",
+      "title": "Editorial Assistant",
+      "employer": "Salem Media Group",
       "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4492573171/",
+      "link": "https://www.linkedin.com/jobs/view/4477469693/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Film/TV Features Writer",
-      "employer": "MovieWeb",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4492724163/",
+      "title": "A-hed Deputy Editor",
+      "employer": "Dow Jones",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4493267300/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
