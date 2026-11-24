@@ -1,21 +1,22 @@
 {
-  "generated": "2026-11-23T17:56:46.470019",
-  "count": 3,
+  "generated": "2026-11-24T17:29:51.580315",
+  "count": 5,
   "dead_links_dropped": 4,
-  "off_target_dropped": 2,
+  "off_target_dropped": 3,
   "source_counts": {
+    "JournalismJobs": 2,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 14,
+      "raw": 17,
       "method": "selectors",
-      "kept": 10,
-      "found": 10,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 11,
+      "found": 11,
+      "new": 6,
+      "checked": 3,
+      "final": 2
     },
     "IRE": {
       "http": "200",
@@ -43,22 +44,22 @@
     },
     "SPJ": {
       "http": "200",
-      "raw": 18,
+      "raw": 20,
       "method": "sitemap",
-      "kept": 3,
-      "found": 3,
+      "kept": 4,
+      "found": 4,
       "new": 1,
       "checked": 1,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 47,
+      "raw": 45,
       "method": "sitemap",
-      "kept": 4,
-      "found": 4,
-      "new": 1,
-      "checked": 1,
+      "kept": 5,
+      "found": 5,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "States Newsroom": {
@@ -72,15 +73,15 @@
       "http": "200",
       "raw": 25,
       "method": "rss feed",
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
+      "kept": 3,
+      "found": 3,
+      "new": 1,
+      "checked": 1,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 110,
+      "raw": 115,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -90,7 +91,7 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 617,
+      "raw": 607,
       "method": "anchor-scan",
       "kept": 5,
       "found": 5,
@@ -106,9 +107,9 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 47,
-      "found": 47,
-      "new": 25,
+      "kept": 37,
+      "found": 37,
+      "new": 20,
       "checked": 4,
       "final": 0
     },
@@ -126,42 +127,66 @@
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 7,
-      "note": "4 new email(s), 7 relevant job(s) out of 13 in the alerts",
-      "found": 7,
-      "new": 4,
+      "kept": 10,
+      "note": "3 new email(s), 10 relevant job(s) out of 12 in the alerts",
+      "found": 10,
+      "new": 5,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Media Digest: Narratives of Exile and Homeland",
+      "id": "<GOFFJgkJTNWO-encookmTQ@geopod-ismtpd-81>",
+      "date": "Mon, 23 Nov 2026 19:02:09 +0000 (UTC)",
+      "body": "Media Digest: Narratives of Exile and Homeland\nAn interview with Aatish Taseer\nNovember 23, 2026\nMedia Digest: Narratives of Exile and Homeland\nAn interview with Aatish Taseer\nInterview with Aatish Taseer\nOn the latest podcast\nepisode\n, Aatish Taseer discussed his new book\nThe Rootless Elysium: America at 250, A Journey\n.\nTaseer talked about being exiled from India and the fluid notion of a homeland. Listen to the episode on\nApple Podcasts\nand watch on\nYouTube\n.\nExile, Modi, and Nationalism ft. Aatish Taseer\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode (Now on\nYouTube\n)!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\n.\nAI and Journalism Webinar Panel ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nICYMI: Interview with Hamish McKenzie\nOn this podcast\nepisode\n, Hamish McKenzie, a co-founder of Substack, discussed the future of the newsletter model. Listen on\nApple Podcasts\nor watch on YouTube.\nSubstack Co-Founder's Plan For Journalism ft. Hamish McKenzie\nRecommended Reading:\n\u201cThe Impish Faxes Between Janet Malcolm And Philip Roth,\u201d Eve Sneider,\nThe New Yorker\n\u201cObama\u2019s Book Is Actually Very Revealing,\u201d Sam Adler-Bell,\nNew York Magazine"
+    }
+  ],
   "jobs": [
     {
-      "title": "Social Media Specialist",
-      "employer": "USA TODAY Co., Inc.",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4468251969/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
+      "title": "Reporter",
+      "employer": "",
+      "location": "Virginia",
+      "link": "https://www.journalismjobs.com/1694360-reporter-insidenova",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Reporter Reporter InsideNoVa Manassas, Virginia Save Share Facebook Twitter Linkedin Email Date Posted November 23, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Job Status Full-time Salary Negotiable Description: One of Virginia\u2019s leading, locally owned community media companies is seeking energetic, inquisitive and dedicated journalists to fill not one, not two, but three openings on our news team. You'll work for Rappahannock Media, publisher of the award-winning InsideNoVa and community newspapers, magazines and local news sites across Northern and Piedmont Virginia. You'll have the experience to cover local government issues, turn around breaking news, and write features and profiles. Reporting and writing are at the forefront of the job. You should live in and enjoy being a presence in the community you c"
     },
     {
-      "title": "Editorial Assistant",
-      "employer": "Salem Media Group",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4477469693/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "A-hed Deputy Editor",
-      "employer": "Dow Jones",
+      "title": "Prediction Markets Staff Writer and Editor (Contract)",
+      "employer": "CBS Sports",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4493267300/",
+      "link": "https://www.linkedin.com/jobs/view/4422474939/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Writer - Sports Betting, iGaming, Prediction Markets",
+      "employer": "Advance Local",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4492627342/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Freelance Writer-Chicago Area",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694333-freelance-writer-chicago-area-surround-sound-media",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Freelance Writer-Chicago Area Freelance Writer-Chicago Area Surround Sound Media Greater Chicago Area, Illinois See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: Freelance Community News Reporter \u2014 Greater Chicagoland Surround Sound News (SSN) Independent Freelance Contract | Three-Month Renewable Engagement |$150-$300 Per Article About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking an experienced freelance journalist with strong knowledge of Greater Chicagoland who can independently identify"
+    },
+    {
+      "title": "Freelance Reporter",
+      "employer": "Input Fort Wayne",
+      "location": "Fort Wayne, IN (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4492630365/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
