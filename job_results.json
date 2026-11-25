@@ -1,21 +1,22 @@
 {
-  "generated": "2026-11-24T17:29:51.580315",
-  "count": 5,
+  "generated": "2026-11-25T17:05:14.526606",
+  "count": 6,
   "dead_links_dropped": 4,
-  "off_target_dropped": 3,
+  "off_target_dropped": 0,
   "source_counts": {
+    "MD State Jobs": 1,
     "JournalismJobs": 2,
     "LinkedIn": 3
   },
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 17,
+      "raw": 14,
       "method": "selectors",
-      "kept": 11,
-      "found": 11,
-      "new": 6,
-      "checked": 3,
+      "kept": 10,
+      "found": 10,
+      "new": 2,
+      "checked": 2,
       "final": 2
     },
     "IRE": {
@@ -48,16 +49,16 @@
       "method": "sitemap",
       "kept": 4,
       "found": 4,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 45,
+      "raw": 44,
       "method": "sitemap",
-      "kept": 5,
-      "found": 5,
+      "kept": 4,
+      "found": 4,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -75,13 +76,13 @@
       "method": "rss feed",
       "kept": 3,
       "found": 3,
-      "new": 1,
-      "checked": 1,
+      "new": 0,
+      "checked": 0,
       "final": 0
     },
     "Idealist": {
       "http": "200",
-      "raw": 115,
+      "raw": 112,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -91,13 +92,13 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 607,
+      "raw": 609,
       "method": "anchor-scan",
       "kept": 5,
       "found": 5,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "new": 1,
+      "checked": 1,
+      "final": 1
     },
     "ONA Career Center": {
       "http": "403",
@@ -107,9 +108,9 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 37,
-      "found": 37,
-      "new": 20,
+      "kept": 38,
+      "found": 38,
+      "new": 24,
       "checked": 4,
       "final": 0
     },
@@ -130,10 +131,10 @@
       "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 10,
-      "note": "3 new email(s), 10 relevant job(s) out of 12 in the alerts",
-      "found": 10,
-      "new": 5,
+      "kept": 11,
+      "note": "3 new email(s), 11 relevant job(s) out of 18 in the alerts",
+      "found": 11,
+      "new": 4,
       "checked": 3,
       "final": 3
     }
@@ -141,52 +142,60 @@
   "newsletters": [
     {
       "source": "Study Hall",
-      "subject": "Media Digest: Narratives of Exile and Homeland",
-      "id": "<GOFFJgkJTNWO-encookmTQ@geopod-ismtpd-81>",
-      "date": "Mon, 23 Nov 2026 19:02:09 +0000 (UTC)",
-      "body": "Media Digest: Narratives of Exile and Homeland\nAn interview with Aatish Taseer\nNovember 23, 2026\nMedia Digest: Narratives of Exile and Homeland\nAn interview with Aatish Taseer\nInterview with Aatish Taseer\nOn the latest podcast\nepisode\n, Aatish Taseer discussed his new book\nThe Rootless Elysium: America at 250, A Journey\n.\nTaseer talked about being exiled from India and the fluid notion of a homeland. Listen to the episode on\nApple Podcasts\nand watch on\nYouTube\n.\nExile, Modi, and Nationalism ft. Aatish Taseer\nMissed the AI and Journalism Webinar? Check Out Our Podcast Episode (Now on\nYouTube\n)!\nIf you missed our webinar about AI and journalism, you can now check it out as a podcast\nepisode\n.\nAI and Journalism Webinar Panel ft. Taylor Lorenz, Brian Merchant, and Alexandra Marvar\nICYMI: Interview with Hamish McKenzie\nOn this podcast\nepisode\n, Hamish McKenzie, a co-founder of Substack, discussed the future of the newsletter model. Listen on\nApple Podcasts\nor watch on YouTube.\nSubstack Co-Founder's Plan For Journalism ft. Hamish McKenzie\nRecommended Reading:\n\u201cThe Impish Faxes Between Janet Malcolm And Philip Roth,\u201d Eve Sneider,\nThe New Yorker\n\u201cObama\u2019s Book Is Actually Very Revealing,\u201d Sam Adler-Bell,\nNew York Magazine"
+      "subject": "Opps of the Week: Fortune, NPR, Chicago Media Journal",
+      "id": "<JGXRXGw6SyW6-ITWcvMkMQ@geopod-ismtpd-66>",
+      "date": "Tue, 24 Nov 2026 18:30:35 +0000 (UTC)",
+      "body": "Opps of the Week: Fortune, NPR, Chicago Media Journal\nWrite about big tech for $1.25 per word\nNovember 24, 2026\nOpps of the Week: Fortune, NPR, Chicago Media Journal\nWrite about big tech for $1.25 per word\nICYMI: Interview with Aatish Taseer\nOn the latest podcast\nepisode\n,\nAatish Taseer\ndiscussed his new memoir \u2014\nThe Rootless Elysium: America at 250, A Journey\n. In this conversation, the writer opened up about his experience being exiled from India and noted the parallels (and differences) between Indian history and the current American political climate. In addition, Taseer shared tips for delving into one\u2019s experience and challenging the tropes of a road trip memoir.\nListen on\nApple Podcasts\nor watch on\nYouTube\n:\nBanned From India: Aatish Taseer on Modi and Nationalism\nNews Opps\nNBC Boston\n$450/day\nHiring a Freelance Reporter based in Needham, MA for a 12 month maximum term\nNBC Boston is hiring a Freelance Reporter based in Needham, MA to join its award-winning team of journalists for a 12 month maximum term. They will report live during newscasts, create daily news packages, and coordinate interviews. Candidates should have at least two years of reporting experience...\nDetails and pitch contact here\nBalls & Strikes\n$300 for 800-1,000 words\nCalling for pitches of stories about the Supreme Court, the legal profession, the federal ...\nBalls & Strikes is always looking for pitches of stories about the Supreme Court, the legal profession, the federal judiciary, and election-denying judges. \u201cIf you have a story idea in our wheelhouse, please email me at pitches@ballsandstrikes.org so that I can pay you money to write it.\u201dThe...\nDetails and pitch contact here\nChicago Media Journal\n$150-$200\nCalling for pitches about local news and current events in and around Chicago, IL\nChicago Media Journal is always looking for pitches of articles about: Chicago-area media news. Profiles of journalists and other people who work in or are otherwise involved with local media. Profiles of media outlets, journalism organizations, schools, foundations that fund journalism, etc. Featur...\nDetails and pitch contact here\nThe New Transsexual\n$150 per published essay\nPitches of opinionated essays on culture, media, and politics from trans and allied writer...\nThe New Transsexual is looking for pitches of opinionated essays on culture, media, and politics. They are looking for essays and op-eds from trans and allied writers, roughly 800 to 1,500 words, on culture, media, and politics. Arguments, reported observations, first-person essays with a point.The...\nDetails and pitch contact here\nThe Utah Plum\n$30/hr\nHiring freelance political writers based in Utah to cover 2027 legislative session from Ja...\nThe Utah Plum producer, David Childs, shared with Study Hall that they are hiring freelance political writers based in Utah to cover Utah\u2019s 2027 legislative session from Jan. 19 to March 5. They will analyze bills and live policy debates, conduct research and interview outreach to present the stro...\nDetails and pitch contact here\nVersant Sports\n$25-$35/hr\nHiring a Freelance Digital Writer/Editor based in Stamford, CT\nVersant Sports is hiring a Freelance Digital Writer/Editor based in Stamford, CT to create and distribute sports content across digital platforms. They will write SEO-optimized articles, manage video publishing, and ideate sponsored content. Candidates should have two to three years of experience in...\nDetails and pitch contact here\nThe Nerve\n$1.25 per word, paid on publication\nLooking for pitches centered around the dangers of big tech, the rise of the hard right, a...\nThe Nerve is always looking for pitches of \u201cinvestigations, which tend to be around the dangers of big tech, the rise of the hard right and the climate emergency.\u201d They also publish \u201cfeature articles that fit within our core areas: culture in its broadest baggiest sense, politics and technolog...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more News listings on the\nopps finder\n.\nArts and Culture Opps\nThis Magazine\n$150-$300 for features\nCalling for pitches about the state of media in Canada for 60th Anniversary issue\nThis Magazine is looking for pitches of stories about the state of media in Canada for their 60th anniversary issue. They are \u201clooking for features, news, arts, and opinion stories.Features pay $150 to $300, and columns pay $60 to $100. They only publish Canadian residents. Send pitches to editor@...\nDetails and pitch contact here\nThis is just a sample of this week's new opportunities. There are more Arts and culture listings on the\nopps finder\n.\nDeadline Approaching\nFortune\n$30/hour\nAccepting applications for its six-month Newsroom Fellowship starting in January\nFortune is accepting applications for its Newsroom Fellowships, a six-month program for early-career journalists to gain hands-on reporting and digital production experience covering business and economics. The program is based in NYC and begins in January 2026. Fellows will pitch and write daily an...\nDetails and pitch contact here\nNPR\n$36.06-$38.46/hr\nHiring a temporary Executive Assistant based in Washington, DC\nNPR is hiring a temporary Executive Assistant based in Washington, DC to provide high-level administrative support to senior leaders within the Content division. They will manage complex executive calendars, assemble briefing materials for board meetings, coordinate travel logistics, and assist with...\nDetails and pitch contact here\nChic Magazine\nSalary range of \u20ac40,000 - \u20ac45,000 per annum, negotiable in application\nHiring a Magazine Editor based in Ireland on a 6 month contracted role\nChic Magazine is hiring a Magazine Editor based in Ireland on a 6 month contracted role to oversee the editing and production of the Irish Daily Star\u2019s celebrity and TV listings publication. They will design and sub-edit pages to hit off-stone deadlines, develop weekly content plans covering Irish...\nDetails and pitch contact here\nJewish California\n$30-$50/hour\nHhiring a part-time Social Media Manager & Content Producer based remotely in the U.S., wi...\nJewish California is hiring a part-time Social Media Manager & Content Producer based remotely in the U.S., with a preference for California, to manage its social presence and translate community priorities and policy issues into engaging digital storytelling. They will run day-to-day accounts a...\nDetails and pitch contact here\nCNBC International\n$4,000-$5,000/month\nHiring a Digital Reporter based in Singapore\nCNBC International is hiring a Digital Reporter based in Singapore to cover finance, economics, and geopolitics for its Asia Pacific audience. They will write breaking news and analysis on financial markets, pitch and report original stories, and cultivate sources for exclusive content. Candidates s...\nDetails and pitch contact here\nBGR\n$21-$25/hour or $0.08-$0.10/word\nHiring writers to cover tech news, including smartphones, computers, and AI.\nBGR is hiring writers to cover tech news, including smartphones, computers, and AI. They will write daily assignments, pitch ideas, and work with editors to produce high-quality content. Candidates should have experience in tech journalism, a strong grasp of the English language, and the ability to...\nDetails and pitch contact here\nThe Science History Institute\n$55,000\nAccepting applications for its Distillations Magazine Curatorial Fellowship in Philadelphi...\nThe Science History Institute is accepting applications for its Distillations Magazine Curatorial Fellowship, a program for individuals with advanced degrees to gain editorial and public history experience exploring the history of science. The two-year program is based in Philadelphia, PA and runs f...\nDetails and pitch contact here\nThe Mirror\nUndisclosed/Negotiable in application, claimed to be \"Competitive + excellent company benefits\"\nSeeking an Audience Editor in London, UK\nThe Mirror is hiring an Audience Editor based in London to drive audience growth and identify digital distribution opportunities across its portfolio. They will package content for specific platforms, manage social media and newsletter channels, mentor engagement producers, and execute high-priority...\nDetails and pitch contact here\nNBCUniversal\n$130,000-$200,000\nHiring a Director of Content Analytics based in NYC\nNBCUniversal is hiring a Director of Content Analytics based in NYC to oversee content performance and forecasting for entertainment series across NBC and Bravo. They will develop deep expertise in Nielsen and first-party data, create actionable insights for senior stakeholders, and lead a high-perf...\nDetails and pitch contact here\nNBCUniversal\n$130,000-$200,000\nHiring a Director of Content Analytics based in NYC\nNBCUniversal is hiring a Director of Content Analytics based in NYC to oversee content performance and forecasting for entertainment series across NBC and Bravo. They will develop deep expertise in Nielsen and first-party data, create actionable insights for senior stakeholders, and lead a high-perf...\nDetails and pitch contact here"
     }
   ],
   "jobs": [
     {
-      "title": "Reporter",
+      "title": "HEALTH POLICY ANALYST II (Older Adult Behavioral Health Coordinator)",
       "employer": "",
-      "location": "Virginia",
-      "link": "https://www.journalismjobs.com/1694360-reporter-insidenova",
-      "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Reporter Reporter InsideNoVa Manassas, Virginia Save Share Facebook Twitter Linkedin Email Date Posted November 23, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Job Status Full-time Salary Negotiable Description: One of Virginia\u2019s leading, locally owned community media companies is seeking energetic, inquisitive and dedicated journalists to fill not one, not two, but three openings on our news team. You'll work for Rappahannock Media, publisher of the award-winning InsideNoVa and community newspapers, magazines and local news sites across Northern and Piedmont Virginia. You'll have the experience to cover local government issues, turn around breaking news, and write features and profiles. Reporting and writing are at the forefront of the job. You should live in and enjoy being a presence in the community you c"
+      "location": "Maryland",
+      "link": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=002419&R3=0009",
+      "source": "MD State Jobs",
+      "description": "Job Announcement: HEALTH POLICY ANALYST II - State of Maryland Skip to Main Content Menu Menu Maryland.gov Phone Directory State Agencies Online Services HEALTH POLICY ANALYST II Older Adult Behavioral Health Coordinator Recruitment # 26-002419-0009 Department MDH Behavioral Health Admin - Program Direction Date Opened 11/24/2026 11:59:00 PM Filing Deadline 12/8/2026 11:59:00 PM Salary $36.73 - $57.92/hour Employment Type Full-Time HR Analyst Tiffany Seyler Work Location Baltimore County Telework Eligible Yes Go Back Apply View Benefits GRADE STD0018 LOCATION OF POSITION MDH, Behavioral Health Administration Clinical Services,\u00c2 Office of Older Adults and Long-term Services and Supports 55 Wade Avenue\u00c2 Catonsville, MD 21228 Main Purpose of Job The Older Adult Behavioral Health Coordinator plays a key role in supporting older adults and individuals with disabilities within state psychiatri"
     },
     {
-      "title": "Prediction Markets Staff Writer and Editor (Contract)",
-      "employer": "CBS Sports",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4422474939/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Writer - Sports Betting, iGaming, Prediction Markets",
-      "employer": "Advance Local",
-      "location": "United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4492627342/",
-      "from_email": true,
-      "source": "LinkedIn",
-      "description": ""
-    },
-    {
-      "title": "Freelance Writer-Chicago Area",
+      "title": "Freelance Writer-Multiple Metros Available",
       "employer": "",
       "location": "Remote",
-      "link": "https://www.journalismjobs.com/1694333-freelance-writer-chicago-area-surround-sound-media",
+      "link": "https://www.journalismjobs.com/1694332-freelance-writer-multiple-metros-available-surround-sound-media",
       "source": "JournalismJobs",
-      "description": "JournalismJobs.com - Job Listing - Freelance Writer-Chicago Area Freelance Writer-Chicago Area Surround Sound Media Greater Chicago Area, Illinois See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: Freelance Community News Reporter \u2014 Greater Chicagoland Surround Sound News (SSN) Independent Freelance Contract | Three-Month Renewable Engagement |$150-$300 Per Article About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking an experienced freelance journalist with strong knowledge of Greater Chicagoland who can independently identify"
+      "description": "JournalismJobs.com - Job Listing - Freelance Writer-Multiple Metros Available Freelance Writer-Multiple Metros Available Surround Sound Media Nationwide, All Locations See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: Freelance Community News Reporters \u2014 Multiple U.S. Markets Surround Sound News (SSN) | Independent Freelance Contract | Three-Month Renewable Engagement | $150-300 Per Article About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking experienced freelance journalists with strong local knowledge who can independently i"
     },
     {
-      "title": "Freelance Reporter",
-      "employer": "Input Fort Wayne",
-      "location": "Fort Wayne, IN (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4492630365/",
+      "title": "Producer",
+      "employer": "TelevisaUnivision",
+      "location": "Miami, FL (On-site)",
+      "link": "https://www.linkedin.com/jobs/view/4486192545/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Freelance Writer-Boston Area",
+      "employer": "",
+      "location": "Remote",
+      "link": "https://www.journalismjobs.com/1694330-freelance-writer-boston-area-surround-sound-media",
+      "source": "JournalismJobs",
+      "description": "JournalismJobs.com - Job Listing - Freelance Writer-Boston Area Freelance Writer-Boston Area Surround Sound Media Boston, Massachusetts See other jobs from this company Save Share Facebook Twitter Linkedin Email Date Posted November 19, 2026 Industry Digital Media Specialty Not Specified Required Education Bachelor's Degree Remote / Telecommute Telecommute Job Status Freelance Salary Not Specified Description: About Surround Sound News Surround Sound News is building a new model for local journalism, delivering trusted, useful, and engaging news to communities across the United States. We're seeking an experienced freelance journalist with strong knowledge of Greater Boston who can independently identify and report compelling stories of interest to readers across the metropolitan area. The Opportunity SSN is looking for an independent freelance reporter to contribute original, on-the-gro"
+    },
+    {
+      "title": "Producer, CNN Visual Investigations",
+      "employer": "CNN",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4441273652/",
+      "from_email": true,
+      "source": "LinkedIn",
+      "description": ""
+    },
+    {
+      "title": "Data Journalist",
+      "employer": "Verasight",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4494033993/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
