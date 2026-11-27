@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T16:47:53.235810",
+  "generated": "2026-11-27T16:31:37.486625",
   "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
@@ -9,10 +9,10 @@
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 14,
+      "raw": 10,
       "method": "selectors",
-      "kept": 10,
-      "found": 10,
+      "kept": 6,
+      "found": 6,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -42,15 +42,18 @@
       "note": "blocked or rate limited"
     },
     "SPJ": {
-      "http": "error ReadTimeout",
-      "raw": 0,
-      "kept": 0,
-      "method": "none",
-      "note": "http error ReadTimeout"
+      "http": "200",
+      "raw": 18,
+      "method": "sitemap",
+      "kept": 4,
+      "found": 4,
+      "new": 0,
+      "checked": 0,
+      "final": 0
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 37,
+      "raw": 36,
       "method": "sitemap",
       "kept": 4,
       "found": 4,
@@ -77,7 +80,7 @@
     },
     "Idealist": {
       "http": "200",
-      "raw": 118,
+      "raw": 114,
       "method": "sitemap",
       "kept": 1,
       "found": 1,
@@ -87,7 +90,7 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 639,
+      "raw": 629,
       "method": "anchor-scan",
       "kept": 5,
       "found": 5,
@@ -103,9 +106,9 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 37,
-      "found": 37,
-      "new": 23,
+      "kept": 30,
+      "found": 30,
+      "new": 19,
       "checked": 4,
       "final": 0
     },
@@ -126,10 +129,10 @@
       "note": "no new email (3 already read in an earlier run)"
     },
     "LinkedIn": {
-      "kept": 15,
-      "note": "3 new email(s), 15 relevant job(s) out of 18 in the alerts",
-      "found": 15,
-      "new": 9,
+      "kept": 8,
+      "note": "3 new email(s), 8 relevant job(s) out of 18 in the alerts",
+      "found": 8,
+      "new": 6,
       "checked": 3,
       "final": 3
     }
@@ -137,28 +140,28 @@
   "newsletters": [],
   "jobs": [
     {
-      "title": "Associate Editor, Vulture",
-      "employer": "Vox Media",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4493037377/",
+      "title": "News Editor",
+      "employer": "Bisnow",
+      "location": "Miami, FL (Hybrid)",
+      "link": "https://www.linkedin.com/jobs/view/4495222830/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Staff Writer, Culture GQ",
-      "employer": "Cond\u00e9 Nast",
-      "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/4494392442/",
+      "title": "Market Commentary Writer + Social Editor",
+      "employer": "Wealthfront",
+      "location": "Utica-Rome Area (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4486093429/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Taste Editor",
-      "employer": "Aurora",
-      "location": "New York, NY (On-site)",
-      "link": "https://www.linkedin.com/jobs/view/4493954279/",
+      "title": "Money, Power & Influence Reporter",
+      "employer": "USA TODAY Co., Inc.",
+      "location": "Florida, United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4487037116/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
