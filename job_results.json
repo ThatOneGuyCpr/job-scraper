@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T16:31:37.486625",
+  "generated": "2026-11-28T15:25:03.312073",
   "count": 3,
   "dead_links_dropped": 4,
   "off_target_dropped": 0,
@@ -9,10 +9,10 @@
   "diagnostics": {
     "JournalismJobs": {
       "http": "200",
-      "raw": 10,
+      "raw": 7,
       "method": "selectors",
-      "kept": 6,
-      "found": 6,
+      "kept": 3,
+      "found": 3,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -53,7 +53,7 @@
     },
     "PRSA": {
       "http": "404,200",
-      "raw": 36,
+      "raw": 37,
       "method": "sitemap",
       "kept": 4,
       "found": 4,
@@ -90,10 +90,10 @@
     },
     "MD State Jobs": {
       "http": "200",
-      "raw": 629,
+      "raw": 611,
       "method": "anchor-scan",
-      "kept": 5,
-      "found": 5,
+      "kept": 4,
+      "found": 4,
       "new": 0,
       "checked": 0,
       "final": 0
@@ -106,8 +106,8 @@
       "note": "blocked or rate limited"
     },
     "Adzuna": {
-      "kept": 30,
-      "found": 30,
+      "kept": 34,
+      "found": 34,
       "new": 19,
       "checked": 4,
       "final": 0
@@ -118,50 +118,54 @@
       "kept": 0
     },
     "USAJobs": {
-      "kept": 2,
-      "found": 2,
-      "new": 0,
-      "checked": 0,
-      "final": 0
+      "kept": 0
     },
     "Study Hall": {
       "kept": 0,
-      "note": "no new email (3 already read in an earlier run)"
+      "note": "1 new email(s), 0 relevant job(s), full text sent to Claude"
     },
     "LinkedIn": {
-      "kept": 8,
-      "note": "3 new email(s), 8 relevant job(s) out of 18 in the alerts",
-      "found": 8,
+      "kept": 9,
+      "note": "2 new email(s), 9 relevant job(s) out of 12 in the alerts",
+      "found": 9,
       "new": 6,
       "checked": 3,
       "final": 3
     }
   },
-  "newsletters": [],
+  "newsletters": [
+    {
+      "source": "Study Hall",
+      "subject": "Media Opps: The Nerve, The Associated Press, Current Affairs",
+      "id": "<OdiACUGVT02lntg8_iB1CQ@geopod-ismtpd-103>",
+      "date": "Fri, 27 Nov 2026 18:05:30 +0000 (UTC)",
+      "body": "Media Opps: The Nerve, The Associated Press, Current Affairs\nWrite about games for $500\nNovember 27, 2026\nMedia Opps: The Nerve, The Associated Press, Current Affairs\nWrite about games for $500\nThe listings are now posted throughout the week on our\nOpportunity Finder\n.\nIf you have any technical questions or want to submit an opportunity m, please email \u2018\nsupport AT studyhall DOT xyz\nwith \u201cOpps:\u201d in the subject line.\nPlease note:\nAnything marked as \u201c\nNEW\n\u201d is from the past seven days and is included alongside newly added opps (but more than one week old). Finally, old opps from previous issues with upcoming deadlines are listed at the end of the newsletter.\nOTHER RESOURCES\n\u25b6 Add to the Rate-Sharing Database\nThe\nFreelance Solidarity Project\nmaintains an ongoing\nRate Sharing Database\nto build a clearer picture of freelance pay\u2014and, ultimately, change how we are paid. Add your rates, and help build a more equitable future for freelancers in the industry.\nICYMI: Interview with Aatish Taseer\nIn this conversation, Taseer opened up about his experience being exiled from India and noted the parallels (and differences) between Indian history and the current American political climate. In addition, Taseer shared tips for delving into one\u2019s experience and challenging the tropes of a road trip memoir.\nListen on\nApple Podcasts\nor watch on\nYouTube\n:\nBanned From India: Aatish Taseer on Modi and Nationalism\nCALLS FOR PITCHES\nPlease note:\nWe are not endorsing every publication or company listed here. Engaging with a publication or company is entirely up to the reader. We currently sort each section from the most to least recently posted.\nFinal note:\nBefore pitching,\nalways\ncheck the links to confirm the opportunities are still available.\nTIME-SENSITIVE PITCH CALLS\nNEW:\n-Current Affairs is\naccepting submissions\nof short poems by Palestinian poets for its upcoming January-February issue. Contributors will submit poems of up to 25 lines. The publication is seeking work from writers living in Palestine and across the global diaspora. Pay is $75 per poem.\nSubmit poems by emailing\nalex@currentaffairs.org\nwith \u201cPOEM\u201d in the subject line by Dec. 1.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 24)\nNEW:\n-This Magazine is\nlooking for pitches\nof stories about the state of media in Canada for their 60th anniversary issue. They are \u201clooking for features, news, arts, and opinion stories. Features pay $150 to $300, and columns pay $60 to $100. They only publish Canadian residents. Send pitches to\neditor@thismagazine.ca\nby December 4\n. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\n-Floodlight is\ncalling for pitches\nfor 1,000 to 2,000-word investigations into the plastics industry. Contributors will pursue clear accountability angles examining plastic pollution, public health effects, industry lobbying, disinformation, and greenwashing, with priority given to stories highlighting environmental injustices affecting vulnerable communities. The publication is seeking freelance journalists with relevant writing samples to deliver thoroughly fact-checked stories\nslated for January publication\n. Pay is $2 per word. See our\nOpps Finder listing\nfor more info.\n(Nov 25)\nEVERGREEN PITCH CALLS\nNEW:\n-\nAftermath\nis always looking for investigative or reported stories and stories that include the voices of players, workers, and community members. They are especially interested in essays that connect games, technology, and the internet to politics, current events, cultural trends, and other areas. They are open to experimental formats that tell stories in ways beyond text. The rate is $300 for shorter pieces, and $500 for more in-depth reporting and analysis. Send pitches to\nfreelance@aftermath.site\n. See our\nOpps Finder listing\nfor more info.\n(Nov 24)\nNEW:\n-The Nerve is always\nlooking for pitches\nof \u201cinvestigations, which tend to be around the dangers of big tech, the rise of the hard right and the climate emergency.\u201d They also publish \u201cfeature articles that fit within our core areas: culture in its broadest baggiest sense, politics and technology or articles that sit at the intersection of these main areas.\u201d The rate is $1.25 per word, paid on publication.\u201d Send pitches to\nthenerve.news@gmail.com\n. See our\nOpps Finder listing\nfor more info.\n(Nov 24)\nNEW:\n-Balls & Strikes is always\nlooking for pitches\nof stories about the Supreme Court, the legal profession, the federal judiciary, and election-denying judges. \u201cIf you have a story idea in our wheelhouse, please email me at\npitches@ballsandstrikes.org\nso that I can pay you money to write it.\u201d The rate is $300 for 800-1,000 words. Send pitches to\npitches@ballsandstrikes.org\n. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\nNEW:\n-Chicago Media Journal is always\nlooking for pitches\nof articles about: Chicago-area media news. Profiles of journalists and other people who work in or are otherwise involved with local media. Profiles of media outlets, journalism organizations, schools, foundations that fund journalism, etc. Feature articles about issues affecting Chicago media, how media outlets cover certain issues and topics, and industry initiatives and practices. Coverage of media-related studies, impact reports and other informative items. Coverage of panels, forums, conventions and award shows. Media criticism and/or analysis. Articles about resources such as co-working spaces, media workshops, scholarships, fellowships, etc. Journalism-related photo essays. Anything related to Chicago media that doesn\u2019t fall into the above categories.\u201d The rate is 150-200 per story. Send pitches to\nigorsstudenkov@gmail.com\n. See our\nOpps Finder listing\nfor more info.\n(Nov 24)\n-IEEE Climate Magazine is\naccepting pitches\ncovering the intersection of technology, engineering, and climate solutions around the world. Contributors will examine emerging engineering trends, systems-level climate challenges, technical standards, policy frameworks, and real-world technology deployments across its News department, as well as produce career pathways, personal specialist reflections, leader Q&As, and visual features. The publication is seeking freelance writers, photographers, illustrators, and videographers who can submit an introduction outlining their areas of expertise alongside relevant samples or story ideas, with new contributors required to complete a six- to eight-week contracting process before assignments begin. Pay starts at $500 per story for flat-rate news pieces and $1.25 per assigned word for fully reported news stories and features. See our\nOpps Finder listing\nfor more info.\n(Nov 17)\n-Nieman Storyboard is\naccepting pitches\nexploring the art and craft of nonfiction storytelling across platforms. Contributors will examine the reporting, writing, editing, production, and ethics behind narrative journalism through Q&As, story annotations, craft essays, personal reflections, and curated reading lists. The publication is seeking proposals from professional journalists and students that outline a specific topic or published work, explain its relevance and approach, and include a brief bio for new contributors. Pay starts at $200, varying based on the time and level of effort required. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\n-AI News Round is\ncalling for pitches\nabout use of AI in African healthcare the Global South. \u201cWe are particularly interested in work grounded in the Global South, in reporting that draws on primary sources, and in pieces willing to reach an unpopular conclusion and defend it.\u201d The rate is $100 per piece. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\n-The Daily Tribune Herald is always calling for pitches of \u201creported pieces and analyses on subjects within our coverage area (national news, business and economics, technology, features, science, opinion); first-person essays of substantive interest, on subjects of public significance; opinion pieces from contributors with credentials in the field and a clear argumentative line; and short letters intended for our Letters to the Editor section.\u201d The rate is $250 for reported pieces, $150 for opinion pieces, and $50 for letters. Send pitches to\neditor@dailytribuneherald.com\n. See our\nOpps Finder listing\nfor more info.\n(Nov 16)\nFELLOWSHIPS, INTERNSHIPS, AND RESIDENCIES\n-The New York Times is\naccepting applications\nfor its Local Investigations Fellowship based in Louisiana, Mississippi, or Arkansas, which provides reporters with a local investigative story idea an opportunity to pursue it under the guidance of Dean Baquet and a group of veteran investigative editors. The program is a one-year program focused on producing signature investigative work for The Times. Candidates should have three to five years of professional experience as a reporter covering a local beat, and be an independent journalist or employed at a newsroom willing to provide a year-long sabbatical. The salary is $85,262.84. See our\nOpps Finder listing\nfor more info.\n(Nov 13)\n-NBCUniversal is\nhiring\nan Editorial Intern based in NYC for its Local News division to support the production of lifestyle and entertainment content. They will assist producers with planning and guest booking, help with post-production, and manage social media platforms. Candidates should have strong writing and editing skills, experience with Adobe Creative Suite, and a background in journalism or a related field. The rate is $19 to $20 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 13)\n-ProPublica is\naccepting applications\nfor its Local Reporting Network Fellowship, a yearlong program based remotely in the U.S. to support accountability journalism projects of importance to local communities. Fellows will execute ambitious, in-depth investigative reporting projects in partnership with ProPublica editors, uncovering critical issues and driving local impact. Applicants must be reporters at eligible local or regional newsrooms in the United States and its territories with proposals for high-impact accountability projects. The fellowship provides salary reimbursement up to $82,500 for 2027, plus a benefits stipend. Apply through the\nfellowship page\nby Jan 25\n. See our\nOpps Finder listing\nfor more info.\n(Nov 10)\n-Reuters is\naccepting applications\nfor its News Internship Program (Graphics), a 12-week program for students and early-career journalists to gain visual journalism experience telling stories through charts, maps, and interactives. The program is based in NYC and begins in June 2027. Interns will partner with reporters and data journalism teams worldwide, produce visual reporting and interactive graphics, and contribute to in-depth stories across digital platforms. Applicants should have a commitment to a career in journalism, an international outlook, strong writing and communication skills, and experience blending journalism, computer programming, and design. The rate is $23 to $24 per hour and this is a guild position.\nApply through the\ninternship page\nby December 11.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 03)\nGRANTS, SCHOLARSHIPS, CONTESTS, COURSES, AND PRIZES\n-Arizona State University\u2019s Walter Cronkite School of Journalism and Mass Communication is\naccepting entries\nfor the 2026 Shaufler Prize in Journalism, a contest recognizing outstanding U.S. reporting that advances the understanding of underserved communities. Open to professional and student journalists, the competition honors print, digital, audio, and video journalism published or aired between September 1, 2025, and December 31, 2026, exploring issues affecting LGBTQ+ individuals, communities of color, immigrants, and people with disabilities. Submissions may include single stories, series of up to four related pieces, audio features or podcasts up to 30 minutes, or video broadcasts under 10 minutes that demonstrate deep narrative storytelling. Prizes are $5,000 for first place and $2,500 for second place in the professional category, and $2,500 for the student winner.\nApply through the\nentry page\nby January 7.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 10)\n-Narratively is\naccepting applications\nfor the 2026 Memoir Prize, seeking \u201crevealing and emotional first-person nonfiction narratives from unique and overlooked points of view.\u201d The winner will receive publication on Narratively and participate in a virtual awards ceremony, with author Alexander Chee serving as guest judge. The prize is $3,000.\nApply through the\ngrant page\nby December 6, 2026.\nSee our\nOpps Finder listing\nfor more info.\n(Oct 19)\nFULL-TIME JOURNALISM JOBS\nNEW YORK CITY\nNEW:\n-Vox Media is\nhiring\na Head of Podcast Growth & Operations based in NYC to own the growth, business performance, and operations for three distinct groups of shows and talent in its portfolio: business, tech, and leadership; news, politics, and current affairs; and lifestyle, culture, and sports. They will set growth strategy and execution roadmaps, drive cross-functional progress, and own the category P&L and budgeting. Candidates should have experience leading cross-functional teams, owning a P&L in media or podcasting, and managing high-profile talent relationships.The salary range is $150,000 to $250,000. See our\nOpps Finder listing\nfor more info.\n(Nov 24)\nNEW:\n-The New York Times is\nhiring\na Graphics/Multimedia Editor based in NYC to report, design, and create graphics and multimedia stories, with a primary focus on breaking news and fast-turn news response. They will execute visual coverage on major breaking stories, produce maps, charts, and interactive graphics on deadline, and collaborate with Graphics colleagues and newsroom journalists. Candidates should have five or more years of professional experience producing visual journalism and expertise in visual software and front-end web development tools. The salary range is $113,945.85 to $136,000. See our\nOpps Finder listing\nfor more info.\n(Nov 24)\nNEW:\n-MarketWatch is\nhiring\na Social Video Journalist based in NYC to produce short-form vertical video for social platforms. They will pitch, shoot, and edit financial and market stories, appear on camera, and adapt long-form content for scrolling audiences. Candidates should have two or more years of experience creating vertical video for social media, expertise in Adobe Premiere and After Effects, and a deep knowledge of platform-specific trends. The salary is $85,000 to $110,000. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\nNEW:\n-People Inc. is\nhiring\nan Art Director based in NYC to lead visual development for paid memberships and premium products. They will create identity systems, integrated marketing campaigns, and scalable creative systems for initiatives like Southern Living Insiders. Candidates should have five to ten years of design experience, three to five years as an art director, and strong brand and marketing campaign design skills. The salary is $90,000 to $110,000. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\nNEW:\n-The New York Times is\nhiring\na Graphics Multimedia Editor, Immersive Researcher based in NYC to explore how Web XR can expand the possibilities of journalism and visual storytelling. They will conduct technical experiments across immersive formats, develop methods for translating complex environmental data into 3D experiences, and document technical findings for the wider creative ecosystem. Candidates should have three or more years of relevant professional experience, a portfolio of 3D/immersive work, and expertise in 3D modeling, optimization, and animation. The salary is $63 to $93 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\nNEW:\n-NBC News is\nhiring\nan Assignment Editor based in NYC for the Network News Desk to coordinate newsgathering and logistical support across broadcast, cable, digital, and streaming platforms. They will research and implement coverage of breaking news, collaborate with digital and broadcast teams, and manage field assignments. Candidates should have three years of editorial production experience and proficiency with newsroom systems and social media. The salary range is $70,000 to $85,000. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\n-Scientific American is\nhiring\na remote Senior Enterprise Editor based in NYC to commission, develop, edit, and write ambitious, deeply reported stories across all areas of science. They will generate original story ideas and uncover overlooked developments across scientific disciplines, report and write major enterprise pieces, news analyses, explainers, and mini-features, shape narratives from conception through publication alongside fact-checking, copy, art, and multimedia teams, manage and mentor an enterprise reporter while building a freelance writer network, and help package coverage across print, digital, social, video, and podcast platforms. Candidates should have at least eight years of journalism experience including significant long-form feature or enterprise editing at a national publication, a strong portfolio as both an editor and writer, the ability to translate complex science into compelling narratives for a general audience, experience managing reporters and commissioning freelancers, and a commitment to rigorous fact-checking and journalistic ethics. The salary range is $100,000 to $120,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\n-NBC News is\nhiring\na Data Reporter based in NYC to cover polling, elections, and political data. They will pitch and execute weekly analysis, contribute to enterprise projects, and coordinate with multiple NBC News teams. Candidates should have five or more years of professional journalism experience, including experience covering public opinion polling and election results, and experience writing for newsletters. The salary range is $93,000 to $150,000. See our\nOpps Finder listing\nfor more info.\n(Nov 19)\n-Fox News Media is\nhiring\na freelance Associate Producer for America\u2019s Newsroom based in NYC to contribute to its live morning news program. They will write conversational scripts, teases, guest tosses, and banners under tight deadlines, pitch story ideas, soundbites, and visual elements, coordinate reporter live shots and guest segments, research developing stories, and monitor live events and breaking news. Candidates should have experience working in a major-market or national newsroom, exceptional writing skills and strong editorial judgment, a deep understanding of politics and current events, the ability to thrive under pressure in a breaking news environment, and a bachelor\u2019s degree in journalism or equivalent experience. Pay is $33.65 to $36.06 per hour. See our\nOpps Finder listing\nfor more info.\n(Nov 17)\n-ProPublica is\nhiring\nan Assistant Managing Editor, National based in NYC or remote to oversee and elevate accountability journalism produced by editors and reporters on its national staff. They will supervise teams of editors and reporters, provide top-level guidance and editing, and help staffers collaborate with researchers, data visualization reporters, and audience teams. Candidates should have at least 10 years of experience overseeing investigative reporting, a track record of landing revelatory stories, and the ability to juggle fast-breaking and long-term projects. The salary range is $200,000 to $250,000.\nApply by December 31.\nSee our\nOpps Finder listing\nfor more info.\n(Nov 13)\nWASHINGTON, DC\nNEW:\n-The Washington Post is\nhiring\na Justice Reporter based in Washington, DC to cover the Department of Justice, the FBI, and other federal law enforcement agencies. They will break news on investigations and prosecutions, develop sources across federal law enforcement, and produce analysis on legal and investigative developments. Candidates should have a track record of high-profile scoops, knowledge of federal law enforcement, and the ability to handle sensitive sourcing. The salary range is $137,300 to $228,900. See our\nOpps Finder listing\nwith more info.\n(Nov 24)\nNEW:\n-DC News Now is\nhiring\na Reporter based in Washington, DC to cover the District of Columbia, Maryland, and Virginia. They will report and write news stories, pitch daily story ideas for multiple platforms, and create content for social media. Candidates should have at least two years of news reporting experience, demonstrable experience pitching and producing news stories, and fluency in English. The salary is $70,000 to $75,000. See our\nOpps Finder listing\nfor more info.\n(Nov 23)\n-The Washington Times is\nhiring\na Senior Editor based in Washington, DC to run a fast-paced news desk producing breaking and exclusive coverage across national, local, sports, and cultural news. They will manage and mentor a diverse team of early-career and veteran reporters, help shape story ideas for digital and print platforms, and edit copy from the political and foreign teams. Candidates should have at least 10 years of news reporting and editing experience across national, cultural, political, and foreign or faith beats, sharp news judgment, strong and transparent communication skills, and a bachelor\u2019s degree in journalism, communications, or a related field. The salary range is $100,000 to $115,000. See our\nOpps Finder listing\nfor more info.\n(Nov 18)\n-The Washington Times is\nhiring\na Deputy Politics Editor/Breaking News based in Washington, DC to help oversee a news team covering the White House, Congress, the executive branch, and political campaigns. They will assist in developing coverage plans, assigning stories, and line-editing breaking news and enterprise reporting across the politics desk as well as breaking coverage from the national, foreign, and metro desks. Candidates should have five to 10 years of experience writing and editing national politics and policy coverage (including the White House, Congress, and political campaigns), strong writing, editing, and interpersonal communication skills, the ability to manage competing priorities and deadlines, and a bachelor\u2019s degree (pr"
+    }
+  ],
   "jobs": [
     {
-      "title": "News Editor",
-      "employer": "Bisnow",
-      "location": "Miami, FL (Hybrid)",
-      "link": "https://www.linkedin.com/jobs/view/4495222830/",
+      "title": "Communications Specialist (Remote)",
+      "employer": "RecruiterForge",
+      "location": "United States (Remote)",
+      "link": "https://www.linkedin.com/jobs/view/4495064604/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Market Commentary Writer + Social Editor",
-      "employer": "Wealthfront",
-      "location": "Utica-Rome Area (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4486093429/",
+      "title": "Love and Identity Editor, Cosmopolitan",
+      "employer": "Hearst Magazines",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4486542057/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
     },
     {
-      "title": "Money, Power & Influence Reporter",
-      "employer": "USA TODAY Co., Inc.",
-      "location": "Florida, United States (Remote)",
-      "link": "https://www.linkedin.com/jobs/view/4487037116/",
+      "title": "AVP-Editorial Strategy",
+      "employer": "Moody's Corporation",
+      "location": "New York, NY",
+      "link": "https://www.linkedin.com/jobs/view/4479561048/",
       "from_email": true,
       "source": "LinkedIn",
       "description": ""
